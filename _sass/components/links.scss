@@ -1,0 +1,26 @@
+// variables.scss
+// Defines link defaults for style guide
+
+
+a, a:hover,
+a:active, a:visited {
+	text-decoration: 		none;
+	color: 					inherit;
+
+}
+
+main a,
+a:active, a:visited {
+	text-decoration: 		none;
+	color: 				$accent2;
+
+}
+
+main a:hover {
+	color:				$darkgrey;
+	text-decoration: 	inherit;
+}
+
+.u {
+	text-decoration: underline;
+}

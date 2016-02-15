@@ -1,0 +1,26 @@
+---
+layout: default
+---
+<article class="post">
+
+  <section class="xs-px-4 xs-pt-4 xs-pb-1 xs-span12 lg-span10 lg-push1 clearfix"> 
+    <p class="lightmidgrey"> {{ page.categories }} </p>
+    <h1 class="smallest-est-width"> {{ page.title }}  </h1>
+
+     {% if page.subtitle %}
+ 	<h3 class="smallest-width"> {{ page.subtitle}} </h3>
+	{% endif %} 
+   
+  </section>
+
+
+    {{ content }}
+  
+
+    <section class="xs-pt-4 xs-pb-1 xs-mt-5 xs-span12 lg-span10 lg-push1 clearfix border-top"> 
+
+   {% include pagination.html %}
+    
+    </section>
+
+</article>

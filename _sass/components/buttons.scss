@@ -1,0 +1,16 @@
+.next, .prev {
+  padding: 10px 24px 10px 24px;
+  
+
+  text-decoration: none;
+}
+
+
+
+.next:hover, .prev:hover {
+  background: $accent2;
+  color: $white;
+  padding: 10px 24px 10px 24px;
+
+  text-decoration: none;
+}

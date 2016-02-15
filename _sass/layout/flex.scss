@@ -1,0 +1,35 @@
+// flex.scss
+// 
+// Flexbox classes
+// --------------------------------------------------
+
+.flex {
+	display: flex;
+	flex-direction: row;
+  	flex-wrap: nowrap;
+}
+
+.flex-justify {
+  	justify-content: space-between;
+}
+
+.flex-center {
+  	align-content: center;
+  	align-items: center;
+}
+
+.flex-auto {
+	flex: 1 1 auto;
+}
+
+.flex-grow {
+	flex: 2 0 auto;
+}
+
+.flex-stretch {
+	align-items: stretch;
+}
+
+.flex-wrap {
+	flex-wrap: wrap;
+}

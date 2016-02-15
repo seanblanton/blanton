@@ -1,0 +1,43 @@
+---
+layout: list
+title: Work
+permalink: /work/
+category: [Work, nav]
+sitemap:
+  lastmod: 2016-02-14
+  priority: 0.4
+---
+
+
+{% for cat in site.category-list %}
+<h1 class="smallest-est-width"> {{ cat }}  </h1> 
+ <div class="xs-py-4">
+ {% assign pages = site.pages | sort:"index"  %}
+  {% for page in pages %}
+    {% if page.project == true %}
+      {% for pc in page.categories %}
+        {% if pc == cat %}
+        <a href="{{ page.url }}">
+		<h2 class="smallest-width"> {{ page.title }}</h2>
+		<div>
+		  <h3 class="lightmidgrey"> {{ page.subtitle }}</h3>
+		</div>
+		</a> 
+
+
+        {% endif %}   <!-- cat-match-p -->
+      {% endfor %}  <!-- page-category -->
+    {% endif %}   <!-- resource-p -->
+  {% endfor %}  <!-- page -->
+</div>
+{% endfor %}  <!-- cat -->
+
+
+
+
+
+
+
+
+
+

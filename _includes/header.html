@@ -1,0 +1,26 @@
+  <header class="header flex flex-justify flex-center fillwhite xs-py-2 xs-px-4 xs-mb-2 lg-mb-4 nogutter zindex-5">
+    <div class="largecutoff flex flex-auto">
+      <div class=" xs-span6">
+        <p class="name-plate flex-auto"> 
+          <a class="name-plate darkgrey" href="{{ site.baseurl }}/"> 
+            <span class="bold"> {{ site.title }}, </span> Designer
+          </a> 
+        </p>
+      </div>
+      
+      <ul class=" xs-span6 xs-push6 list-unstyled nomargin float-right center">
+        {% for my_page in site.pages %}
+          {% if my_page.category contains 'nav'  %}
+        <li class="xs-pl-3 float-right center inline" > 
+          <a class="link-sm bold flex-auto" href="{{ my_page.url | prepend: site.baseurl }}"> {{ my_page.title }} </a>
+        </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
+  </header>
+
+<div class="fullheight zindex-2">
+
+
+

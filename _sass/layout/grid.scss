@@ -1,0 +1,67 @@
+// grid.scss
+// Defines grid and major scaffolding styling for style guide
+$xs: 30rem; // 480px
+$sm: 40rem; // 640px
+$md: 49rem; // 768px
+$lg: 64rem; // 1024px
+$xlg: 71.25rem; // 1140px
+
+
+
+$susy: (
+  columns: 12,
+  gutters: .20,
+  // container: 1200px,
+  container-position: center,
+  global-box-sizing: border-box,
+  debug: (
+    // image: show,
+    // output: overlay,
+    // toggle: top right,
+    )
+);
+
+
+
+
+// Layout Setup
+// --------------------------------------------------
+
+.wrap {
+  @include container();
+ 
+}
+
+.minheight100 {
+   min-height: 100vh;
+}
+
+.nogutter {
+  gutter-override:      no-gutters;
+}
+
+
+.fullheight-body {
+
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+
+}
+
+.fullheight {
+  display: flex;
+  flex: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+

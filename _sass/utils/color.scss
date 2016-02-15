@@ -1,0 +1,67 @@
+// color.scss
+// Defines color variables
+
+
+
+// Color Variables (private vars)
+// --------------------------------------------------
+// --------------------------------------------------
+$white:				rgba(255,255,255,1);
+
+
+$lightgrey:			rgba(252,252,252,1);
+$lightmidgrey:		rgba(200,200,200,1);
+$midgrey:			rgba(153,153,153,1);
+$darkgrey:			rgba(54,54,54,1);
+
+$nearblack: 		rgba(102,102,102,1);
+$accent:			rgba(225,198,0,1);
+$accent2:			rgba(40,149,221,1);
+
+
+// Color Applications
+// --------------------------------------------------
+// --------------------------------------------------
+
+.lightgreybg {
+	background-color: $midgrey;
+}
+
+.lightgrey {
+	color: $lightgrey !important;
+}
+
+.midgrey {
+	color: $midgrey !important;
+}
+
+.darkgrey {
+	color: $darkgrey !important;
+}
+
+.lightmidgrey {
+	color: $lightmidgrey !important;
+}
+
+.accent {
+	color: $accent2 !important;
+}
+
+// Page Applications
+// --------------------------------------------------
+$color--pageBackground:			$white;
+$color--bodyText:      			$darkgrey;
+
+
+
+// Header Applications
+// --------------------------------------------------
+
+$color-headerLink:				$darkgrey;
+$color-headerLinkHover:			$accent;
+
+
+
+
+
+

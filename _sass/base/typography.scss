@@ -1,0 +1,140 @@
+// typography.scss
+// Defines typogrpahy variables for style guide site
+
+
+// Typography Font Face Variables (private vars)
+// --------------------------------------------------
+
+
+$sans-serif:				'Lato', 'Helvetica Neue', sans-serif;
+$body-text:					16px;
+$type-defaultFamily:		$sans-serif;
+
+
+
+// Typography Size Variables (private vars)
+// --------------------------------------------------
+
+$fontsize-smallest:	0.493rem;
+$fontsize-smaller:	0.624rem;	// h5
+$fontsize-small:	0.75rem;	// h4
+$fontsize-normal:	1rem;		// body
+$fontsize-big:		1.125rem;	// h3
+$fontsize-bigger:	1.75rem;	// h2
+$fontsize-biggest:	2rem;		// h1
+$fontsize-huge:		3rem;
+$fontsize-huger:	3.5rem;		// hello text
+
+
+// Typography Weight Variables (private vars)
+// --------------------------------------------------
+
+$fontweight-3:	300;
+$fontweight-4:	400;
+$fontweight-5:	500;
+$fontweight-6:	600;
+$fontweight-7:	700;
+$fontweight-8:	800;
+
+
+
+// Body Typography
+// --------------------------------------------------
+
+
+
+
+$sidebar-link-color:			$color--bodyText;
+$sidebar-link-active-weight:	$fontweight-8;	
+
+
+// Content Page Typography
+// --------------------------------------------------
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+	position: relative;
+}
+
+.headerText {
+	font-size:					$fontsize-small;
+	font-weight:				bold;
+	
+}
+
+
+
+h1 {
+	font-size: 					$fontsize-biggest;
+	font-weight:				300;
+
+	@include respond-to("md") {
+		font-size: $fontsize-huge;
+	}
+	
+	@include respond-to("lg") {
+		font-size: $fontsize-huger;
+	}
+
+}
+
+h2 {
+	font-size: 					$fontsize-big;
+	font-weight: 				400;
+		@include respond-to("lg") {
+		font-size: $fontsize-bigger;
+	}
+
+}
+
+h3 {
+	font-size: 					$fontsize-normal;
+	font-style:					normal;
+	color:						$midgrey;
+
+}
+
+h4 {
+	font-size: 					$fontsize-small;
+	font-style:					normal;
+	color:						$midgrey
+
+}
+
+h5 {
+	font-size: 					$fontsize-smaller;
+	font-style:					normal;
+
+}
+
+h6 {
+	font-size: 					$fontsize-smallest;
+	font-style:					normal;
+
+}
+
+.name-plate {
+	font-size:					$fontsize-small;
+	font-weight:				400;
+	color:						$darkgrey;
+
+}
+
+
+.link-sm, .link-sm:visited, .link-sm:active, {
+	font-size:					$fontsize-small;
+	color:						$darkgrey;	
+}
+
+
+
+
+
+
+
