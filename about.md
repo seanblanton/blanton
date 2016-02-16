@@ -11,7 +11,7 @@ sitemap:
 
 <div class="xs-mb-5">
 	<p>
-	I'm concerned with not just how to do something, but why to do it. I like collaborative enviornments built on transparency and mentorship. And I design with data whenever possible.
+	I'm concerned with not just how to do something, but why to do it. I like collaborative environments built on transparency and mentorship. And I design with data whenever possible.
 	</p>
 
 	<p>
