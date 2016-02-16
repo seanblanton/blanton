@@ -4,10 +4,10 @@
     <title>Sean Blanton</title>
     <description>Sean Blanton is a designer living in Seattle, Washington.
 </description>
-    <link>http://www.sean-blanton.com/test/</link>
-    <atom:link href="http://www.sean-blanton.com/test/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 15 Feb 2016 16:39:54 -0800</pubDate>
-    <lastBuildDate>Mon, 15 Feb 2016 16:39:54 -0800</lastBuildDate>
+    <link>http://www.sean-blanton.com//test/</link>
+    <atom:link href="http://www.sean-blanton.com//test/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 15 Feb 2016 16:41:13 -0800</pubDate>
+    <lastBuildDate>Mon, 15 Feb 2016 16:41:13 -0800</lastBuildDate>
     <generator>Jekyll v3.1.1</generator>
     
   </channel>
