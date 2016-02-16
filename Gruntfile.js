@@ -98,7 +98,8 @@ module.exports = function (grunt) {
     grunt.registerTask('build', [
         'shell:jekyllBuild',
         'sass',
-        'autoprefixer:dist'
+        'autoprefixer:dist',
+        'cssmin'
     ]);
 
     // Register build as the default task fallback
