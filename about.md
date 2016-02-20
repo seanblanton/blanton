@@ -11,11 +11,11 @@ sitemap:
 
 <div class="xs-mb-5">
 	<p>
-	I'm concerned with not just how to do something, but why to do it. I like collaborative environments built on transparency and mentorship. And I design with data whenever possible.
+	I'm concerned with not just how to do something, but why to do it. I like collaborative environments built on transparency and mentorship. I design with data whenever possible.
 	</p>
 
 	<p>
-	I attended art school in Columbus, Ohio where I studied traditional design and photography. I've gotten a chance to work with companies like Nordstrom, Nationwide Insurance, and Bed Bath and Beyond. Now I work for PitchBook Data where we help build business products for the private equity market.
+	I attended art school in Columbus, Ohio where I studied design and photography. I've gotten a chance to work with companies like Nordstrom, Nationwide Insurance, Woodford Reserve, and Bed Bath and Beyond. Now I work for PitchBook Data where I work with an amazing team to build business products for the private equity and venture capital market.
 	</p>
 
 	<p>
