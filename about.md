@@ -32,6 +32,6 @@ sitemap:
 </div>
 
 <h2> Resume </h2>
-[PDF Version](/assets/sean_blanton_resume_2016.pdf) 
+[PDF Version](/assets/files/sean_blanton_resume_2016.pdf) 
 
-[Plain Text Version]({{ site.url }}/assets/sean_blanton_resume_2016_plaintext.txt)
+[Plain Text Version]({{ site.url }}/assets/files/sean_blanton_resume_2016_plaintext.txt)
