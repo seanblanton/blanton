@@ -1,33 +1,43 @@
-@import
-  'base/normalize',
-  'base/reset';
+// Common SCSS Used across the site
+//----------------------------------------------------
 
+
+// Resets
+//----------------------------------------------------
+@import
+  'base/normalize';
+
+// Grid
+//----------------------------------------------------
 @import
   "susy/susy";
 
+// Helpers
+//----------------------------------------------------
 @import
-  'utils/mixins',
-  'utils/color',
   'utils/variables',
+  'utils/color',
   'utils/functions',
+  'utils/susy-utils',
   'utils/utilities';
 
+// Base
+//----------------------------------------------------
 @import
-  'base/zindex',
   'base/typography',
   'base/index';
 
+// Layout
+//----------------------------------------------------
 @import
   'layout/grid',
   'layout/flex',
-  'layout/navigation',
   'layout/margins',
-  'layout/padding',
-  'layout/header';
+  'layout/padding';
 
+// Blocks
+//----------------------------------------------------
 @import
-  'components/buttons',
-  'components/content',
   'components/links';
 
 

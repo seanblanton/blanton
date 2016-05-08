@@ -11,7 +11,7 @@ sitemap:
 
 <div class="xs-mb-5">
 	<p>
-	I'm concerned with not just how to do something, but why to do it. I like collaborative environments built on transparency and mentorship. I design with data whenever possible.
+	I'm concerned with not just how to do something, but why to do it. I like collaborative environments built on transparency and mentorship. I design with data whenever possible. I spend a lot of time thinking about how to make more scalable, lightweight, modular design systems. 
 	</p>
 
 	<p>
@@ -19,7 +19,7 @@ sitemap:
 	</p>
 
 	<p>
-	Outside of work you can find me reading or writing fiction or exploring the Pacific Northwest with my wife. If you'd like to get in touch, please send me an email. If you're in Seattle, let's meet up for coffee.
+	Outside of work you can find me reading or writing fiction, learning to code, or exploring the Pacific Northwest with my wife.  If you'd like to get in touch, please send me an email. If you're in Seattle, let's meet up for coffee.
 	</p>
 			
 </div>
@@ -27,7 +27,7 @@ sitemap:
 <div class="xs-mb-5">
 <h2> About this Site </h2>
 <p>
-	This site was designed and developed by myself with HTML5, Sass, and a little bit of JQuery. Following in the footsteps of <a href="https://github.com/basscss/basscss" alt="BassCSS Github" class="u"> BassCSS</a>, I took to writing atomic, immutable CSS classes. This let's me make changes quickly. The grid system is built off of <a href="http://susy.oddbird.net/" alt="Susy" class="u"> Susy</a>. I used <a href="http://gruntjs.com/" alt="GruntJS" class="u"> Grunt</a>  to manage precompiling and minification. <a href="http://jekyllrb.com/" alt="Jekyll" class="u"> Jekyll</a> runs the templating engine. Everything is hosted on a virtual server with <a href="http://digitalocean.com/" alt="Digital Ocean" class="u"> Digital Ocean</a>  and version controlled with <a href="http://git-scm.com/" alt="Git" class="u"> Git</a> . 
+	This site was designed and developed by myself with HTML and SCSS, and <a href="http://www.modularscale.com/" class="u"> Modular Scale</a> + <a href="http://type-scale.com/" class="u"> Type Scale</a>. Following in the footsteps of <a href="https://github.com/basscss/basscss" alt="BassCSS Github" class="u"> BassCSS</a>, I took to writing atomic, functional CSS classes for most of the site. This let's me make changes quickly. The grid system is built off of <a href="http://susy.oddbird.net/" alt="Susy" class="u"> Susy</a> with some extensions I built to make it more functional than it is out of the box. I used <a href="http://gruntjs.com/" alt="GruntJS" class="u"> Grunt</a>  to manage precompiling and minification. <a href="http://jekyllrb.com/" alt="Jekyll" class="u"> Jekyll</a> runs the templating engine. Everything is hosted on a virtual server with <a href="http://digitalocean.com/" alt="Digital Ocean" class="u"> Digital Ocean</a>  and version controlled with <a href="http://git-scm.com/" alt="Git" class="u"> Git</a> The font used throughout the site is <a href="https://www.behance.net/gallery/28749913/HK-Grotesk-Open-Source-Typeface" class="u">HK Grotesk</a> by <a href="http://alfredomarcopradil.com/" class="u">Alfredo Marco Pradil</a>. 
 </p>
 </div>
 

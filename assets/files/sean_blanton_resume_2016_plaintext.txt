@@ -11,12 +11,10 @@ PROFESSIONAL HISTORY
 
 2015-Now
 User Experience Designer
-Pitchbook Data
+PitchBook Data
 
-•   Conducted user research, wrote and validated personas for various projects.  
-•   Designed and prototyped experiences in low, mid, and hi fidelity
-•   Designed and developed style guide to standardize design patterns 
-•   Developed sketches, wireframes, prototypes, and high-fidelity mockups
+•   Conducted user research. Wrote and validated user personas  •   Developed sketches, wireframes, prototypes, and high-fidelity mockups 
+•   Designed and developed style guide to standardize design patterns
 
 ---
 
@@ -24,9 +22,8 @@ Pitchbook Data
 Photographer
 Nordstrom
 
-•   Produced content for Nordstrom.com in a production environment
-•   Collaborated with various business partners to maximize efficiency 
-•   Assisted with redesign of asset management application
+•   Produced photographic content for Nordstrom.com
+•   Collaborated with various business partners to maximize studio efficiency •   Assisted with redesign of asset management application
 
 ---
 
@@ -34,12 +31,12 @@ Nordstrom
 Assistant Photographer
 Nordstrom
 
-•   Assisted photographers in the monthly production of editorial content 
-•   Designed and developed an application to manage studio inventory 
-•   Standardized digital asset management backup workflow
+•   Assisted photographers in the monthly production of editorial content •   Designed and developed an application to manage studio inventory •   Standardized digital asset management backup workflow
 •   Trained new and freelance staff on standard practices
 
 
+
+---
 
 EDUCATION
 
@@ -49,10 +46,11 @@ Columbus College of Art and Design
 Bachelors of Fine Arts
 Columbus, Ohio
 
-•   Valedictorian 
-•   Summa  Cum Laude
+•   Valedictorian •   Summa  Cum Laude
+•   CCAD Trustee Scholarship
 
 
+---
 
 TOOLS
 
@@ -63,16 +61,13 @@ Sketch
 Photoshop
 Illustrator
 Axure
-Invision
+InVision
 FramerJS
 Indesign
 HTML/CSS
-SaSS
+SCSS
 Grunt
 Git
-Zeplin
-Slack
-Codepen.io
-Trello
+Codepen
 
 

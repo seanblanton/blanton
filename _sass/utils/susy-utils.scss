@@ -1,0 +1,37 @@
+// 	Responsive Susy Columns
+//	Set of Susy utility classes
+//----------------------------------------------------
+
+// Number of columns in susy grid
+$susy-columns: 12;
+
+
+// SPAN LAST susy utils
+@for $i from 1 through $susy-columns {
+	 .last-#{$i} { @include span(last $i); }
+}
+
+@include generate-bp-prefixes {
+	// SPAN  susy utils
+	@for $i from 1 through $susy-columns {
+ 		 &span#{$i} { @include span($i of $susy-columns); }
+	}
+
+	// PUSH susy utils
+	@for $i from 1 through $susy-columns {
+ 		 &push#{$i} { @include push($i of $susy-columns); }
+	}
+
+	// PULL susy utils
+	@for $i from 1 through $susy-columns {
+ 		 &pull#{$i} { @include pull($i of $susy-columns); }
+	}
+
+}
+
+
+
+
+
+
+

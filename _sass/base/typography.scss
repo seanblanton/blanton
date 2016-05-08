@@ -1,140 +1,71 @@
 // typography.scss
-// Defines typogrpahy variables for style guide site
-
-
-// Typography Font Face Variables (private vars)
-// --------------------------------------------------
-
-
-$sans-serif:				'Lato', 'Helvetica Neue', sans-serif;
-$body-text:					16px;
-$type-defaultFamily:		$sans-serif;
-
-
-
-// Typography Size Variables (private vars)
-// --------------------------------------------------
-
-$fontsize-smallest:	0.493rem;
-$fontsize-smaller:	0.624rem;	// h5
-$fontsize-small:	0.75rem;	// h4
-$fontsize-normal:	1rem;		// body
-$fontsize-big:		1.125rem;	// h3
-$fontsize-bigger:	1.75rem;	// h2
-$fontsize-biggest:	2rem;		// h1
-$fontsize-huge:		3rem;
-$fontsize-huger:	3.5rem;		// hello text
-
-
-// Typography Weight Variables (private vars)
-// --------------------------------------------------
-
-$fontweight-3:	300;
-$fontweight-4:	400;
-$fontweight-5:	500;
-$fontweight-6:	600;
-$fontweight-7:	700;
-$fontweight-8:	800;
-
-
+// Defines typography variables for style guide site
 
 // Body Typography
 // --------------------------------------------------
 
+.fontsize-small {	font-size: $fontsize-small;	}
 
-
-
-$sidebar-link-color:			$color--bodyText;
-$sidebar-link-active-weight:	$fontweight-8;	
 
 
 // Content Page Typography
 // --------------------------------------------------
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-a {
-	position: relative;
+html {
+	font-family: 	$type-defaultFamily;
+	font-size: 		$body-text;
 }
 
-.headerText {
-	font-size:					$fontsize-small;
-	font-weight:				bold;
-	
+body {
+	font-size: 		$fontsize-normal;
+	letter-spacing: $letter-spacing;
 }
-
 
 
 h1 {
-	font-size: 					$fontsize-biggest;
-	font-weight:				300;
+	font-size: 		$fontsize-bigger;
+	font-weight:	$fontweight-2;
+	color:			$nearblack;
 
-	@include respond-to("md") {
-		font-size: $fontsize-huge;
-	}
-	
-	@include respond-to("lg") {
-		font-size: $fontsize-huger;
+	@include respond-to("md") { 
+		font-size:	$fontsize-huge;
 	}
 
 }
 
 h2 {
-	font-size: 					$fontsize-big;
-	font-weight: 				400;
-		@include respond-to("lg") {
-		font-size: $fontsize-bigger;
+	font-size: 		$fontsize-big;
+	font-weight: 	$fontweight-4;
+
+	@include respond-to("md") { 
+		font-size:	$fontsize-bigger;
 	}
 
 }
 
 h3 {
-	font-size: 					$fontsize-normal;
-	font-style:					normal;
-	color:						$midgrey;
-	line-height: 1.7;
+	font-size: 		$fontsize-normal;
+	font-style:		normal;
+	color:			$midgray;
+	line-height: 	$line-height-3;
 
 }
 
-h4 {
-	font-size: 					$fontsize-small;
-	font-style:					normal;
-	color:						$midgrey
-
+p {
+	line-height: 	$line-height-3;
 }
 
-h5 {
-	font-size: 					$fontsize-smaller;
-	font-style:					normal;
-
-}
-
-h6 {
-	font-size: 					$fontsize-smallest;
-	font-style:					normal;
-
-}
-
-.name-plate {
-	font-size:					$fontsize-small;
-	font-weight:				400;
-	color:						$darkgrey;
-
-}
-
-
-.link-sm, .link-sm:visited, .link-sm:active, {
-	font-size:					$fontsize-small;
-	color:						$darkgrey;	
+.ttu {
+	text-transform:		uppercase;
 }
 
 
 
+// measures
+//----------------------------------------------------
+
+.small-width {		max-width:		$measure-normal;	}
+.smaller-width {	max-width:		$measure-small;		}
+.smallest-width {	max-width:		$measure-smaller;	}
 
 
 

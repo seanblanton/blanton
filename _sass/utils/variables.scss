@@ -1,7 +1,27 @@
 // variables.scss
-// Defines spacing variables
+// Defines variables
+
+// Typography Size Variables (private vars)
+// --------------------------------------------------
+
+$fontsize-smaller:	0.7rem;		// meta2
+$fontsize-small:	0.85rem;	// meta
+$fontsize-normal:	1rem;		// body
+$fontsize-big:		1.125rem;	// h2
+$fontsize-bigger:	1.563rem;	// h1
+$fontsize-biggest:	1.953rem;	
+$fontsize-huge:		2.441rem;
 
 
+// Typography Weights
+// --------------------------------------------------
+$fontweight-2: 	200;
+$fontweight-3:	300;
+$fontweight-4:	400;
+$fontweight-5:	500;
+$fontweight-6:	600;
+$fontweight-7:	700;
+$fontweight-8:	800;
 
 
 // Space Variables (private vars)
@@ -15,4 +35,64 @@ $space-5:			3rem;
 $space-6:			4.5rem;
 
 
+// Z - Index
+// --------------------------------------------------
+$zindex-0: 			1;
+$zindex-1: 			100; 
+$zindex-2: 			200;
+$zindex-3: 			300;
+$zindex-4: 			400; 
+$zindex-5: 			500;
 
+
+// Color Variables (private vars)
+// --------------------------------------------------
+$white:				rgba(255,255,255,1);
+$lightgray:			rgba(230,230,230,1);
+$lightmidgray:		rgba(200,200,200,1);
+$midgray:			rgba(153,153,153,1);
+$darkgray: 			rgba(92,92,92,1);
+$nearblack:			rgba(54,54,54,1);
+$accent2:			rgba(40,149,221,1);
+
+
+//  Measure
+// --------------------------------------------------
+$measure-normal:		65ch;
+$measure-small:			52ch;
+$measure-smaller:		40ch;
+
+
+// Line height
+// --------------------------------------------------
+$line-height-1: 1.3; // set on h1-h3 and .text-1-.text-3
+$line-height-2: 1.4; // set on h4-h6 and .text-4-.text-6
+$line-height-3: 1.8; // default line-height set on the body
+
+
+// Letter spacing
+// --------------------------------------------------
+$track-normal: 0.6px;
+$track-wide: 1px;
+
+
+// Color applications
+// --------------------------------------------------
+$color--pageBackground:			$white;
+$color--bodyText:      			$darkgray;
+
+
+// Animation variables
+// --------------------------------------------------
+@mixin transition-color {		
+	transition: color .2s cubic-bezier(.51,.18,.62,.92); 
+}
+
+
+// Type Applications
+// --------------------------------------------------
+$sans-serif:				'HKGrotesk-Light', 'Helvetica Neue', sans-serif;
+$body-text:					16px;
+$type-defaultFamily:		$sans-serif;
+$letter-spacing:			$track-normal;
+$line-height:				2em;

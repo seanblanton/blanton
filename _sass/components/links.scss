@@ -2,25 +2,44 @@
 // Defines link defaults for style guide
 
 
-a, a:hover,
-a:active, a:visited {
+a, a:hover, a:active, a:visited, .u {
+	@include transition-color;
 	text-decoration: 		none;
 	color: 					inherit;
+}
+
+main a, a:active, a:visited {
+	@include transition-color;
+	text-decoration: 	none;
+	color: 				$midgray;
 
 }
 
-main a,
-a:active, a:visited {
-	text-decoration: 		none;
-	color: 				$accent2;
-
+a:hover, .u:hover {
+	@include transition-color;
+	text-decoration: 	none;
+	color:				$accent2;
 }
 
-main a:hover {
-	color:				$darkgrey;
-	text-decoration: 	inherit;
+
+.u { 
+    border-bottom: 1px solid $midgray;
+    padding-bottom: 1px;
 }
 
-.u {
-	text-decoration: underline;
+.u:hover {
+    border-bottom: 1px solid $accent2;
 }
+
+.btn-border {
+	@include transition-color;
+	border: 1px solid $midgray;
+	padding: 10px 15px;
+	border-radius: 3px;
+
+	&:hover {
+	border: 1px solid $accent2;
+	}
+}
+
+

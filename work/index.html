@@ -2,35 +2,38 @@
 layout: list
 title: Work
 permalink: /work/
-category: [Work, nav]
+category: [Work]
 sitemap:
   lastmod: 2016-02-14
   priority: 0.4
 ---
 
 
-{% for cat in site.category-list %}
-<h1 class="smallest-est-width"> {{ cat }}  </h1> 
- <div class="xs-py-4">
- {% assign pages = site.pages | sort:"index"  %}
-  {% for page in pages %}
-    {% if page.project == true %}
-      {% for pc in page.categories %}
-        {% if pc == cat %}
-        <a href="{{ page.url }}">
-		<h2 class="smallest-width xs-my-2"> {{ page.title }}</h2>
-		<div class="xs-pb-1">
-		  <h3 class="lightmidgrey"> {{ page.subtitle }}</h3>
-		</div>
-		</a> 
+
+    {% for cat in site.category-list %}
+    <h2 class="smallest-est-width xs-my-0"> {{ cat }}  </h2> 
+     <div class="xs-py-4">
+     {% assign pages = site.pages | sort:"index"  %}
+      {% for page in pages %}
+        {% if page.project == true %}
+          {% for pc in page.categories %}
+            {% if pc == cat %}
+            <a href="{{ page.url }}">
+        <h2 class="smallest-width xs-my-2"> {{ page.title }}</h2>
+        <div class="xs-pb-1">
+          <h3 class="lightmidgrey"> {{ page.subtitle }}</h3>
+        </div>
+        </a> 
 
 
-        {% endif %}   <!-- cat-match-p -->
-      {% endfor %}  <!-- page-category -->
-    {% endif %}   <!-- resource-p -->
-  {% endfor %}  <!-- page -->
-</div>
-{% endfor %}  <!-- cat -->
+            {% endif %}   <!-- cat-match-p -->
+          {% endfor %}  <!-- page-category -->
+        {% endif %}   <!-- resource-p -->
+      {% endfor %}  <!-- page -->
+    </div>
+    {% endfor %}  <!-- cat -->
+
+  </div>
 
 
 
