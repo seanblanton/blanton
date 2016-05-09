@@ -77,6 +77,7 @@ ExpiresByType application/x-shockwave-flash "access 1 month"
     AddType application/font-woff                       woff
     AddType application/vnd.ms-fontobject               eot
 
+
     # Browsers usually ignore the font MIME types and sniff the content,
     # however, Chrome shows a warning if other MIME types are used for the
     # following fonts.
@@ -143,9 +144,7 @@ ExpiresByType application/x-shockwave-flash "access 1 month"
 # compress text, html, javascript, css, xml:
 #
 <IfModule mod_deflate.c>
-    Addtype font/opentype .otf
-    Addtype font/eot .eot
-    Addtype font/truetype .ttf
+
 
     AddOutputFilterByType DEFLATE text/plain
     AddOutputFilterByType DEFLATE text/html
