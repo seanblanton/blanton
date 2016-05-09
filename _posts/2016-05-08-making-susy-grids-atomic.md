@@ -9,7 +9,7 @@ For a while now I've been using <a href="http://susy.oddbird.net/" class="u"> Su
 
 But Susy and I weren't getting along with how I wanted to write CSS when it came to dealing with media queries and breakpoints. I was stuck constructing grid component media queries with OOCSS, which wasn't jiving with my interests in utility classes (inspired by <a href="http://www.basscss.com" class="u">BassCSS</a> and <a href="http://tachyons.io/" class="u"> Tachyons</a> )
 
-I wrote Susy Bricks as a module to extend Susy's mixins into atomic classes at multiple breakpoints using the prefixes `.xs`, `.sm`, `.md`, and `.lg`. 
+I wrote Susy Bricks as a module to extend Susy's mixins into atomic classes at multiple breakpoints using the prefixes `.xs`, `.sm`, `.md`, and `.lg` to quickly adjust layouts without even having to touch css. Here's an example below. 
 
 
 ```html
