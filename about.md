@@ -7,6 +7,7 @@ category: [About, nav]
 sitemap:
   lastmod: 2016-02-14
   priority: 0.5
+index: 1
 ---
 
 <div class="xs-mb-5">

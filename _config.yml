@@ -22,3 +22,8 @@ exclude: ['node_modules', ‘css’, ‘_scss’, 'README.md', 'Gruntfile.js', '
 keep_files: ['_site/css']
 category-list: [Recent projects]
 category: [Work, About]
+
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge

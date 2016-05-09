@@ -2,18 +2,20 @@
   <div class="md-span11 md-push1">
 
       <ul class="list-unstyled xs-m-auto">
-        {% for my_page in site.pages %}
-          {% unless my_page.url == page.url %}
-            {% if my_page.category contains 'nav'  %}
+        {% assign pages = site.pages | sort:"index"  %}
+        {% for page in pages %}
+            {% if page.category contains 'nav'  %}
         <li class="xs-pr-3 inline" > 
-          <a class="link-sm bold" href="{{ my_page.url | prepend: site.baseurl }}"> {{ my_page.title }} </a>
+          <a class="link-sm bold" href="{{ page.url | prepend: site.baseurl }}"> {{ page.title }} </a>
         </li>
              {% endif %}
-          {% endunless %}
         {% endfor %}
       </ul>
   </div>
 </header>
+
+
+
 
 
 

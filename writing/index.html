@@ -1,0 +1,15 @@
+---
+layout: writing
+title: Writing
+permalink: /writing/
+category: [writing, nav]
+sitemap:
+  lastmod: 2016-02-14
+  priority: 0.5
+index: 2
+---
+
+
+	{% for post in site.posts %}	
+    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>			
+	{% endfor %}

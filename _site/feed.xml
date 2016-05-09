@@ -6,9 +6,37 @@
 </description>
     <link>http://www.sean-blanton.com//</link>
     <atom:link href="http://www.sean-blanton.com//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 08 May 2016 18:12:35 -0700</pubDate>
-    <lastBuildDate>Sun, 08 May 2016 18:12:35 -0700</lastBuildDate>
+    <pubDate>Sun, 08 May 2016 23:40:57 -0700</pubDate>
+    <lastBuildDate>Sun, 08 May 2016 23:40:57 -0700</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
+    
+      <item>
+        <title>Making Susy Grids Atomic</title>
+        <description>&lt;p&gt;Today I’m releasing my very first open source project. Albeit tiny, I wanted to share it with the world. I hacked on this over a weekend while trying to refactor my site to make the css a little leaner.&lt;/p&gt;
+
+&lt;p&gt;For a while now I’ve been using &lt;a href=&quot;http://susy.oddbird.net/&quot; class=&quot;u&quot;&gt; Susy Grids&lt;/a&gt; to prototype both personal and professional work. Susy grids are great for designing responsive layouts quickly in the browser. I often find that I have a hard time conceptulizing how content will react to breakpoints. I can make static mockups at several sizes, but my intuition is often wrong. Susy grids help fix the problem by allowing me to experiment early.&lt;/p&gt;
+
+&lt;p&gt;But Susy and I weren’t getting along with how I wanted to write CSS when it came to dealing with media queries and breakpoints. I was stuck constructing grid component media queries with OOCSS, which wasn’t jiving with my interests in utility classes (inspired by &lt;a href=&quot;http://www.basscss.com&quot; class=&quot;u&quot;&gt;BassCSS&lt;/a&gt; and &lt;a href=&quot;http://tachyons.io/&quot; class=&quot;u&quot;&gt; Tachyons&lt;/a&gt; )&lt;/p&gt;
+
+&lt;p&gt;I wrote Susy Bricks as a module to extend Susy’s mixins into atomic classes at multiple breakpoints using the prefixes &lt;code class=&quot;highlighter-rouge&quot;&gt;.xs&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;.sm&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;.md&lt;/code&gt;, and &lt;code class=&quot;highlighter-rouge&quot;&gt;.lg&lt;/code&gt;.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;box xs-span12 md-span6 lg-span3&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt; 
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;To give credit where credit is due, I did look to Buzzfeed’s &lt;a href=&quot;https://solid.buzzfeed.com&quot; class=&quot;u&quot;&gt; Solid&lt;/a&gt; to help me get the prefixing mixin off the ground.&lt;/p&gt;
+
+&lt;p&gt;I’ve been tryin to find better ways to organize my CSS, and this is a step in the right direction. I hope to continue to work on this in the future. Right now, this module only works with the most vanilla version of Susy (which is all I’ve really used Susy for), but I’d love for it to be more robust in the future.&lt;/p&gt;
+
+&lt;p&gt;Check it out over on &lt;a href=&quot;https://github.com/seanblanton/susybricks&quot; class=&quot;u&quot;&gt; Github&lt;/a&gt; if you’d like to play around with it&lt;/p&gt;
+
+</description>
+        <pubDate>Sun, 08 May 2016 00:00:00 -0700</pubDate>
+        <link>http://www.sean-blanton.com//2016/05/08/making-susy-grids-atomic.html</link>
+        <guid isPermaLink="true">http://www.sean-blanton.com//2016/05/08/making-susy-grids-atomic.html</guid>
+        
+        
+      </item>
     
   </channel>
 </rss>

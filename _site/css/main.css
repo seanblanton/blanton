@@ -1168,6 +1168,10 @@ p {
   max-width: 40ch;
 }
 
+.tiny-width {
+  max-width: 30ch;
+}
+
 html, body {
   width: 100%;
   padding: 0;
