@@ -5,20 +5,20 @@
 // Resets
 //----------------------------------------------------
 @import
+  'base/clearfix',
   'base/normalize';
 
 // Grid
 //----------------------------------------------------
 @import
-  "susy/susy";
+  "susy/susy",
+  "bricks/bricks";
 
 // Helpers
 //----------------------------------------------------
 @import
   'utils/variables',
   'utils/color',
-  'utils/functions',
-  'utils/susy-utils',
   'utils/utilities';
 
 // Base
@@ -39,5 +39,6 @@
 //----------------------------------------------------
 @import
   'components/links';
+
 
 
