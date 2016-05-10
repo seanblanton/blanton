@@ -3,7 +3,12 @@
 
 // Body Typography
 // --------------------------------------------------
-
+@font-face {
+  font-family: 'HKGrotesk-Light';
+  font-style: normal;
+  font-weight: 400;
+  src: local("HKGrotesk Light"), local("HKGrotesk-Light"), url(/fonts/HKGrotesk-Light.otf) format("otf");
+}
 
 .fontsize-small {	font-size: $fontsize-small;	}
 
@@ -17,8 +22,15 @@ html {
 }
 
 body {
+	font-family: 	sans-serif;
 	font-size: 		$fontsize-normal;
 	letter-spacing: $letter-spacing;
+}
+	@media (min-width: 600px) {
+	  body {
+	    font-family: 'HKGrotesk-Light', sans-serif;
+	  }
+
 }
 
 
