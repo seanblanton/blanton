@@ -8,28 +8,27 @@ seanblanton@gmail.com
 PROFESSIONAL HISTORY
 
 
-
-2015-Now
 User Experience Designer
 PitchBook Data
+2015-Now
 
 •   Conducted user research. Wrote and validated user personas  •   Developed sketches, wireframes, prototypes, and high-fidelity mockups 
 •   Designed and developed style guide to standardize design patterns
 
 ---
 
-2013-2015
 Photographer
 Nordstrom
+2013-2015
 
 •   Produced photographic content for Nordstrom.com
 •   Collaborated with various business partners to maximize studio efficiency •   Assisted with redesign of asset management application
 
 ---
 
-2012-2013
 Assistant Photographer
 Nordstrom
+2012-2013
 
 •   Assisted photographers in the monthly production of editorial content •   Designed and developed an application to manage studio inventory •   Standardized digital asset management backup workflow
 •   Trained new and freelance staff on standard practices
@@ -59,15 +58,21 @@ These are the tools I typically use to get my work done:
 
 Sketch
 Photoshop
-Illustrator
+Sigma
 Axure
 InVision
 FramerJS
-Indesign
-HTML/CSS
-SCSS
+HTML/SCSS
 Grunt
-Git
 Codepen
+
+---
+
+SOCIAL
+
+LinkedIn: https://www.linkedin.com/in/seancblanton
+Twitter: @seancblanton
+Github: @seanblanton
+
 
 
