@@ -16,9 +16,11 @@ Every single one of us tells stories. Anthropologists have identified that story
 
 When I tell you a story, it's because I need to tell you something about the way I think or the way that I feel. I tell stories when something is funny, or interesting, or profound, or beautiful, or inspiring. When we tell stories we assume our telling will communicate something to the recipient about who we are and what we think and value.
 
-"Is this what I think?"
-"Is this all I have to say?"
-"Am I making myself understood?"
+> "Is this what I think?"
+
+> "Is this all I have to say?"
+
+> "Am I making myself understood?"
 
 And herein lays the key problem: the words I write can only sketch the outline of what it is I mean to say. But then I present these words as a tangible artifact of who I am and what I think.
 
