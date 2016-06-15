@@ -1104,8 +1104,14 @@ html, body {
   marin-rigt: 0 auto;
 }
 
+.divider {
+  width: 5ch;
+  height: 2px;
+  background-color: #e6e6e6;
+}
+
 @font-face {
-  font-family: 'HKGrotesk-Light';
+  font-family: 'HKGrotesk-Light', 'Helvetica Neue', sans-serif;
   font-style: normal;
   font-weight: 400;
   src: local("HKGrotesk Light"), local("HKGrotesk-Light"), url(/fonts/HKGrotesk-Light.otf) format("otf");
@@ -1183,7 +1189,7 @@ p {
 }
 
 .tiny-width {
-  max-width: 30ch;
+  max-width: 28ch;
 }
 
 html, body {
