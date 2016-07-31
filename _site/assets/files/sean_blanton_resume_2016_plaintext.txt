@@ -7,12 +7,18 @@ seanblanton@gmail.com
 
 PROFESSIONAL HISTORY
 
+Product Designer
+Curalate
+2016-Now
+
+---
 
 User Experience Designer
 PitchBook Data
-2015-Now
+2015-2016
 
-•   Conducted user research. Wrote and validated user personas  •   Developed sketches, wireframes, prototypes, and high-fidelity mockups 
+•   Conducted user research. Wrote and validated user personas  
+•   Developed sketches, wireframes, prototypes, and high-fidelity mockups 
 •   Designed and developed style guide to standardize design patterns
 
 ---
@@ -22,7 +28,8 @@ Nordstrom
 2013-2015
 
 •   Produced photographic content for Nordstrom.com
-•   Collaborated with various business partners to maximize studio efficiency •   Assisted with redesign of asset management application
+•   Collaborated with various business partners to maximize studio efficiency 
+•   Assisted with redesign of asset management application
 
 ---
 
@@ -30,7 +37,9 @@ Assistant Photographer
 Nordstrom
 2012-2013
 
-•   Assisted photographers in the monthly production of editorial content •   Designed and developed an application to manage studio inventory •   Standardized digital asset management backup workflow
+•   Assisted photographers in the monthly production of editorial content 
+•   Designed and developed an application to manage studio inventory 
+•   Standardized digital asset management backup workflow
 •   Trained new and freelance staff on standard practices
 
 
@@ -45,7 +54,8 @@ Columbus College of Art and Design
 Bachelors of Fine Arts
 Columbus, Ohio
 
-•   Valedictorian •   Summa  Cum Laude
+•   Valedictorian 
+•   Summa  Cum Laude
 •   CCAD Trustee Scholarship
 
 
@@ -58,7 +68,7 @@ These are the tools I typically use to get my work done:
 
 Sketch
 Photoshop
-Sigma
+Figma
 Axure
 InVision
 FramerJS
