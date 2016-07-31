@@ -138,7 +138,7 @@ mark {
  * Address inconsistent and variable font size in all browsers.
  */
 small {
-  font-size: 80%;
+  font-size: .85em;
 }
 
 /**
@@ -146,7 +146,7 @@ small {
  */
 sub,
 sup {
-  font-size: 75%;
+  font-size: .7em;
   line-height: 0;
   position: relative;
   vertical-align: baseline;
