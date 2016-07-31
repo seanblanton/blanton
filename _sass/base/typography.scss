@@ -4,24 +4,17 @@
 // Body Typography
 // --------------------------------------------------
 @font-face {
-  font-family: $sans-serif;
-  font-style: normal;
   src: local("HKGrotesk Light"), local("HKGrotesk-Light"), url(/fonts/HKGrotesk-Light.otf) format("otf");
 }
 
 // Content Page Typography
 // --------------------------------------------------
-html {
-	font-family: 	$type-defaultFamily;
-	font-size: 		$body-text;
-}
-
-body {
+html, body {
 	font-family: 	$type-defaultFamily;
 	font-size: 		$fontsize-normal;
 	letter-spacing: $letter-spacing;
+	font-style: normal;
 }
-
 
 h1 {
 	font-size: 		$fontsize-bigger;

@@ -9,18 +9,12 @@ a, a:hover, a:active, a:visited, .u {
 }
 
 main a, a:active, a:visited {
-	@include transition-color;
-	text-decoration: 	none;
 	color: 				$midgray;
-
 }
 
 a:hover, .u:hover {
-	@include transition-color;
-	text-decoration: 	none;
 	color:				$accent2;
 }
-
 
 .u { 
     border-bottom: 1px solid $midgray;

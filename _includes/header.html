@@ -5,7 +5,7 @@
         {% assign pages = site.pages | sort:"index"  %}
         {% for page in pages %}
             {% if page.category contains 'nav'  %}
-        <li class="xs-pr-3 inline" > 
+        <li class="xs-pr-4 inline" > 
           <a href="{{ page.url | prepend: site.baseurl }}"> {{ page.title }} </a>
         </li>
              {% endif %}

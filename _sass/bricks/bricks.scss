@@ -8,9 +8,11 @@
 
 
 // Generate atomic classes for Susy LAST function
-@for $i from 1 through $susy-columns {
-	 .last-#{$i} { @include span(last $i); }
-}
+
+// COMMENTED OUT TO SAVE SPACE
+// @for $i from 1 through $susy-columns {
+// 	 .last-#{$i} { @include span(last $i); }
+// }
 
 @include generate-bp-prefixes {
 	// Generate atomic classes for Susy SPAN function
@@ -23,10 +25,13 @@
  		 &push#{$i} { @include push($i of $susy-columns); }
 	}
 
-	// Generate atomic classes for Susy PULL function
-	@for $i from 1 through $susy-columns {
- 		 &pull#{$i} { @include pull($i of $susy-columns); }
-	}
+	// // Generate atomic classes for Susy PULL function
+
+
+// COMMENTED OUT TO SAVE SPACE
+	// @for $i from 1 through $susy-columns {
+ // 			 &pull#{$i} { @include pull($i of $susy-columns); }
+	// }
 
 }
 

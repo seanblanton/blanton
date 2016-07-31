@@ -3,61 +3,61 @@
 @include generate-bp-prefixes {
   &m-auto { margin: 0 auto; }
   &mt-0 { margin-top: $space-0; }
-  &mt-1 { margin-top: $space-1; }
+  // &mt-1 { margin-top: $space-1; }
   &mt-2 { margin-top: $space-2; }
-  &mt-3 { margin-top: $space-3; }
+  // &mt-3 { margin-top: $space-3; }
   &mt-4 { margin-top: $space-4; }
-  &mt-5 { margin-top: $space-5; }
+  // &mt-5 { margin-top: $space-5; }
   &mt-6 { margin-top: $space-6; }
 
   &mb-0 { margin-bottom: $space-0; }
-  &mb-1 { margin-bottom: $space-1; }
+  // &mb-1 { margin-bottom: $space-1; }
   &mb-2 { margin-bottom: $space-2; }
-  &mb-3 { margin-bottom: $space-3; }
+  // &mb-3 { margin-bottom: $space-3; }
   &mb-4 { margin-bottom: $space-4; }
-  &mb-5 { margin-bottom: $space-5; }
+  // &mb-5 { margin-bottom: $space-5; }
   &mb-6 { margin-bottom: $space-6; }
 
   &mr-0 { margin-right: $space-0; }
-  &mr-1 { margin-right: $space-1; }
+  // &mr-1 { margin-right: $space-1; }
   &mr-2 { margin-right: $space-2; }
-  &mr-3 { margin-right: $space-3; }
+  // &mr-3 { margin-right: $space-3; }
   &mr-4 { margin-right: $space-4; }
-  &mr-5 { margin-right: $space-5; }
+  // &mr-5 { margin-right: $space-5; }
   &mr-6 { margin-right: $space-6; } 
 
   &ml-0 { margin-left: $space-0; }
-  &ml-1 { margin-left: $space-1; }
+  // &ml-1 { margin-left: $space-1; }
   &ml-2 { margin-left: $space-2; }
-  &ml-3 { margin-left: $space-3; }
+  // &ml-3 { margin-left: $space-3; }
   &ml-4 { margin-left: $space-4; }
-  &ml-5 { margin-left: $space-5; }
+  // &ml-5 { margin-left: $space-5; }
   &ml-6 { margin-left: $space-6; }  
 
   &my-0 {
    margin-top:              $space-0; 
    margin-bottom:           $space-0; 
  }
-  &my-1 {
-   margin-top:              $space-1; 
-   margin-bottom:           $space-1; 
- }
+ //  &my-1 {
+ //   margin-top:              $space-1; 
+ //   margin-bottom:           $space-1; 
+ // }
   &my-2 {
    margin-top:              $space-2; 
    margin-bottom:           $space-2; 
  }
-  &my-3 {
-   margin-top:              $space-3; 
-   margin-bottom:           $space-3; 
- }
+ //  &my-3 {
+ //   margin-top:              $space-3; 
+ //   margin-bottom:           $space-3; 
+ // }
   &my-4 {
    margin-top:              $space-4; 
    margin-bottom:           $space-4; 
  }
-  &my-5 {
-   margin-top:              $space-5; 
-   margin-bottom:           $space-5; 
- }
+ //  &my-5 {
+ //   margin-top:              $space-5; 
+ //   margin-bottom:           $space-5; 
+ // }
   &my-6 {
    margin-top:              $space-6; 
    margin-bottom:           $space-6; 
@@ -67,26 +67,26 @@
    margin-left:              $space-0; 
    margin-right:             $space-0; 
  }
-  &mx-1 {
-   margin-left:              $space-1; 
-   margin-right:             $space-1; 
- }
+ //  &mx-1 {
+ //   margin-left:              $space-1; 
+ //   margin-right:             $space-1; 
+ // }
   &mx-2 {
    margin-left:              $space-2; 
    margin-right:             $space-2; 
  }
-  &mx-3 {
-   margin-left:              $space-3; 
-   margin-right:             $space-3; 
- }
+ //  &mx-3 {
+ //   margin-left:              $space-3; 
+ //   margin-right:             $space-3; 
+ // }
   &mx-4 {
    margin-left:              $space-4; 
    margin-right:             $space-4; 
  }
-  &mx-5 {
-   margin-left:              $space-5; 
-   margin-right:             $space-5; 
- }
+ //  &mx-5 {
+ //   margin-left:              $space-5; 
+ //   margin-right:             $space-5; 
+ // }
   &mx-6 {
    margin-left:              $space-6; 
    margin-right:             $space-6; 
