@@ -6,7 +6,7 @@
         {% for page in pages %}
             {% if page.category contains 'nav'  %}
         <li class="xs-pr-3 inline" > 
-          <a class="link-sm bold" href="{{ page.url | prepend: site.baseurl }}"> {{ page.title }} </a>
+          <a href="{{ page.url | prepend: site.baseurl }}"> {{ page.title }} </a>
         </li>
              {% endif %}
         {% endfor %}
