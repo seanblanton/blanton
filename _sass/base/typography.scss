@@ -37,7 +37,7 @@ body {
 h1 {
 	font-size: 		$fontsize-bigger;
 	font-weight:	$fontweight-2;
-	color:			$nearblack;
+	color:			$darkgray;
 
 	@include respond-to("md") { 
 		font-size:	$fontsize-huge;
