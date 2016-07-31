@@ -4,13 +4,13 @@
 // Typography Size Variables (private vars)
 // --------------------------------------------------
 
-$fontsize-smaller:	0.7rem;		// meta2
-$fontsize-small:	0.85rem;	// meta
-$fontsize-normal:	1rem;		// body
-$fontsize-big:		1.125rem;	// h2
-$fontsize-bigger:	1.563rem;	// h1
-$fontsize-biggest:	1.953rem;	
-$fontsize-huge:		2.441rem;
+$fontsize-smaller:	0.7em;		// meta2
+$fontsize-small:	0.85em;	// meta
+$fontsize-normal:	1em;		// body
+$fontsize-big:		1.125em;	// h2
+$fontsize-bigger:	1.563em;	// h1
+$fontsize-biggest:	1.953em;	
+$fontsize-huge:		2.441em;
 
 
 // Typography Weights
@@ -26,13 +26,13 @@ $fontweight-8:	800;
 
 // Space Variables (private vars)
 // --------------------------------------------------
-$space-0:			0rem;
-$space-1:			0.5rem;
-$space-2:			1rem;
-$space-3:			1.5rem;
-$space-4:			2rem;
-$space-5:			3rem;
-$space-6:			4.5rem;
+$space-0:			0em;
+$space-1:			0.5em;
+$space-2:			1em;
+$space-3:			1.5em;
+$space-4:			2em;
+$space-5:			3em;
+$space-6:			4.5em;
 
 
 // Z - Index
@@ -93,7 +93,7 @@ $color--bodyText:      			$darkgray;
 // Type Applications
 // --------------------------------------------------
 $sans-serif:				'HKGrotesk-Light', 'Helvetica Neue', sans-serif;
-$body-text:					16px;
+$body-text:					1em;
 $type-defaultFamily:		$sans-serif;
 $letter-spacing:			$track-normal;
 $line-height:				2em;
