@@ -10,10 +10,6 @@
   src: local("HKGrotesk Light"), local("HKGrotesk-Light"), url(/fonts/HKGrotesk-Light.otf) format("otf");
 }
 
-.fontsize-small {	font-size: $fontsize-small;	}
-
-
-
 // Content Page Typography
 // --------------------------------------------------
 html {
@@ -25,12 +21,6 @@ body {
 	font-family: 	$type-defaultFamily;
 	font-size: 		$fontsize-normal;
 	letter-spacing: $letter-spacing;
-}
-	@media (min-width: 600px) {
-	  body {
-	    // font-family: 'HKGrotesk-Light', sans-serif;
-	  }
-
 }
 
 
@@ -76,8 +66,8 @@ p {
 // measures
 //----------------------------------------------------
 
-.small-width {		max-width:		$measure-normal;	}
-.smaller-width {	max-width:		$measure-small;		}
+.small-width 	{	max-width:		$measure-normal;	}
+.smaller-width 	{	max-width:		$measure-small;		}
 .smallest-width {	max-width:		$measure-smaller;	}
 .tiny-width		{	max-width: 		$measure-tiny;		}
 
