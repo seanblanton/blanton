@@ -1044,16 +1044,12 @@ th {
   color: #e6e6e6 !important;
 }
 
-.lightmidgray {
-  color: #c8c8c8 !important;
-}
-
 .midgray {
   color: #999999 !important;
 }
 
 .darkgray {
-  color: #5c5c5c !important;
+  color: #404040 !important;
 }
 
 .accent {
@@ -1061,7 +1057,7 @@ th {
 }
 
 html, body {
-  color: #5c5c5c;
+  color: #404040;
   background: white;
 }
 
@@ -1133,7 +1129,7 @@ body {
 h1 {
   font-size: 1.563em;
   font-weight: 200;
-  color: #5c5c5c;
+  color: #404040;
 }
 
 @media (min-width: 64rem) {
