@@ -1111,7 +1111,7 @@ html, body {
 }
 
 @font-face {
-  font-family: 'HKGrotesk-Light', 'Helvetica Neue', sans-serif;
+  font-family: 'HKGrotesk-Light', apple-system,  BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
   src: local("HKGrotesk Light"), local("HKGrotesk-Light"), url(/fonts/HKGrotesk-Light.otf) format("otf");
@@ -1130,12 +1130,6 @@ body {
   font-family: sans-serif;
   font-size: 1em;
   letter-spacing: 0.6px;
-}
-
-@media (min-width: 600px) {
-  body {
-    font-family: 'HKGrotesk-Light', sans-serif;
-  }
 }
 
 h1 {
