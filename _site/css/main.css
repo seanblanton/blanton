@@ -859,6 +859,15 @@ p {
   text-transform: uppercase;
 }
 
+blockquote {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  margin-left: none !important;
+  margin-right: none;
+  padding-left: 3em;
+  border-left: 8px solid rgba(0, 0, 0, 0.05) !important;
+}
+
 .small-width {
   max-width: 65ch;
 }
