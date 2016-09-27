@@ -1,20 +1,15 @@
-<header class="wrap xs-px-4 xs-py-4 xs-span12 clearfix">
-  <div class="md-span11 md-push1">
-
-      <ul class="list-unstyled xs-m-auto">
+    <header class="s-pl4 s-pt4 l-px7">
+      <ul class="ulnone">
         {% assign pages = site.pages | sort:"index"  %}
-        {% for page in pages %}
+          {% for page in pages %}
             {% if page.category contains 'nav'  %}
-        <li class="xs-pr-4 inline" > 
-          <a href="{{ page.url | prepend: site.baseurl }}"> {{ page.title }} </a>
-        </li>
+               <li class="s-inline-block s-pr4"> 
+                <a href="{{ page.url | prepend: site.baseurl }}" class="link"> {{ page.title }} </a>
+              </li>
              {% endif %}
-        {% endfor %}
+           {% endfor %}
       </ul>
-  </div>
-</header>
-
-
+    </header>
 
 
 

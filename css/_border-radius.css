@@ -1,0 +1,23 @@
+/*
+
+Border Radius
+
+Base:
+br = border-radius
+
+Modifiders:
+1: Scale Step 1
+2: Scale Step 2
+3: Scale Step 3
+4: Scale Step 4
+5: Scale Step 5
+6: Scale Step 6
+
+
+*/
+
+.br1 { border-radius: 2px; }
+.br2 { border-radius: 3px; }
+.br3 { border-radius: 4px; }
+.br4 { border-radius: 8px; }
+.br50 { border-radius: 50%; }

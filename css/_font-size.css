@@ -1,0 +1,42 @@
+/*
+
+TYPOGRAPHY
+
+Base Definition:
+fs - font-size
+
+Modifiders:
+1: Scale Step 1
+2: Scale Step 2
+3: Scale Step 3
+4: Scale Step 4
+5: Scale Step 5
+6: Scale Step 6
+
+Media Queries:
+
+
+*/
+
+
+@mixin prefixes {
+&fs-callout { font-size: 3rem; }
+
+&fs1 { font-size: 2.5rem; }
+&fs2 { font-size: 2rem; }
+&fs3 { font-size: 1.5rem; }
+&fs4 { font-size: 1.15rem; }
+&fs5 { font-size: 1rem; }
+&fs6 { font-size: 0.85rem; }
+}
+
+h1 { 	font-size: 2.5rem; 
+	 	font-weight: 500; }
+h2 { 	font-size: 2rem;
+		font-weight: 400;  }
+h3 { 	font-size: 1.5rem;
+		font-weight: 400;  }
+h4 { 	font-size: 1.15rem; 
+		font-weight: 400; }
+h5 { 	font-size: 1rem; }
+h6 { 	font-size: 0.85rem; }

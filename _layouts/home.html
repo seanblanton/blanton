@@ -3,11 +3,14 @@
 
   {% include head.html %}
 
-  <body>
+   <body class="sans-serif s-ma0 black70 flex flex-column vh100">
+   	<div class="flex-grow">
     {% include header.html %}
-   		 <main class="wrap clearfix xs-span12 xs-my-6 flex-auto">
-   		 	{{ content }}
-		</main>
+		  <div class="s-pa4 s-pt7 l-px7 l-w60">
+		  		{{ content }}
+		  </div>
+	</div>
+
    {% include footer.html %}
   </body>
 

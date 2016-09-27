@@ -28,58 +28,45 @@
 
 
 
-  <body>
-    <header class="wrap xs-px-4 xs-py-4 xs-span12 clearfix">
-  <div class="md-span11 md-push1">
-
-      <ul class="list-unstyled xs-m-auto">
+   <body class="sans-serif s-ma0 black70 flex flex-column vh100">
+   		<div class="flex-grow">
+        <header class="s-pl4 s-pt4 l-px7">
+      <ul class="ulnone">
         
-        
+          
             
-        
+           
             
-        
-            
-        <li class="xs-pr-4 inline" > 
-          <a href="/"> Home </a>
-        </li>
+               <li class="s-inline-block s-pr4"> 
+                <a href="/" class="link"> Home </a>
+              </li>
              
-        
+           
             
-        <li class="xs-pr-4 inline" > 
-          <a href="/info/"> Info </a>
-        </li>
+               <li class="s-inline-block s-pr4"> 
+                <a href="/info/" class="link"> Info </a>
+              </li>
              
-        
+           
             
-        <li class="xs-pr-4 inline" > 
-          <a href="/writing/"> Writing </a>
-        </li>
+               <li class="s-inline-block s-pr4"> 
+                <a href="/writing/" class="link"> Writing </a>
+              </li>
              
-        
+           
       </ul>
-  </div>
-</header>
+    </header>
 
 
 
 
 
 
+		  <div class="s-pa4 s-pt7 l-px7 l-w60  s-measure-s m-measure-m">
+		  				<p class="ttu s-mb2 "> May 08, 2016 </p>
+		<h1 class="s-mt0 s-fs3 l-fs2 lh-heading"> Making Susy Grids Atomic  </h1>
 
-
-	<main class="wrap clearfix xs-span12 xs-my-6 flex-auto">
-        <section class="xs-px-4 xs-pt-6 sm-span12 clearfix">
-	<div class="md-span11 md-push1">
-		<p class="ttu midgray xs-mt-0 "> May 08, 2016 </p>
-		<h1 class="tiny-width  xs-my-0"> Making Susy Grids Atomic  </h1>
-	</div>
-</section>
-
-
-<section class="xs-px-4 xs-py-4 xs-span12 clearfix">
-	<div class="md-span11 md-push1 small-width">
-		<secton class="xs-py-4 xs-mb-4 small-width">
+		<section>
 		<p>Today I’m releasing my very first open source project. Albeit tiny, I wanted to share it with the world. I hacked on this over a weekend while trying to refactor my site to make the css a little leaner.</p>
 
 <p>For a while now I’ve been using <a href="http://susy.oddbird.net/" class="u"> Susy Grids</a> to prototype both personal and professional work. Susy grids are great for designing responsive layouts quickly in the browser. I often find that I have a hard time conceptulizing how content will react to breakpoints. I can make static mockups at several sizes, but my intuition is often wrong. Susy grids help fix the problem by allowing me to experiment early.</p>
@@ -88,7 +75,7 @@
 
 <p>I wrote Susy Bricks as a module to extend Susy’s mixins into atomic classes at multiple breakpoints using the prefixes <code class="highlighter-rouge">.xs</code>, <code class="highlighter-rouge">.sm</code>, <code class="highlighter-rouge">.md</code>, and <code class="highlighter-rouge">.lg</code> to quickly adjust layouts without even having to touch css. Here’s an example below.</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"box xs-span12 md-span6 lg-span3"</span><span class="nt">&gt;</span> 
+<div class="highlighter-rouge"><pre class="highlight"><code>    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"box xs-span12 md-span6 lg-span3"</span><span class="nt">&gt;</span> 
 </code></pre>
 </div>
 
@@ -100,8 +87,6 @@
 
 
 		</secton>
-	</div>
-</section>
 
 
 
@@ -109,32 +94,25 @@
 
 
 
-    </main>
-   <footer class="wrap xs-px-4 xs-py-4 xs-span12 clearfix">
-  <div class="md-span11 md-push1">
 
-      <ul class="list-unstyled xs-m-auto">
- 
-        <li class="xs-pr-4 inline" > 
-          <a href="https://twitter.com/seancblanton"> Twitter</a>
-        </li>
+		  </div>
 
-        <li class="xs-pr-4 inline" > 
-          <a href="https://github.com/seanblanton"> Github</a>
-        </li>
+    </div>
+     <div class="s-pl4 s-px4 s-py4 l-px7">
+    <ul class="ulnone">
+       <li class="s-inline-block s-pr4"> 
+        <a class="link" href="https://twitter.com/seancblanton"> Twitter</a>
+      </li>
+       <li class="s-inline-block s-pr4"> 
+        <a class="link" href="https://github.com/seanblanton"> Github</a>
+      </li>
+       <li class="s-inline-block s-pr4"> 
+       <a class="link"  href="https://www.linkedin.com/in/seancblanton"> LinkedIn</a>
+      </li>
+    </ul>
+  </div>
 
-        <li class="xs-pr-4 inline" > 
-          <a href="https://www.linkedin.com/in/seancblanton"> LinkedIn</a>
-        </li>
 
-
-      </ul>
-
-	</div>
-</footer>
-
-</div>
-<link href='/fonts/HKGrotesk-Light.otf' rel='stylesheet' type='text/css'>
  <link rel="stylesheet" type="text/css" href="/css/main.min.css?v=1.1" async>
 
 

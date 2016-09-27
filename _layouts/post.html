@@ -2,21 +2,13 @@
 layout: default
 ---
 
-<section class="xs-px-4 xs-pt-6 sm-span12 clearfix">
-	<div class="md-span11 md-push1">
-		<p class="ttu midgray xs-mt-0 "> {{ page.date | date: '%B %d, %Y' }} </p>
-		<h1 class="tiny-width  xs-my-0"> {{ page.title }}  </h1>
-	</div>
-</section>
+		<p class="ttu s-mb2 "> {{ page.date | date: '%B %d, %Y' }} </p>
+		<h1 class="s-mt0 s-fs3 l-fs2 lh-heading"> {{ page.title }}  </h1>
 
-
-<section class="xs-px-4 xs-py-4 xs-span12 clearfix">
-	<div class="md-span11 md-push1 small-width">
-		<secton class="xs-py-4 xs-mb-4 small-width">
+		<section>
 		{{ content }}
 		</secton>
-	</div>
-</section>
+
 
 
 

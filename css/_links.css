@@ -1,0 +1,31 @@
+/*
+
+LINKS
+
+
+*/
+
+a, .link {
+	text-decoration: none;
+	color: inherit;
+}
+
+a:hover, .link:hover {
+	color: rgba(40,149,221,1);
+}
+
+a:link, .link:link, 
+a:visited, .link:visited,
+a:active, .link:active,
+a:focus, .link:focus {
+	transition: color 0.2s ease;
+}
+
+.linku {
+    border-bottom: 1px solid rgba(0,0,0,0.7);
+    padding-bottom: 1px;
+}
+
+.linku:hover {
+	border-bottom: 1px solid rgba(40,149,221,1);
+}

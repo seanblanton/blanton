@@ -1,0 +1,28 @@
+/*
+
+Border Radius
+
+Base:
+bw = border width
+
+Modifiders:
+1: Scale Step 1
+2: Scale Step 2
+3: Scale Step 3
+4: Scale Step 4
+5: Scale Step 5
+6: Scale Step 6
+
+
+*/
+
+.bw1 { border: 1px; }
+.bw2 { border: 2px; }
+.bw3 { border: 3px; }
+.bw4 { border: 4px; }
+
+.bssolid { border-style: solid; }
+.bsdotted { border-style: dotted; }
+.bsdashed { border-style: dashed; }
+
+
