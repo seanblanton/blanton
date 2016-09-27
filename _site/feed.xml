@@ -6,8 +6,8 @@
 </description>
     <link>http://www.sean-blanton.com//</link>
     <atom:link href="http://www.sean-blanton.com//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 26 Sep 2016 22:47:28 -0700</pubDate>
-    <lastBuildDate>Mon, 26 Sep 2016 22:47:28 -0700</lastBuildDate>
+    <pubDate>Tue, 27 Sep 2016 07:31:40 -0700</pubDate>
+    <lastBuildDate>Tue, 27 Sep 2016 07:31:40 -0700</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
     
       <item>
@@ -16,7 +16,7 @@
 
 &lt;p&gt;But if you start to consider your performance budget, using webfonts starts to make less and less sense. &lt;a href=&quot;http://globenewswire.com/news-release/2010/09/07/429014/200875/en/New-Survey-From-Compuware-Gomez-Reveals-Consumers-Will-Quickly-Abandon-Slow-Websites.html&quot;&gt;Users hate slow websites&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 class=&quot;xs-mt-4&quot;&gt; We need to consider what typography is &lt;em&gt;for&lt;/em&gt; and what problem it aims to &lt;em&gt;solve&lt;/em&gt;.&lt;/h2&gt;
+&lt;h4 id=&quot;we-need-to-consider-what-typography-is-emforem-and-what-problem-it-aims-to-emsolveem&quot;&gt;We need to consider what typography is &lt;em&gt;for&lt;/em&gt; and what problem it aims to &lt;em&gt;solve&lt;/em&gt;.&lt;/h4&gt;
 &lt;p&gt;Let’s pay attention to the words we don’t often even bother to look up in the dictionary. Take user &lt;em&gt;interfaces&lt;/em&gt; for example:&lt;/p&gt;
 
 &lt;blockquote&gt;
@@ -32,19 +32,19 @@
   &lt;h6 id=&quot;from-googlehttpswwwgooglecomsearchqinterfacedefinitionoqinterfacedefinition&quot;&gt;&lt;a href=&quot;https://www.google.com/search?q=interface+definition&amp;amp;oq=interface+definition&quot;&gt;&lt;em&gt;From Google&lt;/em&gt;&lt;/a&gt;&lt;/h6&gt;
 &lt;/blockquote&gt;
 
-&lt;h2 class=&quot;xs-mt-4&quot;&gt; When I design something, I aim to make every single design decision solve a problem.&lt;/h2&gt;
+&lt;h4 id=&quot;when-i-design-something-i-aim-to-make-every-single-design-decision-solve-a-problem&quot;&gt;When I design something, I aim to make every single design decision solve a problem.&lt;/h4&gt;
 &lt;p&gt;Sometimes that problem is for the user, like increasing legibility or reducing cognitive load. Sometimes the problem is for the business, like increasing maintainability and scalability. So maybe that means adding constraints to the design requirements and increasing the efficiency of the system.&lt;/p&gt;
 
-&lt;h2 class=&quot;xs-mt-4&quot;&gt; If typography in an interface exists to facilitate interaction, putting a webfont in a button or other parts of UI copy does little to advance this cause. &lt;/h2&gt;
+&lt;h4 id=&quot;if-typography-in-an-interface-exists-to-facilitate-interaction-putting-a-webfont-in-a-button-or-other-parts-of-ui-copy-does-little-to-advance-this-cause&quot;&gt;If typography in an interface exists to facilitate interaction, putting a webfont in a button or other parts of UI copy does little to advance this cause.&lt;/h4&gt;
 &lt;p&gt;But what it does do is this: make your page heavier and harder to maintain. Good web typography should be functional and performant. Everything beyond that is nice to have and should be considered an optimization on an already validated design.&lt;/p&gt;
 
-&lt;h2 class=&quot;xs-mt-4&quot;&gt; Using system fonts allows designers to focus more on solving problems and less on aesthetics.&lt;/h2&gt;
+&lt;h4 id=&quot;using-system-fonts-allows-designers-to-focus-more-on-solving-problems-and-less-on-aesthetics&quot;&gt;Using system fonts allows designers to focus more on solving problems and less on aesthetics.&lt;/h4&gt;
 &lt;p&gt;They also allow your site to feel native to the platform in which a user is experiencing it.
 &lt;a href=&quot;https://lists.w3.org/Archives/Public/www-style/2015Jul/0169.html&quot;&gt;W3C is already considering this as a standard anyway&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;If you must include webfonts as a part of your UI, at least consider the &lt;a href=&quot;http://cognition.happycog.com/article/7-alternatives-to-popular-web-typefaces-for-better-performance&quot;&gt;alternatives&lt;/a&gt; that might help reduce your page to help reduce weight and load them &lt;a href=&quot;https://github.com/bramstein/fontfaceobserver&quot;&gt;in the most efficient way you can.&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 class=&quot;xs-mt-4&quot;&gt; Further Reading &lt;/h2&gt;
+&lt;h3 class=&quot;s-mt4&quot;&gt; Further Reading &lt;/h3&gt;
 &lt;p&gt;&lt;a href=&quot;http://bramstein.com/writing/&quot;&gt;Bram Stein on loading fonts&lt;/a&gt;&lt;br /&gt;
 &lt;a href=&quot;Using System UI Fonts In Web Design: A Quick Practical Guide&quot;&gt;Marcin Wichary on Using System UI Fonts in Web Design&lt;/a&gt;&lt;br /&gt;
 &lt;a href=&quot;https://github.com/mrmrs/awesome-system-fonts&quot;&gt;Sites with System Fonts&lt;/a&gt;&lt;br /&gt;
@@ -74,15 +74,9 @@
 &lt;p&gt;When I tell you a story, it’s because I need to tell you something about the way I think or the way that I feel. I tell stories when something is funny, or interesting, or profound, or beautiful, or inspiring. When we tell stories we assume our telling will communicate something to the recipient about who we are and what we think and value.&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;“Is this what I think?”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“Is this all I have to say?”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“Am I making myself understood?”&lt;/p&gt;
+&quot;Is this what I think?&quot;   
+&quot;Is this all I have to say?&quot;   
+&quot;Am I making myself understood?&quot;  
 &lt;/blockquote&gt;
 
 &lt;p&gt;And herein lays the key problem: the words I write can only sketch the outline of what it is I mean to say. But then I present these words as a tangible artifact of who I am and what I think.&lt;/p&gt;
@@ -111,7 +105,7 @@ LE MORVAN, Pierre. “HEALTHY SKEPTICISM AND PRACTICAL WISDOM.”&lt;/p&gt;
 
 &lt;p&gt;I wrote Susy Bricks as a module to extend Susy’s mixins into atomic classes at multiple breakpoints using the prefixes &lt;code class=&quot;highlighter-rouge&quot;&gt;.xs&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;.sm&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;.md&lt;/code&gt;, and &lt;code class=&quot;highlighter-rouge&quot;&gt;.lg&lt;/code&gt; to quickly adjust layouts without even having to touch css. Here’s an example below.&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;box xs-span12 md-span6 lg-span3&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt; 
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;    &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;box xs-span12 md-span6 lg-span3&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt; 
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 

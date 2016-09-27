@@ -36,21 +36,6 @@ COLOR VARIABLES
 --white05: rgba(255,255,255,0.05);
 
 
-/* Cool Gray */
---coolgray1: rgba(252,251,250,1);
---coolgray2: rgba(248,247,246,1);
---coolgray3: rgba(245,244,243,1);
---coolgray4: rgba(240,239,238,1);
---coolgray5: rgba(230,229,228,1);
---coolgray6: rgba(220,219,218,1);
---coolgray7: rgba(200,199,198,1);
---coolgray8: rgba(180,179,178,1);
---coolgray9: rgba(160,159,158,1);
---coolgray10: rgba(140,139,138,1);
---coolgray11: rgba(120,119,118,1);
-
-/* THEME COLORS */
---gold: rgba(173,154,110,1);
 };
 
 
@@ -67,20 +52,8 @@ COLOR VARIABLES
 .bg-black10 { background-color: var(--black10); }
 .bg-black05 { background-color: var(--black05); }
 
-.bg-coolgray1 { background-color: var(--coolgray1); }
-.bg-coolgray2 { background-color: var(--coolgray2); }
-.bg-coolgray3 { background-color: var(--coolgray3); }
-.bg-coolgray4 { background-color: var(--coolgray4); }
-.bg-coolgray5 { background-color: var(--coolgray5); }
-.bg-coolgray6 { background-color: var(--coolgray6); }
-.bg-coolgray7 { background-color: var(--coolgray7); }
-.bg-coolgray8 { background-color: var(--coolgray8); }
-.bg-coolgray9 { background-color: var(--coolgray9); }
-.bg-coolgray10 { background-color: var(--coolgray10); }
-
 .bg-white { background-color: var(--white); }
 
-.bg-gold { background-color: var(--gold); }
 
 /* TEXT Colors */
 
@@ -108,14 +81,4 @@ COLOR VARIABLES
 .white10 { color: var(--white10); }
 .white05 { color: var(--white05); }
 
-.gold { color: var(--gold); }
 
-
-.h-invert, .h-invert:hover, .h-invert.hover a {
-  opacity: 1;
-}
-
-.h-invert:hover {
-  background-color: var(--gold);
-  color: rgba(0,0,0,1);
-}
