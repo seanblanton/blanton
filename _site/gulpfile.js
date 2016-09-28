@@ -17,6 +17,7 @@ var gulp = require('gulp');
     clean = require('gulp-clean');
     child = require('child_process');
     gutil = require('gulp-util');
+    uncss = require('postcss-uncss');
 
 var devip = require('dev-ip');
 devip();
@@ -35,6 +36,11 @@ var breakpoints = {
   maps: ['breakpoints.yml']
 };
 
+var htmls = {
+  html: ['/**/*.html'],
+  ignore: []
+}
+
 
 // POSTCSS
 gulp.task('css', function() {
@@ -44,6 +50,7 @@ gulp.task('css', function() {
     simplevars,
     conditionals,
     autoprefixer,
+    uncss(htmls),
     cssnano
   ];
 
