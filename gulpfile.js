@@ -37,7 +37,7 @@ var breakpoints = {
 };
 
 var htmls = {
-  html: ['/**/*.html'],
+  html: ['**/*.html'],
   ignore: []
 }
 

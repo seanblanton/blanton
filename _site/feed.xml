@@ -6,9 +6,68 @@
 </description>
     <link>http://www.sean-blanton.com//</link>
     <atom:link href="http://www.sean-blanton.com//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 27 Sep 2016 07:31:40 -0700</pubDate>
-    <lastBuildDate>Tue, 27 Sep 2016 07:31:40 -0700</lastBuildDate>
+    <pubDate>Mon, 10 Oct 2016 23:16:59 -0700</pubDate>
+    <lastBuildDate>Mon, 10 Oct 2016 23:16:59 -0700</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
+    
+      <item>
+        <title>Which Shade Of Gray Should I Use for Disabled States</title>
+        <description>&lt;p&gt;The web is an accessibility nightmare. For many companies, A11Y guidelines are relegated to some “other” time or a “nice to have”. But even when a website meets accessibility standards reasonably well, one of the components in design that seems to be left behind is the disabled state. And it’s a somewhat reasonable thing to leave behind. After all, this is a &lt;em&gt;disabled&lt;/em&gt; state. It’s not intended to be interacted with, so it’s reasonable to assume that because of this, accessibility can fall by the wayside.&lt;/p&gt;
+
+&lt;p&gt;But disabled buttons are buttons, too. And disabled text that is still visible on the screen exists to inform a user about the current state of the system. Often, disabled text is there to nudge a user towards another action that could perhaps &lt;em&gt;enable&lt;/em&gt; the same text at some point in that context. Or it might exist to inform a user of options that may be unclear to him or her.&lt;/p&gt;
+
+&lt;p&gt;A great example of this is in faceted search. I’m on Amazon right now, and it’s late in the evening. On the left hand side are my search options. Halfway down the page is a &lt;code class=&quot;highlighter-rouge&quot;&gt;Refine By&lt;/code&gt; subheader and the very first filter option is for &lt;code class=&quot;highlighter-rouge&quot;&gt;Delivery Day&lt;/code&gt;. No doubt this is because it is in Amazon’s best interest to inform a user that &lt;code class=&quot;highlighter-rouge&quot;&gt;Get It Today&lt;/code&gt; &lt;em&gt;is&lt;/em&gt; a delivery option, and a damn good one, at that. But it’s almost 10:00PM at night, and so the only option I have available to me as a user right now is &lt;code class=&quot;highlighter-rouge&quot;&gt;Get It Tomorrow&lt;/code&gt;. Maybe I should hop online earlier in the day to take advantage of Amazon’s great shipping options next time. But if I couldn’t see both the disabled gray label and the disabled gray checkbox, the the shipping options aren’t nearly as sweet.&lt;/p&gt;
+
+&lt;p&gt;Surprisingly, there isn’t much talk out there about the &lt;code class=&quot;highlighter-rouge&quot;&gt;right&lt;/code&gt; shade of gray for disabled. But here’s what I do know:&lt;/p&gt;
+
+&lt;h3 id=&quot;wcag-doesnt-set-contrast-requirements-for-disabled-text&quot;&gt;WCAG doesn’t set contrast requirements for disabled text&lt;/h3&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Incidental: Text or images of text that are part of an inactive user interface component, that are pure decoration, that are not visible to anyone, or that are part of a picture that contains significant other visual content, have no contrast requirement.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h5 id=&quot;from-wcag-20httpwwww3orgtrunderstanding-wcag20visual-audio-contrast-contrasthtml&quot;&gt;&lt;a href=&quot;http://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html&quot;&gt;&lt;em&gt;From WCAG 2.0&lt;/em&gt;&lt;/a&gt;&lt;/h5&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Default, unstyled HTML button labels set to &lt;code class=&quot;highlighter-rouge&quot;&gt;disabled&lt;/code&gt; are #7F7F7F. This is a 4:1 contrast ratio on a white background, just slightly off from minimum. This comes close to meeting the standard for low vision and moderately low visual acuity that tends to come with age. This is around 20/40 vision and tends to represent the acuity of a user around age 80 years old. This would be fine if the text was over 18pt or was 14 point bold.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Default, unstyled radio buttons set to &lt;code class=&quot;highlighter-rouge&quot;&gt;disabled&lt;/code&gt; have borders of #D8D8D8. This is a 1.43:1 ratio, which is pretty terrible.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Disabled, checked checkboxes have the checkmark at #A1A1A1. This is a 2.58:1 ratio. Still bad, but getting better.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Pretty dismal as far as options go. Just because WCAG AA doesn’t specify a minimum, doesn’t mean we can’t adopt some sensible best practices for disabled text:&lt;/p&gt;
+
+&lt;h3 id=&quot;best-practices&quot;&gt;Best Practices&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Leave disabled form elements at their default styles, even though they don’t meet WCAG A.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;But set the disabled label color to no darker than #7F7F7F to ensure that while the button isn’t visible, the identifying label is still readable for most. This will serve as a clue for most users.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Disable any visual styling on hover or click for disabled buttons or text to prevent confusion&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Consider some hint text, either in a tooltip or copy next to the disabled action instructing the user on why the action is disabled.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Keep the contrast on regular, active items high so that the difference between active items and disabled items is still distinguishable at a glance.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Mon, 10 Oct 2016 00:00:00 -0700</pubDate>
+        <link>http://www.sean-blanton.com//2016/10/10/default-disabled-grays.html</link>
+        <guid isPermaLink="true">http://www.sean-blanton.com//2016/10/10/default-disabled-grays.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>Using System Fonts</title>
