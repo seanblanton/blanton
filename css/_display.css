@@ -22,6 +22,7 @@ blockquote {
 
 code {
     white-space: pre-wrap;
+    word-wrap: break-word;
 }
 
 .highlight {
