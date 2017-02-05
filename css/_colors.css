@@ -9,6 +9,12 @@ COLOR VARIABLES
 
 :root {
 
+--gray09: #394C58;
+--gray08: #607380;
+--gray01: #F6F7F7;
+
+--blue08: #0074BF;
+
 /* Pure Black Transparent */
 --black: rgba(0,0,0,0);
 --black90: rgba(0,0,0.0.9);
@@ -54,8 +60,11 @@ COLOR VARIABLES
 
 .bg-white { background-color: var(--white); }
 
-
 /* TEXT Colors */
+
+.gray09 { color: var(--gray09); }
+.gray08 { color: var(--gray08); }
+.gray01 { color: var(--gray01); }
 
 .black { color: var(--black); }
 .black90 { color: var(--black90); }

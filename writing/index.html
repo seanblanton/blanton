@@ -2,7 +2,7 @@
 layout: writing
 title: Writing
 permalink: /writing/
-category: [writing, nav]
+category: [writing]
 sitemap:
   lastmod: 2016-02-14
   priority: 0.5
@@ -13,11 +13,8 @@ index: 2
 {% for post in site.posts %}
 	<a href="{{ post.url }}">	
 	   <div class="s-mt4">
-	     <p class="ttu s-my2"> {{ post.date | date: '%B %d, %Y' }} </p>
-        <h3 class="s-mt1 s-mb3">{{ post.title }}</h3>
-        <!--   	{% unless forloop.last %}
-          	<div class="divider">  </div>
-          	{% endunless %}  -->
+	     <p class="s-ma0 ttu s-my2"> {{ post.date | date: '%B %d, %Y' }} </p>
+        <h3 class="s-ma0 s-mt1 s-mb3">{{ post.title }}</h3>
   	</div>
   	</a>
 {% endfor %}

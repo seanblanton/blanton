@@ -17,7 +17,7 @@ DISPLAY
 blockquote {
 	margin: 2em 0 2em 0;
 	padding-left: 2em;
-	border-left: 8px solid var(--black10);
+	border-left: 4px solid var(--gray01);
 }
 
 code {
@@ -29,8 +29,10 @@ code {
 }
 
 pre {
-	border-left: 8px solid var(--black10);
-	white-space: pre
+	border-left: 4px solid var(--gray01);
+	white-space: pre;
+    margin-top: 2em;
+    margin-bottom: 2em;
 }
 
 .middle { vertical-align: middle; }
