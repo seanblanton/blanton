@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Programmatic Color Palettes</title>
+  <meta name="description" content="Coming up with a consistant set of colors for us in UI design is no easy task. Many times, when style guides are created, a few key hues are picked out and d...">
+  
+  <link rel="icon"  type="image/x-icon" href="/favicon.ico?v=1.1"> 
+  <link rel="canonical" href="http://www.sean-blanton.com//2017/01/17/programmatic-color-palettes.html">
+  <link rel="alternate" type="application/rss+xml" title="Sean Blanton" href="http://www.sean-blanton.com//feed.xml">
+
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-29141738-1', 'auto');
+    ga('send', 'pageview');
+
+  </script>
+
+</head>
+
+
+
+   <body class="sans-serif s-ma0 black70 flex flex-column vh100">
+   		<div class="flex-grow">
+        <header class="s-pl4 s-pt4 l-px7">
+      <ul class="ulnone">
+        
+          
+            
+           
+            
+               <li class="s-inline-block s-pr4"> 
+                <a href="/" class="link"> Home </a>
+              </li>
+             
+           
+            
+               <li class="s-inline-block s-pr4"> 
+                <a href="/info/" class="link"> Info </a>
+              </li>
+             
+           
+            
+               <li class="s-inline-block s-pr4"> 
+                <a href="/writing/" class="link"> Writing </a>
+              </li>
+             
+           
+      </ul>
+    </header>
+
+
+
+
+
+
+		  <div class="s-pa4 s-pt7 l-px7 l-w60  s-measure-s m-measure-m">
+		  				<p class="ttu s-mb2 "> January 17, 2017 </p>
+		<h1 class="s-mt0 s-fs3 l-fs2 lh-heading"> Programmatic Color Palettes  </h1>
+
+		<section>
+		<p>Coming up with a consistant set of colors for us in UI design is no easy task. Many times, when style guides are created, a few key hues are picked out and documented. This doesn’t take into account he myriad tints and shades that may be needed when used in practical applications.</p>
+
+<p>One approach to this is to use something like SCSS’ <code class="highlighter-rouge">rgba()</code> function to build new a new color to build a new color.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code><span class="nc">.alert</span> <span class="p">{</span>
+    <span class="nl">background-color</span><span class="p">:</span> <span class="n">rgba</span><span class="p">(</span><span class="err">$</span><span class="no">red</span><span class="p">,</span> <span class="m">0.1</span><span class="p">);</span>
+    <span class="nl">border-color</span><span class="p">:</span> <span class="err">$</span><span class="no">red</span><span class="p">;</span> 
+<span class="p">}</span>
+</code></pre>
+</div>
+
+<p>This gets us pretty far without much effort - but visually, the effects can sometimes be less than desirable. Certain hues behave different under different levels of luminosity. As Henry Munsell in his 1905 book <em>A Color Notation</em> noted, reds, blues, and purples have a much longer chroma axis than some yellows. Likewise, some hues may need to be adjusted as saturation increases to keep them optically consistent.</p>
+
+<p>I found myself wanting the flexibility to pull or push hues around quickly, and I wanted the results to be something that could be quickly translated to code so that the single source of truth could live with the developers, rather than a sketch file designers would have to export and transmit back and forth.</p>
+
+<p>I tried some existing tools created by <a href="http://www.jxnblk.com/">Brent Jackson</a>, namely <a href="https://palx.jxnblk.com/">Palx</a>, which served as a huge inspiration for this project. However, it didn’t have the flexibility to adjust hue or saturation. I built Palettes using the same tool as Palx,  <a href="http://gka.github.io/chroma.js/">Chroma JS</a>, but retooling it to have increased flexibility. This little library works wonders.</p>
+
+<h3 id="palettes">Palettes</h3>
+<p>Here’s a peek at Palettes:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code><span class="kr">const</span> <span class="nx">stepsToFloat</span> <span class="o">=</span> <span class="nx">options</span> <span class="o">=&gt;</span>
+  <span class="nb">Array</span><span class="p">.</span><span class="nx">from</span><span class="p">({</span> <span class="na">length</span><span class="p">:</span> <span class="nx">options</span><span class="p">.</span><span class="nx">luminance</span> <span class="p">},</span> <span class="p">(</span><span class="nx">n</span><span class="p">,</span> <span class="nx">i</span><span class="p">)</span> <span class="o">=&gt;</span>
+    <span class="p">(</span><span class="nx">i</span> <span class="o">+</span> <span class="mf">0.5</span><span class="p">)</span> <span class="o">/</span> <span class="mi">10</span><span class="p">).</span><span class="nx">reverse</span><span class="p">()</span>
+  <span class="p">.</span><span class="nx">map</span><span class="p">(</span><span class="nx">s</span> <span class="o">=&gt;</span> <span class="nx">modulate</span><span class="p">(</span><span class="nx">s</span><span class="p">,</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">],</span> <span class="p">[</span><span class="nx">options</span><span class="p">.</span><span class="nx">start</span><span class="p">,</span> <span class="nx">options</span><span class="p">.</span><span class="nx">end</span><span class="p">]));</span>
+</code></pre>
+</div>
+
+<p>This is the first piece. It will return the number of tints of a given base color to me, specified later in <code class="highlighter-rouge">config.js</code></p>
+
+<p>I then needed to be able to adjust colors with a few parameters.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code><span class="kr">const</span> <span class="nx">shiftColor</span> <span class="o">=</span> <span class="p">(</span><span class="nx">color</span><span class="p">,</span> <span class="nx">s</span><span class="p">,</span> <span class="nx">index</span><span class="p">,</span> <span class="nx">shift</span><span class="p">)</span> <span class="o">=&gt;</span>
+  <span class="nx">chroma</span><span class="p">(</span><span class="nx">s</span><span class="p">)</span>
+  <span class="p">.</span><span class="nx">set</span><span class="p">(</span><span class="s1">'hsl.h'</span><span class="p">,</span> <span class="nx">chroma</span><span class="p">(</span><span class="nx">color</span><span class="p">).</span><span class="nx">get</span><span class="p">(</span><span class="s1">'hsl.h'</span><span class="p">)</span> <span class="o">-</span> <span class="p">((</span><span class="nx">index</span> <span class="o">*</span> <span class="p">(</span><span class="nx">index</span> <span class="o">*</span> <span class="mi">2</span><span class="p">))</span> <span class="o">*</span> <span class="p">(</span><span class="nx">shift</span> <span class="o">*</span> <span class="mf">0.01</span><span class="p">))).</span><span class="nx">hex</span><span class="p">();</span>
+</code></pre>
+</div>
+
+<div class="highlighter-rouge"><pre class="highlight"><code><span class="kr">const</span> <span class="nx">shiftSat</span> <span class="o">=</span> <span class="p">(</span><span class="nx">color</span><span class="p">,</span> <span class="nx">s</span><span class="p">,</span> <span class="nx">index</span><span class="p">,</span> <span class="nx">sat</span><span class="p">)</span> <span class="o">=&gt;</span>
+  <span class="nx">chroma</span><span class="p">(</span><span class="nx">s</span><span class="p">)</span>
+  <span class="p">.</span><span class="nx">saturate</span><span class="p">(((</span><span class="nx">sat</span> <span class="o">*</span> <span class="mf">0.1</span><span class="p">)</span> <span class="o">*</span> <span class="nb">Math</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">index</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)))</span>
+  <span class="p">.</span><span class="nx">hex</span><span class="p">();</span>
+</code></pre>
+</div>
+
+<p>Figuring out the math here was a bit of trial and error. By picking colors manually and plotting them on a curve, I found I was consistanty adjusting saturation on a roughly logarithmic curve. Hue shifts were adjusted on a quadradic curve. This takes a starting color, a step in the scale, an index, and a level of saturation or hue shift. Positive numbers shift hue right on the standard CIECAM02 model. Negative numbers shift the hue left.</p>
+
+<p>Then I needed to adjust each color based on it’s starting point, changing hue and saturation as those parameters existed:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code><span class="kr">const</span> <span class="nx">buildColor</span> <span class="o">=</span> <span class="p">(</span><span class="nx">key</span><span class="p">,</span> <span class="nx">sat</span><span class="p">,</span> <span class="nx">shift</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>
+  <span class="kr">const</span> <span class="nx">color</span> <span class="o">=</span> <span class="nx">hueSet</span><span class="p">[</span><span class="nx">key</span><span class="p">];</span>
+
+  <span class="kr">const</span> <span class="nx">steps</span> <span class="o">=</span> <span class="nx">stepsToFloat</span><span class="p">(</span><span class="nx">lumSet</span><span class="p">)</span>
+  <span class="p">.</span><span class="nx">map</span><span class="p">(</span><span class="nx">s</span> <span class="o">=&gt;</span> <span class="nx">chroma</span><span class="p">(</span><span class="nx">color</span><span class="p">.</span><span class="nx">hue</span><span class="p">).</span><span class="nx">luminance</span><span class="p">(</span><span class="nx">s</span><span class="p">).</span><span class="nx">hex</span><span class="p">())</span>
+  <span class="p">.</span><span class="nx">map</span><span class="p">((</span><span class="nx">s</span><span class="p">,</span> <span class="nx">index</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">(</span><span class="nx">sat</span> <span class="p">?</span> <span class="nx">shiftSat</span><span class="p">(</span><span class="nx">color</span><span class="p">.</span><span class="nx">hue</span><span class="p">,</span> <span class="nx">s</span><span class="p">,</span> <span class="nx">index</span><span class="p">,</span> <span class="nx">sat</span><span class="p">)</span> <span class="p">:</span> <span class="nx">s</span><span class="p">))</span>
+  <span class="p">.</span><span class="nx">map</span><span class="p">((</span><span class="nx">s</span><span class="p">,</span> <span class="nx">index</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">(</span><span class="nx">shift</span> <span class="p">?</span> <span class="nx">shiftColor</span><span class="p">(</span><span class="nx">color</span><span class="p">.</span><span class="nx">hue</span><span class="p">,</span> <span class="nx">s</span><span class="p">,</span> <span class="nx">index</span><span class="p">,</span> <span class="nx">shift</span><span class="p">)</span> <span class="p">:</span> <span class="nx">s</span><span class="p">));</span>
+
+  <span class="c1">// return values as incremented key value pair</span>
+  <span class="kr">const</span> <span class="nx">values</span> <span class="o">=</span> <span class="nx">expandColors</span><span class="p">(</span><span class="nx">key</span><span class="p">,</span> <span class="nx">steps</span><span class="p">);</span>
+
+  <span class="nx">colors</span><span class="p">[</span><span class="nx">key</span><span class="p">]</span> <span class="o">=</span> <span class="nx">values</span><span class="p">;</span>
+<span class="p">};</span>
+</code></pre>
+</div>
+
+<p>I can loop over this for each step hue I specify:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code><span class="kr">const</span> <span class="nx">buildPalette</span> <span class="o">=</span> <span class="p">(</span><span class="nx">set</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>
+  <span class="nb">Object</span><span class="p">.</span><span class="nx">keys</span><span class="p">(</span><span class="nx">set</span><span class="p">).</span><span class="nx">forEach</span><span class="p">((</span><span class="nx">key</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>
+    <span class="nx">buildColor</span><span class="p">(</span><span class="nx">key</span><span class="p">,</span> <span class="nx">set</span><span class="p">[</span><span class="nx">key</span><span class="p">].</span><span class="nx">sat</span><span class="p">,</span> <span class="nx">set</span><span class="p">[</span><span class="nx">key</span><span class="p">].</span><span class="nx">shift</span><span class="p">);</span>
+  <span class="p">});</span>
+  <span class="k">return</span> <span class="nx">colors</span><span class="p">;</span>
+<span class="p">};</span>
+</code></pre>
+</div>
+
+<h3 id="configuration">Configuration</h3>
+
+<p>The <code class="highlighter-rouge">config.js</code> has two objects defined in it:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code><span class="kr">const</span> <span class="nx">lumSet</span> <span class="o">=</span> <span class="p">{</span>
+  <span class="na">luminance</span><span class="p">:</span> <span class="mi">10</span><span class="p">,</span>
+  <span class="na">start</span><span class="p">:</span> <span class="mf">0.05</span><span class="p">,</span>
+  <span class="na">end</span><span class="p">:</span> <span class="mf">0.95</span><span class="p">,</span>
+<span class="p">};</span>
+
+<span class="kr">const</span> <span class="nx">hueSet</span> <span class="o">=</span> <span class="p">{</span>
+  <span class="na">blue</span><span class="p">:</span> <span class="p">{</span>
+    <span class="na">hue</span><span class="p">:</span> <span class="s1">'54A2F0'</span><span class="p">,</span>          
+    <span class="na">sat</span><span class="p">:</span> <span class="s1">'3'</span><span class="p">,</span>
+    <span class="na">shift</span><span class="p">:</span> <span class="kc">null</span><span class="p">,</span>
+  <span class="p">},</span>
+  <span class="na">yellow</span><span class="p">:</span> <span class="p">{</span>
+    <span class="na">hue</span><span class="p">:</span> <span class="s1">'FFCC00'</span><span class="p">,</span>          
+    <span class="na">sat</span><span class="p">:</span> <span class="s1">'3'</span><span class="p">,</span>
+    <span class="na">shift</span><span class="p">:</span> <span class="s1">'12'</span><span class="p">,</span>
+  <span class="p">},</span>
+<span class="p">}</span>
+</code></pre>
+</div>
+
+<p><code class="highlighter-rouge">start</code> and <code class="highlighter-rouge">end</code> are used to keep values from going to dark or too light. This way, individual values remain distinct.</p>
+
+<p>When I run the script through node with <code class="highlighter-rouge">$ npm run build</code> it will output a <code class="highlighter-rouge">.json</code> blob that can be read in to a webapp’s config file.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code><span class="p">{</span><span class="w">
+    </span><span class="nt">"blue"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+        </span><span class="nt">"blue0"</span><span class="p">:</span><span class="w"> </span><span class="s2">"#ecf5fd"</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"blue1"</span><span class="p">:</span><span class="w"> </span><span class="s2">"#d4ecff"</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"blue2"</span><span class="p">:</span><span class="w"> </span><span class="s2">"#bce1ff"</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"blue3"</span><span class="p">:</span><span class="w"> </span><span class="s2">"#a1d5ff"</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"blue4"</span><span class="p">:</span><span class="w"> </span><span class="s2">"#84c9ff"</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"blue5"</span><span class="p">:</span><span class="w"> </span><span class="s2">"#62baff"</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"blue6"</span><span class="p">:</span><span class="w"> </span><span class="s2">"#2fa8ff"</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"blue7"</span><span class="p">:</span><span class="w"> </span><span class="s2">"#0094ed"</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"blue8"</span><span class="p">:</span><span class="w"> </span><span class="s2">"#007bc9"</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"blue9"</span><span class="p">:</span><span class="w"> </span><span class="s2">"#005b98"</span><span class="w">
+    </span><span class="p">},</span><span class="w">
+     </span><span class="nt">"yellow"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+        </span><span class="nt">"yellow0"</span><span class="p">:</span><span class="w"> </span><span class="s2">"#fff4ca"</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"yellow1"</span><span class="p">:</span><span class="w"> </span><span class="s2">"#ffe788"</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"yellow2"</span><span class="p">:</span><span class="w"> </span><span class="s2">"#ffd43a"</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"yellow3"</span><span class="p">:</span><span class="w"> </span><span class="s2">"#ffc300"</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"yellow4"</span><span class="p">:</span><span class="w"> </span><span class="s2">"#eeaf00"</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"yellow5"</span><span class="p">:</span><span class="w"> </span><span class="s2">"#dc9a00"</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"yellow6"</span><span class="p">:</span><span class="w"> </span><span class="s2">"#c78300"</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"yellow7"</span><span class="p">:</span><span class="w"> </span><span class="s2">"#af6a00"</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"yellow8"</span><span class="p">:</span><span class="w"> </span><span class="s2">"#924f00"</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"yellow9"</span><span class="p">:</span><span class="w"> </span><span class="s2">"#6b3300"</span><span class="w">
+    </span><span class="p">},</span><span class="w">
+</span><span class="err">}</span><span class="w"> 
+</span></code></pre>
+</div>
+
+<p>You can grab the tool for yourself <a href="https://github.com/seanblanton/palettes">here</a></p>
+
+<h3 id="next-steps">Next Steps</h3>
+
+<p>This project is by no means done yet. I’d love to expand more on this, building it into a webapp to visualize colors on the fly.</p>
+
+		</secton>
+
+
+
+
+
+
+
+
+		  </div>
+
+    </div>
+     <div class="s-pl4 s-px4 s-py4 l-px7">
+    <ul class="ulnone">
+       <li class="s-inline-block s-pr4"> 
+        <a class="link" href="https://twitter.com/seancblanton"> Twitter</a>
+      </li>
+       <li class="s-inline-block s-pr4"> 
+        <a class="link" href="https://github.com/seanblanton"> Github</a>
+      </li>
+       <li class="s-inline-block s-pr4"> 
+       <a class="link"  href="https://www.linkedin.com/in/seancblanton"> LinkedIn</a>
+      </li>
+    </ul>
+  </div>
+
+
+ <link rel="stylesheet" type="text/css" href="/css/main.min.css?v=1.1" async>
+
+
+
+  </body>
+
+</html>

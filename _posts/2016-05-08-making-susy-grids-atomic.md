@@ -14,7 +14,7 @@ I wrote Susy Bricks as a module to extend Susy's mixins into atomic classes at m
 
 ```html
     <div class="box xs-span12 md-span6 lg-span3"> 
-````
+```
 
 
 To give credit where credit is due, I did look to Buzzfeed's <a href="https://solid.buzzfeed.com" class="u"> Solid</a> to help me get the prefixing mixin off the ground. 

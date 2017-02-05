@@ -20,6 +20,10 @@ blockquote {
 	border-left: 8px solid var(--black10);
 }
 
+.highlight {
+    padding: 2em;
+}
+
 pre {
 	border-left: 8px solid var(--black10);
 	white-space: pre
