@@ -21,6 +21,6 @@ Outside of work you can find me reading or writing fiction, learning to code, or
 
 	
 <h3> Resume </h3>
-[PDF Version](/assets/files/Sean_Blanton_Resume_2017.pdf) 
+[PDF Version](/assets/files/Sean-Blanton-Resume-2017.pdf) 
 
 [Plain Text Version]({{ site.url }}/assets/files/sean_blanton_resume_2017_plaintext.txt)
