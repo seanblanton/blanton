@@ -40,6 +40,7 @@ pre {
 
 .ulnone { list-style: none; margin: 0; padding: 0;}
 
-.vh100 { height: 100vh; }
+.vh100 { min-height: 100vh; }
 .h100 { height: 100%; }
 .minh100 { min-height: 100%; }
+
