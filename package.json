@@ -5,6 +5,7 @@
   "description": "",
   "main": "client.js",
   "dependencies": {
+    "compression": "^1.6.2",
     "markdown-to-react-components": "^0.2.4",
     "marked": "^0.3.6",
     "react-ga": "^2.1.2",
