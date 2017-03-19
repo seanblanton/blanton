@@ -27,12 +27,12 @@ export const spacing = [
 ]
 
 export const fontSizes = [
-  48,
-  32,
-  24,
-  20,
-  16,
-  14
+  '3em',
+  '2em',
+  '1.5em',
+  '1.25em',
+  '1em',
+  '0.875em'
 ]
 
 export const breakpoints = {

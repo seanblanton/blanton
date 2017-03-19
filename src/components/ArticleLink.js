@@ -38,12 +38,12 @@ const prefixed = {
         background: colors.teal2,
         transition: 'width .35s cubic-bezier(1, 0, 0, 1)',
     },
-    ':hover:before, :active:before': {
+    ':hover:before, :active:before, :focus:before': {
         width: '10vw',
         background: colors.teal2,
         transition: 'width .35s cubic-bezier(1, 0, 0, 1)',
     },
-    ':hover:after, :active:after': {
+    ':hover:after, :active:after, :focus:after': {
         width: '10vw',
         background: 'transparent',
         transition: 'all .35s cubic-bezier(1, 0, 0, 1)',
