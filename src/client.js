@@ -6,6 +6,15 @@ import { colors } from './config';
 import { routes } from './routes';
 import Prism from './prism';
 
+import ReactGA from 'react-ga';
+ReactGA.initialize('UA-29141738-1');
+
+function logPageView() {
+  ReactGA.set({ page: window.location.pathname });
+  ReactGA.pageview(window.location.pathname);
+  console.log("pushed " + window.location.pathname + " update to GA");
+}
+
 cxs('*', { boxSizing: 'border-box' })
 
 cxs('body', {
@@ -24,7 +33,7 @@ cxs('body', {
 
 
 ReactDOM.render(
-  <Router onUpdate={() => window.scrollTo(0, 0)} history={browserHistory}>
+  <Router onUpdate={() => { window.scrollTo(0, 0); logPageView(); } } history={browserHistory}>
     {routes}
   </Router>
 , document.getElementById('app'));
