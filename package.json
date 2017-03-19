@@ -24,6 +24,7 @@
     "browser-sync": "^2.18.8",
     "browser-sync-webpack-plugin": "^1.1.4",
     "classnames": "^2.2.5",
+    "compression": "^1.6.2",
     "css-loader": "~0.26.0",
     "cxs": "^3.0.4",
     "ejs": "^2.5.6",
