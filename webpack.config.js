@@ -3,6 +3,7 @@ const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const Purify = require("purifycss-webpack-plugin");
 const BrowserSyncPlugin = require('browser-sync-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const CompressionPlugin = require('compression-webpack-plugin');
 const marked = require("marked");
 const data = require('./src/data')
 const renderer = new marked.Renderer();
@@ -150,10 +151,19 @@ module.exports = {
             reload: false
           }
         ),
+        new webpack.optimize.DedupePlugin(),
         new webpack.optimize.UglifyJsPlugin({
           compress:{
             warnings: false
           }
+        }),
+        new webpack.optimize.AggressiveMergingPlugin(),
+        new CompressionPlugin({
+          asset: "[path].gz[query]",
+          algorithm: "gzip",
+          test: /\.js$|\.css$|\.html$/,
+          threshold: 10240,
+          minRatio: 0.8
         })
     ]
 };

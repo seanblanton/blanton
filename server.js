@@ -6,8 +6,14 @@ const port = process.env.PORT || 8080
 const app = express()
 
 // Serve static assets
+app.use(compression());
 app.use(express.static(path.resolve(__dirname)));
-app.use(compression())
+
+app.get('*.js', function (req, res, next) {
+  req.url = req.url + '.gz';
+  res.set('Content-Encoding', 'gzip');
+  next();
+});
 
 app.get('*', (req, res) => {
   res.sendFile(path.resolve(__dirname + '/index.html'));
