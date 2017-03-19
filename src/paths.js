@@ -38,7 +38,7 @@ const Paths = {
 
 
   getMarkdownPath(path){
-    return axios.get('/src/posts/' + path + ".md");
+    return axios.get('/static/posts/' + path + ".md");
   },
 
   getMarkdown: (filename) => {
