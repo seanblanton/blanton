@@ -2,6 +2,7 @@ const webpack = require('webpack');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const Purify = require("purifycss-webpack-plugin");
 const BrowserSyncPlugin = require('browser-sync-webpack-plugin');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 const marked = require("marked");
 const data = require('./src/data')
 const renderer = new marked.Renderer();
@@ -103,6 +104,26 @@ module.exports = {
         ]
     },
     plugins: [
+        new webpack.DefinePlugin({
+          // A common mistake is not stringifying the "production" string.
+          'process.env.NODE_ENV': JSON.stringify('production')
+        }),
+           new HtmlWebpackPlugin({
+            inject: true,
+            template: 'index.html',
+            minify: {
+              removeComments: true,
+              collapseWhitespace: true,
+              removeRedundantAttributes: true,
+              useShortDoctype: true,
+              removeEmptyAttributes: true,
+              removeStyleLinkTypeAttributes: true,
+              keepClosingSlash: true,
+              minifyJS: true,
+              minifyCSS: true,
+              minifyURLs: true
+          }
+        }),
         new ExtractTextPlugin('dist/css/[name].css', {
           allChunks: true
         }),
@@ -133,12 +154,7 @@ module.exports = {
           compress:{
             warnings: false
           }
-        }),
-        new webpack.DefinePlugin({
-        'process.env': {
-            NODE_ENV: JSON.stringify(env)
-        }
-    }),
+        })
     ]
 };
 
