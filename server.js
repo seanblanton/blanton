@@ -6,6 +6,7 @@ const app = express()
 
 // Serve static assets
 app.use(express.static(path.resolve(__dirname)));
+app.use(compression())
 
 app.get('*', (req, res) => {
   res.sendFile(path.resolve(__dirname + '/index.html'));
