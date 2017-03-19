@@ -5,9 +5,11 @@ const compression = require('compression')
 const port = process.env.PORT || 8080
 const app = express()
 
+var cacheTime = 86400000*7;     // 7 days
+
 // Serve static assets
 app.use(compression());
-app.use(express.static(path.resolve(__dirname)));
+app.use(express.static(path.resolve(__dirname), { maxAge: cacheTime }));
 
 app.get('*.js', function (req, res, next) {
   req.url = req.url + '.gz';
