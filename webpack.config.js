@@ -109,22 +109,22 @@ module.exports = {
           // A common mistake is not stringifying the "production" string.
           'process.env.NODE_ENV': JSON.stringify('production')
         }),
-           new HtmlWebpackPlugin({
-            inject: true,
-            template: 'index.html',
-            minify: {
-              removeComments: true,
-              collapseWhitespace: true,
-              removeRedundantAttributes: true,
-              useShortDoctype: true,
-              removeEmptyAttributes: true,
-              removeStyleLinkTypeAttributes: true,
-              keepClosingSlash: true,
-              minifyJS: true,
-              minifyCSS: true,
-              minifyURLs: true
-          }
-        }),
+        //    new HtmlWebpackPlugin({
+        //     inject: true,
+        //     template: 'index.html',
+        //     minify: {
+        //       removeComments: true,
+        //       collapseWhitespace: true,
+        //       removeRedundantAttributes: true,
+        //       useShortDoctype: true,
+        //       removeEmptyAttributes: true,
+        //       removeStyleLinkTypeAttributes: true,
+        //       keepClosingSlash: true,
+        //       minifyJS: true,
+        //       minifyCSS: true,
+        //       minifyURLs: true
+        //   }
+        // }),
         new ExtractTextPlugin('dist/css/[name].css', {
           allChunks: true
         }),
