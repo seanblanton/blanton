@@ -63,7 +63,6 @@ class Post extends React.Component {
   componentDidMount() {
     const slug = Paths.getPostForPath(this.props.params.title);
     const post = Data.posts.filter(p => p.title === slug[0].toString()).reduce(a => a);
-
     Paths.getMarkdownPath(this.props.params.title)
       .then( file => {
           this.setState({ markdown: file.data,

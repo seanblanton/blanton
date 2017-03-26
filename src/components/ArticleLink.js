@@ -56,6 +56,7 @@ const cx = {
 }
 
 const ArticleLink = ({ children, title, date, datePath, file, ...props }) => {
+    console.log(Paths.getPathForTitleWithDate(title, datePath));
   return (
     <Link to={Paths.getPathForTitleWithDate(title, datePath)}>
       <View className={cx.link}>
