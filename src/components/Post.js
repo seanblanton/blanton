@@ -60,6 +60,12 @@ class Post extends React.Component {
     };
   }
 
+  componentWillMount() {
+    if (window.location.pathname != this.props.location.pathname) {
+      window.location.pathname = this.props.location.pathname;
+    }
+  }
+
   componentDidMount() {
     const slug = Paths.getPostForPath(this.props.params.title);
     const post = Data.posts.filter(p => p.title === slug[0].toString()).reduce(a => a);

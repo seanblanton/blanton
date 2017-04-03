@@ -9,7 +9,7 @@ import NotFound from './components/NotFound';
 export const routes = (
   <Route path="/" component={App}>
     <IndexRoute component={Home} />
-    <Route path="/:year/:month/:day/:title" component={Post} />
+    <Route path=":year/:month/:day/:title" component={Post} />
     <Route path="*" component={NotFound} />
   </Route>
 );

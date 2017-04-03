@@ -33,7 +33,7 @@ cxs('body', {
 
 
 ReactDOM.render(
-  <Router onUpdate={() => { window.scrollTo(0, 0); logPageView(); } } history={browserHistory}>
+  <Router onUpdate={() => { window.scrollTo(0, 0); logPageView(); } } history={browserHistory} key={Math.random()}>
     {routes}
   </Router>
 , document.getElementById('app'));

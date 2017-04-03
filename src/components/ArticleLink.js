@@ -55,6 +55,8 @@ const cx = {
   link: cxs(prefixed.link),
 }
 
+
+
 const ArticleLink = ({ children, title, date, datePath, file, ...props }) => {
     console.log(Paths.getPathForTitleWithDate(title, datePath));
   return (
