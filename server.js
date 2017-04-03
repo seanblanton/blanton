@@ -5,8 +5,8 @@ const compression = require('compression')
 const port = process.env.PORT || 8080
 const app = express()
 
-// var cacheTime = 86400000*7;     // 7 days
-var cacheTime = 1*7;     // 7 days
+var cacheTime = 86400000*7;     // 7 days
+
 
 // Serve static assets
 app.use(compression());
