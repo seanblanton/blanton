@@ -1,6 +1,6 @@
 module.exports = {
   name: 'Sean Blanton',
-  title: 'Product Designer at Curalate',
+  title: 'Product Designer at Facebook',
   bio: 'Working on scalable design systems and helping designers work better together',
   location: 'Living in Seattle, Washington',
   links: [
