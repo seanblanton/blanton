@@ -2,7 +2,7 @@
 const express = require('express')
 const path = require('path')
 const compression = require('compression')
-const port = process.env.PORT || 8080
+const port = 80
 const app = express()
 
 var cacheTime = 86400000*7;     // 7 days
