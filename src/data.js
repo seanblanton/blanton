@@ -11,6 +11,15 @@ module.exports = {
   posts: [
     {
       id: "1",
+      title: "The Map Is Not The Territory",
+      published: "2017-09-10",
+      includes: {
+        type: "md",
+        path: "post5.md",
+      }
+    },
+    {
+      id: "2",
       title: "Programmatic Color Palettes",
       published: "2017-01-17",
       includes: {
@@ -19,7 +28,7 @@ module.exports = {
       }
     },
     {
-      id: "2",
+      id: "3",
       title: "Which Shade Of Gray Should I Use For Disabled States",
       published: "2016-10-10",
       includes: {
@@ -28,7 +37,7 @@ module.exports = {
       }
     },
     {
-      id: "3",
+      id: "4",
       title: "Using System Fonts",
       published: "2016-09-25",
       includes: {
@@ -37,7 +46,7 @@ module.exports = {
       }
     },
     {
-      id: "4",
+      id: "5",
       title: "Fiction Writing For Designers",
       published: "2016-06-14",
       includes: {
@@ -46,7 +55,7 @@ module.exports = {
       }
     },
     {
-      id: "5",
+      id: "6",
       title: "Making Susy Grids Atomic",
       published: "2016-05-08",
       includes: {
@@ -56,5 +65,3 @@ module.exports = {
     },
   ],
 };
-
-
