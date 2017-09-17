@@ -1,4 +1,4 @@
-export const hostname = "http://localhost:3000"
+export const hostname = "http://138.68.10.12/"
 
 export const media = [
   '32rem',

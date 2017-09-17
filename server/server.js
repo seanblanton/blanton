@@ -1,6 +1,7 @@
 const { createServer } = require('http')
 const { parse } = require('url')
 const express = require('express');
+const compression = require('compression');
 const next = require('next')
 const repo = require('./repo')
 
@@ -13,7 +14,7 @@ const serialize = data => JSON.stringify({ data })
 
 app.prepare().then(() => {
 	const server = express();
-
+	server.use(compression());
 	server.use(express.static(__dirname + '/static'));
 
 
@@ -40,7 +41,7 @@ app.prepare().then(() => {
 			return handle(req, res);
 		});
 
-	server.listen(process.env.PORT || 3000, err => {
+	server.listen(80, err => {
 		if (err) throw err;
 		console.log('> Ready on http://localhost:' + (process.env.PORT || 3000));
 	});

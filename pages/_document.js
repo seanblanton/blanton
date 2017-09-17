@@ -28,6 +28,8 @@ export default class MyDocument extends Document {
 		return (
 			<html>
 				<Head>
+          <meta charset="UTF-8"/>
+          <meta name="viewport" content="width=device-width,initial-scale=1"/>
           <link rel="icon" type="image/x-icon" href={`${hostname}/static/favicon.ico?v=1.3`}/>
 					{/* ... */}
 
