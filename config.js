@@ -1,4 +1,4 @@
-export const hostname = "http://138.68.10.12/"
+export const hostname = "http://138.68.10.12:8080"
 
 export const media = [
   '32rem',

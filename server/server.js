@@ -4,6 +4,7 @@ const express = require('express');
 const compression = require('compression');
 const next = require('next')
 const repo = require('./repo')
+const PORT = 8080
 
 const dev = process.env.NODE_ENV !== 'production'
 const app = next({ dev })
@@ -41,7 +42,7 @@ app.prepare().then(() => {
 			return handle(req, res);
 		});
 
-	server.listen(80, err => {
+	server.listen(PORT, err => {
 		if (err) throw err;
 		console.log('> Ready on http://localhost:' + (process.env.PORT || 3000));
 	});
