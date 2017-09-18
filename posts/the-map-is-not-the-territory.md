@@ -1,6 +1,6 @@
 ---
 title: The Map Is Not The Territory
-date: 2017-09-10
+date: 2017-09-17
 ---
 
 Design systems have done much in terms of advocating for and advancing collective thought towards the notion of component-based design and development strategy. By documenting patterns and discussing the application and extension of those patterns, the design system has established a kind of **figure-ground** relationship between the things that are and are not a part of that system. What is, is recorded, and what is recorded describes what their is.
