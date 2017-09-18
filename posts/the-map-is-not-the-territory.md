@@ -10,7 +10,7 @@ But a design system is not a library of sketch symbols neatly arranged on an inf
 > A map is not the territory it represents, but, if correct, it has a similar structure to the territory, which accounts for its usefulness.
 > ##### – Alfred Korzybski, Science and Sanity (1933, p. 58)
 
-We would do well to keep Korzybski in mind when referencing what a design system and how accurately a design system should seek to represent its application blow-by-blow.
+We would do well to keep Korzybski in mind when referencing what a design system is and how accurately a design system should seek to represent its application blow-by-blow.
 
 Nothing can be devoid of place and time. For a thing to exist, it must exist at a particular point and place in time. Design systems describe not objects, but _possible_ objects, stripped down and generalized, and do not necessarily reference the relation of an object to its environment. These generalized concepts are things that cannot be fully described until the moment in which they exist again. Only though the application of a pattern in a particular situation can we truly say whether or not that pattern is a well-executed application of a system. The application of most parts of a design system are esoteric, and can only be described though metaphor.
 
