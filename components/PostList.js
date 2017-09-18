@@ -12,7 +12,6 @@ import {Heading, ParagraphSecondary} from './Text'
 class PostList extends React.Component {
   static async fetch() {
     try {
-
       const res = await fetch(`${hostname}/api/posts/`)
       const json = await res.json()
       return json ? json.data : {}

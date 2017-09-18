@@ -26,15 +26,7 @@ Index.getInitialProps = async function() {
 	const posts = await PostList.fetch();
 	return {
 		posts: posts,
-		debug: {
-			disabled: true,
-			size: 16,
-			color: 'blue',
-			outline: true
-		}
 	};
 };
-
-
 
 export default Index;

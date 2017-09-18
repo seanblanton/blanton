@@ -31,8 +31,6 @@ async function fetchPosts() {
 	return results;
 }
 
-
-// ## WHY CANT I SORT THESE
 const sortDates = (dateArray) => {
   dateArray.sort( (a, b) => {
     let dateA = moment(a.date, moment.ISO_8601)
@@ -47,7 +45,6 @@ const sortDates = (dateArray) => {
     }
   })
 }
-
 
 async function fetchPost(target) {
 	const postsDir = path.join(__dirname, '..', 'posts');

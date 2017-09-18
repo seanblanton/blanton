@@ -4,30 +4,21 @@ import styled from 'styled-components'
 import { colors, fontSizes, fontFamily, spacing} from "./../config";
 import { px } from "./../util/";
 
-export const Image = styled.div`
-  width: 100vw;
-  margin-left: -10vw;
-  margin-right: -10vw;
-  height: 100vh;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-image: url(${props => props.src});
+export const BlockQuote = styled.blockquote`
+  font-size: ${fontSizes[2]};
+  font-style: italic;
+  line-height: 1.7;
+  margin: ${px(spacing[6])} 0;
 `
 
-export const Pre = styled.pre`
+export const Code = styled.code`
   font-family: ${fontFamily.code};
-  padding: ${px(spacing[3])};
-  margin: 0;
-  white-space: pre-wrap;
+  padding: 4px;
   background-color: ${colors.gray3};
 `
 
-export const Paragraph = styled.p`
-  font-family: inherit;
-  font-size: 16;
-  line-height: 1.75;
-`
+export const CodeBlock = props =>
+  <Pre {...props} children={props.literal} />
 
 export const Heading = styled.h3`
     font-size: ${props => fontSizes[props.level] || '1em'};
@@ -39,19 +30,9 @@ export const Heading = styled.h3`
     margin: ${props => props.level <= 3 ? px(spacing[6]) : 0 } 0 0;
 `
 
-export const Code = styled.code`
-  font-family: ${fontFamily.code};
-  padding: 4px;
-  background-color: ${colors.gray3};
-`
-
-export const CodeBlock = props => <Pre {...props} children={props.literal} />
-
-export const BlockQuote = styled.blockquote`
-  font-size: ${fontSizes[2]};
-  font-style: italic;
-  line-height: 1.7;
-  margin: ${px(spacing[6])} 0;
+export const Item = styled.li`
+  &::before {
+  }
 `
 
 export const Link = styled.a`
@@ -63,13 +44,21 @@ export const Link = styled.a`
   }
 `
 
-export const Item = styled.li`
-  &::before {
-  }
+export const Paragraph = styled.p`
+  font-family: inherit;
+  font-size: 16;
+  line-height: 1.75;
+`
+
+export const Pre = styled.pre`
+  font-family: ${fontFamily.code};
+  padding: ${px(spacing[3])};
+  margin: 0;
+  white-space: pre-wrap;
+  background-color: ${colors.gray3};
 `
 
 const renderers = {
-  Image,
   Code,
   CodeBlock,
   BlockQuote,

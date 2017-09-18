@@ -2,8 +2,6 @@ import Document, { Head, Main, NextScript } from 'next/document'
 import {injectGlobal,  ServerStyleSheet } from 'styled-components'
 import { fontFamily, spacing, hostname } from './../config';
 
-
-
 // eslint-disable-next-line
 injectGlobal`
   * { box-sizing: border-box }
@@ -16,7 +14,6 @@ injectGlobal`
     margin: 0;
     padding: 0;
   }
-
 `;
 
 export default class MyDocument extends Document {
@@ -32,7 +29,6 @@ export default class MyDocument extends Document {
           <meta name="viewport" content="width=device-width,initial-scale=1"/>
           <link rel="icon" type="image/x-icon" href={`${hostname}/static/favicon.ico?v=1.3`}/>
 					{/* ... */}
-
 					{styleTags}
 				</Head>
 
@@ -40,7 +36,6 @@ export default class MyDocument extends Document {
 					<div className="root">
 						{main}
 					</div>
-
 					<NextScript />
 				</body>
 			</html>

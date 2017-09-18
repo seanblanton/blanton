@@ -13,6 +13,7 @@ class Post extends Component {
     initGA()
     logPageView()
   }
+
   render( ...props ) {
     return (
       <Container>

@@ -13,7 +13,6 @@ const Header = props => {
 					Sean Blanton
 				</Title>
 			</Link>
-
 			<Subtitle> Product Designer at Facebook </Subtitle>
 			<Paragraph> Working on building scalable design systems </Paragraph>
 		</Box>
