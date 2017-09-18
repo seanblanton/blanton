@@ -1,6 +1,7 @@
 const { createServer } = require('http')
 const { parse } = require('url')
 const express = require('express');
+const cors = require('cors')
 const compression = require('compression');
 const next = require('next')
 const repo = require('./repo')
@@ -15,6 +16,8 @@ const serialize = data => JSON.stringify({ data })
 
 app.prepare().then(() => {
 	const server = express();
+	
+	app.use(cors());
 	server.use(compression());
 	server.use(express.static(__dirname + '/static'));
 
