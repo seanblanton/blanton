@@ -16,8 +16,8 @@ const serialize = data => JSON.stringify({ data })
 
 app.prepare().then(() => {
 	const server = express();
-	
-	app.use(cors());
+
+	server.use(cors());
 	server.use(compression());
 	server.use(express.static(__dirname + '/static'));
 
