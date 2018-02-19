@@ -1,10 +1,10 @@
 import React, { Component } from "react";
-import fetch from 'isomorphic-unfetch'
+import fetch from 'isomorphic-fetch'
 import moment from 'moment'
 import { initGA, logPageView, spaceToDash } from './../util/'
 import { hostname } from './../config';
 import Container from "./../components/Container"
-import Header from './../components/Header'
+import PostHeader from './../components/PostHeader'
 import Body from './../components/Body'
 
 class Post extends Component {
@@ -17,7 +17,7 @@ class Post extends Component {
   render( ...props ) {
     return (
       <Container>
-        <Header />
+        <PostHeader />
         <Body {...this.props} />
       </Container>
     )

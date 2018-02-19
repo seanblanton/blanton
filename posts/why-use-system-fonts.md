@@ -14,10 +14,8 @@ But if you start to consider your performance budget, using webfonts starts to m
 > ### in·ter·face
 > ˈin(t)ərˌfās  - **noun**
 >
->
 > 1. a point where two systems, subjects, organizations, etc., meet and interact.
 > 2. a device or program enabling a user to communicate with a computer.
->
 >
 > ##### – [*From Google*](https://www.google.com/search?q=interface+definition&oq=interface+definition)
 
@@ -35,10 +33,7 @@ They also allow your site to feel native to the platform in which a user is expe
 If you must include webfonts as a part of your UI, at least consider the [alternatives](http://cognition.happycog.com/article/7-alternatives-to-popular-web-typefaces-for-better-performance) that might help reduce your page to help reduce weight and load them [in the most efficient way you can.](https://github.com/bramstein/fontfaceobserver)
 
 ### Further Reading
-[Bram Stein on loading fonts](http://bramstein.com/writing/)
-
-[Marcin Wichary on Using System UI Fonts in Web Design](https://www.smashingmagazine.com/2015/11/using-system-ui-fonts-practical-guide/)
-
-[Sites with System Fonts](https://github.com/mrmrs/awesome-system-fonts)
-
-[Katie Kovalcin on Designing wtih a Performance Budget](http://cognition.happycog.com/article/designing-with-a-performance-budget)
+- [Bram Stein on loading fonts](http://bramstein.com/writing/)
+- [Marcin Wichary on Using System UI Fonts in Web Design](https://www.smashingmagazine.com/2015/11/using-system-ui-fonts-practical-guide/)
+- [Sites with System Fonts](https://github.com/mrmrs/awesome-system-fonts)
+- [Katie Kovalcin on Designing wtih a Performance Budget](http://cognition.happycog.com/article/designing-with-a-performance-budget)

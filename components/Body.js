@@ -1,7 +1,7 @@
 import React from 'react'
 import moment from 'moment'
 import { spacing } from "./../config"
-import { Heading, ParagraphSecondary } from './Text'
+import { Title, ParagraphSecondary } from './Text'
 import Box from './Box'
 import Markdown from './Markdown'
 
@@ -9,9 +9,13 @@ class Body extends React.Component {
 
   render(props) {
     return (
-      <Box pt={spacing[5]} pb={spacing[5]}>
-        <Heading> {this.props.title} </Heading>
-        <ParagraphSecondary> {moment(this.props.date).format("MMMM D, YYYY")} </ParagraphSecondary>
+      <Box py={spacing[4]}>
+        <Box pb={spacing[4]}>
+          <Title> {this.props.title} </Title>
+          <ParagraphSecondary>
+            {moment(this.props.date).format("MMMM D, YYYY")}
+          </ParagraphSecondary>
+        </Box>
         <Markdown children={ this.props.body } />
       </Box>
     )

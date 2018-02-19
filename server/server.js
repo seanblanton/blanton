@@ -5,7 +5,7 @@ const cors = require('cors')
 const compression = require('compression');
 const next = require('next')
 const repo = require('./repo')
-const PORT = 8080
+const PORT = 3000
 
 const dev = process.env.NODE_ENV !== 'production'
 const app = next({ dev })

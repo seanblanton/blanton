@@ -9,6 +9,7 @@ const readFile = promisify(fs.readFile)
 const deserialize = parsed => ({
   title: parsed.attributes.title,
   date: parsed.attributes.date,
+  private: parsed.attributes.private,
   body: parsed.body
 })
 

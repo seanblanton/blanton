@@ -13,7 +13,7 @@ I wrote Susy Bricks as a module to extend Susy's mixins into atomic classes at m
 
 
 ```html
-    <div class="box xs-span12 md-span6 lg-span3">
+<div class="box xs-span12 md-span6 lg-span3">
 ```
 
 

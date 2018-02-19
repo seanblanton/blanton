@@ -27,12 +27,8 @@ Pretty dismal as far as options go. Just because WCAG AA doesn't specify a minim
 
 ### Best Practices
 
-Leave disabled form elements at their default styles, even though they don't meet WCAG A.
-
-But set the disabled label color to no darker than `#7F7F7F` to ensure that while the button isn't visible, the identifying label is still readable for most. This will serve as a clue for most users.
-
-Disable any visual styling on hover or click for disabled buttons or text to prevent confusion
-
-Consider some hint text, either in a tooltip or copy next to the disabled action instructing the user on why the action is disabled.
-
-Keep the contrast on regular, active items high so that the difference between active items and disabled items is still distinguishable at a glance.
+- Leave disabled form elements at their default styles, even though they don't meet WCAG A.
+- But set the disabled label color to no darker than `#7F7F7F` to ensure that while the button isn't visible, the identifying label is still readable for most. This will serve as a clue for most users.
+- Disable any visual styling on hover or click for disabled buttons or text to prevent confusion
+- Consider some hint text, either in a tooltip or copy next to the disabled action instructing the user on why the action is disabled.
+- Keep the contrast on regular, active items high so that the difference between active items and disabled items is still distinguishable at a glance.

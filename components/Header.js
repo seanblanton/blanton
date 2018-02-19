@@ -1,20 +1,22 @@
 import React from 'react'
 import { spacing } from './../config';
-import Link from 'next/link'
+import styled from "styled-components";
+
 import {Title, Subtitle, Paragraph} from './Text'
 import Box from "./Box"
-
+import StyledLink from './StyledLink'
 
 const Header = props => {
 	return (
-		<Box pb={spacing[3]}>
-			<Link href="/">
+		<Box py={spacing[6]}>
+			<StyledLink href="/">
 				<Title>
 					Sean Blanton
 				</Title>
-			</Link>
-			<Subtitle> Product Designer at Facebook </Subtitle>
-			<Paragraph> Working on building scalable design systems </Paragraph>
+			</StyledLink>
+			<Subtitle>
+				I'm a product designer designing and building design systems and tools at Facebook.
+			</Subtitle>
 		</Box>
 	);
 };

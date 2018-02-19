@@ -7,8 +7,8 @@ Design systems have done much in terms of advocating for and advancing collectiv
 
 But a design system is not a library of sketch symbols neatly arranged on an infinite canvas, nor is it a folder of components, or set of pre-made templates. It’s not the dos or the don’ts. And while design systems that are generated from code tend to be easier to maintain and describe a more **accurate** representation of what can actually be put into production for other people to use, than those drawn by hand in vector, assuming that a generated design system would be an ultimate source of truth will result in a design system with an equally narrow field of view as its inverse. The component itself, drawn or coded, has very few inherit *principles*, beyond its affordances, which describe what is known about it. For us to truly *know* any object, we need to know about every occurrence of that object. To do this would mean to edge slowly closer towards a system as lumbering as the application to which it represents.
 
-> A map is not the territory it represents, but, if correct, it has a similar structure to the territory, which accounts for its usefulness.
-> ##### – Alfred Korzybski, Science and Sanity (1933, p. 58)
+> A map is not the territory it represents, but, if correct, it has a similar structure to the territory, which accounts for its usefulness. **– Alfred Korzybski, Science and Sanity (1933, p. 58)**
+
 
 We would do well to keep Korzybski in mind when referencing what a design system is and how accurately a design system should seek to represent its application blow-by-blow.
 

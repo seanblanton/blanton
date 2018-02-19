@@ -20,7 +20,6 @@ When I tell you a story, it's because I need to tell you something about the way
 
 > "Is this what I think? And is this all I have to say? And am I making myself understood?"
 
-
 And herein lays the key problem: the words I write can only sketch the outline of what it is I mean to say. But then I present these words as a tangible artifact of who I am and what I think.
 
 As a designer, my understanding of the person whom I design for can only ever be a sketch of who I think they might be, not who they are. It helps to practice healthy skepticism:

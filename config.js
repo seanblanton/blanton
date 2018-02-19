@@ -1,4 +1,7 @@
-export const hostname = "http://www.sean-blanton.com:8080"
+// export const hostname = "http://www.sean-blanton.com:8080"
+export const hostname = "http://localhost:3000"
+
+export const transition = `all 0.15s ease-in-out`
 
 export const media = [
   '32rem',
@@ -7,10 +10,12 @@ export const media = [
 ].map(b => `@media (min-width: ${b})`)
 
 const gray1 = '#2F3031';
-const gray2 = '#72777A';
-const gray3 = '#F7F7F7';
+const gray2 = '#4E5254';
+const gray3 = '#72777A';
+const gray4 = '#F7F7F7';
 const teal1 = '#00738E';
 const teal2 = '#00BCD5';
+const indigo0 = '#F3E5FD';
 const indigo1 = '#520093';
 const indigo2 = '#8B00F3';
 
@@ -29,12 +34,13 @@ export const spacing = [
 ]
 
 export const fontSizes = [
-  '3em',
+  '2.5em',
   '2em',
   '1.5em',
   '1.25em',
   '1em',
-  '0.875em'
+  '0.875em',
+  '0.75em',
 ]
 
 export const breakpoints = {
@@ -49,7 +55,7 @@ export const fontFamily = {
 }
 
 export const colors = {
-  gray1, gray2, gray3, teal1, teal2, indigo1, indigo2
+  gray1, gray2, gray3, gray4, indigo0, indigo1, indigo2
 }
 
 export const measure = {
