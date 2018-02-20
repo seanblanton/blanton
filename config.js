@@ -1,4 +1,4 @@
-export const hostname = "http://www.sean-blanton.com:8080"
+export const hostname = "http://www.sean-blanton.com"
 
 export const transition = `all 0.15s ease-in-out`
 
