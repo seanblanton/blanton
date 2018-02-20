@@ -1,11 +1,11 @@
-const { createServer } = require('http')
-const { parse } = require('url')
+const { createServer } = require('http');
+const { parse } = require('url');
 const express = require('express');
-const cors = require('cors')
+const cors = require('cors');
 const compression = require('compression');
-const next = require('next')
-const repo = require('./repo')
-const PORT = 8080
+const next = require('next');
+const repo = require('./repo');
+const PORT = 80
 
 const dev = process.env.NODE_ENV !== 'production'
 const app = next({ dev })
@@ -47,7 +47,7 @@ app.prepare().then(() => {
 
 	server.listen(PORT, err => {
 		if (err) throw err;
-		console.log('> Ready on http://localhost:' + (process.env.PORT || 8080));
+		console.log('> Ready on ' + (process.env.PORT || 3000));
 	});
 
 });

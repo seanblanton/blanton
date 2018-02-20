@@ -1,4 +1,4 @@
-export const hostname = "http://www.sean-blanton.com"
+export const hostname = "http://localhost"
 
 export const transition = `all 0.15s ease-in-out`
 

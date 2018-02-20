@@ -3,7 +3,7 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-var hostname = exports.hostname = "http://www.sean-blanton.com";
+var hostname = exports.hostname = "http://localhost";
 
 var transition = exports.transition = 'all 0.15s ease-in-out';
 
