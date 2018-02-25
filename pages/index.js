@@ -25,7 +25,6 @@ class Index extends Component {
 Index.getInitialProps = async function() {
 	const posts = await PostList.fetch();
 
-  console.log(posts);
 	return {
 		posts: posts,
 	};

@@ -89,13 +89,11 @@ Index.getInitialProps = (0, _asyncToGenerator3.default)( /*#__PURE__*/_regenerat
 
         case 2:
           posts = _context.sent;
-
-          console.log(posts);
           return _context.abrupt("return", {
             posts: posts
           });
 
-        case 5:
+        case 4:
         case "end":
           return _context.stop();
       }
