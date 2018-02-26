@@ -62,7 +62,7 @@ var config = {
 		padding: 0,
 		margin: 0,
 		color: _config.colors.gray3,
-		maxWidth: '75%'
+		maxWidth: '60%'
 	},
 	"heading": {
 		fontSize: _config.fontSizes[3],

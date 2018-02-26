@@ -30,7 +30,7 @@ const config = {
 		padding: 0,
 		margin: 0,
 		color: colors.gray3,
-		maxWidth: '75%',
+		maxWidth: '60%',
 	},
 	"heading": {
 		fontSize: fontSizes[3],
