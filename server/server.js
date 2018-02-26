@@ -45,9 +45,9 @@ app.prepare().then(() => {
 			return handle(req, res);
 		});
 
-	server.listen(process.env.PORT || PORT, err => {
+	server.listen(PORT, err => {
 		if (err) throw err;
-		console.log('Express server listening on port %d in %s mode', process.env.PORT , app.settings.env);
+		console.log('> Ready on ' + (process.env.PORT || 3000));
 	});
 
 });
