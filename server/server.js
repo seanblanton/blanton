@@ -21,6 +21,10 @@ app.prepare().then(() => {
 	server.use(compression());
 	server.use(express.static(__dirname + '/static'));
 
+	server.get('/robots.txt', function (req, res) {
+	    res.type('text/plain');
+	    res.send("User-agent: *\nDisallow: /static/\nDisallow: /api/");
+	});
 
 	server.get('/api/posts', async (req, res) => {
 		const posts = await repo.fetchPosts();
