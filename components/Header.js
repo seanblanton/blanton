@@ -15,7 +15,7 @@ const Header = props => {
 				</Title>
 			</StyledLink>
 			<Subtitle>
-				I'm a product designer designing and building design systems and tools at Facebook.
+				I'm a product designer building design systems and tools at Facebook.
 			</Subtitle>
 		</Box>
 	);
