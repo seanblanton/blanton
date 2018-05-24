@@ -1,6 +1,12 @@
-import React from 'react'
-import styled from 'styled-components'
-import { breakpoints, colors, fontSize, spacing, transition } from './../config'
+import React from 'react';
+import styled from 'styled-components';
+import {
+	breakpoints,
+	colors,
+	fontSize,
+	spacing,
+	transition
+} from './../config';
 
 export const MarkdownBody = styled.div`
 	h1 {
@@ -119,12 +125,21 @@ export const MarkdownBody = styled.div`
 		margin: 3em 0;
 	}
 
-	p, ui, li, tr, tr {
+	p,
+	ui,
+	li,
+	tr,
+	tr {
 		& code {
 			background-color: ${colors.teal0};
 			color: ${colors.teal2};
+			font-size: ${fontSize.m};
 			padding: 0.3em 0.5em !important;
 			margin: 0.2em;
+
+			${breakpoints.medium} {
+				font-size: ${fontSize.m};
+			}
 		}
 	}
 
@@ -136,10 +151,11 @@ export const MarkdownBody = styled.div`
 		font-weight: 700;
 	}
 
-	td , th {
+	td,
+	th {
 		border-collapse: separate;
 		border-bottom: 1px solid ${colors.gray4};
-		padding: 0.75em 1em ;
+		padding: 0.75em 1em;
 		text-align: left !important;
 	}
-`
+`;

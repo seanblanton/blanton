@@ -1,0 +1,2881 @@
+{
+  "nodes": {
+    "SitePage /dev-404-page/": {
+      "path": "/dev-404-page/",
+      "id": "SitePage /dev-404-page/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin dev-404-page": {
+      "resolve": "/Users/seanblanton/Documents/Sites/blanton/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "id": "Plugin dev-404-page",
+      "name": "dev-404-page",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/seanblanton/Documents/Sites/blanton/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "packageJson": {
+        "name": "dev-404-page",
+        "description": "Internal plugin to add a 404 page in development with helpful information",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "e7000fed1afd82a33b9bbf8f298b51c0",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin component-page-creator": {
+      "resolve": "/Users/seanblanton/Documents/Sites/blanton/node_modules/gatsby/dist/internal-plugins/component-page-creator",
+      "id": "Plugin component-page-creator",
+      "name": "component-page-creator",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/seanblanton/Documents/Sites/blanton/node_modules/gatsby/dist/internal-plugins/component-page-creator",
+      "packageJson": {
+        "name": "component-page-creator",
+        "description": "An internal Gatsby plugin that creates pages from component files in src/pages",
+        "version": "1.0.0",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "419ff833dfb67e42d7716c0d7f146f65",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin component-layout-creator": {
+      "resolve": "/Users/seanblanton/Documents/Sites/blanton/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
+      "id": "Plugin component-layout-creator",
+      "name": "component-layout-creator",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createLayouts"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/seanblanton/Documents/Sites/blanton/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
+      "packageJson": {
+        "name": "component-layout-creator",
+        "description": "An internal Gatsby plugin that creates pages from component files in src/layouts",
+        "version": "1.0.0",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "c1ab5ab5198a8c3079cfe8f02230c2f2",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin internal-data-bridge": {
+      "resolve": "/Users/seanblanton/Documents/Sites/blanton/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "id": "Plugin internal-data-bridge",
+      "name": "internal-data-bridge",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/seanblanton/Documents/Sites/blanton/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "packageJson": {
+        "name": "internal-data-bridge",
+        "description": "An internal Gatsby plugin which creates data nodes from internal data",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "b0954fe0d62493a4d25493f7e340e605",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin prod-404": {
+      "resolve": "/Users/seanblanton/Documents/Sites/blanton/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "id": "Plugin prod-404",
+      "name": "prod-404",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/seanblanton/Documents/Sites/blanton/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "packageJson": {
+        "name": "prod-404",
+        "description": "Internal plugin to detect various flavors of 404 pages and ensure there's a 404.html path created as well to ensure compatability with static hosts",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "d401b1e1d05958d13e14f6230924af6c",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin query-runner": {
+      "resolve": "/Users/seanblanton/Documents/Sites/blanton/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "id": "Plugin query-runner",
+      "name": "query-runner",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage",
+        "onCreateLayout"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/seanblanton/Documents/Sites/blanton/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "packageJson": {
+        "name": "query-runner",
+        "description": "Internal plugin for running queries",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "6943c7d8c8c125b40189e1520694b7c1",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-source-filesystem": {
+      "resolve": "/Users/seanblanton/Documents/Sites/blanton/node_modules/gatsby-source-filesystem",
+      "id": "Plugin gatsby-source-filesystem",
+      "name": "gatsby-source-filesystem",
+      "version": "1.5.36",
+      "pluginOptions": {
+        "plugins": [],
+        "name": "src",
+        "path": "/Users/seanblanton/Documents/Sites/blanton/src/"
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/seanblanton/Documents/Sites/blanton/node_modules/gatsby-source-filesystem",
+      "packageJson": {
+        "name": "gatsby-source-filesystem",
+        "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
+        "version": "1.5.36",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "better-queue",
+            "version": "^3.8.7"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^4.0.1"
+          },
+          {
+            "name": "got",
+            "version": "^7.1.0"
+          },
+          {
+            "name": "md5-file",
+            "version": "^3.1.1"
+          },
+          {
+            "name": "mime",
+            "version": "^1.3.6"
+          },
+          {
+            "name": "pretty-bytes",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "valid-url",
+            "version": "^1.0.9"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.9.250"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "617e1bd51f7a291167611887a07061b5",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-transformer-remark": {
+      "resolve": "/Users/seanblanton/Documents/Sites/blanton/node_modules/gatsby-transformer-remark",
+      "id": "Plugin gatsby-transformer-remark",
+      "name": "gatsby-transformer-remark",
+      "version": "1.7.41",
+      "pluginOptions": {
+        "plugins": [
+          {
+            "resolve": "/Users/seanblanton/Documents/Sites/blanton/node_modules/gatsby-remark-prismjs",
+            "id": "Plugin gatsby-remark-prismjs",
+            "name": "gatsby-remark-prismjs",
+            "version": "2.0.2",
+            "pluginOptions": {
+              "plugins": [],
+              "classPrefix": "language-",
+              "inlineCodeMarker": "›",
+              "aliases": {}
+            },
+            "nodeAPIs": [],
+            "browserAPIs": [],
+            "ssrAPIs": [],
+            "pluginFilepath": "/Users/seanblanton/Documents/Sites/blanton/node_modules/gatsby-remark-prismjs"
+          }
+        ]
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/seanblanton/Documents/Sites/blanton/node_modules/gatsby-transformer-remark",
+      "packageJson": {
+        "name": "gatsby-transformer-remark",
+        "description": "Gatsby transformer plugin for Markdown using the Remark library and ecosystem",
+        "version": "1.7.41",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "markdown",
+          "remark"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "graphql-type-json",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "gray-matter",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "hast-util-raw",
+            "version": "^2.0.2"
+          },
+          {
+            "name": "hast-util-to-html",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "mdast-util-to-hast",
+            "version": "^2.4.0"
+          },
+          {
+            "name": "mdast-util-toc",
+            "version": "^2.0.1"
+          },
+          {
+            "name": "remark",
+            "version": "^7.0.1"
+          },
+          {
+            "name": "remark-parse",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "remark-retext",
+            "version": "^3.1.0"
+          },
+          {
+            "name": "remark-stringify",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "retext-english",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "sanitize-html",
+            "version": "^1.14.1"
+          },
+          {
+            "name": "underscore.string",
+            "version": "^3.3.4"
+          },
+          {
+            "name": "unified",
+            "version": "^6.1.5"
+          },
+          {
+            "name": "unist-util-remove-position",
+            "version": "^1.1.1"
+          },
+          {
+            "name": "unist-util-select",
+            "version": "^1.5.0"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.1.1"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "babel-plugin-transform-object-rest-spread",
+            "version": "^6.20.2"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "f03fd26df563753388b51c278d30f6c2",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-remark-prismjs": {
+      "resolve": "/Users/seanblanton/Documents/Sites/blanton/node_modules/gatsby-remark-prismjs",
+      "id": "Plugin gatsby-remark-prismjs",
+      "name": "gatsby-remark-prismjs",
+      "version": "2.0.2",
+      "pluginOptions": {
+        "plugins": [],
+        "classPrefix": "language-",
+        "inlineCodeMarker": "›",
+        "aliases": {}
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/seanblanton/Documents/Sites/blanton/node_modules/gatsby-remark-prismjs",
+      "packageJson": {
+        "name": "gatsby-remark-prismjs",
+        "description": "Adds syntax highlighting to code blocks at build time using PrismJS",
+        "version": "2.0.2",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "prismjs",
+          "remark"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "parse-numeric-range",
+            "version": "0.0.2"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.3.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.3"
+          },
+          {
+            "name": "prismjs",
+            "version": "^1.13.0"
+          },
+          {
+            "name": "remark",
+            "version": "^7.0.1"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "prismjs",
+            "version": "^1.13.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "1a44c2c8d61aa86587f8673a011c657c",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-react-helmet": {
+      "resolve": "/Users/seanblanton/Documents/Sites/blanton/node_modules/gatsby-plugin-react-helmet",
+      "id": "Plugin gatsby-plugin-react-helmet",
+      "name": "gatsby-plugin-react-helmet",
+      "version": "2.0.11",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/seanblanton/Documents/Sites/blanton/node_modules/gatsby-plugin-react-helmet",
+      "packageJson": {
+        "name": "gatsby-plugin-react-helmet",
+        "description": "Manage document head data with react-helmet. Provides drop-in server rendering support for Gatsby.",
+        "version": "2.0.11",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "favicon",
+          "react-helmet",
+          "seo",
+          "document",
+          "head",
+          "title",
+          "meta",
+          "link",
+          "script",
+          "base",
+          "noscript",
+          "style"
+        ],
+        "author": "Kyle Mathews <matthews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "react-helmet",
+            "version": ">=5.1.3"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "ffe03bd127b8df920798a0cb8de5e60f",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-styled-components": {
+      "resolve": "/Users/seanblanton/Documents/Sites/blanton/node_modules/gatsby-plugin-styled-components",
+      "id": "Plugin gatsby-plugin-styled-components",
+      "name": "gatsby-plugin-styled-components",
+      "version": "2.0.11",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "modifyBabelrc"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "replaceRenderer"
+      ],
+      "pluginFilepath": "/Users/seanblanton/Documents/Sites/blanton/node_modules/gatsby-plugin-styled-components",
+      "packageJson": {
+        "name": "gatsby-plugin-styled-components",
+        "description": "Gatsby plugin to add support for styled components",
+        "version": "2.0.11",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "styled-components"
+        ],
+        "author": "Guten Ye <ywzhaifei@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "babel-plugin-styled-components",
+            "version": ">1.5.0"
+          },
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "styled-components",
+            "version": ">= 2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "c517837ac721a56f5202c539c2169c9b",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-offline": {
+      "resolve": "/Users/seanblanton/Documents/Sites/blanton/node_modules/gatsby-plugin-offline",
+      "id": "Plugin gatsby-plugin-offline",
+      "name": "gatsby-plugin-offline",
+      "version": "1.0.16",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPages",
+        "onPostBuild"
+      ],
+      "browserAPIs": [
+        "registerServiceWorker"
+      ],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/seanblanton/Documents/Sites/blanton/node_modules/gatsby-plugin-offline",
+      "packageJson": {
+        "name": "gatsby-plugin-offline",
+        "description": "Gatsby plugin which sets up a site to be able to run offline",
+        "version": "1.0.16",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "offline",
+          "precache",
+          "service-worker"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "sw-precache",
+            "version": "^5.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "8acb137a32ab59a4dbcc1e1dda4bb045",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-remark-smartypants": {
+      "resolve": "/Users/seanblanton/Documents/Sites/blanton/node_modules/gatsby-remark-smartypants",
+      "id": "Plugin gatsby-remark-smartypants",
+      "name": "gatsby-remark-smartypants",
+      "version": "1.4.12",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/seanblanton/Documents/Sites/blanton/node_modules/gatsby-remark-smartypants",
+      "packageJson": {
+        "name": "gatsby-remark-smartypants",
+        "description": "Use retext-smartypants to auto-enhance typography of markdown",
+        "version": "1.4.12",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "smartypants"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "retext",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "retext-smartypants",
+            "version": "^2.0.0"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.1.1"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "4fc98644e6692bd64f58e049b17b617e",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-google-analytics": {
+      "resolve": "/Users/seanblanton/Documents/Sites/blanton/node_modules/gatsby-plugin-google-analytics",
+      "id": "Plugin gatsby-plugin-google-analytics",
+      "name": "gatsby-plugin-google-analytics",
+      "version": "1.0.31",
+      "pluginOptions": {
+        "plugins": [],
+        "trackingId": "UA-29141738-1",
+        "head": false,
+        "anonymize": true,
+        "respectDNT": true
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [
+        "onRouteUpdate"
+      ],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/seanblanton/Documents/Sites/blanton/node_modules/gatsby-plugin-google-analytics",
+      "packageJson": {
+        "name": "gatsby-plugin-google-analytics",
+        "description": "Gatsby plugin to add google analytics onto a site",
+        "version": "1.0.31",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "google analytics"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "579459480bf1c565e6edd6b8530d4da6",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-nprogress": {
+      "resolve": "/Users/seanblanton/Documents/Sites/blanton/node_modules/gatsby-plugin-nprogress",
+      "id": "Plugin gatsby-plugin-nprogress",
+      "name": "gatsby-plugin-nprogress",
+      "version": "1.0.14",
+      "pluginOptions": {
+        "plugins": [],
+        "color": "#0ebcc7",
+        "showSpinner": false
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [
+        "onClientEntry"
+      ],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/seanblanton/Documents/Sites/blanton/node_modules/gatsby-plugin-nprogress",
+      "packageJson": {
+        "name": "gatsby-plugin-nprogress",
+        "description": "Shows page loading indicator when loading page resources is delayed",
+        "version": "1.0.14",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews<mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "nprogress",
+            "version": "^0.2.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "5ac7daa12f0827468cdab57b364e14e5",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-favicon": {
+      "resolve": "/Users/seanblanton/Documents/Sites/blanton/node_modules/gatsby-plugin-favicon",
+      "id": "Plugin gatsby-plugin-favicon",
+      "name": "gatsby-plugin-favicon",
+      "version": "2.1.1",
+      "pluginOptions": {
+        "plugins": [],
+        "logo": "./src/favicon.png",
+        "injectHTML": true,
+        "icons": {
+          "android": true,
+          "appleIcon": true,
+          "appleStartup": true,
+          "coast": false,
+          "favicons": true,
+          "firefox": true,
+          "twitter": false,
+          "yandex": false,
+          "windows": false
+        }
+      },
+      "nodeAPIs": [
+        "modifyWebpackConfig"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/seanblanton/Documents/Sites/blanton/node_modules/gatsby-plugin-favicon",
+      "packageJson": {
+        "name": "gatsby-plugin-favicon",
+        "description": "Gatsby plugin to add favicon for all configurations",
+        "version": "2.1.1",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "favicon"
+        ],
+        "author": "Julien Blatecky <julien.blatecky@creatiwity.net>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "favicons-webpack-plugin",
+            "version": "0.0.7"
+          },
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "babel-plugin-transform-object-rest-spread",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "babel-preset-env",
+            "version": "^1.6.1"
+          },
+          {
+            "name": "babel-preset-react",
+            "version": "^6.24.1"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.1"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "97ff7a261263ea8071d2e6dd7869fa12",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin default-site-plugin": {
+      "resolve": "/Users/seanblanton/Documents/Sites/blanton",
+      "id": "Plugin default-site-plugin",
+      "name": "default-site-plugin",
+      "version": "5171ff0b7b588554936b181ea4a0c015",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "createPages"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/seanblanton/Documents/Sites/blanton",
+      "packageJson": {
+        "name": "blanton",
+        "description": "Sean Blanton portfolio site",
+        "version": "3.0.0",
+        "keywords": [
+          "gatsby"
+        ],
+        "author": "Sean Blanton",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-plugin-styled-components",
+            "version": "^1.5.1"
+          },
+          {
+            "name": "gatsby",
+            "version": "^1.9.247"
+          },
+          {
+            "name": "gatsby-link",
+            "version": "^1.6.40"
+          },
+          {
+            "name": "gatsby-plugin-favicon",
+            "version": "^2.1.1"
+          },
+          {
+            "name": "gatsby-plugin-google-analytics",
+            "version": "^1.0.31"
+          },
+          {
+            "name": "gatsby-plugin-nprogress",
+            "version": "^1.0.14"
+          },
+          {
+            "name": "gatsby-plugin-offline",
+            "version": "^1.0.16"
+          },
+          {
+            "name": "gatsby-plugin-react-helmet",
+            "version": "^2.0.10"
+          },
+          {
+            "name": "gatsby-plugin-styled-components",
+            "version": "^2.0.11"
+          },
+          {
+            "name": "gatsby-remark-component",
+            "version": "^1.1.3"
+          },
+          {
+            "name": "gatsby-remark-prismjs",
+            "version": "^2.0.2"
+          },
+          {
+            "name": "gatsby-remark-smartypants",
+            "version": "^1.4.12"
+          },
+          {
+            "name": "gatsby-source-filesystem",
+            "version": "^1.5.36"
+          },
+          {
+            "name": "gatsby-transformer-remark",
+            "version": "^1.7.41"
+          },
+          {
+            "name": "prismjs",
+            "version": "^1.14.0"
+          },
+          {
+            "name": "react-helmet",
+            "version": "^5.2.0"
+          },
+          {
+            "name": "styled-components",
+            "version": "^3.2.6"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "loader-utils",
+            "version": "^1.1.0"
+          },
+          {
+            "name": "prettier",
+            "version": "^1.12.0"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "871cbaeeea859cc91b2fb793f7689273",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Site": {
+      "siteMetadata": {
+        "title": "Sean Blanton",
+        "description": "Sean Blanton is a Product Designer living in Seattle, Washington building design systems and tools at Facebook."
+      },
+      "pathPrefix": "",
+      "polyfill": true,
+      "buildTime": "2018-05-24T05:53:20.818Z",
+      "id": "Site",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "29344ef7d2c3f2208a727ac000269565",
+        "type": "Site",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "/Users/seanblanton/Documents/Sites/blanton/src/ absPath of file": {
+      "id": "/Users/seanblanton/Documents/Sites/blanton/src/ absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "aaa6d4585aa52ee79477894234d0fe7c",
+        "type": "Directory",
+        "description": "Directory \"src\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/seanblanton/Documents/Sites/blanton/src/",
+      "relativePath": "",
+      "extension": "",
+      "size": 374,
+      "prettySize": "374 B",
+      "modifiedTime": "2018-05-24T05:04:34.000Z",
+      "accessTime": "2018-05-24T05:53:25.000Z",
+      "changeTime": "2018-05-24T05:06:46.000Z",
+      "birthTime": "2018-05-17T03:43:23.000Z",
+      "root": "/",
+      "dir": "/Users/seanblanton/Documents/Sites/blanton",
+      "base": "src",
+      "ext": "",
+      "name": "src",
+      "relativeDirectory": "..",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 11,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 55144918,
+      "blocks": 0,
+      "atimeMs": 1527141205000,
+      "mtimeMs": 1527138274000,
+      "ctimeMs": 1527138406000,
+      "birthtimeMs": 1526528603000,
+      "atime": "2018-05-24T05:53:25.000Z",
+      "mtime": "2018-05-24T05:04:34.000Z",
+      "ctime": "2018-05-24T05:06:46.000Z",
+      "birthtime": "2018-05-17T03:43:23.000Z"
+    },
+    "/Users/seanblanton/Documents/Sites/blanton/src/components absPath of file": {
+      "id": "/Users/seanblanton/Documents/Sites/blanton/src/components absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "4c2af4163908d35e2181a69d207ef5e8",
+        "type": "Directory",
+        "description": "Directory \"src/components\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/seanblanton/Documents/Sites/blanton/src/components",
+      "relativePath": "components",
+      "extension": "",
+      "size": 170,
+      "prettySize": "170 B",
+      "modifiedTime": "2018-05-24T05:04:34.000Z",
+      "accessTime": "2018-05-24T05:53:25.000Z",
+      "changeTime": "2018-05-24T05:06:46.000Z",
+      "birthTime": "2018-05-24T05:04:34.000Z",
+      "root": "/",
+      "dir": "/Users/seanblanton/Documents/Sites/blanton/src",
+      "base": "components",
+      "ext": "",
+      "name": "components",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 5,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 55178081,
+      "blocks": 0,
+      "atimeMs": 1527141205000,
+      "mtimeMs": 1527138274000,
+      "ctimeMs": 1527138406000,
+      "birthtimeMs": 1527138274000,
+      "atime": "2018-05-24T05:53:25.000Z",
+      "mtime": "2018-05-24T05:04:34.000Z",
+      "ctime": "2018-05-24T05:06:46.000Z",
+      "birthtime": "2018-05-24T05:04:34.000Z"
+    },
+    "/Users/seanblanton/Documents/Sites/blanton/src/layouts absPath of file": {
+      "id": "/Users/seanblanton/Documents/Sites/blanton/src/layouts absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "9c61d2b24b42fb9c83b4a1e4f27a1357",
+        "type": "Directory",
+        "description": "Directory \"src/layouts\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/seanblanton/Documents/Sites/blanton/src/layouts",
+      "relativePath": "layouts",
+      "extension": "",
+      "size": 102,
+      "prettySize": "102 B",
+      "modifiedTime": "2018-05-24T05:04:34.000Z",
+      "accessTime": "2018-05-24T05:53:25.000Z",
+      "changeTime": "2018-05-24T05:06:46.000Z",
+      "birthTime": "2018-05-24T05:04:34.000Z",
+      "root": "/",
+      "dir": "/Users/seanblanton/Documents/Sites/blanton/src",
+      "base": "layouts",
+      "ext": "",
+      "name": "layouts",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 3,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 55178087,
+      "blocks": 0,
+      "atimeMs": 1527141205000,
+      "mtimeMs": 1527138274000,
+      "ctimeMs": 1527138406000,
+      "birthtimeMs": 1527138274000,
+      "atime": "2018-05-24T05:53:25.000Z",
+      "mtime": "2018-05-24T05:04:34.000Z",
+      "ctime": "2018-05-24T05:06:46.000Z",
+      "birthtime": "2018-05-24T05:04:34.000Z"
+    },
+    "/Users/seanblanton/Documents/Sites/blanton/src/pages absPath of file": {
+      "id": "/Users/seanblanton/Documents/Sites/blanton/src/pages absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "5f51eeb297c3bcdd56348df3dcccab3b",
+        "type": "Directory",
+        "description": "Directory \"src/pages\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/seanblanton/Documents/Sites/blanton/src/pages",
+      "relativePath": "pages",
+      "extension": "",
+      "size": 136,
+      "prettySize": "136 B",
+      "modifiedTime": "2018-05-24T05:04:34.000Z",
+      "accessTime": "2018-05-24T05:53:25.000Z",
+      "changeTime": "2018-05-24T05:06:46.000Z",
+      "birthTime": "2018-05-24T05:04:34.000Z",
+      "root": "/",
+      "dir": "/Users/seanblanton/Documents/Sites/blanton/src",
+      "base": "pages",
+      "ext": "",
+      "name": "pages",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 4,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 55178089,
+      "blocks": 0,
+      "atimeMs": 1527141205000,
+      "mtimeMs": 1527138274000,
+      "ctimeMs": 1527138406000,
+      "birthtimeMs": 1527138274000,
+      "atime": "2018-05-24T05:53:25.000Z",
+      "mtime": "2018-05-24T05:04:34.000Z",
+      "ctime": "2018-05-24T05:06:46.000Z",
+      "birthtime": "2018-05-24T05:04:34.000Z"
+    },
+    "/Users/seanblanton/Documents/Sites/blanton/src/posts absPath of file": {
+      "id": "/Users/seanblanton/Documents/Sites/blanton/src/posts absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "47325664c94ed0182ad6563661c88554",
+        "type": "Directory",
+        "description": "Directory \"src/posts\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/seanblanton/Documents/Sites/blanton/src/posts",
+      "relativePath": "posts",
+      "extension": "",
+      "size": 340,
+      "prettySize": "340 B",
+      "modifiedTime": "2018-05-24T05:04:34.000Z",
+      "accessTime": "2018-05-24T05:53:25.000Z",
+      "changeTime": "2018-05-24T05:06:46.000Z",
+      "birthTime": "2018-05-24T05:04:34.000Z",
+      "root": "/",
+      "dir": "/Users/seanblanton/Documents/Sites/blanton/src",
+      "base": "posts",
+      "ext": "",
+      "name": "posts",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 10,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 55178092,
+      "blocks": 0,
+      "atimeMs": 1527141205000,
+      "mtimeMs": 1527138274000,
+      "ctimeMs": 1527138406000,
+      "birthtimeMs": 1527138274000,
+      "atime": "2018-05-24T05:53:25.000Z",
+      "mtime": "2018-05-24T05:04:34.000Z",
+      "ctime": "2018-05-24T05:06:46.000Z",
+      "birthtime": "2018-05-24T05:04:34.000Z"
+    },
+    "/Users/seanblanton/Documents/Sites/blanton/src/templates absPath of file": {
+      "id": "/Users/seanblanton/Documents/Sites/blanton/src/templates absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "7350b63b4337da32a399b926213fc9e9",
+        "type": "Directory",
+        "description": "Directory \"src/templates\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/seanblanton/Documents/Sites/blanton/src/templates",
+      "relativePath": "templates",
+      "extension": "",
+      "size": 102,
+      "prettySize": "102 B",
+      "modifiedTime": "2018-05-24T05:04:34.000Z",
+      "accessTime": "2018-05-24T05:53:25.000Z",
+      "changeTime": "2018-05-24T05:06:46.000Z",
+      "birthTime": "2018-05-24T05:04:34.000Z",
+      "root": "/",
+      "dir": "/Users/seanblanton/Documents/Sites/blanton/src",
+      "base": "templates",
+      "ext": "",
+      "name": "templates",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 3,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 55178101,
+      "blocks": 0,
+      "atimeMs": 1527141205000,
+      "mtimeMs": 1527138274000,
+      "ctimeMs": 1527138406000,
+      "birthtimeMs": 1527138274000,
+      "atime": "2018-05-24T05:53:25.000Z",
+      "mtime": "2018-05-24T05:04:34.000Z",
+      "ctime": "2018-05-24T05:06:46.000Z",
+      "birthtime": "2018-05-24T05:04:34.000Z"
+    },
+    "/Users/seanblanton/Documents/Sites/blanton/src/themes absPath of file": {
+      "id": "/Users/seanblanton/Documents/Sites/blanton/src/themes absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "9036cf94b98fa583227f8c735ac8d70f",
+        "type": "Directory",
+        "description": "Directory \"src/themes\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/seanblanton/Documents/Sites/blanton/src/themes",
+      "relativePath": "themes",
+      "extension": "",
+      "size": 102,
+      "prettySize": "102 B",
+      "modifiedTime": "2018-05-24T05:04:34.000Z",
+      "accessTime": "2018-05-24T05:53:25.000Z",
+      "changeTime": "2018-05-24T05:06:46.000Z",
+      "birthTime": "2018-05-24T05:04:34.000Z",
+      "root": "/",
+      "dir": "/Users/seanblanton/Documents/Sites/blanton/src",
+      "base": "themes",
+      "ext": "",
+      "name": "themes",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 3,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 55178103,
+      "blocks": 0,
+      "atimeMs": 1527141205000,
+      "mtimeMs": 1527138274000,
+      "ctimeMs": 1527138406000,
+      "birthtimeMs": 1527138274000,
+      "atime": "2018-05-24T05:53:25.000Z",
+      "mtime": "2018-05-24T05:04:34.000Z",
+      "ctime": "2018-05-24T05:06:46.000Z",
+      "birthtime": "2018-05-24T05:04:34.000Z"
+    },
+    "/Users/seanblanton/Documents/Sites/blanton/src/.DS_Store absPath of file": {
+      "id": "/Users/seanblanton/Documents/Sites/blanton/src/.DS_Store absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "558a6e516fca95590d1a5d9f468c3e71",
+        "mediaType": "application/octet-stream",
+        "type": "File",
+        "description": "File \"src/.DS_Store\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/seanblanton/Documents/Sites/blanton/src/.DS_Store",
+      "relativePath": ".DS_Store",
+      "extension": "",
+      "size": 6148,
+      "prettySize": "6.15 kB",
+      "modifiedTime": "2018-05-19T23:37:07.000Z",
+      "accessTime": "2018-05-24T05:06:46.000Z",
+      "changeTime": "2018-05-24T05:06:46.000Z",
+      "birthTime": "2018-05-19T15:59:25.000Z",
+      "root": "/",
+      "dir": "/Users/seanblanton/Documents/Sites/blanton/src",
+      "base": ".DS_Store",
+      "ext": "",
+      "name": ".DS_Store",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 55178080,
+      "blocks": 16,
+      "atimeMs": 1527138406000,
+      "mtimeMs": 1526773027000,
+      "ctimeMs": 1527138406000,
+      "birthtimeMs": 1526745565000,
+      "atime": "2018-05-24T05:06:46.000Z",
+      "mtime": "2018-05-19T23:37:07.000Z",
+      "ctime": "2018-05-24T05:06:46.000Z",
+      "birthtime": "2018-05-19T15:59:25.000Z"
+    },
+    "/Users/seanblanton/Documents/Sites/blanton/src/config.js absPath of file": {
+      "id": "/Users/seanblanton/Documents/Sites/blanton/src/config.js absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "23c3d17758e7e2e8c31bdf66eb36f289",
+        "mediaType": "application/javascript",
+        "type": "File",
+        "description": "File \"src/config.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/seanblanton/Documents/Sites/blanton/src/config.js",
+      "relativePath": "config.js",
+      "extension": "js",
+      "size": 1273,
+      "prettySize": "1.27 kB",
+      "modifiedTime": "2018-05-24T05:36:36.000Z",
+      "accessTime": "2018-05-24T05:36:36.000Z",
+      "changeTime": "2018-05-24T05:36:36.000Z",
+      "birthTime": "2018-05-24T05:04:34.000Z",
+      "root": "/",
+      "dir": "/Users/seanblanton/Documents/Sites/blanton/src",
+      "base": "config.js",
+      "ext": ".js",
+      "name": "config",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 55178085,
+      "blocks": 8,
+      "atimeMs": 1527140196000,
+      "mtimeMs": 1527140196000,
+      "ctimeMs": 1527140196000,
+      "birthtimeMs": 1527138274000,
+      "atime": "2018-05-24T05:36:36.000Z",
+      "mtime": "2018-05-24T05:36:36.000Z",
+      "ctime": "2018-05-24T05:36:36.000Z",
+      "birthtime": "2018-05-24T05:04:34.000Z"
+    },
+    "/Users/seanblanton/Documents/Sites/blanton/src/layouts/index.js absPath of file": {
+      "id": "/Users/seanblanton/Documents/Sites/blanton/src/layouts/index.js absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "147de801f332425a59c8cacb90783ca3",
+        "mediaType": "application/javascript",
+        "type": "File",
+        "description": "File \"src/layouts/index.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/seanblanton/Documents/Sites/blanton/src/layouts/index.js",
+      "relativePath": "layouts/index.js",
+      "extension": "js",
+      "size": 1673,
+      "prettySize": "1.67 kB",
+      "modifiedTime": "2018-05-24T05:52:22.000Z",
+      "accessTime": "2018-05-24T05:52:22.000Z",
+      "changeTime": "2018-05-24T05:52:22.000Z",
+      "birthTime": "2018-05-24T05:04:34.000Z",
+      "root": "/",
+      "dir": "/Users/seanblanton/Documents/Sites/blanton/src/layouts",
+      "base": "index.js",
+      "ext": ".js",
+      "name": "index",
+      "relativeDirectory": "layouts",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 55178088,
+      "blocks": 8,
+      "atimeMs": 1527141142000,
+      "mtimeMs": 1527141142000,
+      "ctimeMs": 1527141142000,
+      "birthtimeMs": 1527138274000,
+      "atime": "2018-05-24T05:52:22.000Z",
+      "mtime": "2018-05-24T05:52:22.000Z",
+      "ctime": "2018-05-24T05:52:22.000Z",
+      "birthtime": "2018-05-24T05:04:34.000Z"
+    },
+    "/Users/seanblanton/Documents/Sites/blanton/src/pages/404.js absPath of file": {
+      "id": "/Users/seanblanton/Documents/Sites/blanton/src/pages/404.js absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "83445eb8665b496900366a5549ce1d22",
+        "mediaType": "application/javascript",
+        "type": "File",
+        "description": "File \"src/pages/404.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/seanblanton/Documents/Sites/blanton/src/pages/404.js",
+      "relativePath": "pages/404.js",
+      "extension": "js",
+      "size": 522,
+      "prettySize": "522 B",
+      "modifiedTime": "2018-05-24T05:04:34.000Z",
+      "accessTime": "2018-05-24T05:06:46.000Z",
+      "changeTime": "2018-05-24T05:06:46.000Z",
+      "birthTime": "2018-05-24T05:04:34.000Z",
+      "root": "/",
+      "dir": "/Users/seanblanton/Documents/Sites/blanton/src/pages",
+      "base": "404.js",
+      "ext": ".js",
+      "name": "404",
+      "relativeDirectory": "pages",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 55178090,
+      "blocks": 8,
+      "atimeMs": 1527138406000,
+      "mtimeMs": 1527138274000,
+      "ctimeMs": 1527138406000,
+      "birthtimeMs": 1527138274000,
+      "atime": "2018-05-24T05:06:46.000Z",
+      "mtime": "2018-05-24T05:04:34.000Z",
+      "ctime": "2018-05-24T05:06:46.000Z",
+      "birthtime": "2018-05-24T05:04:34.000Z"
+    },
+    "/Users/seanblanton/Documents/Sites/blanton/src/pages/index.js absPath of file": {
+      "id": "/Users/seanblanton/Documents/Sites/blanton/src/pages/index.js absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "ff9a6c836e1b170fd4dae87330d9d01c",
+        "mediaType": "application/javascript",
+        "type": "File",
+        "description": "File \"src/pages/index.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/seanblanton/Documents/Sites/blanton/src/pages/index.js",
+      "relativePath": "pages/index.js",
+      "extension": "js",
+      "size": 1093,
+      "prettySize": "1.09 kB",
+      "modifiedTime": "2018-05-24T05:04:34.000Z",
+      "accessTime": "2018-05-24T05:06:46.000Z",
+      "changeTime": "2018-05-24T05:06:46.000Z",
+      "birthTime": "2018-05-24T05:04:34.000Z",
+      "root": "/",
+      "dir": "/Users/seanblanton/Documents/Sites/blanton/src/pages",
+      "base": "index.js",
+      "ext": ".js",
+      "name": "index",
+      "relativeDirectory": "pages",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 55178091,
+      "blocks": 8,
+      "atimeMs": 1527138406000,
+      "mtimeMs": 1527138274000,
+      "ctimeMs": 1527138406000,
+      "birthtimeMs": 1527138274000,
+      "atime": "2018-05-24T05:06:46.000Z",
+      "mtime": "2018-05-24T05:04:34.000Z",
+      "ctime": "2018-05-24T05:06:46.000Z",
+      "birthtime": "2018-05-24T05:04:34.000Z"
+    },
+    "/Users/seanblanton/Documents/Sites/blanton/src/components/Text.js absPath of file": {
+      "id": "/Users/seanblanton/Documents/Sites/blanton/src/components/Text.js absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "d3d60e3d0d49bdc5ee55fb996480ec4b",
+        "mediaType": "application/javascript",
+        "type": "File",
+        "description": "File \"src/components/Text.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/seanblanton/Documents/Sites/blanton/src/components/Text.js",
+      "relativePath": "components/Text.js",
+      "extension": "js",
+      "size": 1826,
+      "prettySize": "1.83 kB",
+      "modifiedTime": "2018-05-24T05:50:34.000Z",
+      "accessTime": "2018-05-24T05:50:34.000Z",
+      "changeTime": "2018-05-24T05:50:34.000Z",
+      "birthTime": "2018-05-24T05:04:34.000Z",
+      "root": "/",
+      "dir": "/Users/seanblanton/Documents/Sites/blanton/src/components",
+      "base": "Text.js",
+      "ext": ".js",
+      "name": "Text",
+      "relativeDirectory": "components",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 55178084,
+      "blocks": 8,
+      "atimeMs": 1527141034000,
+      "mtimeMs": 1527141034000,
+      "ctimeMs": 1527141034000,
+      "birthtimeMs": 1527138274000,
+      "atime": "2018-05-24T05:50:34.000Z",
+      "mtime": "2018-05-24T05:50:34.000Z",
+      "ctime": "2018-05-24T05:50:34.000Z",
+      "birthtime": "2018-05-24T05:04:34.000Z"
+    },
+    "/Users/seanblanton/Documents/Sites/blanton/src/templates/post.js absPath of file": {
+      "id": "/Users/seanblanton/Documents/Sites/blanton/src/templates/post.js absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "026f58ba34657ab642357b56fad8eb94",
+        "mediaType": "application/javascript",
+        "type": "File",
+        "description": "File \"src/templates/post.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/seanblanton/Documents/Sites/blanton/src/templates/post.js",
+      "relativePath": "templates/post.js",
+      "extension": "js",
+      "size": 1033,
+      "prettySize": "1.03 kB",
+      "modifiedTime": "2018-05-24T05:04:34.000Z",
+      "accessTime": "2018-05-24T05:06:46.000Z",
+      "changeTime": "2018-05-24T05:06:46.000Z",
+      "birthTime": "2018-05-24T05:04:34.000Z",
+      "root": "/",
+      "dir": "/Users/seanblanton/Documents/Sites/blanton/src/templates",
+      "base": "post.js",
+      "ext": ".js",
+      "name": "post",
+      "relativeDirectory": "templates",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 55178102,
+      "blocks": 8,
+      "atimeMs": 1527138406000,
+      "mtimeMs": 1527138274000,
+      "ctimeMs": 1527138406000,
+      "birthtimeMs": 1527138274000,
+      "atime": "2018-05-24T05:06:46.000Z",
+      "mtime": "2018-05-24T05:04:34.000Z",
+      "ctime": "2018-05-24T05:06:46.000Z",
+      "birthtime": "2018-05-24T05:04:34.000Z"
+    },
+    "/Users/seanblanton/Documents/Sites/blanton/src/components/MarkdownBody.js absPath of file": {
+      "id": "/Users/seanblanton/Documents/Sites/blanton/src/components/MarkdownBody.js absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "a1edf7c22b75ac9d80a9235b90acf844",
+        "mediaType": "application/javascript",
+        "type": "File",
+        "description": "File \"src/components/MarkdownBody.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/seanblanton/Documents/Sites/blanton/src/components/MarkdownBody.js",
+      "relativePath": "components/MarkdownBody.js",
+      "extension": "js",
+      "size": 2409,
+      "prettySize": "2.41 kB",
+      "modifiedTime": "2018-05-24T05:46:29.000Z",
+      "accessTime": "2018-05-24T05:46:29.000Z",
+      "changeTime": "2018-05-24T05:46:29.000Z",
+      "birthTime": "2018-05-24T05:04:34.000Z",
+      "root": "/",
+      "dir": "/Users/seanblanton/Documents/Sites/blanton/src/components",
+      "base": "MarkdownBody.js",
+      "ext": ".js",
+      "name": "MarkdownBody",
+      "relativeDirectory": "components",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 55178082,
+      "blocks": 8,
+      "atimeMs": 1527140789000,
+      "mtimeMs": 1527140789000,
+      "ctimeMs": 1527140789000,
+      "birthtimeMs": 1527138274000,
+      "atime": "2018-05-24T05:46:29.000Z",
+      "mtime": "2018-05-24T05:46:29.000Z",
+      "ctime": "2018-05-24T05:46:29.000Z",
+      "birthtime": "2018-05-24T05:04:34.000Z"
+    },
+    "/Users/seanblanton/Documents/Sites/blanton/src/posts/making-susy-grids-atomic.md absPath of file": {
+      "id": "/Users/seanblanton/Documents/Sites/blanton/src/posts/making-susy-grids-atomic.md absPath of file",
+      "children": [
+        "/Users/seanblanton/Documents/Sites/blanton/src/posts/making-susy-grids-atomic.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "1a65397ad3da783bf06a351dcecb80bf",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "description": "File \"src/posts/making-susy-grids-atomic.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/seanblanton/Documents/Sites/blanton/src/posts/making-susy-grids-atomic.md",
+      "relativePath": "posts/making-susy-grids-atomic.md",
+      "extension": "md",
+      "size": 1911,
+      "prettySize": "1.91 kB",
+      "modifiedTime": "2018-05-24T05:04:34.000Z",
+      "accessTime": "2018-05-24T05:06:46.000Z",
+      "changeTime": "2018-05-24T05:06:46.000Z",
+      "birthTime": "2018-05-24T05:04:34.000Z",
+      "root": "/",
+      "dir": "/Users/seanblanton/Documents/Sites/blanton/src/posts",
+      "base": "making-susy-grids-atomic.md",
+      "ext": ".md",
+      "name": "making-susy-grids-atomic",
+      "relativeDirectory": "posts",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 55178094,
+      "blocks": 8,
+      "atimeMs": 1527138406000,
+      "mtimeMs": 1527138274000,
+      "ctimeMs": 1527138406000,
+      "birthtimeMs": 1527138274000,
+      "atime": "2018-05-24T05:06:46.000Z",
+      "mtime": "2018-05-24T05:04:34.000Z",
+      "ctime": "2018-05-24T05:06:46.000Z",
+      "birthtime": "2018-05-24T05:04:34.000Z"
+    },
+    "/Users/seanblanton/Documents/Sites/blanton/src/components/StyledLink.js absPath of file": {
+      "id": "/Users/seanblanton/Documents/Sites/blanton/src/components/StyledLink.js absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "e55fadfefea9a559d5271cec7f7aae72",
+        "mediaType": "application/javascript",
+        "type": "File",
+        "description": "File \"src/components/StyledLink.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/seanblanton/Documents/Sites/blanton/src/components/StyledLink.js",
+      "relativePath": "components/StyledLink.js",
+      "extension": "js",
+      "size": 465,
+      "prettySize": "465 B",
+      "modifiedTime": "2018-05-24T05:04:34.000Z",
+      "accessTime": "2018-05-24T05:33:40.000Z",
+      "changeTime": "2018-05-24T05:06:46.000Z",
+      "birthTime": "2018-05-24T05:04:34.000Z",
+      "root": "/",
+      "dir": "/Users/seanblanton/Documents/Sites/blanton/src/components",
+      "base": "StyledLink.js",
+      "ext": ".js",
+      "name": "StyledLink",
+      "relativeDirectory": "components",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 55178083,
+      "blocks": 8,
+      "atimeMs": 1527140020000,
+      "mtimeMs": 1527138274000,
+      "ctimeMs": 1527138406000,
+      "birthtimeMs": 1527138274000,
+      "atime": "2018-05-24T05:33:40.000Z",
+      "mtime": "2018-05-24T05:04:34.000Z",
+      "ctime": "2018-05-24T05:06:46.000Z",
+      "birthtime": "2018-05-24T05:04:34.000Z"
+    },
+    "/Users/seanblanton/Documents/Sites/blanton/src/posts/programmatic-color-palettes.md absPath of file": {
+      "id": "/Users/seanblanton/Documents/Sites/blanton/src/posts/programmatic-color-palettes.md absPath of file",
+      "children": [
+        "/Users/seanblanton/Documents/Sites/blanton/src/posts/programmatic-color-palettes.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "d28149d02b6da4b9093b1da38bc2dd9f",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "description": "File \"src/posts/programmatic-color-palettes.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/seanblanton/Documents/Sites/blanton/src/posts/programmatic-color-palettes.md",
+      "relativePath": "posts/programmatic-color-palettes.md",
+      "extension": "md",
+      "size": 5093,
+      "prettySize": "5.09 kB",
+      "modifiedTime": "2018-05-24T05:04:34.000Z",
+      "accessTime": "2018-05-24T05:06:46.000Z",
+      "changeTime": "2018-05-24T05:06:46.000Z",
+      "birthTime": "2018-05-24T05:04:34.000Z",
+      "root": "/",
+      "dir": "/Users/seanblanton/Documents/Sites/blanton/src/posts",
+      "base": "programmatic-color-palettes.md",
+      "ext": ".md",
+      "name": "programmatic-color-palettes",
+      "relativeDirectory": "posts",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 55178095,
+      "blocks": 16,
+      "atimeMs": 1527138406000,
+      "mtimeMs": 1527138274000,
+      "ctimeMs": 1527138406000,
+      "birthtimeMs": 1527138274000,
+      "atime": "2018-05-24T05:06:46.000Z",
+      "mtime": "2018-05-24T05:04:34.000Z",
+      "ctime": "2018-05-24T05:06:46.000Z",
+      "birthtime": "2018-05-24T05:04:34.000Z"
+    },
+    "/Users/seanblanton/Documents/Sites/blanton/src/posts/fiction-writing-for-designers.md absPath of file": {
+      "id": "/Users/seanblanton/Documents/Sites/blanton/src/posts/fiction-writing-for-designers.md absPath of file",
+      "children": [
+        "/Users/seanblanton/Documents/Sites/blanton/src/posts/fiction-writing-for-designers.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "b20c368c25447b96a3c1caaf0c38fe45",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "description": "File \"src/posts/fiction-writing-for-designers.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/seanblanton/Documents/Sites/blanton/src/posts/fiction-writing-for-designers.md",
+      "relativePath": "posts/fiction-writing-for-designers.md",
+      "extension": "md",
+      "size": 5001,
+      "prettySize": "5 kB",
+      "modifiedTime": "2018-05-24T05:04:34.000Z",
+      "accessTime": "2018-05-24T05:06:46.000Z",
+      "changeTime": "2018-05-24T05:06:46.000Z",
+      "birthTime": "2018-05-24T05:04:34.000Z",
+      "root": "/",
+      "dir": "/Users/seanblanton/Documents/Sites/blanton/src/posts",
+      "base": "fiction-writing-for-designers.md",
+      "ext": ".md",
+      "name": "fiction-writing-for-designers",
+      "relativeDirectory": "posts",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 55178093,
+      "blocks": 16,
+      "atimeMs": 1527138406000,
+      "mtimeMs": 1527138274000,
+      "ctimeMs": 1527138406000,
+      "birthtimeMs": 1527138274000,
+      "atime": "2018-05-24T05:06:46.000Z",
+      "mtime": "2018-05-24T05:04:34.000Z",
+      "ctime": "2018-05-24T05:06:46.000Z",
+      "birthtime": "2018-05-24T05:04:34.000Z"
+    },
+    "/Users/seanblanton/Documents/Sites/blanton/src/posts/size-and-mass-in-design-systems.md absPath of file": {
+      "id": "/Users/seanblanton/Documents/Sites/blanton/src/posts/size-and-mass-in-design-systems.md absPath of file",
+      "children": [
+        "/Users/seanblanton/Documents/Sites/blanton/src/posts/size-and-mass-in-design-systems.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "32ce7be3e50fcff4f3596e40642cd080",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "description": "File \"src/posts/size-and-mass-in-design-systems.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/seanblanton/Documents/Sites/blanton/src/posts/size-and-mass-in-design-systems.md",
+      "relativePath": "posts/size-and-mass-in-design-systems.md",
+      "extension": "md",
+      "size": 3775,
+      "prettySize": "3.77 kB",
+      "modifiedTime": "2018-05-24T05:04:34.000Z",
+      "accessTime": "2018-05-24T05:06:46.000Z",
+      "changeTime": "2018-05-24T05:06:46.000Z",
+      "birthTime": "2018-05-24T05:04:34.000Z",
+      "root": "/",
+      "dir": "/Users/seanblanton/Documents/Sites/blanton/src/posts",
+      "base": "size-and-mass-in-design-systems.md",
+      "ext": ".md",
+      "name": "size-and-mass-in-design-systems",
+      "relativeDirectory": "posts",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 55178096,
+      "blocks": 8,
+      "atimeMs": 1527138406000,
+      "mtimeMs": 1527138274000,
+      "ctimeMs": 1527138406000,
+      "birthtimeMs": 1527138274000,
+      "atime": "2018-05-24T05:06:46.000Z",
+      "mtime": "2018-05-24T05:04:34.000Z",
+      "ctime": "2018-05-24T05:06:46.000Z",
+      "birthtime": "2018-05-24T05:04:34.000Z"
+    },
+    "/Users/seanblanton/Documents/Sites/blanton/src/posts/the-analysis-and-ontology-of-design-systems.md absPath of file": {
+      "id": "/Users/seanblanton/Documents/Sites/blanton/src/posts/the-analysis-and-ontology-of-design-systems.md absPath of file",
+      "children": [
+        "/Users/seanblanton/Documents/Sites/blanton/src/posts/the-analysis-and-ontology-of-design-systems.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "bb62c9071bf0ce3c2219cf05d8ceb3c8",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "description": "File \"src/posts/the-analysis-and-ontology-of-design-systems.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/seanblanton/Documents/Sites/blanton/src/posts/the-analysis-and-ontology-of-design-systems.md",
+      "relativePath": "posts/the-analysis-and-ontology-of-design-systems.md",
+      "extension": "md",
+      "size": 9995,
+      "prettySize": "9.99 kB",
+      "modifiedTime": "2018-05-24T05:04:34.000Z",
+      "accessTime": "2018-05-24T05:06:46.000Z",
+      "changeTime": "2018-05-24T05:06:46.000Z",
+      "birthTime": "2018-05-24T05:04:34.000Z",
+      "root": "/",
+      "dir": "/Users/seanblanton/Documents/Sites/blanton/src/posts",
+      "base": "the-analysis-and-ontology-of-design-systems.md",
+      "ext": ".md",
+      "name": "the-analysis-and-ontology-of-design-systems",
+      "relativeDirectory": "posts",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 55178097,
+      "blocks": 24,
+      "atimeMs": 1527138406000,
+      "mtimeMs": 1527138274000,
+      "ctimeMs": 1527138406000,
+      "birthtimeMs": 1527138274000,
+      "atime": "2018-05-24T05:06:46.000Z",
+      "mtime": "2018-05-24T05:04:34.000Z",
+      "ctime": "2018-05-24T05:06:46.000Z",
+      "birthtime": "2018-05-24T05:04:34.000Z"
+    },
+    "/Users/seanblanton/Documents/Sites/blanton/src/posts/the-map-is-not-the-territory.md absPath of file": {
+      "id": "/Users/seanblanton/Documents/Sites/blanton/src/posts/the-map-is-not-the-territory.md absPath of file",
+      "children": [
+        "/Users/seanblanton/Documents/Sites/blanton/src/posts/the-map-is-not-the-territory.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "075929a359835334914275fe72777541",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "description": "File \"src/posts/the-map-is-not-the-territory.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/seanblanton/Documents/Sites/blanton/src/posts/the-map-is-not-the-territory.md",
+      "relativePath": "posts/the-map-is-not-the-territory.md",
+      "extension": "md",
+      "size": 4536,
+      "prettySize": "4.54 kB",
+      "modifiedTime": "2018-05-24T05:04:34.000Z",
+      "accessTime": "2018-05-24T05:06:46.000Z",
+      "changeTime": "2018-05-24T05:06:46.000Z",
+      "birthTime": "2018-05-24T05:04:34.000Z",
+      "root": "/",
+      "dir": "/Users/seanblanton/Documents/Sites/blanton/src/posts",
+      "base": "the-map-is-not-the-territory.md",
+      "ext": ".md",
+      "name": "the-map-is-not-the-territory",
+      "relativeDirectory": "posts",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 55178098,
+      "blocks": 16,
+      "atimeMs": 1527138406000,
+      "mtimeMs": 1527138274000,
+      "ctimeMs": 1527138406000,
+      "birthtimeMs": 1527138274000,
+      "atime": "2018-05-24T05:06:46.000Z",
+      "mtime": "2018-05-24T05:04:34.000Z",
+      "ctime": "2018-05-24T05:06:46.000Z",
+      "birthtime": "2018-05-24T05:04:34.000Z"
+    },
+    "/Users/seanblanton/Documents/Sites/blanton/src/posts/why-use-system-fonts.md absPath of file": {
+      "id": "/Users/seanblanton/Documents/Sites/blanton/src/posts/why-use-system-fonts.md absPath of file",
+      "children": [
+        "/Users/seanblanton/Documents/Sites/blanton/src/posts/why-use-system-fonts.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "d42da3172947069c0be9b260a405f6ad",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "description": "File \"src/posts/why-use-system-fonts.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/seanblanton/Documents/Sites/blanton/src/posts/why-use-system-fonts.md",
+      "relativePath": "posts/why-use-system-fonts.md",
+      "extension": "md",
+      "size": 3223,
+      "prettySize": "3.22 kB",
+      "modifiedTime": "2018-05-24T05:04:34.000Z",
+      "accessTime": "2018-05-24T05:06:46.000Z",
+      "changeTime": "2018-05-24T05:06:46.000Z",
+      "birthTime": "2018-05-24T05:04:34.000Z",
+      "root": "/",
+      "dir": "/Users/seanblanton/Documents/Sites/blanton/src/posts",
+      "base": "why-use-system-fonts.md",
+      "ext": ".md",
+      "name": "why-use-system-fonts",
+      "relativeDirectory": "posts",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 55178100,
+      "blocks": 8,
+      "atimeMs": 1527138406000,
+      "mtimeMs": 1527138274000,
+      "ctimeMs": 1527138406000,
+      "birthtimeMs": 1527138274000,
+      "atime": "2018-05-24T05:06:46.000Z",
+      "mtime": "2018-05-24T05:04:34.000Z",
+      "ctime": "2018-05-24T05:06:46.000Z",
+      "birthtime": "2018-05-24T05:04:34.000Z"
+    },
+    "/Users/seanblanton/Documents/Sites/blanton/src/posts/which-shade-of-gray-should-i-use-for-disabled-states.md absPath of file": {
+      "id": "/Users/seanblanton/Documents/Sites/blanton/src/posts/which-shade-of-gray-should-i-use-for-disabled-states.md absPath of file",
+      "children": [
+        "/Users/seanblanton/Documents/Sites/blanton/src/posts/which-shade-of-gray-should-i-use-for-disabled-states.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "e7a5222c986a0a98fdc57a5d3e73ba0d",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "description": "File \"src/posts/which-shade-of-gray-should-i-use-for-disabled-states.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/seanblanton/Documents/Sites/blanton/src/posts/which-shade-of-gray-should-i-use-for-disabled-states.md",
+      "relativePath": "posts/which-shade-of-gray-should-i-use-for-disabled-states.md",
+      "extension": "md",
+      "size": 3839,
+      "prettySize": "3.84 kB",
+      "modifiedTime": "2018-05-24T05:04:34.000Z",
+      "accessTime": "2018-05-24T05:06:46.000Z",
+      "changeTime": "2018-05-24T05:06:46.000Z",
+      "birthTime": "2018-05-24T05:04:34.000Z",
+      "root": "/",
+      "dir": "/Users/seanblanton/Documents/Sites/blanton/src/posts",
+      "base": "which-shade-of-gray-should-i-use-for-disabled-states.md",
+      "ext": ".md",
+      "name": "which-shade-of-gray-should-i-use-for-disabled-states",
+      "relativeDirectory": "posts",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 55178099,
+      "blocks": 8,
+      "atimeMs": 1527138406000,
+      "mtimeMs": 1527138274000,
+      "ctimeMs": 1527138406000,
+      "birthtimeMs": 1527138274000,
+      "atime": "2018-05-24T05:06:46.000Z",
+      "mtime": "2018-05-24T05:04:34.000Z",
+      "ctime": "2018-05-24T05:06:46.000Z",
+      "birthtime": "2018-05-24T05:04:34.000Z"
+    },
+    "/Users/seanblanton/Documents/Sites/blanton/src/themes/prism.css absPath of file": {
+      "id": "/Users/seanblanton/Documents/Sites/blanton/src/themes/prism.css absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "68246672adeff4800e7b5bfe2d914e32",
+        "mediaType": "text/css",
+        "type": "File",
+        "description": "File \"src/themes/prism.css\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/seanblanton/Documents/Sites/blanton/src/themes/prism.css",
+      "relativePath": "themes/prism.css",
+      "extension": "css",
+      "size": 2654,
+      "prettySize": "2.65 kB",
+      "modifiedTime": "2018-05-24T05:48:33.000Z",
+      "accessTime": "2018-05-24T05:48:33.000Z",
+      "changeTime": "2018-05-24T05:48:33.000Z",
+      "birthTime": "2018-05-24T05:04:34.000Z",
+      "root": "/",
+      "dir": "/Users/seanblanton/Documents/Sites/blanton/src/themes",
+      "base": "prism.css",
+      "ext": ".css",
+      "name": "prism",
+      "relativeDirectory": "themes",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 55178104,
+      "blocks": 8,
+      "atimeMs": 1527140913000,
+      "mtimeMs": 1527140913000,
+      "ctimeMs": 1527140913000,
+      "birthtimeMs": 1527138274000,
+      "atime": "2018-05-24T05:48:33.000Z",
+      "mtime": "2018-05-24T05:48:33.000Z",
+      "ctime": "2018-05-24T05:48:33.000Z",
+      "birthtime": "2018-05-24T05:04:34.000Z"
+    },
+    "/Users/seanblanton/Documents/Sites/blanton/src/favicon.png absPath of file": {
+      "id": "/Users/seanblanton/Documents/Sites/blanton/src/favicon.png absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "7df8736c98eb2f2c55280ca4cea18961",
+        "mediaType": "image/png",
+        "type": "File",
+        "description": "File \"src/favicon.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/seanblanton/Documents/Sites/blanton/src/favicon.png",
+      "relativePath": "favicon.png",
+      "extension": "png",
+      "size": 80348,
+      "prettySize": "80.3 kB",
+      "modifiedTime": "2018-05-24T05:04:34.000Z",
+      "accessTime": "2018-05-24T05:33:25.000Z",
+      "changeTime": "2018-05-24T05:06:46.000Z",
+      "birthTime": "2018-05-24T05:04:34.000Z",
+      "root": "/",
+      "dir": "/Users/seanblanton/Documents/Sites/blanton/src",
+      "base": "favicon.png",
+      "ext": ".png",
+      "name": "favicon",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 55178086,
+      "blocks": 160,
+      "atimeMs": 1527140005000,
+      "mtimeMs": 1527138274000,
+      "ctimeMs": 1527138406000,
+      "birthtimeMs": 1527138274000,
+      "atime": "2018-05-24T05:33:25.000Z",
+      "mtime": "2018-05-24T05:04:34.000Z",
+      "ctime": "2018-05-24T05:06:46.000Z",
+      "birthtime": "2018-05-24T05:04:34.000Z"
+    },
+    "/Users/seanblanton/Documents/Sites/blanton/src/posts/making-susy-grids-atomic.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/seanblanton/Documents/Sites/blanton/src/posts/making-susy-grids-atomic.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/Users/seanblanton/Documents/Sites/blanton/src/posts/making-susy-grids-atomic.md absPath of file",
+      "internal": {
+        "content": "---\ntitle: Making Susy Grids Atomic\ndate: 2016-05-08\n---\n\nToday I'm releasing my very first open source project. Albeit tiny, I wanted to share it with the world. I hacked on this over a weekend while trying to refactor my site to make the css a little leaner.\n\nFor a while now I've been using [Susy Grids](http://susy.oddbird.net) to prototype both personal and professional work. Susy grids are great for designing responsive layouts quickly in the browser. I often find that I have a hard time conceptulizing how content will react to breakpoints. I can make static mockups at several sizes, but my intuition is often wrong. Susy grids help fix the problem by allowing me to experiment early.\n\nBut Susy and I weren't getting along with how I wanted to write CSS when it came to dealing with media queries and breakpoints. I was stuck constructing grid component media queries with OOCSS, which wasn't jiving with my interests in utility classes (inspired by [BassCSS](http://www.basscss.com) and [Tachyons](http://www.tachyons.io) )\n\nI wrote Susy Bricks as a module to extend Susy's mixins into atomic classes at multiple breakpoints using the prefixes `.xs`, `.sm`, `.md`, and `.lg` to quickly adjust layouts without even having to touch css. Here's an example below.\n\n\n```html\n<div class=\"box xs-span12 md-span6 lg-span3\">\n```\n\n\nTo give credit where credit is due, I did look to Buzzfeed's [Solid](https://solid.buzzfeed.com) to help me get the prefixing mixin off the ground.\n\nI've been tryin to find better ways to organize my CSS, and this is a step in the right direction. I hope to continue to work on this in the future. Right now, this module only works with the most vanilla version of Susy (which is all I've really used Susy for), but I'd love for it to be more robust in the future.\n\n\nCheck it out over on [Github](https://github.com/seanblanton/susybricks) if you'd like to play around with it\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "d0a28f12693aea61d2212e9466be54a5",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "Making Susy Grids Atomic",
+        "date": "2016-05-08T00:00:00.000Z",
+        "_PARENT": "/Users/seanblanton/Documents/Sites/blanton/src/posts/making-susy-grids-atomic.md absPath of file",
+        "parent": "/Users/seanblanton/Documents/Sites/blanton/src/posts/making-susy-grids-atomic.md absPath of file"
+      },
+      "excerpt": "",
+      "fileAbsolutePath": "/Users/seanblanton/Documents/Sites/blanton/src/posts/making-susy-grids-atomic.md",
+      "fields": {
+        "slug": "/making-susy-grids-atomic/"
+      }
+    },
+    "/Users/seanblanton/Documents/Sites/blanton/src/posts/programmatic-color-palettes.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/seanblanton/Documents/Sites/blanton/src/posts/programmatic-color-palettes.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/Users/seanblanton/Documents/Sites/blanton/src/posts/programmatic-color-palettes.md absPath of file",
+      "internal": {
+        "content": "---\ntitle: Programmatic Color Palettes\ndate: 2017-01-17\n---\n\nComing up with a consistant set of colors for us in UI design is no easy task. Many times, when style guides are created, a few key hues are picked out and documented. This doesn't take into account he myriad tints and shades that may be needed when used in practical applications.\n\nOne approach to this is to use something like SCSS' `rgba()` function to build new a new color to build a new color.\n\n```css\n.alert {\n    background-color: rgba($red, 0.1);\n    border-color: $red;\n}\n```\n\nThis gets us pretty far without much effort - but visually, the effects can sometimes be less than desirable. Certain hues behave different under different levels of luminosity. As Henry Munsell in his 1905 book _A Color Notation_ noted, reds, blues, and purples have a much longer chroma axis than some yellows. Likewise, some hues may need to be adjusted as saturation increases to keep them optically consistent.\n\nI found myself wanting the flexibility to pull or push hues around quickly, and I wanted the results to be something that could be quickly translated to code so that the single source of truth could live with the developers, rather than a sketch file designers would have to export and transmit back and forth.\n\nI tried some existing tools created by [Brent Jackson](http://www.jxnblk.com/), namely [Palx](https://palx.jxnblk.com/), which served as a huge inspiration for this project. However, it didn't have the flexibility to adjust hue or saturation. I built Palettes using the same tool as Palx,  [Chroma JS](http://gka.github.io/chroma.js/), but retooling it to have increased flexibility. This little library works wonders.\n\n## Palettes\nHere's a peek at Palettes:\n\n```javascript\nconst stepsToFloat = options =>\n  Array.from({ length: options.luminance }, (n, i) =>\n    (i + 0.5) / 10).reverse()\n  .map(s => modulate(s, [0, 1], [options.start, options.end]));\n```\n\nThis is the first piece. It will return the number of tints of a given base color to me, specified later in `config.js`\n\nI then needed to be able to adjust colors with a few parameters.\n\n```javascript\nconst shiftColor = (color, s, index, shift) =>\n  chroma(s)\n  .set('hsl.h', chroma(color).get('hsl.h') - ((index * (index * 2)) * (shift * 0.01))).hex();\n```\n\n```javascript\nconst shiftSat = (color, s, index, sat) =>\n  chroma(s)\n  .saturate(((sat * 0.1) * Math.log(index + 1)))\n  .hex();\n```\n\nFiguring out the math here was a bit of trial and error. By picking colors manually and plotting them on a curve, I found I was consistanty adjusting saturation on a roughly logarithmic curve. Hue shifts were adjusted on a quadradic curve. This takes a starting color, a step in the scale, an index, and a level of saturation or hue shift. Positive numbers shift hue right on the standard `CIECAM02` model. Negative numbers shift the hue left.\n\nThen I needed to adjust each color based on it's starting point, changing hue and saturation as those parameters existed:\n\n```javascript\nconst buildColor = (key, sat, shift) => {\n  const color = hueSet[key];\n\n  const steps = stepsToFloat(lumSet)\n  .map(s => chroma(color.hue).luminance(s).hex())\n  .map((s, index) => (sat ? shiftSat(color.hue, s, index, sat) : s))\n  .map((s, index) => (shift ? shiftColor(color.hue, s, index, shift) : s));\n\n  // return values as incremented key value pair\n  const values = expandColors(key, steps);\n\n  colors[key] = values;\n};\n```\n\nI can loop over this for each step hue I specify:\n\n```javascript\nconst buildPalette = (set) => {\n  Object.keys(set).forEach((key) => {\n    buildColor(key, set[key].sat, set[key].shift);\n  });\n  return colors;\n};\n```\n\n\n## Configuration\n\nThe `config.js` has two objects defined in it:\n\n```javascript\nconst lumSet = {\n  luminance: 10,\n  start: 0.05,\n  end: 0.95,\n};\n\nconst hueSet = {\n  blue: {\n    hue: '54A2F0',\n    sat: '3',\n    shift: null,\n  },\n  yellow: {\n    hue: 'FFCC00',\n    sat: '3',\n    shift: '12',\n  },\n}\n```\n\n\n`start` and `end` are used to keep values from going to dark or too light. This way, individual values remain distinct.\n\nWhen I run the script through node with `$ npm run build` it will output a `.json` blob that can be read in to a webapp's config file.\n\n```javascript\n{\n    \"blue\": {\n        \"blue0\": \"#ecf5fd\",\n        \"blue1\": \"#d4ecff\",\n        \"blue2\": \"#bce1ff\",\n        \"blue3\": \"#a1d5ff\",\n        \"blue4\": \"#84c9ff\",\n        \"blue5\": \"#62baff\",\n        \"blue6\": \"#2fa8ff\",\n        \"blue7\": \"#0094ed\",\n        \"blue8\": \"#007bc9\",\n        \"blue9\": \"#005b98\"\n    },\n     \"yellow\": {\n        \"yellow0\": \"#fff4ca\",\n        \"yellow1\": \"#ffe788\",\n        \"yellow2\": \"#ffd43a\",\n        \"yellow3\": \"#ffc300\",\n        \"yellow4\": \"#eeaf00\",\n        \"yellow5\": \"#dc9a00\",\n        \"yellow6\": \"#c78300\",\n        \"yellow7\": \"#af6a00\",\n        \"yellow8\": \"#924f00\",\n        \"yellow9\": \"#6b3300\"\n    },\n}\n```\n\nYou can grab the tool for yourself [here](https://github.com/seanblanton/palettes)\n\n\n## Next Steps\n\nThis project is by no means done yet. I'd love to expand more on this, building it into a webapp to visualize colors on the fly.\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "78ef75b8487013751073be08b5d1259a",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "Programmatic Color Palettes",
+        "date": "2017-01-17T00:00:00.000Z",
+        "_PARENT": "/Users/seanblanton/Documents/Sites/blanton/src/posts/programmatic-color-palettes.md absPath of file",
+        "parent": "/Users/seanblanton/Documents/Sites/blanton/src/posts/programmatic-color-palettes.md absPath of file"
+      },
+      "excerpt": "",
+      "fileAbsolutePath": "/Users/seanblanton/Documents/Sites/blanton/src/posts/programmatic-color-palettes.md",
+      "fields": {
+        "slug": "/programmatic-color-palettes/"
+      }
+    },
+    "/Users/seanblanton/Documents/Sites/blanton/src/posts/fiction-writing-for-designers.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/seanblanton/Documents/Sites/blanton/src/posts/fiction-writing-for-designers.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/Users/seanblanton/Documents/Sites/blanton/src/posts/fiction-writing-for-designers.md absPath of file",
+      "internal": {
+        "content": "---\ntitle: Fiction Writing For Designers\ndate: 2016-06-14\n---\n\nReading fiction, and even more so, writing fiction, has been one of the greatest things I’ve done to better understand how to design for others. In the design community we talk a lot about the importance of writing. In general, it's a great thing. There's a wealth of great resources on the recommended reading for designers, and there's plenty of designers putting out great content on a regular basis, too, but much of it tends to be on usability, psychology, user research, testing, should designers code, design leadership, and other kinds of technical writing. But it's not enough.\n\nThe act of reading and writing fiction requires the author to imagine a reality that is not and never will be her own. It means imagining and coming to an understanding that the people in these stories have lives and experiences equally as complex as hers, and that whoever conceived of these stories has (or had) a life and motivations that are wholly different from her own life and experiences. And when we write fiction, we're asked to create realities that are not prototypical, but specific, and then to understand the implications of those realities for the people that inhabit that imagined space. How do two people with differing value sets perceive the world differently, and how do they interact together?\n\nAll fiction is a design problem, that is to say that fiction seeks to organize the world for a specific purpose. And while the world in which novelists organize and create meaning and just happens to be imagined, that imagined world is valid, and real, and informed and strengthened by the reality that surrounds it.\n\nThe act of fiction goes far beyond something like writing personas. While personas tend to be constructed to be a single, concrete figure, that persona is intended to stand as proxy for an entire user group. This is the difference between _persona_ and _character_. Persona is often too reductive to ever be more than a ghost of a person inside of a work of fiction. It's through a combination of persona, user journey, and storyboarding that we as designers only begin to scratch the surface of what it means to be the personas we imagine, validate, and ultimately design for. What the very best fiction does so well is examines character through the lenses of change and time. It finds nuanced differences in character's moods, behaviors, belief systems, needs, goals, etc between what was and what is. And the very best writers consider you, the reader, too. Your thoughts and your emotion and the experience of you as person sitting and reading the scene and comparing it in your mind to your entire worldview.\n\nThe more we read stories and the more we try to write our own, the better a language we have to understand the people whom we design for, and the better context we have to understand ourselves.\n\nSome of the most important things I may need to convey in a design can only be really talked about anecdotally, through some metaphor, image, or story. It’s through story that my thoughts are condensed and transfigured. These stories become easier to understand or draw correlations between because we’re all so used to them. Every single one of us tells stories. Anthropologists have identified that storytelling exists in every country and every culture in the world, and stories have existed in some form or another, oral, written, or visual, for thousands of years. Our entire civilization has been built on our ability to communicate with and understand one another effectively.\n\nWhen I tell you a story, it's because I need to tell you something about the way I think or the way that I feel. I tell stories when something is funny, or interesting, or profound, or beautiful, or inspiring. When we tell stories we assume our telling will communicate something to the recipient about who we are and what we think and value.\n\n> \"Is this what I think? And is this all I have to say? And am I making myself understood?\"\n\nAnd herein lays the key problem: the words I write can only sketch the outline of what it is I mean to say. But then I present these words as a tangible artifact of who I am and what I think.\n\nAs a designer, my understanding of the person whom I design for can only ever be a sketch of who I think they might be, not who they are. It helps to practice healthy skepticism:\n\n> “Health Approach presupposes that truth is objective at least in the minimal sense that believing something does not make it so, that something‘s being true does not mean we believe it, and that we are capable of making mistakes.”\n>\n> – (pg. 90) LE MORVAN, Pierre. \"Healthy Skepticism and Practical Wisdom\"\n\nIt behooves me to be as skilled as I can be at creating such a weak representation of real life, and to be always conscious of the fact that no matter how true I believe the facts to be, it’s always possible that I may be wrong every time. And that — that is incredibly humbling.\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "cd735eeb95899b27f74c32a2218591de",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "Fiction Writing For Designers",
+        "date": "2016-06-14T00:00:00.000Z",
+        "_PARENT": "/Users/seanblanton/Documents/Sites/blanton/src/posts/fiction-writing-for-designers.md absPath of file",
+        "parent": "/Users/seanblanton/Documents/Sites/blanton/src/posts/fiction-writing-for-designers.md absPath of file"
+      },
+      "excerpt": "",
+      "fileAbsolutePath": "/Users/seanblanton/Documents/Sites/blanton/src/posts/fiction-writing-for-designers.md",
+      "fields": {
+        "slug": "/fiction-writing-for-designers/"
+      }
+    },
+    "/Users/seanblanton/Documents/Sites/blanton/src/posts/size-and-mass-in-design-systems.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/seanblanton/Documents/Sites/blanton/src/posts/size-and-mass-in-design-systems.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/Users/seanblanton/Documents/Sites/blanton/src/posts/size-and-mass-in-design-systems.md absPath of file",
+      "internal": {
+        "content": "---\ntitle: Size and Mass in Design Systems\ndate: 2017-09-17\n---\nSometimes it can be hard to know what to work on in a design system. There are so many things which command our attention. There's always a very delicate balancing act between wanting to use the design system as a way to advance systems-level thinking inside the organization while at the same time utilizing the system as a way to embrace what there already is, and set up a set of guidelines to help others understand the decisions that have been made thus far.\n\nThis gets trickier in very large design systems or in cases where the design system has been neglected or absent up until this point. Both the amount of time saved by advancing foundational parts of the design system and the debt accrued by failing to document new things as they come into existence can be a zero sum game.\n\nOne way I've taken to dealing with this is to think about any aspect of building a design system in terms of **variance, mass, and size.**\n\nVariance tends to be the enemy of design systems. Variance might be defined as the point at which a portion of the design system takes on new form to meet a new goal. Variance may also be at a low or high _intensity_. A high intensity variance would be one in which two states of an object in the design system exist to meet the **a wildly different** goal. A variance of normal intensity would be one in which two objects or states exist for **similar, more closely related, but not congruent** purposes. A low intensity variance would be one that simply needs to specify state or interaction related to **the same goals**.\n\nWhen cataloging a design system, the intensity of variance tends to come into play not so much in the objects themselves as in the combinatorial sets of these objects. Objects which are comprised of many other objects, or objects with a high intensity of variance, can be said to be of great **size**. The parts of the design system with the smallest size consider the _least relationships and goals possible_.\n\nAn object in a design system has **mass** if producing a chance in that object _affects other objects_ in the system. An object can be incredibly complex (i.e. it can be said to be of great size) but be fairly isolated in its application. It would be isolated to a specific surface or seldom used situation, and thus, would have a small mass. Conversely, an object could exist at a relatively low state of complexity but have a cascading effect that has implications on many, _many other parts of the design system_, thus giving it **large mass**\n\nDesign systems can do a lot to keep the overall complexity of the system down by considering the parts before the whole. By prioritizing the parts of the design system which have the smallest size, but the greatest mass, it's easier to start building a design system that pays dividends. Likewise, when new objects come into existence, the question about whether or not to let new circumstances impact the momentum of the design system should also be a matter of the mass and size of that change relative to the current state of the overall system.\n\nThis is by no means a perfect way to build a design system. I recognize that the massive complexity of building at scale and parallel to ongoing product development efforts can strongly impact one's ability to always rationalize system adaptation against the notions of mass and size. At the end of the day, design systems are built for people, and we should be doing whatever we can to make their lives better, in both the short term and the long, and not let any guiding notions like these become dogmatic treatises any more than should the idea that these systems are winding and complex and cannot be neatly put into boxes mock the attempt.\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "2adebb0c65af5a11bf32891eb1134187",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "Size and Mass in Design Systems",
+        "date": "2017-09-17T00:00:00.000Z",
+        "_PARENT": "/Users/seanblanton/Documents/Sites/blanton/src/posts/size-and-mass-in-design-systems.md absPath of file",
+        "parent": "/Users/seanblanton/Documents/Sites/blanton/src/posts/size-and-mass-in-design-systems.md absPath of file"
+      },
+      "excerpt": "",
+      "fileAbsolutePath": "/Users/seanblanton/Documents/Sites/blanton/src/posts/size-and-mass-in-design-systems.md",
+      "fields": {
+        "slug": "/size-and-mass-in-design-systems/"
+      }
+    },
+    "/Users/seanblanton/Documents/Sites/blanton/src/posts/the-analysis-and-ontology-of-design-systems.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/seanblanton/Documents/Sites/blanton/src/posts/the-analysis-and-ontology-of-design-systems.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/Users/seanblanton/Documents/Sites/blanton/src/posts/the-analysis-and-ontology-of-design-systems.md absPath of file",
+      "internal": {
+        "content": "---\ntitle: The Analysis and Ontology of Design Systems\ndate: 2018-03-11\nprivate: true\n---\n\nThe following passages will attempt to define design systems and their relationships.\n\nI hesitate to refer to this as a theory, despite it being a common way these types of things get referred to conversationally. While theory has been transmuted over time, I still opine that theories need to be tested, proven, and widely accepted as true. The following builds on the work of others that have come before me but is more like a kind of framework or position. It’s yet to be proven whether or not this framework supports the needs of an evolving and expanding ecosystem of platforms and media. I’ve done my best to allow this work to be applicable in any content or platform without being prescriptive in its application.\n\n## Design systems are not visual\n\nThe noun “design system” itself comes with a whole lot of baggage — and unfortunately most of that baggage involves the perception of a design system as a collection of drawn stuff your design team made. As designers, engineers, and product managers alike all know is that the Design Artifact (DA) is only the tip of the iceberg and tends to be one of the last decisions made in the product development cycle, long after all the other work has been done to determine just exactly what the DA needs to be in the first place.\n\nExample: One need not draw any kind of dropdown selector until the fact has already been established that a user needs to be able to make a selection in the first place and that the selection can be one (or sometimes n) number of possible options, that a selector is the most appropriate way in which to present this information, that the selector is something appropriate for this context, that the users of this product know and understand what a selector is and how to use it, ad almost infinitum.\n\nAnd even after selector is the proposed DA for this design problem, we need a rigorous way in which to describe that entity that doesn’t leave out or misrepresent horribly some situation that we hadn’t accounted for, or some new platform of media that sends the entire Jenga tower crashing and tumbling down in some awful mess and we’re sitting there around a conference room table recoiled in terror wondering if we’d even ever designed anything at all.\n\nThe fact of the matter is that design systems aren’t visual in the first place — it’s just that that’s one of the easiest ways for someone to latch on to what a design system is for. Design systems are an abstract way to talk about the real things we make in the world. In this way, they function more like mathematical entities than physical objects. DS investigates the conceptions of and relationships between entities which comprise designed artifacts.\n\nLet’s go through an example of how design systems are like mathematics. Take the number $$3$$. How does one define the number $$3$$? Most of us would point to an instance of $$3$$ of something: three books on the table; three fingers held up. But this kind of definition doesn’t tell us anything about the relationship between three as a count of books on the table and, say, the relationship between three angles in a triangle, or the square root of 3 much less. We’ll need a definition of $$3$$ that isn’t bound by any thing before we can even begin to discuss what three can do without clutching our heads in frustration. The same is true for entities in a design system. For us to have any kind of rigorous account of what that system is to keep the Jenga tower standing tall, we need to separate from it any kind of specific implementation or application. To wit: What is the ontological status of a design system?\n\n[[ define intro to fundamental forces… how to build up the particle set and put back together ]]\n\n## Fundamental Forces of Design Systems\n\nBefore we get into describing design system structure and interactions, it’s important to be apprised that there’s a whole slew of things that can influence the types of inputs we pass to any design system structure. We can stack these forces together and use them to evaluate our design system for any given situation.\n\nLet’s take typography as an example: say we’d like to determine an appropriate set of type sizes for our design system. Those type sizes can be represented as a finite set of numbers T. To determine what set of sizes might be appropriate, we can consider the following:\n\n* The context in which a user experiences the design system (web or mobile, for instance) may give us insight into our initial value for $$f\\_{0}$$ or the total number of values $$n$$ the system needs to support\n* Internationalization may give information about a preferred minimum font size needed to render content with non-Western characters\n* Brand may give insight into how subtle or extreme the ratio $$r$$ between each value in the set is or the initial size to base the system off of\n* The returned value may be further adjusted given more context like user settings or environment\n\n$$baseValue = f*{0} = f + brand + context$$\n$$minimumSize = m = m + brand + internationalization$$\n$$maximumSize = lim*{m \\to \\infty} = M + brand + context$$\n$$length = n + context$$\n$$ratio = r = 1 \\* brand$$\n\n$$T = \\forall f \\in \\{...,f*{0},...\\} f*{0}r^\\tfrac{f}{M} \\* context$$\n\n> ☝ This notation is probably wildly off… better triple check this before ever posting\n\nThe influence of these fundamental forces can be as small as determining font size and as large as determining which features to enable in a certain locale or on a certain device. A non-exhaustive list of possible fundamental forces includes:\n\n| External Standards   | W3C, WCAG, and other best practice consortiums who promote interoperability on the web                                |\n| -------------------- | --------------------------------------------------------------------------------------------------------------------- |\n| Context              | External factors the system has no control over. e.g. Brightness, time, user activity, user settings, impairment, etc |\n| Research             | The results of user testing, competitor research, A/B testing, etc                                                    |\n| Internationalization | Translations, cultural alternatives, RTL layouts, etc                                                                 |\n| Brand                | Brand values, voice, position, target audience, etc which may anchor design decisions                                 |\n\n## Parts of a Design System\n\nContext (Context Functions)\nContexts are external factors outside the design system that the system has no control over. When context comes into a design system, the system needs to adapt to fit that context. Because of this, every element of a design system is a function of $$N$$ contexts, each represented as\n\n$$C(x) = context(particle)$$\n\n#### Force\n\nTo have force is to to an effect on the output of an aspect of the design system. Design systems are affected by fundamental forces (described above)\n\n#### Particles\n\nParticles are sets containing a single entity. They are informed by fundamental forces but are themselves immutable parts of the design system. Particles are typed and are agnostic of any implementation. The known types are: `number`, `string`, `boolean`, and `function`\n\n#### Equivalent Particle Subsets\n\nParticle sets are the subset of all particles which, given particles $$a, b$$, and context $$C$$, are equivalent. Particle sets may be of different types, e.g. a numeral and a string, but still return the same value under the same context. E.g. color transformations.\n\n`C(a) == C(b)`\n\n```javascript\n// context.platform = 'ios'\nC(val) = toIosColor(val);\nC('#FFF') === C(rgb(255, 255, 255)) // TRUE\n```\n\n#### Particle Arrays\n\nParticle arrays are subsets of particles which all have the same type and are interchangeable. They are context agnostic and provide the foundation for variance. Particle arrays may get their values from an Equivalent Particle Subset via some Context function.\n\nExample\n`TypeSizes = [10, 12, 14, 16, 20, 24, 32;]`\n`Color = [r, g, b, a]`\n\n#### Atoms\n\nAn atom a set $$1+N$$ particles whose values are equal to the properties required to define a single property of a given context. These vary across platforms and are transformed by Context functions\n\n```javascript\nwidth\nheight\nbackgroundColor\n```\n\n#### Elements\n\nElements are the set of particles which combine to equal the minimum specification required to produce a standard tag or component in a native context.\n\n```javascript\n<button />\n<div />\n<NSView />\n```\n\n#### Objects\n\nObjects are instances of elements\n\n## Interactions of Subatomic Design Particles\n\nNot all particles are affected by context equally. For instance, particles, particle arrays, or particle sets which have no data properties will not interact with some content strategy contexts. Likewise, data particles will not react with context related to brand colors because the data does not in itself have any visual properties. In these instances, only the composition of these particles can result in a set which is affected by this context.\n\nContext must be evaluated at multiple levels of composition to determine any if any force has been exerted on that entity.\n\n[[ define properties and how they differ from particles ]]\n\n[[ define element functions ]]\n\nFundamental Interactions and Rules of Design Systems Particles\nEverything in the design system is a composition\nAll compositions are sets\nAll sets are immutable\nContext functions return new sets from existing ones\nParticles must be independent\nElements are definitions of objects\nParticles can have no properties beyond a name\n\n[[ tbd ]]\n\n#### Disclosure: I am not a mathematician, philosopher, physicist, biologist, architect, or any other profession whose ideas I have drawn on as metaphor on in order to unpack the problems and possible solutions of design systems.\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "bb749470b5d18fff4056f66401e02622",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "The Analysis and Ontology of Design Systems",
+        "date": "2018-03-11T00:00:00.000Z",
+        "private": true,
+        "_PARENT": "/Users/seanblanton/Documents/Sites/blanton/src/posts/the-analysis-and-ontology-of-design-systems.md absPath of file",
+        "parent": "/Users/seanblanton/Documents/Sites/blanton/src/posts/the-analysis-and-ontology-of-design-systems.md absPath of file"
+      },
+      "excerpt": "",
+      "fileAbsolutePath": "/Users/seanblanton/Documents/Sites/blanton/src/posts/the-analysis-and-ontology-of-design-systems.md",
+      "fields": {
+        "slug": "/the-analysis-and-ontology-of-design-systems/"
+      }
+    },
+    "/Users/seanblanton/Documents/Sites/blanton/src/posts/the-map-is-not-the-territory.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/seanblanton/Documents/Sites/blanton/src/posts/the-map-is-not-the-territory.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/Users/seanblanton/Documents/Sites/blanton/src/posts/the-map-is-not-the-territory.md absPath of file",
+      "internal": {
+        "content": "---\ntitle: The Map Is Not The Territory\ndate: 2017-09-15\n---\n\nDesign systems have done much in terms of advocating for and advancing collective thought towards the notion of component-based design and development strategy. By documenting patterns and discussing the application and extension of those patterns, the design system has established a kind of **figure-ground** relationship between the things that are and are not a part of that system. What is, is recorded, and what is recorded describes what their is.\n\nBut a design system is not a library of sketch symbols neatly arranged on an infinite canvas, nor is it a folder of components, or set of pre-made templates. It’s not the dos or the don’ts. And while design systems that are generated from code tend to be easier to maintain and describe a more **accurate** representation of what can actually be put into production for other people to use, than those drawn by hand in vector, assuming that a generated design system would be an ultimate source of truth will result in a design system with an equally narrow field of view as its inverse. The component itself, drawn or coded, has very few inherit *principles*, beyond its affordances, which describe what is known about it. For us to truly *know* any object, we need to know about every occurrence of that object. To do this would mean to edge slowly closer towards a system as lumbering as the application to which it represents.\n\n> A map is not the territory it represents, but, if correct, it has a similar structure to the territory, which accounts for its usefulness. **– Alfred Korzybski, Science and Sanity (1933, p. 58)**\n\n\nWe would do well to keep Korzybski in mind when referencing what a design system is and how accurately a design system should seek to represent its application blow-by-blow.\n\nNothing can be devoid of place and time. For a thing to exist, it must exist at a particular point and place in time. Design systems describe not objects, but _possible_ objects, stripped down and generalized, and do not necessarily reference the relation of an object to its environment. These generalized concepts are things that cannot be fully described until the moment in which they exist again. Only though the application of a pattern in a particular situation can we truly say whether or not that pattern is a well-executed application of a system. The application of most parts of a design system are esoteric, and can only be described though metaphor.\n\nDesign system are not rigid rules to be followed. They’re more like sketches, gesture drawings that suggest a shape, a texture, a quality. They are the _map_. They help guide us towards the right reality, but they are not in and of themselves _the_ reality. So it seems that the best way to describe a design system is spend an equal amount of time not just documenting any given object, but documenting the _application_ of that object in time and space and in concert with all the objects it interacts with. But this is still not the territory. If we go through the process of naming and describing and cataloging a portion of the interface with the intent that the end result is a perfect depiction of the territory of that which it represents, we cannot ever reach objective truth. Any description of any interface would be done with a specifically chosen taxonomy to describe and account for that interface, and the very act of choosing _what_ to say is also a choice of what _not_ to say. We can then look at that map and ask ourselves “what does this map represent?” and thus, we only make another map. Again and again, on and on.\n\nDesign systems should aim to tell **stories**, organized through **patterns**, which set up scenarios and suggested outcomes. Throughout the description of these patterns, the design system will reference other patterns. Some of these patterns may be more or less gestural than others. When a design that utilizes that design system is being iterated upon, the system should serve as a guide towards more consistent outcomes. When the design is finalized, if a real pattern or object cannot be well-described through a design system, then either the object or the system should be modified to be rationalized through the order of the system, carefully minding that the design system not grow to such immense precision that it reaches an unusable size. I believe this is how design systems can be malleable to new ideas without becoming a tome of prescriptive specificity that everyone dreads.  \n",
+        "type": "MarkdownRemark",
+        "contentDigest": "2cd58338fa035ddd79005e631ab6b2df",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "The Map Is Not The Territory",
+        "date": "2017-09-15T00:00:00.000Z",
+        "_PARENT": "/Users/seanblanton/Documents/Sites/blanton/src/posts/the-map-is-not-the-territory.md absPath of file",
+        "parent": "/Users/seanblanton/Documents/Sites/blanton/src/posts/the-map-is-not-the-territory.md absPath of file"
+      },
+      "excerpt": "",
+      "fileAbsolutePath": "/Users/seanblanton/Documents/Sites/blanton/src/posts/the-map-is-not-the-territory.md",
+      "fields": {
+        "slug": "/the-map-is-not-the-territory/"
+      }
+    },
+    "/Users/seanblanton/Documents/Sites/blanton/src/posts/why-use-system-fonts.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/seanblanton/Documents/Sites/blanton/src/posts/why-use-system-fonts.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/Users/seanblanton/Documents/Sites/blanton/src/posts/why-use-system-fonts.md absPath of file",
+      "internal": {
+        "content": "---\ntitle: Why Use System Fonts\ndate: 2016-09-25\n---\n\nWhen choosing fonts for web typography, it's easy for a designer to impulsively reach for Open Sans or Lato or Avenir or whatever the newest, hottest thing out there at the time is. I've done it. We all have. There's a compulsion for the fonts we use on the web to match the fonts we use in marketing material, particuarily print. After all - we do want to be _on brand_, right? But is that the most important thing typography should address?\n\nBut if you start to consider your performance budget, using webfonts starts to make less and less sense. [Users hate slow websites](http://globenewswire.com/news-release/2010/09/07/429014/200875/en/New-Survey-From-Compuware-Gomez-Reveals-Consumers-Will-Quickly-Abandon-Slow-Websites.html)\n\n#### We need to consider what typography is _for_ and what problem it aims to _solve_.\n\nLet's pay attention to the words we don't often even bother to look up in the dictionary. Take user _interfaces_ for example:\n\n> #### in·ter·face\n>\n> ˈin(t)ərˌfās - **noun**  \n> &#8291;1. a point where two systems, subjects, organizations, etc., meet and interact.   \n> &#8291; 2. a device or program enabling a user to communicate with a computer.  \n> &#8291; – [_From Google_](https://www.google.com/search?q=interface+definition&oq=interface+definition)\n\n### When I design something, I aim to make every single design decision solve a problem.\n\nSometimes that problem is for the user, like increasing legibility or reducing cognitive load. Sometimes the problem is for the business, like increasing maintainability and scalability. So maybe that means adding constraints to the design requirements and increasing the efficiency of the system.\n\n## If typography in an interface exists to facilitate interaction, putting a webfont in a button or other parts of UI copy does little to advance this cause.\n\nBut what it does do is this: make your page heavier and harder to maintain. Good web typography should be functional and performant. Everything beyond that is nice to have and should be considered an optimization on an already validated design.\n\n## Using system fonts allows designers to focus more on solving problems and less on aesthetics.\n\nThey also allow your site to feel native to the platform in which a user is experiencing it.\n[W3C is already considering this as a standard anyway](https://lists.w3.org/Archives/Public/www-style/2015Jul/0169.html)\n\nIf you must include webfonts as a part of your UI, at least consider the [alternatives](http://cognition.happycog.com/article/7-alternatives-to-popular-web-typefaces-for-better-performance) that might help reduce your page to help reduce weight and load them [in the most efficient way you can.](https://github.com/bramstein/fontfaceobserver)\n\n## Further Reading\n\n* [Bram Stein on loading fonts](http://bramstein.com/writing/)\n* [Marcin Wichary on Using System UI Fonts in Web Design](https://www.smashingmagazine.com/2015/11/using-system-ui-fonts-practical-guide/)\n* [Sites with System Fonts](https://github.com/mrmrs/awesome-system-fonts)\n* [Katie Kovalcin on Designing wtih a Performance Budget](http://cognition.happycog.com/article/designing-with-a-performance-budget)\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "4c0d21cdcfac2df2336c9062abbab7fe",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "Why Use System Fonts",
+        "date": "2016-09-25T00:00:00.000Z",
+        "_PARENT": "/Users/seanblanton/Documents/Sites/blanton/src/posts/why-use-system-fonts.md absPath of file",
+        "parent": "/Users/seanblanton/Documents/Sites/blanton/src/posts/why-use-system-fonts.md absPath of file"
+      },
+      "excerpt": "",
+      "fileAbsolutePath": "/Users/seanblanton/Documents/Sites/blanton/src/posts/why-use-system-fonts.md",
+      "fields": {
+        "slug": "/why-use-system-fonts/"
+      }
+    },
+    "/Users/seanblanton/Documents/Sites/blanton/src/posts/which-shade-of-gray-should-i-use-for-disabled-states.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/seanblanton/Documents/Sites/blanton/src/posts/which-shade-of-gray-should-i-use-for-disabled-states.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/Users/seanblanton/Documents/Sites/blanton/src/posts/which-shade-of-gray-should-i-use-for-disabled-states.md absPath of file",
+      "internal": {
+        "content": "---\ntitle: Which Shade of Gray Should I Use For Disabled States\ndate: 2016-10-10\n---\n\nThe web is an accessibility nightmare. For many companies, A11Y guidelines are relegated to some \"other\" time or a \"nice to have\". But even when a website meets accessibility standards reasonably well, one of the components in design that seems to be left behind is the disabled state. And it's a somewhat reasonable thing to leave behind. After all, this is a _disabled_ state. It's not intended to be interacted with, so it's reasonable to assume that because of this, accessibility can fall by the wayside.\n\nBut disabled buttons are buttons, too. And disabled text that is still visible on the screen exists to inform a user about the current state of the system. Often, disabled text is there to nudge a user towards another action that could perhaps _enable_ the same text at some point in that context. Or it might exist to inform a user of options that may be unclear to him or her.\n\nA great example of this is in faceted search. I'm on Amazon right now, and it's late in the evening. On the left hand side are my search options. Halfway down the page is a `Refine By` subheader and the very first filter option is for `Delivery Day`. No doubt this is because it is in Amazon's best interest to inform a user that `Get It Today` _is_ a delivery option, and a damn good one, at that. But it's almost 10:00PM at night, and so the only option I have available to me as a user right now is `Get It Tomorrow`. Maybe I should hop online earlier in the day to take advantage of Amazon's great shipping options next time. But if I couldn't see both the disabled gray label and the disabled gray checkbox, the the shipping options aren't nearly as sweet.\n\nSurprisingly, there isn't much talk out there about the `right` shade of gray for disabled. But here's what I do know: **WCAG doesn't set contrast requirements for disabled text**\n\n> **Incidental** – Text or images of text that are part of an inactive user interface component,\n> that are pure decoration, that are not visible to anyone,\n> or that are part of a picture that contains significant other visual content, have no contrast requirement.\n> – [_From WCAG 2.0_](http://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html)\n\nDefault, unstyled HTML button labels set to `disabled` are `#7F7F7F`. This is a `4:1` contrast ratio on a white background, just slightly off from minimum. This comes close to meeting the standard for low vision and moderately low visual acuity that tends to come with age. This is around 20/40 vision and tends to represent the acuity of a user around age 80 years old. This would be fine if the text was over 18pt or was 14 point bold.\n\nDefault, unstyled radio buttons set to `disabled` have borders of `#D8D8D8`. This is a 1.43:1 ratio, which is pretty terrible.\n\nDisabled, checked checkboxes have the checkmark at `#A1A1A1`. This is a `2.58:1` ratio. Still bad, but getting better.\n\nPretty dismal as far as options go. Just because WCAG AA doesn't specify a minimum, doesn't mean we can't adopt some sensible best practices for disabled text:\n\n### Best Practices\n\n* Leave disabled form elements at their default styles, even though they don't meet WCAG A.\n* But set the disabled label color to no darker than `#7F7F7F` to ensure that while the button isn't visible, the identifying label is still readable for most. This will serve as a clue for most users.\n* Disable any visual styling on hover or click for disabled buttons or text to prevent confusion\n* Consider some hint text, either in a tooltip or copy next to the disabled action instructing the user on why the action is disabled.\n* Keep the contrast on regular, active items high so that the difference between active items and disabled items is still distinguishable at a glance.\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "6a8a4a76b80048994d8bbc984e4cf5d8",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "Which Shade of Gray Should I Use For Disabled States",
+        "date": "2016-10-10T00:00:00.000Z",
+        "_PARENT": "/Users/seanblanton/Documents/Sites/blanton/src/posts/which-shade-of-gray-should-i-use-for-disabled-states.md absPath of file",
+        "parent": "/Users/seanblanton/Documents/Sites/blanton/src/posts/which-shade-of-gray-should-i-use-for-disabled-states.md absPath of file"
+      },
+      "excerpt": "",
+      "fileAbsolutePath": "/Users/seanblanton/Documents/Sites/blanton/src/posts/which-shade-of-gray-should-i-use-for-disabled-states.md",
+      "fields": {
+        "slug": "/which-shade-of-gray-should-i-use-for-disabled-states/"
+      }
+    },
+    "SitePage /offline-plugin-app-shell-fallback/": {
+      "layout": "index",
+      "jsonName": "offline-plugin-app-shell-fallback.json",
+      "internalComponentName": "ComponentOfflinePluginAppShellFallback",
+      "path": "/offline-plugin-app-shell-fallback/",
+      "component": "/Users/seanblanton/Documents/Sites/blanton/node_modules/gatsby-plugin-offline/app-shell.js",
+      "componentChunkName": "component---node-modules-gatsby-plugin-offline-app-shell-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-offline",
+      "pluginCreatorId": "Plugin gatsby-plugin-offline",
+      "componentPath": "/Users/seanblanton/Documents/Sites/blanton/node_modules/gatsby-plugin-offline/app-shell.js",
+      "id": "SitePage /offline-plugin-app-shell-fallback/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "f57edbddc8a2ac9e564fa5a8923a5584",
+        "description": "Plugin gatsby-plugin-offline",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /making-susy-grids-atomic/": {
+      "layout": "index",
+      "jsonName": "making-susy-grids-atomic.json",
+      "internalComponentName": "ComponentMakingSusyGridsAtomic",
+      "path": "/making-susy-grids-atomic/",
+      "component": "/Users/seanblanton/Documents/Sites/blanton/src/templates/post.js",
+      "componentChunkName": "component---src-templates-post-js",
+      "context": {
+        "slug": "/making-susy-grids-atomic/"
+      },
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/seanblanton/Documents/Sites/blanton/src/templates/post.js",
+      "id": "SitePage /making-susy-grids-atomic/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "b61cd42f6ea5103cf178ec6200d2cdd7",
+        "description": "Your site's \"gatsby-node.js\"",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /programmatic-color-palettes/": {
+      "layout": "index",
+      "jsonName": "programmatic-color-palettes.json",
+      "internalComponentName": "ComponentProgrammaticColorPalettes",
+      "path": "/programmatic-color-palettes/",
+      "component": "/Users/seanblanton/Documents/Sites/blanton/src/templates/post.js",
+      "componentChunkName": "component---src-templates-post-js",
+      "context": {
+        "slug": "/programmatic-color-palettes/"
+      },
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/seanblanton/Documents/Sites/blanton/src/templates/post.js",
+      "id": "SitePage /programmatic-color-palettes/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "237a685ebf1bf0c857d2bde6472e6a18",
+        "description": "Your site's \"gatsby-node.js\"",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /fiction-writing-for-designers/": {
+      "layout": "index",
+      "jsonName": "fiction-writing-for-designers.json",
+      "internalComponentName": "ComponentFictionWritingForDesigners",
+      "path": "/fiction-writing-for-designers/",
+      "component": "/Users/seanblanton/Documents/Sites/blanton/src/templates/post.js",
+      "componentChunkName": "component---src-templates-post-js",
+      "context": {
+        "slug": "/fiction-writing-for-designers/"
+      },
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/seanblanton/Documents/Sites/blanton/src/templates/post.js",
+      "id": "SitePage /fiction-writing-for-designers/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "a88412f75e013beab98a245904ee4963",
+        "description": "Your site's \"gatsby-node.js\"",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /size-and-mass-in-design-systems/": {
+      "layout": "index",
+      "jsonName": "size-and-mass-in-design-systems.json",
+      "internalComponentName": "ComponentSizeAndMassInDesignSystems",
+      "path": "/size-and-mass-in-design-systems/",
+      "component": "/Users/seanblanton/Documents/Sites/blanton/src/templates/post.js",
+      "componentChunkName": "component---src-templates-post-js",
+      "context": {
+        "slug": "/size-and-mass-in-design-systems/"
+      },
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/seanblanton/Documents/Sites/blanton/src/templates/post.js",
+      "id": "SitePage /size-and-mass-in-design-systems/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "7c8c8dcd67c066a45dbd331477123ae6",
+        "description": "Your site's \"gatsby-node.js\"",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /the-analysis-and-ontology-of-design-systems/": {
+      "layout": "index",
+      "jsonName": "the-analysis-and-ontology-of-design-systems.json",
+      "internalComponentName": "ComponentTheAnalysisAndOntologyOfDesignSystems",
+      "path": "/the-analysis-and-ontology-of-design-systems/",
+      "component": "/Users/seanblanton/Documents/Sites/blanton/src/templates/post.js",
+      "componentChunkName": "component---src-templates-post-js",
+      "context": {
+        "slug": "/the-analysis-and-ontology-of-design-systems/"
+      },
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/seanblanton/Documents/Sites/blanton/src/templates/post.js",
+      "id": "SitePage /the-analysis-and-ontology-of-design-systems/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "4f46fba591b3ef33f480699ced855f35",
+        "description": "Your site's \"gatsby-node.js\"",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /the-map-is-not-the-territory/": {
+      "layout": "index",
+      "jsonName": "the-map-is-not-the-territory.json",
+      "internalComponentName": "ComponentTheMapIsNotTheTerritory",
+      "path": "/the-map-is-not-the-territory/",
+      "component": "/Users/seanblanton/Documents/Sites/blanton/src/templates/post.js",
+      "componentChunkName": "component---src-templates-post-js",
+      "context": {
+        "slug": "/the-map-is-not-the-territory/"
+      },
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/seanblanton/Documents/Sites/blanton/src/templates/post.js",
+      "id": "SitePage /the-map-is-not-the-territory/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "ba486dec30a9bceb0055ea9afc0d8e56",
+        "description": "Your site's \"gatsby-node.js\"",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /why-use-system-fonts/": {
+      "layout": "index",
+      "jsonName": "why-use-system-fonts.json",
+      "internalComponentName": "ComponentWhyUseSystemFonts",
+      "path": "/why-use-system-fonts/",
+      "component": "/Users/seanblanton/Documents/Sites/blanton/src/templates/post.js",
+      "componentChunkName": "component---src-templates-post-js",
+      "context": {
+        "slug": "/why-use-system-fonts/"
+      },
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/seanblanton/Documents/Sites/blanton/src/templates/post.js",
+      "id": "SitePage /why-use-system-fonts/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "3db0f8160d4b733c02671a9400ebd6d0",
+        "description": "Your site's \"gatsby-node.js\"",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /which-shade-of-gray-should-i-use-for-disabled-states/": {
+      "layout": "index",
+      "jsonName": "which-shade-of-gray-should-i-use-for-disabled-states.json",
+      "internalComponentName": "ComponentWhichShadeOfGrayShouldIUseForDisabledStates",
+      "path": "/which-shade-of-gray-should-i-use-for-disabled-states/",
+      "component": "/Users/seanblanton/Documents/Sites/blanton/src/templates/post.js",
+      "componentChunkName": "component---src-templates-post-js",
+      "context": {
+        "slug": "/which-shade-of-gray-should-i-use-for-disabled-states/"
+      },
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/seanblanton/Documents/Sites/blanton/src/templates/post.js",
+      "id": "SitePage /which-shade-of-gray-should-i-use-for-disabled-states/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "a3163f1bcf5c056814c16d27a7b9052e",
+        "description": "Your site's \"gatsby-node.js\"",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /404/": {
+      "layout": "index",
+      "jsonName": "404.json",
+      "internalComponentName": "Component404",
+      "path": "/404/",
+      "component": "/Users/seanblanton/Documents/Sites/blanton/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "pluginCreatorId": "Plugin component-page-creator",
+      "componentPath": "/Users/seanblanton/Documents/Sites/blanton/src/pages/404.js",
+      "id": "SitePage /404/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "30241f7bacf8872ab756fba6b41b10d8",
+        "description": "Plugin component-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /": {
+      "layout": "index",
+      "jsonName": "index.json",
+      "internalComponentName": "ComponentIndex",
+      "path": "/",
+      "component": "/Users/seanblanton/Documents/Sites/blanton/src/pages/index.js",
+      "componentChunkName": "component---src-pages-index-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "pluginCreatorId": "Plugin component-page-creator",
+      "componentPath": "/Users/seanblanton/Documents/Sites/blanton/src/pages/index.js",
+      "id": "SitePage /",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "81d948d68d77d5163625fc28da0cdda3",
+        "description": "Plugin component-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /404.html": {
+      "layout": "index",
+      "jsonName": "404-html.json",
+      "internalComponentName": "Component404Html",
+      "path": "/404.html",
+      "component": "/Users/seanblanton/Documents/Sites/blanton/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin prod-404",
+      "pluginCreatorId": "Plugin prod-404",
+      "componentPath": "/Users/seanblanton/Documents/Sites/blanton/src/pages/404.js",
+      "id": "SitePage /404.html",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "0bcafce254429c031ffb5948651e17f4",
+        "description": "Plugin prod-404",
+        "owner": "internal-data-bridge"
+      }
+    }
+  },
+  "status": {
+    "plugins": {},
+    "PLUGINS_HASH": "d92636581570772444ed340359225bec"
+  },
+  "componentDataDependencies": {
+    "nodes": {
+      "Site": [
+        "/fiction-writing-for-designers/",
+        "/programmatic-color-palettes/",
+        "/making-susy-grids-atomic/",
+        "/size-and-mass-in-design-systems/",
+        "/why-use-system-fonts/",
+        "/the-map-is-not-the-territory/",
+        "/the-analysis-and-ontology-of-design-systems/",
+        "/which-shade-of-gray-should-i-use-for-disabled-states/",
+        "/",
+        "LAYOUT___index"
+      ],
+      "/Users/seanblanton/Documents/Sites/blanton/src/posts/fiction-writing-for-designers.md absPath of file >>> MarkdownRemark": [
+        "/fiction-writing-for-designers/"
+      ],
+      "/Users/seanblanton/Documents/Sites/blanton/src/posts/programmatic-color-palettes.md absPath of file >>> MarkdownRemark": [
+        "/programmatic-color-palettes/"
+      ],
+      "/Users/seanblanton/Documents/Sites/blanton/src/posts/making-susy-grids-atomic.md absPath of file >>> MarkdownRemark": [
+        "/making-susy-grids-atomic/"
+      ],
+      "/Users/seanblanton/Documents/Sites/blanton/src/posts/size-and-mass-in-design-systems.md absPath of file >>> MarkdownRemark": [
+        "/size-and-mass-in-design-systems/"
+      ],
+      "/Users/seanblanton/Documents/Sites/blanton/src/posts/why-use-system-fonts.md absPath of file >>> MarkdownRemark": [
+        "/why-use-system-fonts/"
+      ],
+      "/Users/seanblanton/Documents/Sites/blanton/src/posts/the-map-is-not-the-territory.md absPath of file >>> MarkdownRemark": [
+        "/the-map-is-not-the-territory/"
+      ],
+      "/Users/seanblanton/Documents/Sites/blanton/src/posts/the-analysis-and-ontology-of-design-systems.md absPath of file >>> MarkdownRemark": [
+        "/the-analysis-and-ontology-of-design-systems/"
+      ],
+      "/Users/seanblanton/Documents/Sites/blanton/src/posts/which-shade-of-gray-should-i-use-for-disabled-states.md absPath of file >>> MarkdownRemark": [
+        "/which-shade-of-gray-should-i-use-for-disabled-states/"
+      ]
+    },
+    "connections": {
+      "MarkdownRemark": [
+        "/"
+      ],
+      "SitePage": [
+        "/dev-404-page/"
+      ]
+    }
+  }
+}
