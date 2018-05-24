@@ -46,7 +46,10 @@ injectGlobal`
 const Container = styled.div`
 	max-width: 768px;
 	margin: 0 auto;
-	padding: 2em;
+	padding: 1em;
+	${breakpoints.medium} {
+		padding: 2em;
+	}
 `;
 
 const Layout = ({ children, data }) => (
