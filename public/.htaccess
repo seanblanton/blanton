@@ -1,4 +1,4 @@
-## Deny Directory Listings ## 
+## Deny Directory Listings ##
 Options -Indexes
 
 ## EXPIRES CACHING ##
@@ -148,3 +148,15 @@ BrowserMatch \bMSIE !no-gzip !gzip-only-text/html
 BrowserMatch \bMSI[E] !no-gzip !gzip-only-text/html
 SetEnvIfNoCase Request_URI \.(?:gif|jpe?g|png)$ no-gzip
 Header append Vary User-Agent env=!dont-vary
+
+#######################
+# PERMANENT REDIRECTS #
+#######################
+
+Redirect 301 /2017/09/16/size-and-mass-in-design-systems https://www.sean-blanton.com/size-and-mass-in-design-systems/
+Redirect 301 /2017/09/14/the-map-is-not-the-territory https://www.sean-blanton.com/the-map-is-not-the-territory/
+Redirect 301 /2017/01/16/programmatic-color-palettes https://www.sean-blanton.com/programmatic-color-palettes/
+Redirect 301 /2016/10/9/which-shade-of-gray-should-i-use-for-disabled-states https://www.sean-blanton.com/which-shade-of-gray-should-i-use-for-disabled-states/
+Redirect 301 /2016/09/24/why-use-system-fonts https://www.sean-blanton.com/why-use-system-fonts/
+Redirect 301 /2016/06/13/fiction-writing-for-designers https://www.sean-blanton.com/fiction-writing-for-designers/
+Redirect 301 /2016/05/7/making-susy-grids-atomic https://www.sean-blanton.com/making-susy-grids-atomic

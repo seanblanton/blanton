@@ -10,6 +10,13 @@
         "componentChunkName": "component---src-templates-post-js",
         "layout": "layout---index",
         "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "fiction-writing-for-designers.json",
+        "path": "/fiction-writing-for-designers/"
+    },
+    {
+        "componentChunkName": "component---src-templates-post-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
         "jsonName": "making-susy-grids-atomic.json",
         "path": "/making-susy-grids-atomic/"
     },
@@ -19,20 +26,6 @@
         "layoutComponentChunkName": "component---src-layouts-index-js",
         "jsonName": "programmatic-color-palettes.json",
         "path": "/programmatic-color-palettes/"
-    },
-    {
-        "componentChunkName": "component---src-templates-post-js",
-        "layout": "layout---index",
-        "layoutComponentChunkName": "component---src-layouts-index-js",
-        "jsonName": "fiction-writing-for-designers.json",
-        "path": "/fiction-writing-for-designers/"
-    },
-    {
-        "componentChunkName": "component---src-templates-post-js",
-        "layout": "layout---index",
-        "layoutComponentChunkName": "component---src-layouts-index-js",
-        "jsonName": "size-and-mass-in-design-systems.json",
-        "path": "/size-and-mass-in-design-systems/"
     },
     {
         "componentChunkName": "component---src-templates-post-js",
@@ -52,8 +45,8 @@
         "componentChunkName": "component---src-templates-post-js",
         "layout": "layout---index",
         "layoutComponentChunkName": "component---src-layouts-index-js",
-        "jsonName": "why-use-system-fonts.json",
-        "path": "/why-use-system-fonts/"
+        "jsonName": "size-and-mass-in-design-systems.json",
+        "path": "/size-and-mass-in-design-systems/"
     },
     {
         "componentChunkName": "component---src-templates-post-js",
@@ -61,6 +54,20 @@
         "layoutComponentChunkName": "component---src-layouts-index-js",
         "jsonName": "which-shade-of-gray-should-i-use-for-disabled-states.json",
         "path": "/which-shade-of-gray-should-i-use-for-disabled-states/"
+    },
+    {
+        "componentChunkName": "component---src-templates-post-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "why-use-system-fonts.json",
+        "path": "/why-use-system-fonts/"
+    },
+    {
+        "componentChunkName": "component---src-templates-post-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "on-the-experience-of-becoming.json",
+        "path": "/on-the-experience-of-becoming/"
     },
     {
         "componentChunkName": "component---src-pages-404-js",

@@ -5,6 +5,9 @@ var plugins = [{
       plugin: require('/Users/seanblanton/Documents/Sites/blanton/node_modules/gatsby-plugin-styled-components/gatsby-ssr'),
       options: {"plugins":[]},
     },{
+      plugin: require('/Users/seanblanton/Documents/Sites/blanton/node_modules/gatsby-plugin-sitemap/gatsby-ssr'),
+      options: {"plugins":[]},
+    },{
       plugin: require('/Users/seanblanton/Documents/Sites/blanton/node_modules/gatsby-plugin-google-analytics/gatsby-ssr'),
       options: {"plugins":[],"trackingId":"UA-29141738-1","head":false,"anonymize":true,"respectDNT":true},
     },{

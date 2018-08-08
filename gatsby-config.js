@@ -3,14 +3,15 @@ module.exports = {
 		title: 'Sean Blanton',
 		description:
 			'Sean Blanton is a Product Designer living in Seattle, Washington building design systems and tools at Facebook.',
+		siteUrl: `https://www.sean-blanton.com`
 	},
 	plugins: [
 		{
 			resolve: `gatsby-source-filesystem`,
 			options: {
 				name: `src`,
-				path: `${__dirname}/src/`,
-			},
+				path: `${__dirname}/src/`
+			}
 		},
 		{
 			resolve: `gatsby-transformer-remark`,
@@ -21,16 +22,20 @@ module.exports = {
 						options: {
 							classPrefix: 'language-',
 							inlineCodeMarker: '›',
-							aliases: {},
-						},
-					},
-				],
-			},
+							aliases: {}
+						}
+					}
+				]
+			}
 		},
+
 		'gatsby-plugin-react-helmet',
 		`gatsby-plugin-styled-components`,
 		`gatsby-plugin-offline`,
 		`gatsby-remark-smartypants`,
+		{
+			resolve: `gatsby-plugin-sitemap`
+		},
 		{
 			resolve: `gatsby-plugin-google-analytics`,
 			options: {
@@ -40,15 +45,15 @@ module.exports = {
 				// Setting this parameter is optional
 				anonymize: true,
 				// Setting this parameter is also optional
-				respectDNT: true,
-			},
+				respectDNT: true
+			}
 		},
 		{
 			resolve: `gatsby-plugin-nprogress`,
 			options: {
 				color: `#0ebcc7`,
-				showSpinner: false,
-			},
+				showSpinner: false
+			}
 		},
 		{
 			resolve: `gatsby-plugin-favicon`,
@@ -64,9 +69,9 @@ module.exports = {
 					firefox: true,
 					twitter: false,
 					yandex: false,
-					windows: false,
-				},
-			},
-		},
-	],
-}
+					windows: false
+				}
+			}
+		}
+	]
+};

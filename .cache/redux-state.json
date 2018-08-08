@@ -831,6 +831,74 @@
         "owner": "internal-data-bridge"
       }
     },
+    "Plugin gatsby-plugin-sitemap": {
+      "resolve": "/Users/seanblanton/Documents/Sites/blanton/node_modules/gatsby-plugin-sitemap",
+      "id": "Plugin gatsby-plugin-sitemap",
+      "name": "gatsby-plugin-sitemap",
+      "version": "1.2.23",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onPostBuild"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/seanblanton/Documents/Sites/blanton/node_modules/gatsby-plugin-sitemap",
+      "packageJson": {
+        "name": "gatsby-plugin-sitemap",
+        "description": "Gatsby plugin that automatically creates a sitemap for your site",
+        "version": "1.2.23",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Nicholas Young &lt;nicholas@nicholaswyoung.com&gt;",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "minimatch",
+            "version": "^3.0.4"
+          },
+          {
+            "name": "sitemap",
+            "version": "^1.12.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "6bca7d4842ba5721c581ed7dbc71ba31",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
     "Plugin gatsby-plugin-google-analytics": {
       "resolve": "/Users/seanblanton/Documents/Sites/blanton/node_modules/gatsby-plugin-google-analytics",
       "id": "Plugin gatsby-plugin-google-analytics",
@@ -1048,7 +1116,7 @@
       "resolve": "/Users/seanblanton/Documents/Sites/blanton",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
-      "version": "5171ff0b7b588554936b181ea4a0c015",
+      "version": "ef4deb39f253872413210feb8d4c75b8",
       "pluginOptions": {
         "plugins": []
       },
@@ -1100,6 +1168,10 @@
           {
             "name": "gatsby-plugin-react-helmet",
             "version": "^2.0.10"
+          },
+          {
+            "name": "gatsby-plugin-sitemap",
+            "version": "^1.2.23"
           },
           {
             "name": "gatsby-plugin-styled-components",
@@ -1155,7 +1227,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "871cbaeeea859cc91b2fb793f7689273",
+        "contentDigest": "28e4dddcc2b09253ce7a2eda4a929ba6",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -1163,16 +1235,17 @@
     "Site": {
       "siteMetadata": {
         "title": "Sean Blanton",
-        "description": "Sean Blanton is a Product Designer living in Seattle, Washington building design systems and tools at Facebook."
+        "description": "Sean Blanton is a Product Designer living in Seattle, Washington building design systems and tools at Facebook.",
+        "siteUrl": "https://www.sean-blanton.com"
       },
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-05-24T06:03:11.469Z",
+      "buildTime": "2018-08-08T03:41:55.840Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "832dfae85c5dd45cadf5b71ae0506cde",
+        "contentDigest": "f2de0bc75975bf6c781b9210366c2bfc",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1182,7 +1255,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "35be7cdf773ce185fd8d6d14c54d1ddd",
+        "contentDigest": "b34048a918b1f8a331a1d36a92c3198c",
         "type": "Directory",
         "description": "Directory \"src\"",
         "owner": "gatsby-source-filesystem"
@@ -1194,7 +1267,7 @@
       "size": 374,
       "prettySize": "374 B",
       "modifiedTime": "2018-05-24T05:04:34.000Z",
-      "accessTime": "2018-05-24T06:03:16.000Z",
+      "accessTime": "2018-08-08T03:42:00.000Z",
       "changeTime": "2018-05-24T05:06:46.000Z",
       "birthTime": "2018-05-17T03:43:23.000Z",
       "root": "/",
@@ -1212,11 +1285,11 @@
       "blksize": 4096,
       "ino": 55144918,
       "blocks": 0,
-      "atimeMs": 1527141796000,
+      "atimeMs": 1533699720000,
       "mtimeMs": 1527138274000,
       "ctimeMs": 1527138406000,
       "birthtimeMs": 1526528603000,
-      "atime": "2018-05-24T06:03:16.000Z",
+      "atime": "2018-08-08T03:42:00.000Z",
       "mtime": "2018-05-24T05:04:34.000Z",
       "ctime": "2018-05-24T05:06:46.000Z",
       "birthtime": "2018-05-17T03:43:23.000Z"
@@ -1226,7 +1299,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "be63136cc16ce73909096664da24b67c",
+        "contentDigest": "79cabb77d034038303e99ac39ccaf8e6",
         "type": "Directory",
         "description": "Directory \"src/components\"",
         "owner": "gatsby-source-filesystem"
@@ -1238,7 +1311,7 @@
       "size": 170,
       "prettySize": "170 B",
       "modifiedTime": "2018-05-24T05:04:34.000Z",
-      "accessTime": "2018-05-24T06:03:16.000Z",
+      "accessTime": "2018-08-08T03:42:00.000Z",
       "changeTime": "2018-05-24T05:06:46.000Z",
       "birthTime": "2018-05-24T05:04:34.000Z",
       "root": "/",
@@ -1256,11 +1329,11 @@
       "blksize": 4096,
       "ino": 55178081,
       "blocks": 0,
-      "atimeMs": 1527141796000,
+      "atimeMs": 1533699720000,
       "mtimeMs": 1527138274000,
       "ctimeMs": 1527138406000,
       "birthtimeMs": 1527138274000,
-      "atime": "2018-05-24T06:03:16.000Z",
+      "atime": "2018-08-08T03:42:00.000Z",
       "mtime": "2018-05-24T05:04:34.000Z",
       "ctime": "2018-05-24T05:06:46.000Z",
       "birthtime": "2018-05-24T05:04:34.000Z"
@@ -1270,7 +1343,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "335b14432c25891170f6224523494f1f",
+        "contentDigest": "91abfca638e384c9b144e97689f0b2df",
         "type": "Directory",
         "description": "Directory \"src/layouts\"",
         "owner": "gatsby-source-filesystem"
@@ -1282,7 +1355,7 @@
       "size": 102,
       "prettySize": "102 B",
       "modifiedTime": "2018-05-24T05:04:34.000Z",
-      "accessTime": "2018-05-24T06:03:16.000Z",
+      "accessTime": "2018-08-08T03:42:00.000Z",
       "changeTime": "2018-05-24T05:06:46.000Z",
       "birthTime": "2018-05-24T05:04:34.000Z",
       "root": "/",
@@ -1300,11 +1373,11 @@
       "blksize": 4096,
       "ino": 55178087,
       "blocks": 0,
-      "atimeMs": 1527141796000,
+      "atimeMs": 1533699720000,
       "mtimeMs": 1527138274000,
       "ctimeMs": 1527138406000,
       "birthtimeMs": 1527138274000,
-      "atime": "2018-05-24T06:03:16.000Z",
+      "atime": "2018-08-08T03:42:00.000Z",
       "mtime": "2018-05-24T05:04:34.000Z",
       "ctime": "2018-05-24T05:06:46.000Z",
       "birthtime": "2018-05-24T05:04:34.000Z"
@@ -1314,7 +1387,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "5c58f2883bc64f5321d176539154c7c7",
+        "contentDigest": "eece4b6ca5de5ef8e99aed4ee7142ff0",
         "type": "Directory",
         "description": "Directory \"src/pages\"",
         "owner": "gatsby-source-filesystem"
@@ -1326,7 +1399,7 @@
       "size": 136,
       "prettySize": "136 B",
       "modifiedTime": "2018-05-24T05:04:34.000Z",
-      "accessTime": "2018-05-24T06:03:16.000Z",
+      "accessTime": "2018-08-08T03:42:00.000Z",
       "changeTime": "2018-05-24T05:06:46.000Z",
       "birthTime": "2018-05-24T05:04:34.000Z",
       "root": "/",
@@ -1344,11 +1417,11 @@
       "blksize": 4096,
       "ino": 55178089,
       "blocks": 0,
-      "atimeMs": 1527141796000,
+      "atimeMs": 1533699720000,
       "mtimeMs": 1527138274000,
       "ctimeMs": 1527138406000,
       "birthtimeMs": 1527138274000,
-      "atime": "2018-05-24T06:03:16.000Z",
+      "atime": "2018-08-08T03:42:00.000Z",
       "mtime": "2018-05-24T05:04:34.000Z",
       "ctime": "2018-05-24T05:06:46.000Z",
       "birthtime": "2018-05-24T05:04:34.000Z"
@@ -1358,7 +1431,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "faec0dc0c3bfd24acf46538849e07b05",
+        "contentDigest": "0a9ac7aa2a0fc393063a11d3c8b1002d",
         "type": "Directory",
         "description": "Directory \"src/posts\"",
         "owner": "gatsby-source-filesystem"
@@ -1367,11 +1440,11 @@
       "absolutePath": "/Users/seanblanton/Documents/Sites/blanton/src/posts",
       "relativePath": "posts",
       "extension": "",
-      "size": 340,
-      "prettySize": "340 B",
-      "modifiedTime": "2018-05-24T05:04:34.000Z",
-      "accessTime": "2018-05-24T06:03:16.000Z",
-      "changeTime": "2018-05-24T05:06:46.000Z",
+      "size": 374,
+      "prettySize": "374 B",
+      "modifiedTime": "2018-08-08T03:09:57.000Z",
+      "accessTime": "2018-08-08T03:42:00.000Z",
+      "changeTime": "2018-08-08T03:09:57.000Z",
       "birthTime": "2018-05-24T05:04:34.000Z",
       "root": "/",
       "dir": "/Users/seanblanton/Documents/Sites/blanton/src",
@@ -1381,20 +1454,20 @@
       "relativeDirectory": "",
       "dev": 16777220,
       "mode": 16877,
-      "nlink": 10,
+      "nlink": 11,
       "uid": 501,
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
       "ino": 55178092,
       "blocks": 0,
-      "atimeMs": 1527141796000,
-      "mtimeMs": 1527138274000,
-      "ctimeMs": 1527138406000,
+      "atimeMs": 1533699720000,
+      "mtimeMs": 1533697797000,
+      "ctimeMs": 1533697797000,
       "birthtimeMs": 1527138274000,
-      "atime": "2018-05-24T06:03:16.000Z",
-      "mtime": "2018-05-24T05:04:34.000Z",
-      "ctime": "2018-05-24T05:06:46.000Z",
+      "atime": "2018-08-08T03:42:00.000Z",
+      "mtime": "2018-08-08T03:09:57.000Z",
+      "ctime": "2018-08-08T03:09:57.000Z",
       "birthtime": "2018-05-24T05:04:34.000Z"
     },
     "/Users/seanblanton/Documents/Sites/blanton/src/templates absPath of file": {
@@ -1402,7 +1475,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "b9f47eed59cec1b35727e09525a70828",
+        "contentDigest": "ac9e081219432bd1ec958038f4dbf076",
         "type": "Directory",
         "description": "Directory \"src/templates\"",
         "owner": "gatsby-source-filesystem"
@@ -1414,7 +1487,7 @@
       "size": 102,
       "prettySize": "102 B",
       "modifiedTime": "2018-05-24T05:04:34.000Z",
-      "accessTime": "2018-05-24T06:03:16.000Z",
+      "accessTime": "2018-08-08T03:42:00.000Z",
       "changeTime": "2018-05-24T05:06:46.000Z",
       "birthTime": "2018-05-24T05:04:34.000Z",
       "root": "/",
@@ -1432,11 +1505,11 @@
       "blksize": 4096,
       "ino": 55178101,
       "blocks": 0,
-      "atimeMs": 1527141796000,
+      "atimeMs": 1533699720000,
       "mtimeMs": 1527138274000,
       "ctimeMs": 1527138406000,
       "birthtimeMs": 1527138274000,
-      "atime": "2018-05-24T06:03:16.000Z",
+      "atime": "2018-08-08T03:42:00.000Z",
       "mtime": "2018-05-24T05:04:34.000Z",
       "ctime": "2018-05-24T05:06:46.000Z",
       "birthtime": "2018-05-24T05:04:34.000Z"
@@ -1446,7 +1519,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "6b05e055e970f6eb07f351a12e165d44",
+        "contentDigest": "1666318b764db4edd7e96b6990123051",
         "type": "Directory",
         "description": "Directory \"src/themes\"",
         "owner": "gatsby-source-filesystem"
@@ -1458,7 +1531,7 @@
       "size": 102,
       "prettySize": "102 B",
       "modifiedTime": "2018-05-24T05:04:34.000Z",
-      "accessTime": "2018-05-24T06:03:16.000Z",
+      "accessTime": "2018-08-08T03:42:00.000Z",
       "changeTime": "2018-05-24T05:06:46.000Z",
       "birthTime": "2018-05-24T05:04:34.000Z",
       "root": "/",
@@ -1476,13 +1549,103 @@
       "blksize": 4096,
       "ino": 55178103,
       "blocks": 0,
-      "atimeMs": 1527141796000,
+      "atimeMs": 1533699720000,
       "mtimeMs": 1527138274000,
       "ctimeMs": 1527138406000,
       "birthtimeMs": 1527138274000,
-      "atime": "2018-05-24T06:03:16.000Z",
+      "atime": "2018-08-08T03:42:00.000Z",
       "mtime": "2018-05-24T05:04:34.000Z",
       "ctime": "2018-05-24T05:06:46.000Z",
+      "birthtime": "2018-05-24T05:04:34.000Z"
+    },
+    "/Users/seanblanton/Documents/Sites/blanton/src/config.js absPath of file": {
+      "id": "/Users/seanblanton/Documents/Sites/blanton/src/config.js absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "23c3d17758e7e2e8c31bdf66eb36f289",
+        "mediaType": "application/javascript",
+        "type": "File",
+        "description": "File \"src/config.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/seanblanton/Documents/Sites/blanton/src/config.js",
+      "relativePath": "config.js",
+      "extension": "js",
+      "size": 1273,
+      "prettySize": "1.27 kB",
+      "modifiedTime": "2018-05-24T05:36:36.000Z",
+      "accessTime": "2018-05-24T06:03:41.000Z",
+      "changeTime": "2018-05-24T05:36:36.000Z",
+      "birthTime": "2018-05-24T05:04:34.000Z",
+      "root": "/",
+      "dir": "/Users/seanblanton/Documents/Sites/blanton/src",
+      "base": "config.js",
+      "ext": ".js",
+      "name": "config",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 55178085,
+      "blocks": 8,
+      "atimeMs": 1527141821000,
+      "mtimeMs": 1527140196000,
+      "ctimeMs": 1527140196000,
+      "birthtimeMs": 1527138274000,
+      "atime": "2018-05-24T06:03:41.000Z",
+      "mtime": "2018-05-24T05:36:36.000Z",
+      "ctime": "2018-05-24T05:36:36.000Z",
+      "birthtime": "2018-05-24T05:04:34.000Z"
+    },
+    "/Users/seanblanton/Documents/Sites/blanton/src/components/MarkdownBody.js absPath of file": {
+      "id": "/Users/seanblanton/Documents/Sites/blanton/src/components/MarkdownBody.js absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "a1edf7c22b75ac9d80a9235b90acf844",
+        "mediaType": "application/javascript",
+        "type": "File",
+        "description": "File \"src/components/MarkdownBody.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/seanblanton/Documents/Sites/blanton/src/components/MarkdownBody.js",
+      "relativePath": "components/MarkdownBody.js",
+      "extension": "js",
+      "size": 2409,
+      "prettySize": "2.41 kB",
+      "modifiedTime": "2018-05-24T05:46:29.000Z",
+      "accessTime": "2018-05-24T06:03:40.000Z",
+      "changeTime": "2018-05-24T05:46:29.000Z",
+      "birthTime": "2018-05-24T05:04:34.000Z",
+      "root": "/",
+      "dir": "/Users/seanblanton/Documents/Sites/blanton/src/components",
+      "base": "MarkdownBody.js",
+      "ext": ".js",
+      "name": "MarkdownBody",
+      "relativeDirectory": "components",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 55178082,
+      "blocks": 8,
+      "atimeMs": 1527141820000,
+      "mtimeMs": 1527140789000,
+      "ctimeMs": 1527140789000,
+      "birthtimeMs": 1527138274000,
+      "atime": "2018-05-24T06:03:40.000Z",
+      "mtime": "2018-05-24T05:46:29.000Z",
+      "ctime": "2018-05-24T05:46:29.000Z",
       "birthtime": "2018-05-24T05:04:34.000Z"
     },
     "/Users/seanblanton/Documents/Sites/blanton/src/.DS_Store absPath of file": {
@@ -1503,7 +1666,7 @@
       "size": 6148,
       "prettySize": "6.15 kB",
       "modifiedTime": "2018-05-19T23:37:07.000Z",
-      "accessTime": "2018-05-24T05:06:46.000Z",
+      "accessTime": "2018-05-24T06:03:16.000Z",
       "changeTime": "2018-05-24T05:06:46.000Z",
       "birthTime": "2018-05-19T15:59:25.000Z",
       "root": "/",
@@ -1521,59 +1684,14 @@
       "blksize": 4096,
       "ino": 55178080,
       "blocks": 16,
-      "atimeMs": 1527138406000,
+      "atimeMs": 1527141796000,
       "mtimeMs": 1526773027000,
       "ctimeMs": 1527138406000,
       "birthtimeMs": 1526745565000,
-      "atime": "2018-05-24T05:06:46.000Z",
+      "atime": "2018-05-24T06:03:16.000Z",
       "mtime": "2018-05-19T23:37:07.000Z",
       "ctime": "2018-05-24T05:06:46.000Z",
       "birthtime": "2018-05-19T15:59:25.000Z"
-    },
-    "/Users/seanblanton/Documents/Sites/blanton/src/config.js absPath of file": {
-      "id": "/Users/seanblanton/Documents/Sites/blanton/src/config.js absPath of file",
-      "children": [],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "23c3d17758e7e2e8c31bdf66eb36f289",
-        "mediaType": "application/javascript",
-        "type": "File",
-        "description": "File \"src/config.js\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "src",
-      "absolutePath": "/Users/seanblanton/Documents/Sites/blanton/src/config.js",
-      "relativePath": "config.js",
-      "extension": "js",
-      "size": 1273,
-      "prettySize": "1.27 kB",
-      "modifiedTime": "2018-05-24T05:36:36.000Z",
-      "accessTime": "2018-05-24T05:36:36.000Z",
-      "changeTime": "2018-05-24T05:36:36.000Z",
-      "birthTime": "2018-05-24T05:04:34.000Z",
-      "root": "/",
-      "dir": "/Users/seanblanton/Documents/Sites/blanton/src",
-      "base": "config.js",
-      "ext": ".js",
-      "name": "config",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 55178085,
-      "blocks": 8,
-      "atimeMs": 1527140196000,
-      "mtimeMs": 1527140196000,
-      "ctimeMs": 1527140196000,
-      "birthtimeMs": 1527138274000,
-      "atime": "2018-05-24T05:36:36.000Z",
-      "mtime": "2018-05-24T05:36:36.000Z",
-      "ctime": "2018-05-24T05:36:36.000Z",
-      "birthtime": "2018-05-24T05:04:34.000Z"
     },
     "/Users/seanblanton/Documents/Sites/blanton/src/layouts/index.js absPath of file": {
       "id": "/Users/seanblanton/Documents/Sites/blanton/src/layouts/index.js absPath of file",
@@ -1593,7 +1711,7 @@
       "size": 1717,
       "prettySize": "1.72 kB",
       "modifiedTime": "2018-05-24T06:00:32.000Z",
-      "accessTime": "2018-05-24T06:00:45.000Z",
+      "accessTime": "2018-05-24T06:04:34.000Z",
       "changeTime": "2018-05-24T06:00:32.000Z",
       "birthTime": "2018-05-24T05:04:34.000Z",
       "root": "/",
@@ -1611,42 +1729,42 @@
       "blksize": 4096,
       "ino": 55178088,
       "blocks": 8,
-      "atimeMs": 1527141645000,
+      "atimeMs": 1527141874000,
       "mtimeMs": 1527141632000,
       "ctimeMs": 1527141632000,
       "birthtimeMs": 1527138274000,
-      "atime": "2018-05-24T06:00:45.000Z",
+      "atime": "2018-05-24T06:04:34.000Z",
       "mtime": "2018-05-24T06:00:32.000Z",
       "ctime": "2018-05-24T06:00:32.000Z",
       "birthtime": "2018-05-24T05:04:34.000Z"
     },
-    "/Users/seanblanton/Documents/Sites/blanton/src/pages/404.js absPath of file": {
-      "id": "/Users/seanblanton/Documents/Sites/blanton/src/pages/404.js absPath of file",
+    "/Users/seanblanton/Documents/Sites/blanton/src/components/StyledLink.js absPath of file": {
+      "id": "/Users/seanblanton/Documents/Sites/blanton/src/components/StyledLink.js absPath of file",
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "83445eb8665b496900366a5549ce1d22",
+        "contentDigest": "e55fadfefea9a559d5271cec7f7aae72",
         "mediaType": "application/javascript",
         "type": "File",
-        "description": "File \"src/pages/404.js\"",
+        "description": "File \"src/components/StyledLink.js\"",
         "owner": "gatsby-source-filesystem"
       },
       "sourceInstanceName": "src",
-      "absolutePath": "/Users/seanblanton/Documents/Sites/blanton/src/pages/404.js",
-      "relativePath": "pages/404.js",
+      "absolutePath": "/Users/seanblanton/Documents/Sites/blanton/src/components/StyledLink.js",
+      "relativePath": "components/StyledLink.js",
       "extension": "js",
-      "size": 522,
-      "prettySize": "522 B",
+      "size": 465,
+      "prettySize": "465 B",
       "modifiedTime": "2018-05-24T05:04:34.000Z",
-      "accessTime": "2018-05-24T05:06:46.000Z",
+      "accessTime": "2018-05-24T06:03:40.000Z",
       "changeTime": "2018-05-24T05:06:46.000Z",
       "birthTime": "2018-05-24T05:04:34.000Z",
       "root": "/",
-      "dir": "/Users/seanblanton/Documents/Sites/blanton/src/pages",
-      "base": "404.js",
+      "dir": "/Users/seanblanton/Documents/Sites/blanton/src/components",
+      "base": "StyledLink.js",
       "ext": ".js",
-      "name": "404",
-      "relativeDirectory": "pages",
+      "name": "StyledLink",
+      "relativeDirectory": "components",
       "dev": 16777220,
       "mode": 33188,
       "nlink": 1,
@@ -1654,58 +1772,13 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
-      "ino": 55178090,
+      "ino": 55178083,
       "blocks": 8,
-      "atimeMs": 1527138406000,
+      "atimeMs": 1527141820000,
       "mtimeMs": 1527138274000,
       "ctimeMs": 1527138406000,
       "birthtimeMs": 1527138274000,
-      "atime": "2018-05-24T05:06:46.000Z",
-      "mtime": "2018-05-24T05:04:34.000Z",
-      "ctime": "2018-05-24T05:06:46.000Z",
-      "birthtime": "2018-05-24T05:04:34.000Z"
-    },
-    "/Users/seanblanton/Documents/Sites/blanton/src/pages/index.js absPath of file": {
-      "id": "/Users/seanblanton/Documents/Sites/blanton/src/pages/index.js absPath of file",
-      "children": [],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "ff9a6c836e1b170fd4dae87330d9d01c",
-        "mediaType": "application/javascript",
-        "type": "File",
-        "description": "File \"src/pages/index.js\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "src",
-      "absolutePath": "/Users/seanblanton/Documents/Sites/blanton/src/pages/index.js",
-      "relativePath": "pages/index.js",
-      "extension": "js",
-      "size": 1093,
-      "prettySize": "1.09 kB",
-      "modifiedTime": "2018-05-24T05:04:34.000Z",
-      "accessTime": "2018-05-24T05:06:46.000Z",
-      "changeTime": "2018-05-24T05:06:46.000Z",
-      "birthTime": "2018-05-24T05:04:34.000Z",
-      "root": "/",
-      "dir": "/Users/seanblanton/Documents/Sites/blanton/src/pages",
-      "base": "index.js",
-      "ext": ".js",
-      "name": "index",
-      "relativeDirectory": "pages",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 55178091,
-      "blocks": 8,
-      "atimeMs": 1527138406000,
-      "mtimeMs": 1527138274000,
-      "ctimeMs": 1527138406000,
-      "birthtimeMs": 1527138274000,
-      "atime": "2018-05-24T05:06:46.000Z",
+      "atime": "2018-05-24T06:03:40.000Z",
       "mtime": "2018-05-24T05:04:34.000Z",
       "ctime": "2018-05-24T05:06:46.000Z",
       "birthtime": "2018-05-24T05:04:34.000Z"
@@ -1728,7 +1801,7 @@
       "size": 1826,
       "prettySize": "1.83 kB",
       "modifiedTime": "2018-05-24T05:50:34.000Z",
-      "accessTime": "2018-05-24T05:50:34.000Z",
+      "accessTime": "2018-05-24T06:03:40.000Z",
       "changeTime": "2018-05-24T05:50:34.000Z",
       "birthTime": "2018-05-24T05:04:34.000Z",
       "root": "/",
@@ -1746,42 +1819,42 @@
       "blksize": 4096,
       "ino": 55178084,
       "blocks": 8,
-      "atimeMs": 1527141034000,
+      "atimeMs": 1527141820000,
       "mtimeMs": 1527141034000,
       "ctimeMs": 1527141034000,
       "birthtimeMs": 1527138274000,
-      "atime": "2018-05-24T05:50:34.000Z",
+      "atime": "2018-05-24T06:03:40.000Z",
       "mtime": "2018-05-24T05:50:34.000Z",
       "ctime": "2018-05-24T05:50:34.000Z",
       "birthtime": "2018-05-24T05:04:34.000Z"
     },
-    "/Users/seanblanton/Documents/Sites/blanton/src/templates/post.js absPath of file": {
-      "id": "/Users/seanblanton/Documents/Sites/blanton/src/templates/post.js absPath of file",
+    "/Users/seanblanton/Documents/Sites/blanton/src/pages/404.js absPath of file": {
+      "id": "/Users/seanblanton/Documents/Sites/blanton/src/pages/404.js absPath of file",
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "026f58ba34657ab642357b56fad8eb94",
+        "contentDigest": "83445eb8665b496900366a5549ce1d22",
         "mediaType": "application/javascript",
         "type": "File",
-        "description": "File \"src/templates/post.js\"",
+        "description": "File \"src/pages/404.js\"",
         "owner": "gatsby-source-filesystem"
       },
       "sourceInstanceName": "src",
-      "absolutePath": "/Users/seanblanton/Documents/Sites/blanton/src/templates/post.js",
-      "relativePath": "templates/post.js",
+      "absolutePath": "/Users/seanblanton/Documents/Sites/blanton/src/pages/404.js",
+      "relativePath": "pages/404.js",
       "extension": "js",
-      "size": 1033,
-      "prettySize": "1.03 kB",
+      "size": 522,
+      "prettySize": "522 B",
       "modifiedTime": "2018-05-24T05:04:34.000Z",
-      "accessTime": "2018-05-24T05:06:46.000Z",
+      "accessTime": "2018-05-24T06:03:39.000Z",
       "changeTime": "2018-05-24T05:06:46.000Z",
       "birthTime": "2018-05-24T05:04:34.000Z",
       "root": "/",
-      "dir": "/Users/seanblanton/Documents/Sites/blanton/src/templates",
-      "base": "post.js",
+      "dir": "/Users/seanblanton/Documents/Sites/blanton/src/pages",
+      "base": "404.js",
       "ext": ".js",
-      "name": "post",
-      "relativeDirectory": "templates",
+      "name": "404",
+      "relativeDirectory": "pages",
       "dev": 16777220,
       "mode": 33188,
       "nlink": 1,
@@ -1789,197 +1862,13 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
-      "ino": 55178102,
+      "ino": 55178090,
       "blocks": 8,
-      "atimeMs": 1527138406000,
+      "atimeMs": 1527141819000,
       "mtimeMs": 1527138274000,
       "ctimeMs": 1527138406000,
       "birthtimeMs": 1527138274000,
-      "atime": "2018-05-24T05:06:46.000Z",
-      "mtime": "2018-05-24T05:04:34.000Z",
-      "ctime": "2018-05-24T05:06:46.000Z",
-      "birthtime": "2018-05-24T05:04:34.000Z"
-    },
-    "/Users/seanblanton/Documents/Sites/blanton/src/components/MarkdownBody.js absPath of file": {
-      "id": "/Users/seanblanton/Documents/Sites/blanton/src/components/MarkdownBody.js absPath of file",
-      "children": [],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "a1edf7c22b75ac9d80a9235b90acf844",
-        "mediaType": "application/javascript",
-        "type": "File",
-        "description": "File \"src/components/MarkdownBody.js\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "src",
-      "absolutePath": "/Users/seanblanton/Documents/Sites/blanton/src/components/MarkdownBody.js",
-      "relativePath": "components/MarkdownBody.js",
-      "extension": "js",
-      "size": 2409,
-      "prettySize": "2.41 kB",
-      "modifiedTime": "2018-05-24T05:46:29.000Z",
-      "accessTime": "2018-05-24T05:46:29.000Z",
-      "changeTime": "2018-05-24T05:46:29.000Z",
-      "birthTime": "2018-05-24T05:04:34.000Z",
-      "root": "/",
-      "dir": "/Users/seanblanton/Documents/Sites/blanton/src/components",
-      "base": "MarkdownBody.js",
-      "ext": ".js",
-      "name": "MarkdownBody",
-      "relativeDirectory": "components",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 55178082,
-      "blocks": 8,
-      "atimeMs": 1527140789000,
-      "mtimeMs": 1527140789000,
-      "ctimeMs": 1527140789000,
-      "birthtimeMs": 1527138274000,
-      "atime": "2018-05-24T05:46:29.000Z",
-      "mtime": "2018-05-24T05:46:29.000Z",
-      "ctime": "2018-05-24T05:46:29.000Z",
-      "birthtime": "2018-05-24T05:04:34.000Z"
-    },
-    "/Users/seanblanton/Documents/Sites/blanton/src/posts/making-susy-grids-atomic.md absPath of file": {
-      "id": "/Users/seanblanton/Documents/Sites/blanton/src/posts/making-susy-grids-atomic.md absPath of file",
-      "children": [
-        "/Users/seanblanton/Documents/Sites/blanton/src/posts/making-susy-grids-atomic.md absPath of file >>> MarkdownRemark"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "1a65397ad3da783bf06a351dcecb80bf",
-        "mediaType": "text/markdown",
-        "type": "File",
-        "description": "File \"src/posts/making-susy-grids-atomic.md\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "src",
-      "absolutePath": "/Users/seanblanton/Documents/Sites/blanton/src/posts/making-susy-grids-atomic.md",
-      "relativePath": "posts/making-susy-grids-atomic.md",
-      "extension": "md",
-      "size": 1911,
-      "prettySize": "1.91 kB",
-      "modifiedTime": "2018-05-24T05:04:34.000Z",
-      "accessTime": "2018-05-24T05:06:46.000Z",
-      "changeTime": "2018-05-24T05:06:46.000Z",
-      "birthTime": "2018-05-24T05:04:34.000Z",
-      "root": "/",
-      "dir": "/Users/seanblanton/Documents/Sites/blanton/src/posts",
-      "base": "making-susy-grids-atomic.md",
-      "ext": ".md",
-      "name": "making-susy-grids-atomic",
-      "relativeDirectory": "posts",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 55178094,
-      "blocks": 8,
-      "atimeMs": 1527138406000,
-      "mtimeMs": 1527138274000,
-      "ctimeMs": 1527138406000,
-      "birthtimeMs": 1527138274000,
-      "atime": "2018-05-24T05:06:46.000Z",
-      "mtime": "2018-05-24T05:04:34.000Z",
-      "ctime": "2018-05-24T05:06:46.000Z",
-      "birthtime": "2018-05-24T05:04:34.000Z"
-    },
-    "/Users/seanblanton/Documents/Sites/blanton/src/components/StyledLink.js absPath of file": {
-      "id": "/Users/seanblanton/Documents/Sites/blanton/src/components/StyledLink.js absPath of file",
-      "children": [],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "e55fadfefea9a559d5271cec7f7aae72",
-        "mediaType": "application/javascript",
-        "type": "File",
-        "description": "File \"src/components/StyledLink.js\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "src",
-      "absolutePath": "/Users/seanblanton/Documents/Sites/blanton/src/components/StyledLink.js",
-      "relativePath": "components/StyledLink.js",
-      "extension": "js",
-      "size": 465,
-      "prettySize": "465 B",
-      "modifiedTime": "2018-05-24T05:04:34.000Z",
-      "accessTime": "2018-05-24T05:33:40.000Z",
-      "changeTime": "2018-05-24T05:06:46.000Z",
-      "birthTime": "2018-05-24T05:04:34.000Z",
-      "root": "/",
-      "dir": "/Users/seanblanton/Documents/Sites/blanton/src/components",
-      "base": "StyledLink.js",
-      "ext": ".js",
-      "name": "StyledLink",
-      "relativeDirectory": "components",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 55178083,
-      "blocks": 8,
-      "atimeMs": 1527140020000,
-      "mtimeMs": 1527138274000,
-      "ctimeMs": 1527138406000,
-      "birthtimeMs": 1527138274000,
-      "atime": "2018-05-24T05:33:40.000Z",
-      "mtime": "2018-05-24T05:04:34.000Z",
-      "ctime": "2018-05-24T05:06:46.000Z",
-      "birthtime": "2018-05-24T05:04:34.000Z"
-    },
-    "/Users/seanblanton/Documents/Sites/blanton/src/posts/programmatic-color-palettes.md absPath of file": {
-      "id": "/Users/seanblanton/Documents/Sites/blanton/src/posts/programmatic-color-palettes.md absPath of file",
-      "children": [
-        "/Users/seanblanton/Documents/Sites/blanton/src/posts/programmatic-color-palettes.md absPath of file >>> MarkdownRemark"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "d28149d02b6da4b9093b1da38bc2dd9f",
-        "mediaType": "text/markdown",
-        "type": "File",
-        "description": "File \"src/posts/programmatic-color-palettes.md\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "src",
-      "absolutePath": "/Users/seanblanton/Documents/Sites/blanton/src/posts/programmatic-color-palettes.md",
-      "relativePath": "posts/programmatic-color-palettes.md",
-      "extension": "md",
-      "size": 5093,
-      "prettySize": "5.09 kB",
-      "modifiedTime": "2018-05-24T05:04:34.000Z",
-      "accessTime": "2018-05-24T05:06:46.000Z",
-      "changeTime": "2018-05-24T05:06:46.000Z",
-      "birthTime": "2018-05-24T05:04:34.000Z",
-      "root": "/",
-      "dir": "/Users/seanblanton/Documents/Sites/blanton/src/posts",
-      "base": "programmatic-color-palettes.md",
-      "ext": ".md",
-      "name": "programmatic-color-palettes",
-      "relativeDirectory": "posts",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 55178095,
-      "blocks": 16,
-      "atimeMs": 1527138406000,
-      "mtimeMs": 1527138274000,
-      "ctimeMs": 1527138406000,
-      "birthtimeMs": 1527138274000,
-      "atime": "2018-05-24T05:06:46.000Z",
+      "atime": "2018-05-24T06:03:39.000Z",
       "mtime": "2018-05-24T05:04:34.000Z",
       "ctime": "2018-05-24T05:06:46.000Z",
       "birthtime": "2018-05-24T05:04:34.000Z"
@@ -2004,7 +1893,7 @@
       "size": 5001,
       "prettySize": "5 kB",
       "modifiedTime": "2018-05-24T05:04:34.000Z",
-      "accessTime": "2018-05-24T05:06:46.000Z",
+      "accessTime": "2018-05-24T06:03:16.000Z",
       "changeTime": "2018-05-24T05:06:46.000Z",
       "birthTime": "2018-05-24T05:04:34.000Z",
       "root": "/",
@@ -2022,43 +1911,43 @@
       "blksize": 4096,
       "ino": 55178093,
       "blocks": 16,
-      "atimeMs": 1527138406000,
+      "atimeMs": 1527141796000,
       "mtimeMs": 1527138274000,
       "ctimeMs": 1527138406000,
       "birthtimeMs": 1527138274000,
-      "atime": "2018-05-24T05:06:46.000Z",
+      "atime": "2018-05-24T06:03:16.000Z",
       "mtime": "2018-05-24T05:04:34.000Z",
       "ctime": "2018-05-24T05:06:46.000Z",
       "birthtime": "2018-05-24T05:04:34.000Z"
     },
-    "/Users/seanblanton/Documents/Sites/blanton/src/posts/size-and-mass-in-design-systems.md absPath of file": {
-      "id": "/Users/seanblanton/Documents/Sites/blanton/src/posts/size-and-mass-in-design-systems.md absPath of file",
+    "/Users/seanblanton/Documents/Sites/blanton/src/posts/making-susy-grids-atomic.md absPath of file": {
+      "id": "/Users/seanblanton/Documents/Sites/blanton/src/posts/making-susy-grids-atomic.md absPath of file",
       "children": [
-        "/Users/seanblanton/Documents/Sites/blanton/src/posts/size-and-mass-in-design-systems.md absPath of file >>> MarkdownRemark"
+        "/Users/seanblanton/Documents/Sites/blanton/src/posts/making-susy-grids-atomic.md absPath of file >>> MarkdownRemark"
       ],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "32ce7be3e50fcff4f3596e40642cd080",
+        "contentDigest": "1a65397ad3da783bf06a351dcecb80bf",
         "mediaType": "text/markdown",
         "type": "File",
-        "description": "File \"src/posts/size-and-mass-in-design-systems.md\"",
+        "description": "File \"src/posts/making-susy-grids-atomic.md\"",
         "owner": "gatsby-source-filesystem"
       },
       "sourceInstanceName": "src",
-      "absolutePath": "/Users/seanblanton/Documents/Sites/blanton/src/posts/size-and-mass-in-design-systems.md",
-      "relativePath": "posts/size-and-mass-in-design-systems.md",
+      "absolutePath": "/Users/seanblanton/Documents/Sites/blanton/src/posts/making-susy-grids-atomic.md",
+      "relativePath": "posts/making-susy-grids-atomic.md",
       "extension": "md",
-      "size": 3775,
-      "prettySize": "3.77 kB",
+      "size": 1911,
+      "prettySize": "1.91 kB",
       "modifiedTime": "2018-05-24T05:04:34.000Z",
-      "accessTime": "2018-05-24T05:06:46.000Z",
+      "accessTime": "2018-05-24T06:03:16.000Z",
       "changeTime": "2018-05-24T05:06:46.000Z",
       "birthTime": "2018-05-24T05:04:34.000Z",
       "root": "/",
       "dir": "/Users/seanblanton/Documents/Sites/blanton/src/posts",
-      "base": "size-and-mass-in-design-systems.md",
+      "base": "making-susy-grids-atomic.md",
       "ext": ".md",
-      "name": "size-and-mass-in-design-systems",
+      "name": "making-susy-grids-atomic",
       "relativeDirectory": "posts",
       "dev": 16777220,
       "mode": 33188,
@@ -2067,13 +1956,105 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
-      "ino": 55178096,
+      "ino": 55178094,
       "blocks": 8,
-      "atimeMs": 1527138406000,
+      "atimeMs": 1527141796000,
       "mtimeMs": 1527138274000,
       "ctimeMs": 1527138406000,
       "birthtimeMs": 1527138274000,
-      "atime": "2018-05-24T05:06:46.000Z",
+      "atime": "2018-05-24T06:03:16.000Z",
+      "mtime": "2018-05-24T05:04:34.000Z",
+      "ctime": "2018-05-24T05:06:46.000Z",
+      "birthtime": "2018-05-24T05:04:34.000Z"
+    },
+    "/Users/seanblanton/Documents/Sites/blanton/src/pages/index.js absPath of file": {
+      "id": "/Users/seanblanton/Documents/Sites/blanton/src/pages/index.js absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "ff9a6c836e1b170fd4dae87330d9d01c",
+        "mediaType": "application/javascript",
+        "type": "File",
+        "description": "File \"src/pages/index.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/seanblanton/Documents/Sites/blanton/src/pages/index.js",
+      "relativePath": "pages/index.js",
+      "extension": "js",
+      "size": 1093,
+      "prettySize": "1.09 kB",
+      "modifiedTime": "2018-05-24T05:04:34.000Z",
+      "accessTime": "2018-05-24T06:03:39.000Z",
+      "changeTime": "2018-05-24T05:06:46.000Z",
+      "birthTime": "2018-05-24T05:04:34.000Z",
+      "root": "/",
+      "dir": "/Users/seanblanton/Documents/Sites/blanton/src/pages",
+      "base": "index.js",
+      "ext": ".js",
+      "name": "index",
+      "relativeDirectory": "pages",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 55178091,
+      "blocks": 8,
+      "atimeMs": 1527141819000,
+      "mtimeMs": 1527138274000,
+      "ctimeMs": 1527138406000,
+      "birthtimeMs": 1527138274000,
+      "atime": "2018-05-24T06:03:39.000Z",
+      "mtime": "2018-05-24T05:04:34.000Z",
+      "ctime": "2018-05-24T05:06:46.000Z",
+      "birthtime": "2018-05-24T05:04:34.000Z"
+    },
+    "/Users/seanblanton/Documents/Sites/blanton/src/posts/programmatic-color-palettes.md absPath of file": {
+      "id": "/Users/seanblanton/Documents/Sites/blanton/src/posts/programmatic-color-palettes.md absPath of file",
+      "children": [
+        "/Users/seanblanton/Documents/Sites/blanton/src/posts/programmatic-color-palettes.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "d28149d02b6da4b9093b1da38bc2dd9f",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "description": "File \"src/posts/programmatic-color-palettes.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/seanblanton/Documents/Sites/blanton/src/posts/programmatic-color-palettes.md",
+      "relativePath": "posts/programmatic-color-palettes.md",
+      "extension": "md",
+      "size": 5093,
+      "prettySize": "5.09 kB",
+      "modifiedTime": "2018-05-24T05:04:34.000Z",
+      "accessTime": "2018-05-24T06:03:16.000Z",
+      "changeTime": "2018-05-24T05:06:46.000Z",
+      "birthTime": "2018-05-24T05:04:34.000Z",
+      "root": "/",
+      "dir": "/Users/seanblanton/Documents/Sites/blanton/src/posts",
+      "base": "programmatic-color-palettes.md",
+      "ext": ".md",
+      "name": "programmatic-color-palettes",
+      "relativeDirectory": "posts",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 55178095,
+      "blocks": 16,
+      "atimeMs": 1527141796000,
+      "mtimeMs": 1527138274000,
+      "ctimeMs": 1527138406000,
+      "birthtimeMs": 1527138274000,
+      "atime": "2018-05-24T06:03:16.000Z",
       "mtime": "2018-05-24T05:04:34.000Z",
       "ctime": "2018-05-24T05:06:46.000Z",
       "birthtime": "2018-05-24T05:04:34.000Z"
@@ -2098,7 +2079,7 @@
       "size": 9995,
       "prettySize": "9.99 kB",
       "modifiedTime": "2018-05-24T05:04:34.000Z",
-      "accessTime": "2018-05-24T05:06:46.000Z",
+      "accessTime": "2018-05-24T06:03:16.000Z",
       "changeTime": "2018-05-24T05:06:46.000Z",
       "birthTime": "2018-05-24T05:04:34.000Z",
       "root": "/",
@@ -2116,11 +2097,11 @@
       "blksize": 4096,
       "ino": 55178097,
       "blocks": 24,
-      "atimeMs": 1527138406000,
+      "atimeMs": 1527141796000,
       "mtimeMs": 1527138274000,
       "ctimeMs": 1527138406000,
       "birthtimeMs": 1527138274000,
-      "atime": "2018-05-24T05:06:46.000Z",
+      "atime": "2018-05-24T06:03:16.000Z",
       "mtime": "2018-05-24T05:04:34.000Z",
       "ctime": "2018-05-24T05:06:46.000Z",
       "birthtime": "2018-05-24T05:04:34.000Z"
@@ -2145,7 +2126,7 @@
       "size": 4536,
       "prettySize": "4.54 kB",
       "modifiedTime": "2018-05-24T05:04:34.000Z",
-      "accessTime": "2018-05-24T05:06:46.000Z",
+      "accessTime": "2018-05-24T06:03:16.000Z",
       "changeTime": "2018-05-24T05:06:46.000Z",
       "birthTime": "2018-05-24T05:04:34.000Z",
       "root": "/",
@@ -2163,43 +2144,43 @@
       "blksize": 4096,
       "ino": 55178098,
       "blocks": 16,
-      "atimeMs": 1527138406000,
+      "atimeMs": 1527141796000,
       "mtimeMs": 1527138274000,
       "ctimeMs": 1527138406000,
       "birthtimeMs": 1527138274000,
-      "atime": "2018-05-24T05:06:46.000Z",
+      "atime": "2018-05-24T06:03:16.000Z",
       "mtime": "2018-05-24T05:04:34.000Z",
       "ctime": "2018-05-24T05:06:46.000Z",
       "birthtime": "2018-05-24T05:04:34.000Z"
     },
-    "/Users/seanblanton/Documents/Sites/blanton/src/posts/why-use-system-fonts.md absPath of file": {
-      "id": "/Users/seanblanton/Documents/Sites/blanton/src/posts/why-use-system-fonts.md absPath of file",
+    "/Users/seanblanton/Documents/Sites/blanton/src/posts/size-and-mass-in-design-systems.md absPath of file": {
+      "id": "/Users/seanblanton/Documents/Sites/blanton/src/posts/size-and-mass-in-design-systems.md absPath of file",
       "children": [
-        "/Users/seanblanton/Documents/Sites/blanton/src/posts/why-use-system-fonts.md absPath of file >>> MarkdownRemark"
+        "/Users/seanblanton/Documents/Sites/blanton/src/posts/size-and-mass-in-design-systems.md absPath of file >>> MarkdownRemark"
       ],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "d42da3172947069c0be9b260a405f6ad",
+        "contentDigest": "32ce7be3e50fcff4f3596e40642cd080",
         "mediaType": "text/markdown",
         "type": "File",
-        "description": "File \"src/posts/why-use-system-fonts.md\"",
+        "description": "File \"src/posts/size-and-mass-in-design-systems.md\"",
         "owner": "gatsby-source-filesystem"
       },
       "sourceInstanceName": "src",
-      "absolutePath": "/Users/seanblanton/Documents/Sites/blanton/src/posts/why-use-system-fonts.md",
-      "relativePath": "posts/why-use-system-fonts.md",
+      "absolutePath": "/Users/seanblanton/Documents/Sites/blanton/src/posts/size-and-mass-in-design-systems.md",
+      "relativePath": "posts/size-and-mass-in-design-systems.md",
       "extension": "md",
-      "size": 3223,
-      "prettySize": "3.22 kB",
+      "size": 3775,
+      "prettySize": "3.77 kB",
       "modifiedTime": "2018-05-24T05:04:34.000Z",
-      "accessTime": "2018-05-24T05:06:46.000Z",
+      "accessTime": "2018-05-24T06:03:16.000Z",
       "changeTime": "2018-05-24T05:06:46.000Z",
       "birthTime": "2018-05-24T05:04:34.000Z",
       "root": "/",
       "dir": "/Users/seanblanton/Documents/Sites/blanton/src/posts",
-      "base": "why-use-system-fonts.md",
+      "base": "size-and-mass-in-design-systems.md",
       "ext": ".md",
-      "name": "why-use-system-fonts",
+      "name": "size-and-mass-in-design-systems",
       "relativeDirectory": "posts",
       "dev": 16777220,
       "mode": 33188,
@@ -2208,13 +2189,13 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
-      "ino": 55178100,
+      "ino": 55178096,
       "blocks": 8,
-      "atimeMs": 1527138406000,
+      "atimeMs": 1527141796000,
       "mtimeMs": 1527138274000,
       "ctimeMs": 1527138406000,
       "birthtimeMs": 1527138274000,
-      "atime": "2018-05-24T05:06:46.000Z",
+      "atime": "2018-05-24T06:03:16.000Z",
       "mtime": "2018-05-24T05:04:34.000Z",
       "ctime": "2018-05-24T05:06:46.000Z",
       "birthtime": "2018-05-24T05:04:34.000Z"
@@ -2239,7 +2220,7 @@
       "size": 3839,
       "prettySize": "3.84 kB",
       "modifiedTime": "2018-05-24T05:04:34.000Z",
-      "accessTime": "2018-05-24T05:06:46.000Z",
+      "accessTime": "2018-05-24T06:03:16.000Z",
       "changeTime": "2018-05-24T05:06:46.000Z",
       "birthTime": "2018-05-24T05:04:34.000Z",
       "root": "/",
@@ -2257,11 +2238,58 @@
       "blksize": 4096,
       "ino": 55178099,
       "blocks": 8,
-      "atimeMs": 1527138406000,
+      "atimeMs": 1527141796000,
       "mtimeMs": 1527138274000,
       "ctimeMs": 1527138406000,
       "birthtimeMs": 1527138274000,
-      "atime": "2018-05-24T05:06:46.000Z",
+      "atime": "2018-05-24T06:03:16.000Z",
+      "mtime": "2018-05-24T05:04:34.000Z",
+      "ctime": "2018-05-24T05:06:46.000Z",
+      "birthtime": "2018-05-24T05:04:34.000Z"
+    },
+    "/Users/seanblanton/Documents/Sites/blanton/src/posts/why-use-system-fonts.md absPath of file": {
+      "id": "/Users/seanblanton/Documents/Sites/blanton/src/posts/why-use-system-fonts.md absPath of file",
+      "children": [
+        "/Users/seanblanton/Documents/Sites/blanton/src/posts/why-use-system-fonts.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "d42da3172947069c0be9b260a405f6ad",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "description": "File \"src/posts/why-use-system-fonts.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/seanblanton/Documents/Sites/blanton/src/posts/why-use-system-fonts.md",
+      "relativePath": "posts/why-use-system-fonts.md",
+      "extension": "md",
+      "size": 3223,
+      "prettySize": "3.22 kB",
+      "modifiedTime": "2018-05-24T05:04:34.000Z",
+      "accessTime": "2018-05-24T06:03:16.000Z",
+      "changeTime": "2018-05-24T05:06:46.000Z",
+      "birthTime": "2018-05-24T05:04:34.000Z",
+      "root": "/",
+      "dir": "/Users/seanblanton/Documents/Sites/blanton/src/posts",
+      "base": "why-use-system-fonts.md",
+      "ext": ".md",
+      "name": "why-use-system-fonts",
+      "relativeDirectory": "posts",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 55178100,
+      "blocks": 8,
+      "atimeMs": 1527141796000,
+      "mtimeMs": 1527138274000,
+      "ctimeMs": 1527138406000,
+      "birthtimeMs": 1527138274000,
+      "atime": "2018-05-24T06:03:16.000Z",
       "mtime": "2018-05-24T05:04:34.000Z",
       "ctime": "2018-05-24T05:06:46.000Z",
       "birthtime": "2018-05-24T05:04:34.000Z"
@@ -2284,7 +2312,7 @@
       "size": 2654,
       "prettySize": "2.65 kB",
       "modifiedTime": "2018-05-24T05:48:33.000Z",
-      "accessTime": "2018-05-24T05:48:33.000Z",
+      "accessTime": "2018-05-24T06:03:25.000Z",
       "changeTime": "2018-05-24T05:48:33.000Z",
       "birthTime": "2018-05-24T05:04:34.000Z",
       "root": "/",
@@ -2302,13 +2330,58 @@
       "blksize": 4096,
       "ino": 55178104,
       "blocks": 8,
-      "atimeMs": 1527140913000,
+      "atimeMs": 1527141805000,
       "mtimeMs": 1527140913000,
       "ctimeMs": 1527140913000,
       "birthtimeMs": 1527138274000,
-      "atime": "2018-05-24T05:48:33.000Z",
+      "atime": "2018-05-24T06:03:25.000Z",
       "mtime": "2018-05-24T05:48:33.000Z",
       "ctime": "2018-05-24T05:48:33.000Z",
+      "birthtime": "2018-05-24T05:04:34.000Z"
+    },
+    "/Users/seanblanton/Documents/Sites/blanton/src/templates/post.js absPath of file": {
+      "id": "/Users/seanblanton/Documents/Sites/blanton/src/templates/post.js absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "026f58ba34657ab642357b56fad8eb94",
+        "mediaType": "application/javascript",
+        "type": "File",
+        "description": "File \"src/templates/post.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/seanblanton/Documents/Sites/blanton/src/templates/post.js",
+      "relativePath": "templates/post.js",
+      "extension": "js",
+      "size": 1033,
+      "prettySize": "1.03 kB",
+      "modifiedTime": "2018-05-24T05:04:34.000Z",
+      "accessTime": "2018-05-24T06:03:39.000Z",
+      "changeTime": "2018-05-24T05:06:46.000Z",
+      "birthTime": "2018-05-24T05:04:34.000Z",
+      "root": "/",
+      "dir": "/Users/seanblanton/Documents/Sites/blanton/src/templates",
+      "base": "post.js",
+      "ext": ".js",
+      "name": "post",
+      "relativeDirectory": "templates",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 55178102,
+      "blocks": 8,
+      "atimeMs": 1527141819000,
+      "mtimeMs": 1527138274000,
+      "ctimeMs": 1527138406000,
+      "birthtimeMs": 1527138274000,
+      "atime": "2018-05-24T06:03:39.000Z",
+      "mtime": "2018-05-24T05:04:34.000Z",
+      "ctime": "2018-05-24T05:06:46.000Z",
       "birthtime": "2018-05-24T05:04:34.000Z"
     },
     "/Users/seanblanton/Documents/Sites/blanton/src/favicon.png absPath of file": {
@@ -2329,7 +2402,7 @@
       "size": 80348,
       "prettySize": "80.3 kB",
       "modifiedTime": "2018-05-24T05:04:34.000Z",
-      "accessTime": "2018-05-24T05:33:25.000Z",
+      "accessTime": "2018-05-24T06:03:38.000Z",
       "changeTime": "2018-05-24T05:06:46.000Z",
       "birthTime": "2018-05-24T05:04:34.000Z",
       "root": "/",
@@ -2347,14 +2420,39 @@
       "blksize": 4096,
       "ino": 55178086,
       "blocks": 160,
-      "atimeMs": 1527140005000,
+      "atimeMs": 1527141818000,
       "mtimeMs": 1527138274000,
       "ctimeMs": 1527138406000,
       "birthtimeMs": 1527138274000,
-      "atime": "2018-05-24T05:33:25.000Z",
+      "atime": "2018-05-24T06:03:38.000Z",
       "mtime": "2018-05-24T05:04:34.000Z",
       "ctime": "2018-05-24T05:06:46.000Z",
       "birthtime": "2018-05-24T05:04:34.000Z"
+    },
+    "/Users/seanblanton/Documents/Sites/blanton/src/posts/fiction-writing-for-designers.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/seanblanton/Documents/Sites/blanton/src/posts/fiction-writing-for-designers.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/Users/seanblanton/Documents/Sites/blanton/src/posts/fiction-writing-for-designers.md absPath of file",
+      "internal": {
+        "content": "---\ntitle: Fiction Writing For Designers\ndate: 2016-06-14\n---\n\nReading fiction, and even more so, writing fiction, has been one of the greatest things I’ve done to better understand how to design for others. In the design community we talk a lot about the importance of writing. In general, it's a great thing. There's a wealth of great resources on the recommended reading for designers, and there's plenty of designers putting out great content on a regular basis, too, but much of it tends to be on usability, psychology, user research, testing, should designers code, design leadership, and other kinds of technical writing. But it's not enough.\n\nThe act of reading and writing fiction requires the author to imagine a reality that is not and never will be her own. It means imagining and coming to an understanding that the people in these stories have lives and experiences equally as complex as hers, and that whoever conceived of these stories has (or had) a life and motivations that are wholly different from her own life and experiences. And when we write fiction, we're asked to create realities that are not prototypical, but specific, and then to understand the implications of those realities for the people that inhabit that imagined space. How do two people with differing value sets perceive the world differently, and how do they interact together?\n\nAll fiction is a design problem, that is to say that fiction seeks to organize the world for a specific purpose. And while the world in which novelists organize and create meaning and just happens to be imagined, that imagined world is valid, and real, and informed and strengthened by the reality that surrounds it.\n\nThe act of fiction goes far beyond something like writing personas. While personas tend to be constructed to be a single, concrete figure, that persona is intended to stand as proxy for an entire user group. This is the difference between _persona_ and _character_. Persona is often too reductive to ever be more than a ghost of a person inside of a work of fiction. It's through a combination of persona, user journey, and storyboarding that we as designers only begin to scratch the surface of what it means to be the personas we imagine, validate, and ultimately design for. What the very best fiction does so well is examines character through the lenses of change and time. It finds nuanced differences in character's moods, behaviors, belief systems, needs, goals, etc between what was and what is. And the very best writers consider you, the reader, too. Your thoughts and your emotion and the experience of you as person sitting and reading the scene and comparing it in your mind to your entire worldview.\n\nThe more we read stories and the more we try to write our own, the better a language we have to understand the people whom we design for, and the better context we have to understand ourselves.\n\nSome of the most important things I may need to convey in a design can only be really talked about anecdotally, through some metaphor, image, or story. It’s through story that my thoughts are condensed and transfigured. These stories become easier to understand or draw correlations between because we’re all so used to them. Every single one of us tells stories. Anthropologists have identified that storytelling exists in every country and every culture in the world, and stories have existed in some form or another, oral, written, or visual, for thousands of years. Our entire civilization has been built on our ability to communicate with and understand one another effectively.\n\nWhen I tell you a story, it's because I need to tell you something about the way I think or the way that I feel. I tell stories when something is funny, or interesting, or profound, or beautiful, or inspiring. When we tell stories we assume our telling will communicate something to the recipient about who we are and what we think and value.\n\n> \"Is this what I think? And is this all I have to say? And am I making myself understood?\"\n\nAnd herein lays the key problem: the words I write can only sketch the outline of what it is I mean to say. But then I present these words as a tangible artifact of who I am and what I think.\n\nAs a designer, my understanding of the person whom I design for can only ever be a sketch of who I think they might be, not who they are. It helps to practice healthy skepticism:\n\n> “Health Approach presupposes that truth is objective at least in the minimal sense that believing something does not make it so, that something‘s being true does not mean we believe it, and that we are capable of making mistakes.”\n>\n> – (pg. 90) LE MORVAN, Pierre. \"Healthy Skepticism and Practical Wisdom\"\n\nIt behooves me to be as skilled as I can be at creating such a weak representation of real life, and to be always conscious of the fact that no matter how true I believe the facts to be, it’s always possible that I may be wrong every time. And that — that is incredibly humbling.\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "cd735eeb95899b27f74c32a2218591de",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "Fiction Writing For Designers",
+        "date": "2016-06-14T00:00:00.000Z",
+        "_PARENT": "/Users/seanblanton/Documents/Sites/blanton/src/posts/fiction-writing-for-designers.md absPath of file",
+        "parent": "/Users/seanblanton/Documents/Sites/blanton/src/posts/fiction-writing-for-designers.md absPath of file"
+      },
+      "excerpt": "",
+      "fileAbsolutePath": "/Users/seanblanton/Documents/Sites/blanton/src/posts/fiction-writing-for-designers.md",
+      "fields": {
+        "slug": "/fiction-writing-for-designers/"
+      }
     },
     "/Users/seanblanton/Documents/Sites/blanton/src/posts/making-susy-grids-atomic.md absPath of file >>> MarkdownRemark": {
       "id": "/Users/seanblanton/Documents/Sites/blanton/src/posts/making-susy-grids-atomic.md absPath of file >>> MarkdownRemark",
@@ -2404,56 +2502,6 @@
       "fileAbsolutePath": "/Users/seanblanton/Documents/Sites/blanton/src/posts/programmatic-color-palettes.md",
       "fields": {
         "slug": "/programmatic-color-palettes/"
-      }
-    },
-    "/Users/seanblanton/Documents/Sites/blanton/src/posts/fiction-writing-for-designers.md absPath of file >>> MarkdownRemark": {
-      "id": "/Users/seanblanton/Documents/Sites/blanton/src/posts/fiction-writing-for-designers.md absPath of file >>> MarkdownRemark",
-      "children": [],
-      "parent": "/Users/seanblanton/Documents/Sites/blanton/src/posts/fiction-writing-for-designers.md absPath of file",
-      "internal": {
-        "content": "---\ntitle: Fiction Writing For Designers\ndate: 2016-06-14\n---\n\nReading fiction, and even more so, writing fiction, has been one of the greatest things I’ve done to better understand how to design for others. In the design community we talk a lot about the importance of writing. In general, it's a great thing. There's a wealth of great resources on the recommended reading for designers, and there's plenty of designers putting out great content on a regular basis, too, but much of it tends to be on usability, psychology, user research, testing, should designers code, design leadership, and other kinds of technical writing. But it's not enough.\n\nThe act of reading and writing fiction requires the author to imagine a reality that is not and never will be her own. It means imagining and coming to an understanding that the people in these stories have lives and experiences equally as complex as hers, and that whoever conceived of these stories has (or had) a life and motivations that are wholly different from her own life and experiences. And when we write fiction, we're asked to create realities that are not prototypical, but specific, and then to understand the implications of those realities for the people that inhabit that imagined space. How do two people with differing value sets perceive the world differently, and how do they interact together?\n\nAll fiction is a design problem, that is to say that fiction seeks to organize the world for a specific purpose. And while the world in which novelists organize and create meaning and just happens to be imagined, that imagined world is valid, and real, and informed and strengthened by the reality that surrounds it.\n\nThe act of fiction goes far beyond something like writing personas. While personas tend to be constructed to be a single, concrete figure, that persona is intended to stand as proxy for an entire user group. This is the difference between _persona_ and _character_. Persona is often too reductive to ever be more than a ghost of a person inside of a work of fiction. It's through a combination of persona, user journey, and storyboarding that we as designers only begin to scratch the surface of what it means to be the personas we imagine, validate, and ultimately design for. What the very best fiction does so well is examines character through the lenses of change and time. It finds nuanced differences in character's moods, behaviors, belief systems, needs, goals, etc between what was and what is. And the very best writers consider you, the reader, too. Your thoughts and your emotion and the experience of you as person sitting and reading the scene and comparing it in your mind to your entire worldview.\n\nThe more we read stories and the more we try to write our own, the better a language we have to understand the people whom we design for, and the better context we have to understand ourselves.\n\nSome of the most important things I may need to convey in a design can only be really talked about anecdotally, through some metaphor, image, or story. It’s through story that my thoughts are condensed and transfigured. These stories become easier to understand or draw correlations between because we’re all so used to them. Every single one of us tells stories. Anthropologists have identified that storytelling exists in every country and every culture in the world, and stories have existed in some form or another, oral, written, or visual, for thousands of years. Our entire civilization has been built on our ability to communicate with and understand one another effectively.\n\nWhen I tell you a story, it's because I need to tell you something about the way I think or the way that I feel. I tell stories when something is funny, or interesting, or profound, or beautiful, or inspiring. When we tell stories we assume our telling will communicate something to the recipient about who we are and what we think and value.\n\n> \"Is this what I think? And is this all I have to say? And am I making myself understood?\"\n\nAnd herein lays the key problem: the words I write can only sketch the outline of what it is I mean to say. But then I present these words as a tangible artifact of who I am and what I think.\n\nAs a designer, my understanding of the person whom I design for can only ever be a sketch of who I think they might be, not who they are. It helps to practice healthy skepticism:\n\n> “Health Approach presupposes that truth is objective at least in the minimal sense that believing something does not make it so, that something‘s being true does not mean we believe it, and that we are capable of making mistakes.”\n>\n> – (pg. 90) LE MORVAN, Pierre. \"Healthy Skepticism and Practical Wisdom\"\n\nIt behooves me to be as skilled as I can be at creating such a weak representation of real life, and to be always conscious of the fact that no matter how true I believe the facts to be, it’s always possible that I may be wrong every time. And that — that is incredibly humbling.\n",
-        "type": "MarkdownRemark",
-        "contentDigest": "cd735eeb95899b27f74c32a2218591de",
-        "owner": "gatsby-transformer-remark",
-        "fieldOwners": {
-          "slug": "default-site-plugin"
-        }
-      },
-      "frontmatter": {
-        "title": "Fiction Writing For Designers",
-        "date": "2016-06-14T00:00:00.000Z",
-        "_PARENT": "/Users/seanblanton/Documents/Sites/blanton/src/posts/fiction-writing-for-designers.md absPath of file",
-        "parent": "/Users/seanblanton/Documents/Sites/blanton/src/posts/fiction-writing-for-designers.md absPath of file"
-      },
-      "excerpt": "",
-      "fileAbsolutePath": "/Users/seanblanton/Documents/Sites/blanton/src/posts/fiction-writing-for-designers.md",
-      "fields": {
-        "slug": "/fiction-writing-for-designers/"
-      }
-    },
-    "/Users/seanblanton/Documents/Sites/blanton/src/posts/size-and-mass-in-design-systems.md absPath of file >>> MarkdownRemark": {
-      "id": "/Users/seanblanton/Documents/Sites/blanton/src/posts/size-and-mass-in-design-systems.md absPath of file >>> MarkdownRemark",
-      "children": [],
-      "parent": "/Users/seanblanton/Documents/Sites/blanton/src/posts/size-and-mass-in-design-systems.md absPath of file",
-      "internal": {
-        "content": "---\ntitle: Size and Mass in Design Systems\ndate: 2017-09-17\n---\nSometimes it can be hard to know what to work on in a design system. There are so many things which command our attention. There's always a very delicate balancing act between wanting to use the design system as a way to advance systems-level thinking inside the organization while at the same time utilizing the system as a way to embrace what there already is, and set up a set of guidelines to help others understand the decisions that have been made thus far.\n\nThis gets trickier in very large design systems or in cases where the design system has been neglected or absent up until this point. Both the amount of time saved by advancing foundational parts of the design system and the debt accrued by failing to document new things as they come into existence can be a zero sum game.\n\nOne way I've taken to dealing with this is to think about any aspect of building a design system in terms of **variance, mass, and size.**\n\nVariance tends to be the enemy of design systems. Variance might be defined as the point at which a portion of the design system takes on new form to meet a new goal. Variance may also be at a low or high _intensity_. A high intensity variance would be one in which two states of an object in the design system exist to meet the **a wildly different** goal. A variance of normal intensity would be one in which two objects or states exist for **similar, more closely related, but not congruent** purposes. A low intensity variance would be one that simply needs to specify state or interaction related to **the same goals**.\n\nWhen cataloging a design system, the intensity of variance tends to come into play not so much in the objects themselves as in the combinatorial sets of these objects. Objects which are comprised of many other objects, or objects with a high intensity of variance, can be said to be of great **size**. The parts of the design system with the smallest size consider the _least relationships and goals possible_.\n\nAn object in a design system has **mass** if producing a chance in that object _affects other objects_ in the system. An object can be incredibly complex (i.e. it can be said to be of great size) but be fairly isolated in its application. It would be isolated to a specific surface or seldom used situation, and thus, would have a small mass. Conversely, an object could exist at a relatively low state of complexity but have a cascading effect that has implications on many, _many other parts of the design system_, thus giving it **large mass**\n\nDesign systems can do a lot to keep the overall complexity of the system down by considering the parts before the whole. By prioritizing the parts of the design system which have the smallest size, but the greatest mass, it's easier to start building a design system that pays dividends. Likewise, when new objects come into existence, the question about whether or not to let new circumstances impact the momentum of the design system should also be a matter of the mass and size of that change relative to the current state of the overall system.\n\nThis is by no means a perfect way to build a design system. I recognize that the massive complexity of building at scale and parallel to ongoing product development efforts can strongly impact one's ability to always rationalize system adaptation against the notions of mass and size. At the end of the day, design systems are built for people, and we should be doing whatever we can to make their lives better, in both the short term and the long, and not let any guiding notions like these become dogmatic treatises any more than should the idea that these systems are winding and complex and cannot be neatly put into boxes mock the attempt.\n",
-        "type": "MarkdownRemark",
-        "contentDigest": "2adebb0c65af5a11bf32891eb1134187",
-        "owner": "gatsby-transformer-remark",
-        "fieldOwners": {
-          "slug": "default-site-plugin"
-        }
-      },
-      "frontmatter": {
-        "title": "Size and Mass in Design Systems",
-        "date": "2017-09-17T00:00:00.000Z",
-        "_PARENT": "/Users/seanblanton/Documents/Sites/blanton/src/posts/size-and-mass-in-design-systems.md absPath of file",
-        "parent": "/Users/seanblanton/Documents/Sites/blanton/src/posts/size-and-mass-in-design-systems.md absPath of file"
-      },
-      "excerpt": "",
-      "fileAbsolutePath": "/Users/seanblanton/Documents/Sites/blanton/src/posts/size-and-mass-in-design-systems.md",
-      "fields": {
-        "slug": "/size-and-mass-in-design-systems/"
       }
     },
     "/Users/seanblanton/Documents/Sites/blanton/src/posts/the-analysis-and-ontology-of-design-systems.md absPath of file >>> MarkdownRemark": {
@@ -2507,29 +2555,29 @@
         "slug": "/the-map-is-not-the-territory/"
       }
     },
-    "/Users/seanblanton/Documents/Sites/blanton/src/posts/why-use-system-fonts.md absPath of file >>> MarkdownRemark": {
-      "id": "/Users/seanblanton/Documents/Sites/blanton/src/posts/why-use-system-fonts.md absPath of file >>> MarkdownRemark",
+    "/Users/seanblanton/Documents/Sites/blanton/src/posts/size-and-mass-in-design-systems.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/seanblanton/Documents/Sites/blanton/src/posts/size-and-mass-in-design-systems.md absPath of file >>> MarkdownRemark",
       "children": [],
-      "parent": "/Users/seanblanton/Documents/Sites/blanton/src/posts/why-use-system-fonts.md absPath of file",
+      "parent": "/Users/seanblanton/Documents/Sites/blanton/src/posts/size-and-mass-in-design-systems.md absPath of file",
       "internal": {
-        "content": "---\ntitle: Why Use System Fonts\ndate: 2016-09-25\n---\n\nWhen choosing fonts for web typography, it's easy for a designer to impulsively reach for Open Sans or Lato or Avenir or whatever the newest, hottest thing out there at the time is. I've done it. We all have. There's a compulsion for the fonts we use on the web to match the fonts we use in marketing material, particuarily print. After all - we do want to be _on brand_, right? But is that the most important thing typography should address?\n\nBut if you start to consider your performance budget, using webfonts starts to make less and less sense. [Users hate slow websites](http://globenewswire.com/news-release/2010/09/07/429014/200875/en/New-Survey-From-Compuware-Gomez-Reveals-Consumers-Will-Quickly-Abandon-Slow-Websites.html)\n\n#### We need to consider what typography is _for_ and what problem it aims to _solve_.\n\nLet's pay attention to the words we don't often even bother to look up in the dictionary. Take user _interfaces_ for example:\n\n> #### in·ter·face\n>\n> ˈin(t)ərˌfās - **noun**  \n> &#8291;1. a point where two systems, subjects, organizations, etc., meet and interact.   \n> &#8291; 2. a device or program enabling a user to communicate with a computer.  \n> &#8291; – [_From Google_](https://www.google.com/search?q=interface+definition&oq=interface+definition)\n\n### When I design something, I aim to make every single design decision solve a problem.\n\nSometimes that problem is for the user, like increasing legibility or reducing cognitive load. Sometimes the problem is for the business, like increasing maintainability and scalability. So maybe that means adding constraints to the design requirements and increasing the efficiency of the system.\n\n## If typography in an interface exists to facilitate interaction, putting a webfont in a button or other parts of UI copy does little to advance this cause.\n\nBut what it does do is this: make your page heavier and harder to maintain. Good web typography should be functional and performant. Everything beyond that is nice to have and should be considered an optimization on an already validated design.\n\n## Using system fonts allows designers to focus more on solving problems and less on aesthetics.\n\nThey also allow your site to feel native to the platform in which a user is experiencing it.\n[W3C is already considering this as a standard anyway](https://lists.w3.org/Archives/Public/www-style/2015Jul/0169.html)\n\nIf you must include webfonts as a part of your UI, at least consider the [alternatives](http://cognition.happycog.com/article/7-alternatives-to-popular-web-typefaces-for-better-performance) that might help reduce your page to help reduce weight and load them [in the most efficient way you can.](https://github.com/bramstein/fontfaceobserver)\n\n## Further Reading\n\n* [Bram Stein on loading fonts](http://bramstein.com/writing/)\n* [Marcin Wichary on Using System UI Fonts in Web Design](https://www.smashingmagazine.com/2015/11/using-system-ui-fonts-practical-guide/)\n* [Sites with System Fonts](https://github.com/mrmrs/awesome-system-fonts)\n* [Katie Kovalcin on Designing wtih a Performance Budget](http://cognition.happycog.com/article/designing-with-a-performance-budget)\n",
+        "content": "---\ntitle: Size and Mass in Design Systems\ndate: 2017-09-17\n---\nSometimes it can be hard to know what to work on in a design system. There are so many things which command our attention. There's always a very delicate balancing act between wanting to use the design system as a way to advance systems-level thinking inside the organization while at the same time utilizing the system as a way to embrace what there already is, and set up a set of guidelines to help others understand the decisions that have been made thus far.\n\nThis gets trickier in very large design systems or in cases where the design system has been neglected or absent up until this point. Both the amount of time saved by advancing foundational parts of the design system and the debt accrued by failing to document new things as they come into existence can be a zero sum game.\n\nOne way I've taken to dealing with this is to think about any aspect of building a design system in terms of **variance, mass, and size.**\n\nVariance tends to be the enemy of design systems. Variance might be defined as the point at which a portion of the design system takes on new form to meet a new goal. Variance may also be at a low or high _intensity_. A high intensity variance would be one in which two states of an object in the design system exist to meet the **a wildly different** goal. A variance of normal intensity would be one in which two objects or states exist for **similar, more closely related, but not congruent** purposes. A low intensity variance would be one that simply needs to specify state or interaction related to **the same goals**.\n\nWhen cataloging a design system, the intensity of variance tends to come into play not so much in the objects themselves as in the combinatorial sets of these objects. Objects which are comprised of many other objects, or objects with a high intensity of variance, can be said to be of great **size**. The parts of the design system with the smallest size consider the _least relationships and goals possible_.\n\nAn object in a design system has **mass** if producing a chance in that object _affects other objects_ in the system. An object can be incredibly complex (i.e. it can be said to be of great size) but be fairly isolated in its application. It would be isolated to a specific surface or seldom used situation, and thus, would have a small mass. Conversely, an object could exist at a relatively low state of complexity but have a cascading effect that has implications on many, _many other parts of the design system_, thus giving it **large mass**\n\nDesign systems can do a lot to keep the overall complexity of the system down by considering the parts before the whole. By prioritizing the parts of the design system which have the smallest size, but the greatest mass, it's easier to start building a design system that pays dividends. Likewise, when new objects come into existence, the question about whether or not to let new circumstances impact the momentum of the design system should also be a matter of the mass and size of that change relative to the current state of the overall system.\n\nThis is by no means a perfect way to build a design system. I recognize that the massive complexity of building at scale and parallel to ongoing product development efforts can strongly impact one's ability to always rationalize system adaptation against the notions of mass and size. At the end of the day, design systems are built for people, and we should be doing whatever we can to make their lives better, in both the short term and the long, and not let any guiding notions like these become dogmatic treatises any more than should the idea that these systems are winding and complex and cannot be neatly put into boxes mock the attempt.\n",
         "type": "MarkdownRemark",
-        "contentDigest": "4c0d21cdcfac2df2336c9062abbab7fe",
+        "contentDigest": "2adebb0c65af5a11bf32891eb1134187",
         "owner": "gatsby-transformer-remark",
         "fieldOwners": {
           "slug": "default-site-plugin"
         }
       },
       "frontmatter": {
-        "title": "Why Use System Fonts",
-        "date": "2016-09-25T00:00:00.000Z",
-        "_PARENT": "/Users/seanblanton/Documents/Sites/blanton/src/posts/why-use-system-fonts.md absPath of file",
-        "parent": "/Users/seanblanton/Documents/Sites/blanton/src/posts/why-use-system-fonts.md absPath of file"
+        "title": "Size and Mass in Design Systems",
+        "date": "2017-09-17T00:00:00.000Z",
+        "_PARENT": "/Users/seanblanton/Documents/Sites/blanton/src/posts/size-and-mass-in-design-systems.md absPath of file",
+        "parent": "/Users/seanblanton/Documents/Sites/blanton/src/posts/size-and-mass-in-design-systems.md absPath of file"
       },
       "excerpt": "",
-      "fileAbsolutePath": "/Users/seanblanton/Documents/Sites/blanton/src/posts/why-use-system-fonts.md",
+      "fileAbsolutePath": "/Users/seanblanton/Documents/Sites/blanton/src/posts/size-and-mass-in-design-systems.md",
       "fields": {
-        "slug": "/why-use-system-fonts/"
+        "slug": "/size-and-mass-in-design-systems/"
       }
     },
     "/Users/seanblanton/Documents/Sites/blanton/src/posts/which-shade-of-gray-should-i-use-for-disabled-states.md absPath of file >>> MarkdownRemark": {
@@ -2557,6 +2605,103 @@
         "slug": "/which-shade-of-gray-should-i-use-for-disabled-states/"
       }
     },
+    "/Users/seanblanton/Documents/Sites/blanton/src/posts/why-use-system-fonts.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/seanblanton/Documents/Sites/blanton/src/posts/why-use-system-fonts.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/Users/seanblanton/Documents/Sites/blanton/src/posts/why-use-system-fonts.md absPath of file",
+      "internal": {
+        "content": "---\ntitle: Why Use System Fonts\ndate: 2016-09-25\n---\n\nWhen choosing fonts for web typography, it's easy for a designer to impulsively reach for Open Sans or Lato or Avenir or whatever the newest, hottest thing out there at the time is. I've done it. We all have. There's a compulsion for the fonts we use on the web to match the fonts we use in marketing material, particuarily print. After all - we do want to be _on brand_, right? But is that the most important thing typography should address?\n\nBut if you start to consider your performance budget, using webfonts starts to make less and less sense. [Users hate slow websites](http://globenewswire.com/news-release/2010/09/07/429014/200875/en/New-Survey-From-Compuware-Gomez-Reveals-Consumers-Will-Quickly-Abandon-Slow-Websites.html)\n\n#### We need to consider what typography is _for_ and what problem it aims to _solve_.\n\nLet's pay attention to the words we don't often even bother to look up in the dictionary. Take user _interfaces_ for example:\n\n> #### in·ter·face\n>\n> ˈin(t)ərˌfās - **noun**  \n> &#8291;1. a point where two systems, subjects, organizations, etc., meet and interact.   \n> &#8291; 2. a device or program enabling a user to communicate with a computer.  \n> &#8291; – [_From Google_](https://www.google.com/search?q=interface+definition&oq=interface+definition)\n\n### When I design something, I aim to make every single design decision solve a problem.\n\nSometimes that problem is for the user, like increasing legibility or reducing cognitive load. Sometimes the problem is for the business, like increasing maintainability and scalability. So maybe that means adding constraints to the design requirements and increasing the efficiency of the system.\n\n## If typography in an interface exists to facilitate interaction, putting a webfont in a button or other parts of UI copy does little to advance this cause.\n\nBut what it does do is this: make your page heavier and harder to maintain. Good web typography should be functional and performant. Everything beyond that is nice to have and should be considered an optimization on an already validated design.\n\n## Using system fonts allows designers to focus more on solving problems and less on aesthetics.\n\nThey also allow your site to feel native to the platform in which a user is experiencing it.\n[W3C is already considering this as a standard anyway](https://lists.w3.org/Archives/Public/www-style/2015Jul/0169.html)\n\nIf you must include webfonts as a part of your UI, at least consider the [alternatives](http://cognition.happycog.com/article/7-alternatives-to-popular-web-typefaces-for-better-performance) that might help reduce your page to help reduce weight and load them [in the most efficient way you can.](https://github.com/bramstein/fontfaceobserver)\n\n## Further Reading\n\n* [Bram Stein on loading fonts](http://bramstein.com/writing/)\n* [Marcin Wichary on Using System UI Fonts in Web Design](https://www.smashingmagazine.com/2015/11/using-system-ui-fonts-practical-guide/)\n* [Sites with System Fonts](https://github.com/mrmrs/awesome-system-fonts)\n* [Katie Kovalcin on Designing wtih a Performance Budget](http://cognition.happycog.com/article/designing-with-a-performance-budget)\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "4c0d21cdcfac2df2336c9062abbab7fe",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "Why Use System Fonts",
+        "date": "2016-09-25T00:00:00.000Z",
+        "_PARENT": "/Users/seanblanton/Documents/Sites/blanton/src/posts/why-use-system-fonts.md absPath of file",
+        "parent": "/Users/seanblanton/Documents/Sites/blanton/src/posts/why-use-system-fonts.md absPath of file"
+      },
+      "excerpt": "",
+      "fileAbsolutePath": "/Users/seanblanton/Documents/Sites/blanton/src/posts/why-use-system-fonts.md",
+      "fields": {
+        "slug": "/why-use-system-fonts/"
+      }
+    },
+    "/Users/seanblanton/Documents/Sites/blanton/src/posts/on-the-experience-of-becoming.md absPath of file": {
+      "id": "/Users/seanblanton/Documents/Sites/blanton/src/posts/on-the-experience-of-becoming.md absPath of file",
+      "children": [
+        "/Users/seanblanton/Documents/Sites/blanton/src/posts/on-the-experience-of-becoming.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "7971f98c3b7ac608a7d245264d761eb0",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "description": "File \"src/posts/on-the-experience-of-becoming.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/seanblanton/Documents/Sites/blanton/src/posts/on-the-experience-of-becoming.md",
+      "relativePath": "posts/on-the-experience-of-becoming.md",
+      "extension": "md",
+      "size": 2568,
+      "prettySize": "2.57 kB",
+      "modifiedTime": "2018-08-08T03:41:52.000Z",
+      "accessTime": "2018-08-08T03:41:53.000Z",
+      "changeTime": "2018-08-08T03:41:52.000Z",
+      "birthTime": "2018-08-08T03:09:57.000Z",
+      "root": "/",
+      "dir": "/Users/seanblanton/Documents/Sites/blanton/src/posts",
+      "base": "on-the-experience-of-becoming.md",
+      "ext": ".md",
+      "name": "on-the-experience-of-becoming",
+      "relativeDirectory": "posts",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 55695868,
+      "blocks": 8,
+      "atimeMs": 1533699713000,
+      "mtimeMs": 1533699712000,
+      "ctimeMs": 1533699712000,
+      "birthtimeMs": 1533697797000,
+      "atime": "2018-08-08T03:41:53.000Z",
+      "mtime": "2018-08-08T03:41:52.000Z",
+      "ctime": "2018-08-08T03:41:52.000Z",
+      "birthtime": "2018-08-08T03:09:57.000Z"
+    },
+    "/Users/seanblanton/Documents/Sites/blanton/src/posts/on-the-experience-of-becoming.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/seanblanton/Documents/Sites/blanton/src/posts/on-the-experience-of-becoming.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/Users/seanblanton/Documents/Sites/blanton/src/posts/on-the-experience-of-becoming.md absPath of file",
+      "internal": {
+        "content": "---\ntitle: \"On The Experience of Becoming: Kurt Vonnegut's Famous Letter to Five High School Students\"\ndate: 2018-08-07\n---\n\nIn 2006, some students at Xavier High School in New York were given a writing assignment: write their favorite author in an attempt to get him or her to visit the school. Five of those students chose to write Kurt Vonnegut.\n\nVonnegut did not end up visitng the school, but he did write a letter in response. That now famous response was brief and wonderful and its premise both simple and profound: practice any art in order to better yourself.\n\nI opine that Vonnegut's words extend beyond the scope of his letter, past \"any art\" as he suggests to the students, but instead into _any act_. Practice science, or philosophy, or running, or law. Practice being alone, being with others, loving yourself, loving someone else. As Vonnegut describes it — become. _Become_.\n\nThe letter, in its entirety, is here.\n\n> November 5, 2006\n>\n> Dear Xavier High School, and Ms. Lockwood, and Messrs Perin, McFeely, Batten, Maurer and Congiusta:\n>\n> I thank you for your friendly letters. You sure know how to cheer up a really old geezer (84) in his sunset years. I don't make public appearances any more because I now resemble nothing so much as an iguana.\n>\n> What I had to say to you, moreover, would not take long, to wit: Practice any art, music, singing, dancing, acting, drawing, painting, sculpting, poetry, fiction, essays, reportage, no matter how well or badly, not to get money and fame, but to experience becoming, to find out what's inside you, to make your soul grow.\n>\n> Seriously! I mean starting right now, do art and do it for the rest of your lives. Draw a funny or nice picture of Ms. Lockwood, and give it to her. Dance home after school, and sing in the shower and on and on. Make a face in your mashed potatoes. Pretend you're Count Dracula.\n>\n> Here's an assignment for tonight, and I hope Ms. Lockwood will flunk you if you don't do it: Write a six line poem, about anything, but rhymed. No fair tennis without a net. Make it as good as you possibly can. But don't tell anybody what you're doing. Don't show it or recite it to anybody, not even your girlfriend or parents or whatever, or Ms. Lockwood. OK?\n>\n> Tear it up into teeny-weeny pieces, and discard them into widely separated trash recepticals. You will find that you have already been gloriously rewarded for your poem. You have experienced becoming, learned a lot more about what's inside you, and you have made your soul grow.\n>\n> God bless you all!\n>\n> Kurt Vonnegut\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "b4d7dc5549ee2d903b58d945fee44c4b",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "On The Experience of Becoming: Kurt Vonnegut's Famous Letter to Five High School Students",
+        "date": "2018-08-07T00:00:00.000Z",
+        "_PARENT": "/Users/seanblanton/Documents/Sites/blanton/src/posts/on-the-experience-of-becoming.md absPath of file",
+        "parent": "/Users/seanblanton/Documents/Sites/blanton/src/posts/on-the-experience-of-becoming.md absPath of file"
+      },
+      "excerpt": "",
+      "fileAbsolutePath": "/Users/seanblanton/Documents/Sites/blanton/src/posts/on-the-experience-of-becoming.md",
+      "fields": {
+        "slug": "/on-the-experience-of-becoming/"
+      }
+    },
     "SitePage /offline-plugin-app-shell-fallback/": {
       "layout": "index",
       "jsonName": "offline-plugin-app-shell-fallback.json",
@@ -2573,8 +2718,31 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "1c842e4e3f50ac923a33df48e7568855",
+        "contentDigest": "ec67f61f3fd88799295725cfa733ee9a",
         "description": "Plugin gatsby-plugin-offline",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /fiction-writing-for-designers/": {
+      "layout": "index",
+      "jsonName": "fiction-writing-for-designers.json",
+      "internalComponentName": "ComponentFictionWritingForDesigners",
+      "path": "/fiction-writing-for-designers/",
+      "component": "/Users/seanblanton/Documents/Sites/blanton/src/templates/post.js",
+      "componentChunkName": "component---src-templates-post-js",
+      "context": {
+        "slug": "/fiction-writing-for-designers/"
+      },
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/seanblanton/Documents/Sites/blanton/src/templates/post.js",
+      "id": "SitePage /fiction-writing-for-designers/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "36237a1c163f3d2fb58640b4e3672555",
+        "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
     },
@@ -2596,7 +2764,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "f23e7f61141bf3310d9dfecabd787736",
+        "contentDigest": "db9337a6321c2756a21f47bd470dbd55",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -2619,53 +2787,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "f08c4b68c072e4add022707d49cfe713",
-        "description": "Your site's \"gatsby-node.js\"",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /fiction-writing-for-designers/": {
-      "layout": "index",
-      "jsonName": "fiction-writing-for-designers.json",
-      "internalComponentName": "ComponentFictionWritingForDesigners",
-      "path": "/fiction-writing-for-designers/",
-      "component": "/Users/seanblanton/Documents/Sites/blanton/src/templates/post.js",
-      "componentChunkName": "component---src-templates-post-js",
-      "context": {
-        "slug": "/fiction-writing-for-designers/"
-      },
-      "pluginCreator___NODE": "Plugin default-site-plugin",
-      "pluginCreatorId": "Plugin default-site-plugin",
-      "componentPath": "/Users/seanblanton/Documents/Sites/blanton/src/templates/post.js",
-      "id": "SitePage /fiction-writing-for-designers/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "1e73a7e730fa14503e59742d06f356bd",
-        "description": "Your site's \"gatsby-node.js\"",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /size-and-mass-in-design-systems/": {
-      "layout": "index",
-      "jsonName": "size-and-mass-in-design-systems.json",
-      "internalComponentName": "ComponentSizeAndMassInDesignSystems",
-      "path": "/size-and-mass-in-design-systems/",
-      "component": "/Users/seanblanton/Documents/Sites/blanton/src/templates/post.js",
-      "componentChunkName": "component---src-templates-post-js",
-      "context": {
-        "slug": "/size-and-mass-in-design-systems/"
-      },
-      "pluginCreator___NODE": "Plugin default-site-plugin",
-      "pluginCreatorId": "Plugin default-site-plugin",
-      "componentPath": "/Users/seanblanton/Documents/Sites/blanton/src/templates/post.js",
-      "id": "SitePage /size-and-mass-in-design-systems/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "bf04a5738c01388847113a57367f12be",
+        "contentDigest": "7c30f91e54c3de5e261b49ba67d09148",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -2688,7 +2810,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "586f3be0e1fc8c08a148d6db15252d6f",
+        "contentDigest": "c044149e9443f410cb80e8afd326e788",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -2711,30 +2833,30 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "86cd363258ce974540fc400c76f023e4",
+        "contentDigest": "5aace355132327ca8c341a1dd8ad685a",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
     },
-    "SitePage /why-use-system-fonts/": {
+    "SitePage /size-and-mass-in-design-systems/": {
       "layout": "index",
-      "jsonName": "why-use-system-fonts.json",
-      "internalComponentName": "ComponentWhyUseSystemFonts",
-      "path": "/why-use-system-fonts/",
+      "jsonName": "size-and-mass-in-design-systems.json",
+      "internalComponentName": "ComponentSizeAndMassInDesignSystems",
+      "path": "/size-and-mass-in-design-systems/",
       "component": "/Users/seanblanton/Documents/Sites/blanton/src/templates/post.js",
       "componentChunkName": "component---src-templates-post-js",
       "context": {
-        "slug": "/why-use-system-fonts/"
+        "slug": "/size-and-mass-in-design-systems/"
       },
       "pluginCreator___NODE": "Plugin default-site-plugin",
       "pluginCreatorId": "Plugin default-site-plugin",
       "componentPath": "/Users/seanblanton/Documents/Sites/blanton/src/templates/post.js",
-      "id": "SitePage /why-use-system-fonts/",
+      "id": "SitePage /size-and-mass-in-design-systems/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "a3a63c58a6882b7a8cfb9eed4d5b45e9",
+        "contentDigest": "0aaa90f06fe4a7637dd11fe931879c83",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -2757,7 +2879,53 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "5642b3466d154d6d4786b8cd55f1d9e6",
+        "contentDigest": "0bc30dee2e5caf7ec69b9fb735010b7c",
+        "description": "Your site's \"gatsby-node.js\"",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /why-use-system-fonts/": {
+      "layout": "index",
+      "jsonName": "why-use-system-fonts.json",
+      "internalComponentName": "ComponentWhyUseSystemFonts",
+      "path": "/why-use-system-fonts/",
+      "component": "/Users/seanblanton/Documents/Sites/blanton/src/templates/post.js",
+      "componentChunkName": "component---src-templates-post-js",
+      "context": {
+        "slug": "/why-use-system-fonts/"
+      },
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/seanblanton/Documents/Sites/blanton/src/templates/post.js",
+      "id": "SitePage /why-use-system-fonts/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "160a27a29aff16a5d7ddad6694a77f1d",
+        "description": "Your site's \"gatsby-node.js\"",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /on-the-experience-of-becoming/": {
+      "layout": "index",
+      "jsonName": "on-the-experience-of-becoming.json",
+      "internalComponentName": "ComponentOnTheExperienceOfBecoming",
+      "path": "/on-the-experience-of-becoming/",
+      "component": "/Users/seanblanton/Documents/Sites/blanton/src/templates/post.js",
+      "componentChunkName": "component---src-templates-post-js",
+      "context": {
+        "slug": "/on-the-experience-of-becoming/"
+      },
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/seanblanton/Documents/Sites/blanton/src/templates/post.js",
+      "id": "SitePage /on-the-experience-of-becoming/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "dc75f1fbfb10cb8211698a9b56c48d52",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -2778,7 +2946,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "1746d83f7d34db3921e0a49df73d2164",
+        "contentDigest": "3ede848cfdd30e1f870bb332739c95e7",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -2799,7 +2967,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "63acb37514156999379ba893538b505a",
+        "contentDigest": "7fb62cda150c71e7572fca25f6d9109d",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -2820,7 +2988,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "c63037539a9d0eebef9de37d452deaed",
+        "contentDigest": "82c2c509236792d29288b5fed4d3c648",
         "description": "Plugin prod-404",
         "owner": "internal-data-bridge"
       }
@@ -2828,21 +2996,25 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "d92636581570772444ed340359225bec"
+    "PLUGINS_HASH": "1260c45b3479b25d5b48eee53b5ffeb2"
   },
   "componentDataDependencies": {
     "nodes": {
       "Site": [
+        "/making-susy-grids-atomic/",
         "/fiction-writing-for-designers/",
         "/programmatic-color-palettes/",
-        "/making-susy-grids-atomic/",
-        "/size-and-mass-in-design-systems/",
-        "/why-use-system-fonts/",
-        "/the-map-is-not-the-territory/",
         "/the-analysis-and-ontology-of-design-systems/",
+        "/size-and-mass-in-design-systems/",
+        "/the-map-is-not-the-territory/",
         "/which-shade-of-gray-should-i-use-for-disabled-states/",
+        "/why-use-system-fonts/",
         "/",
-        "LAYOUT___index"
+        "LAYOUT___index",
+        "/on-the-experience-of-becoming/"
+      ],
+      "/Users/seanblanton/Documents/Sites/blanton/src/posts/making-susy-grids-atomic.md absPath of file >>> MarkdownRemark": [
+        "/making-susy-grids-atomic/"
       ],
       "/Users/seanblanton/Documents/Sites/blanton/src/posts/fiction-writing-for-designers.md absPath of file >>> MarkdownRemark": [
         "/fiction-writing-for-designers/"
@@ -2850,23 +3022,23 @@
       "/Users/seanblanton/Documents/Sites/blanton/src/posts/programmatic-color-palettes.md absPath of file >>> MarkdownRemark": [
         "/programmatic-color-palettes/"
       ],
-      "/Users/seanblanton/Documents/Sites/blanton/src/posts/making-susy-grids-atomic.md absPath of file >>> MarkdownRemark": [
-        "/making-susy-grids-atomic/"
+      "/Users/seanblanton/Documents/Sites/blanton/src/posts/the-analysis-and-ontology-of-design-systems.md absPath of file >>> MarkdownRemark": [
+        "/the-analysis-and-ontology-of-design-systems/"
       ],
       "/Users/seanblanton/Documents/Sites/blanton/src/posts/size-and-mass-in-design-systems.md absPath of file >>> MarkdownRemark": [
         "/size-and-mass-in-design-systems/"
       ],
-      "/Users/seanblanton/Documents/Sites/blanton/src/posts/why-use-system-fonts.md absPath of file >>> MarkdownRemark": [
-        "/why-use-system-fonts/"
-      ],
       "/Users/seanblanton/Documents/Sites/blanton/src/posts/the-map-is-not-the-territory.md absPath of file >>> MarkdownRemark": [
         "/the-map-is-not-the-territory/"
       ],
-      "/Users/seanblanton/Documents/Sites/blanton/src/posts/the-analysis-and-ontology-of-design-systems.md absPath of file >>> MarkdownRemark": [
-        "/the-analysis-and-ontology-of-design-systems/"
-      ],
       "/Users/seanblanton/Documents/Sites/blanton/src/posts/which-shade-of-gray-should-i-use-for-disabled-states.md absPath of file >>> MarkdownRemark": [
         "/which-shade-of-gray-should-i-use-for-disabled-states/"
+      ],
+      "/Users/seanblanton/Documents/Sites/blanton/src/posts/why-use-system-fonts.md absPath of file >>> MarkdownRemark": [
+        "/why-use-system-fonts/"
+      ],
+      "/Users/seanblanton/Documents/Sites/blanton/src/posts/on-the-experience-of-becoming.md absPath of file >>> MarkdownRemark": [
+        "/on-the-experience-of-becoming/"
       ]
     },
     "connections": {
