@@ -1,8 +1,8 @@
 {
   "assetsByChunkName": {
     "component---src-pages-index-js": [
-      "component---src-pages-index-js-e447ae2e9b34b366f47e.js",
-      "component---src-pages-index-js-e447ae2e9b34b366f47e.js.map"
+      "component---src-pages-index-js-9d9e4c3d89843d197987.js",
+      "component---src-pages-index-js-9d9e4c3d89843d197987.js.map"
     ],
     "path---which-shade-of-gray-should-i-use-for-disabled-states": [
       "path---which-shade-of-gray-should-i-use-for-disabled-states-ec04c00d951af51a6945.js",
@@ -13,8 +13,8 @@
       "path----35fe8ff64fa57cb0ec38.js.map"
     ],
     "path---making-susy-grids-atomic": [
-      "path---making-susy-grids-atomic-2c662897dd3c544ac427.js",
-      "path---making-susy-grids-atomic-2c662897dd3c544ac427.js.map"
+      "path---making-susy-grids-atomic-ea4cfcbea0a7e7ab81dd.js",
+      "path---making-susy-grids-atomic-ea4cfcbea0a7e7ab81dd.js.map"
     ],
     "path---on-the-experience-of-becoming": [
       "path---on-the-experience-of-becoming-35922c2f5ac7e2707868.js",
@@ -33,45 +33,49 @@
       "path---fiction-writing-for-designers-f40d7bd27caa9c85844a.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-c19953670fd019dca713.js",
-      "component---src-layouts-index-js-c19953670fd019dca713.js.map"
+      "component---src-layouts-index-js-9f05341ed34c5a4361b2.js",
+      "component---src-layouts-index-js-9f05341ed34c5a4361b2.js.map"
     ],
     "path---index": [
-      "path---index-ab6f9d464a09fa721a8e.js",
-      "path---index-ab6f9d464a09fa721a8e.js.map"
+      "path---index-01c4cf167a684f8ba049.js",
+      "path---index-01c4cf167a684f8ba049.js.map"
     ],
     "path---the-map-is-not-the-territory": [
       "path---the-map-is-not-the-territory-b698b8c734fcc5e81413.js",
       "path---the-map-is-not-the-territory-b698b8c734fcc5e81413.js.map"
     ],
     "component---src-pages-404-js": [
-      "component---src-pages-404-js-b00689a37f33947ba5c4.js",
-      "component---src-pages-404-js-b00689a37f33947ba5c4.js.map"
+      "component---src-pages-404-js-8f86648490535180cabf.js",
+      "component---src-pages-404-js-8f86648490535180cabf.js.map"
     ],
     "commons": [
-      "commons-e56f664354f4c00d2e02.js",
-      "commons-e56f664354f4c00d2e02.js.map"
+      "commons-94c95b3122a821fd9fe1.js",
+      "commons-94c95b3122a821fd9fe1.js.map"
+    ],
+    "path---system-dynamics-in-design-systems": [
+      "path---system-dynamics-in-design-systems-fa4344820941851ac1a3.js",
+      "path---system-dynamics-in-design-systems-fa4344820941851ac1a3.js.map"
     ],
     "path---404-html": [
       "path---404-html-a0e39f21c11f6a62c5ab.js",
       "path---404-html-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---programmatic-color-palettes": [
-      "path---programmatic-color-palettes-72b74759885c024e9daf.js",
-      "path---programmatic-color-palettes-72b74759885c024e9daf.js.map"
+      "path---programmatic-color-palettes-34c74981df54aa7b7565.js",
+      "path---programmatic-color-palettes-34c74981df54aa7b7565.js.map"
     ],
     "component---src-templates-post-js": [
-      "component---src-templates-post-js-51f510c13061cf408f67.js",
-      "component---src-templates-post-js-51f510c13061cf408f67.js.map"
+      "component---src-templates-post-js-3955661b7b1444223cda.js",
+      "component---src-templates-post-js-3955661b7b1444223cda.js.map"
     ],
     "path---offline-plugin-app-shell-fallback": [
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js",
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js.map"
     ],
     "app": [
-      "app-faaa70f10f8879669df8.js",
+      "app-a5ea343007031940db0e.js",
       "build-js-styles.css",
-      "app-faaa70f10f8879669df8.js.map",
+      "app-a5ea343007031940db0e.js.map",
       "build-js-styles.css.map"
     ],
     "path---why-use-system-fonts": [
@@ -79,8 +83,8 @@
       "path---why-use-system-fonts-978388e2b41c1cebfcd0.js.map"
     ],
     "path---the-analysis-and-ontology-of-design-systems": [
-      "path---the-analysis-and-ontology-of-design-systems-77bf1b7cbf980546ed13.js",
-      "path---the-analysis-and-ontology-of-design-systems-77bf1b7cbf980546ed13.js.map"
+      "path---the-analysis-and-ontology-of-design-systems-e850349fd9da759f1ce6.js",
+      "path---the-analysis-and-ontology-of-design-systems-e850349fd9da759f1ce6.js.map"
     ],
     "path---404": [
       "path---404-a0e39f21c11f6a62c5ab.js",
