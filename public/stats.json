@@ -1,0 +1,98 @@
+{
+  "assetsByChunkName": {
+    "component---src-pages-index-js": [
+      "component---src-pages-index-js-04ac800e094a24ff20b2.js",
+      "component---src-pages-index-js-04ac800e094a24ff20b2.js.map"
+    ],
+    "path---which-shade-of-gray-should-i-use-for-disabled-states": [
+      "path---which-shade-of-gray-should-i-use-for-disabled-states-ec04c00d951af51a6945.js",
+      "path---which-shade-of-gray-should-i-use-for-disabled-states-ec04c00d951af51a6945.js.map"
+    ],
+    "path---": [
+      "path----35fe8ff64fa57cb0ec38.js",
+      "path----35fe8ff64fa57cb0ec38.js.map"
+    ],
+    "path---making-susy-grids-atomic": [
+      "path---making-susy-grids-atomic-ea4cfcbea0a7e7ab81dd.js",
+      "path---making-susy-grids-atomic-ea4cfcbea0a7e7ab81dd.js.map"
+    ],
+    "path---on-the-experience-of-becoming": [
+      "path---on-the-experience-of-becoming-35922c2f5ac7e2707868.js",
+      "path---on-the-experience-of-becoming-35922c2f5ac7e2707868.js.map"
+    ],
+    "path---size-and-mass-in-design-systems": [
+      "path---size-and-mass-in-design-systems-6ef58b49739d5d2188a8.js",
+      "path---size-and-mass-in-design-systems-6ef58b49739d5d2188a8.js.map"
+    ],
+    "component---node-modules-gatsby-plugin-offline-app-shell-js": [
+      "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js",
+      "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js.map"
+    ],
+    "path---fiction-writing-for-designers": [
+      "path---fiction-writing-for-designers-f40d7bd27caa9c85844a.js",
+      "path---fiction-writing-for-designers-f40d7bd27caa9c85844a.js.map"
+    ],
+    "component---src-layouts-index-js": [
+      "component---src-layouts-index-js-8631b87ebbf512ccea25.js",
+      "component---src-layouts-index-js-8631b87ebbf512ccea25.js.map"
+    ],
+    "path---index": [
+      "path---index-f46be9b7b97b861d4c4b.js",
+      "path---index-f46be9b7b97b861d4c4b.js.map"
+    ],
+    "path---the-map-is-not-the-territory": [
+      "path---the-map-is-not-the-territory-b698b8c734fcc5e81413.js",
+      "path---the-map-is-not-the-territory-b698b8c734fcc5e81413.js.map"
+    ],
+    "component---src-pages-404-js": [
+      "component---src-pages-404-js-1d2e79c3f94db80338e3.js",
+      "component---src-pages-404-js-1d2e79c3f94db80338e3.js.map"
+    ],
+    "commons": [
+      "commons-94c95b3122a821fd9fe1.js",
+      "commons-94c95b3122a821fd9fe1.js.map"
+    ],
+    "path---system-dynamics-in-design-systems": [
+      "path---system-dynamics-in-design-systems-fa4344820941851ac1a3.js",
+      "path---system-dynamics-in-design-systems-fa4344820941851ac1a3.js.map"
+    ],
+    "path---404-html": [
+      "path---404-html-a0e39f21c11f6a62c5ab.js",
+      "path---404-html-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---programmatic-color-palettes": [
+      "path---programmatic-color-palettes-34c74981df54aa7b7565.js",
+      "path---programmatic-color-palettes-34c74981df54aa7b7565.js.map"
+    ],
+    "component---src-templates-post-js": [
+      "component---src-templates-post-js-1237e3fb3353a762e211.js",
+      "component---src-templates-post-js-1237e3fb3353a762e211.js.map"
+    ],
+    "path---offline-plugin-app-shell-fallback": [
+      "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js",
+      "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "app": [
+      "app-ddcc6e267710f1f7eab9.js",
+      "build-js-styles.css",
+      "app-ddcc6e267710f1f7eab9.js.map",
+      "build-js-styles.css.map"
+    ],
+    "path---why-use-system-fonts": [
+      "path---why-use-system-fonts-978388e2b41c1cebfcd0.js",
+      "path---why-use-system-fonts-978388e2b41c1cebfcd0.js.map"
+    ],
+    "path---the-analysis-and-ontology-of-design-systems": [
+      "path---the-analysis-and-ontology-of-design-systems-e850349fd9da759f1ce6.js",
+      "path---the-analysis-and-ontology-of-design-systems-e850349fd9da759f1ce6.js.map"
+    ],
+    "path---404": [
+      "path---404-a0e39f21c11f6a62c5ab.js",
+      "path---404-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---cause-and-effect-a-toolkit-for-applying-systems-thinking-to-design-sprints": [
+      "path---cause-and-effect-a-toolkit-for-applying-systems-thinking-to-design-sprints-dc5f60cf92f1d2b48ec5.js",
+      "path---cause-and-effect-a-toolkit-for-applying-systems-thinking-to-design-sprints-dc5f60cf92f1d2b48ec5.js.map"
+    ]
+  }
+}

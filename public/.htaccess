@@ -1,0 +1,162 @@
+## Deny Directory Listings ##
+Options -Indexes
+
+## EXPIRES CACHING ##
+<IfModule mod_expires.c>
+ExpiresActive On
+
+# Perhaps better to whitelist expires rules? Perhaps.
+  ExpiresDefault "access plus 1 month"
+
+
+# document html
+  ExpiresByType text/html "access plus 0 seconds"
+
+# Data
+  ExpiresByType text/xml "access plus 0 seconds"
+  ExpiresByType application/xml "access plus 0 seconds"
+  ExpiresByType application/json "access plus 0 seconds"
+
+# Feed
+  ExpiresByType application/rss+xml "access plus 1 hour"
+  ExpiresByType application/atom+xml "access plus 1 hour"
+
+# Favicon (cannot be renamed)
+  ExpiresByType image/x-icon "access plus 1 week"
+
+# Media: images, video, audio
+  ExpiresByType image/gif "access plus 1 month"
+  ExpiresByType image/png "access plus 1 month"
+  ExpiresByType image/jpg "access plus 1 month"
+  ExpiresByType image/jpeg "access plus 1 month"
+  ExpiresByType video/ogg "access plus 1 month"
+  ExpiresByType audio/ogg "access plus 1 month"
+  ExpiresByType video/mp4 "access plus 1 month"
+  ExpiresByType video/webm "access plus 1 month"
+
+# CSS and JavaScript
+  ExpiresByType text/css "access plus 1 month"
+  ExpiresByType application/javascript "access plus 1 year"
+  ExpiresByType text/x-javascript "access 1 month"
+
+# application stuff
+ExpiresByType application/pdf "access 1 month"
+ExpiresByType application/x-shockwave-flash "access 1 month"
+
+  <IfModule mod_headers.c>
+    Header append Cache-Control "public"
+  </IfModule>
+
+</IfModule>
+## EXPIRES CACHING ##
+
+
+
+# ------------------------------------------------------------------------------
+# | Proper MIME types for all files                                            |
+# ------------------------------------------------------------------------------
+
+<IfModule mod_mime.c>
+
+  # Audio
+    AddType audio/mp4                                   m4a f4a f4b
+    AddType audio/ogg                                   oga ogg
+
+  # JavaScript
+    # Normalize to standard type (it's sniffed in IE anyways):
+    # http://tools.ietf.org/html/rfc4329#section-7.2
+    AddType application/javascript                      js jsonp
+    AddType application/json                            json
+
+  # Video
+    AddType video/mp4                                   mp4 m4v f4v f4p
+    AddType video/ogg                                   ogv
+    AddType video/webm                                  webm
+    AddType video/x-flv                                 flv
+
+  # Web fonts
+    AddType application/font-woff                       woff
+    AddType application/vnd.ms-fontobject               eot
+
+
+    # Browsers usually ignore the font MIME types and sniff the content,
+    # however, Chrome shows a warning if other MIME types are used for the
+    # following fonts.
+    AddType application/x-font-ttf                      ttc ttf
+    AddType font/opentype                               otf
+
+    # Make SVGZ fonts work on iPad:
+    # https://twitter.com/FontSquirrel/status/14855840545
+    AddType     image/svg+xml                           svg svgz
+    AddEncoding gzip                                    svgz
+
+  # Other
+    AddType application/octet-stream                    safariextz
+    AddType application/x-chrome-extension              crx
+    AddType application/x-opera-extension               oex
+    AddType application/x-shockwave-flash               swf
+    AddType application/x-web-app-manifest+json         webapp
+    AddType application/x-xpinstall                     xpi
+    AddType application/xml                             atom rdf rss xml
+    AddType image/webp                                  webp
+    AddType image/x-icon                                ico
+    AddType text/cache-manifest                         appcache manifest
+    AddType text/vtt                                    vtt
+    AddType text/x-component                            htc
+    AddType text/x-vcard                                vcf
+
+</IfModule>
+
+
+
+
+<IfModule mod_deflate.c>
+############################################
+## enable apache served files compression
+## http://developer.yahoo.com/performance/rules.html#gzip
+
+    # Insert filter on all content
+    SetOutputFilter DEFLATE
+    # Insert filter on selected content types only
+    AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css text/javascript
+
+    # Netscape 4.x has some problems...
+    BrowserMatch ^Mozilla/4 gzip-only-text/html
+
+    # Netscape 4.06-4.08 have some more problems
+    BrowserMatch ^Mozilla/4\.0[678] no-gzip
+
+    # MSIE masquerades as Netscape, but it is fine
+    BrowserMatch \bMSIE !no-gzip !gzip-only-text/html
+
+    # Don't compress images
+    SetEnvIfNoCase Request_URI \.(?:gif|jpe?g|png)$ no-gzip dont-vary
+
+    # Make sure proxies don't deliver the wrong content
+    Header append Vary User-Agent env=!dont-vary
+</IfModule>
+
+
+####################
+# GZIP COMPRESSION #
+####################
+SetOutputFilter DEFLATE
+AddOutputFilterByType DEFLATE text/html text/css text/plain text/xml application/x-javascript application/x-httpd-php font/opentype
+BrowserMatch ^Mozilla/4 gzip-only-text/html
+BrowserMatch ^Mozilla/4\.0[678] no-gzip
+BrowserMatch \bMSIE !no-gzip !gzip-only-text/html
+BrowserMatch \bMSI[E] !no-gzip !gzip-only-text/html
+SetEnvIfNoCase Request_URI \.(?:gif|jpe?g|png)$ no-gzip
+Header append Vary User-Agent env=!dont-vary
+
+#######################
+# PERMANENT REDIRECTS #
+#######################
+
+Redirect 301 /2017/09/16/size-and-mass-in-design-systems https://www.sean-blanton.com/size-and-mass-in-design-systems/
+Redirect 301 /2017/09/14/the-map-is-not-the-territory https://www.sean-blanton.com/the-map-is-not-the-territory/
+Redirect 301 /2017/01/16/programmatic-color-palettes https://www.sean-blanton.com/programmatic-color-palettes/
+Redirect 301 /2016/10/9/which-shade-of-gray-should-i-use-for-disabled-states https://www.sean-blanton.com/which-shade-of-gray-should-i-use-for-disabled-states/
+Redirect 301 /2016/09/24/why-use-system-fonts https://www.sean-blanton.com/why-use-system-fonts/
+Redirect 301 /2016/06/13/fiction-writing-for-designers https://www.sean-blanton.com/fiction-writing-for-designers/
+Redirect 301 /2016/05/7/making-susy-grids-atomic https://www.sean-blanton.com/making-susy-grids-atomic
