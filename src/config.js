@@ -16,6 +16,9 @@ const teal2 = '#027077';
 const indigo0 = '#F3E5FD';
 const indigo1 = '#520093';
 const indigo2 = '#8B00F3';
+const purpleLight = 'rgba(156,100,236, 0.25)';
+const purpleDark = '#530698';
+const purple = '#8536EC';
 
 export const spacing = [0, 4, 8, 16, 24, 32, 48, 96, 128, 256, 320];
 
@@ -52,7 +55,10 @@ export const colors = {
 	teal2,
 	indigo0,
 	indigo1,
-	indigo2
+	indigo2, 
+	purpleLight,
+	purpleDark,
+	purple,
 };
 
 export const measure = {

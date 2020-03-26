@@ -1,17 +1,17 @@
 var plugins = [{
-      plugin: require('/Users/seanblanton/Documents/Sites/blanton/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
+      plugin: require('/Users/seanblanton/Desktop/blanton/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
       options: {"plugins":[]},
     },{
-      plugin: require('/Users/seanblanton/Documents/Sites/blanton/node_modules/gatsby-plugin-styled-components/gatsby-ssr'),
+      plugin: require('/Users/seanblanton/Desktop/blanton/node_modules/gatsby-plugin-styled-components/gatsby-ssr'),
       options: {"plugins":[]},
     },{
-      plugin: require('/Users/seanblanton/Documents/Sites/blanton/node_modules/gatsby-plugin-sitemap/gatsby-ssr'),
+      plugin: require('/Users/seanblanton/Desktop/blanton/node_modules/gatsby-plugin-sitemap/gatsby-ssr'),
       options: {"plugins":[]},
     },{
-      plugin: require('/Users/seanblanton/Documents/Sites/blanton/node_modules/gatsby-plugin-google-analytics/gatsby-ssr'),
+      plugin: require('/Users/seanblanton/Desktop/blanton/node_modules/gatsby-plugin-google-analytics/gatsby-ssr'),
       options: {"plugins":[],"trackingId":"UA-29141738-1","head":false,"anonymize":true,"respectDNT":true},
     },{
-      plugin: require('/Users/seanblanton/Documents/Sites/blanton/node_modules/gatsby-plugin-favicon/gatsby-ssr'),
+      plugin: require('/Users/seanblanton/Desktop/blanton/node_modules/gatsby-plugin-favicon/gatsby-ssr'),
       options: {"plugins":[],"logo":"./src/favicon.png","injectHTML":true,"icons":{"android":true,"appleIcon":true,"appleStartup":true,"coast":false,"favicons":true,"firefox":true,"twitter":false,"yandex":false,"windows":false}},
     }]
 // During bootstrap, we write requires at top of this file which looks like:

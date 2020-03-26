@@ -1,11 +1,11 @@
 var plugins = [{
-      plugin: require('/Users/seanblanton/Documents/Sites/blanton/node_modules/gatsby-plugin-offline/gatsby-browser'),
+      plugin: require('/Users/seanblanton/Desktop/blanton/node_modules/gatsby-plugin-offline/gatsby-browser'),
       options: {"plugins":[]},
     },{
-      plugin: require('/Users/seanblanton/Documents/Sites/blanton/node_modules/gatsby-plugin-google-analytics/gatsby-browser'),
+      plugin: require('/Users/seanblanton/Desktop/blanton/node_modules/gatsby-plugin-google-analytics/gatsby-browser'),
       options: {"plugins":[],"trackingId":"UA-29141738-1","head":false,"anonymize":true,"respectDNT":true},
     },{
-      plugin: require('/Users/seanblanton/Documents/Sites/blanton/node_modules/gatsby-plugin-nprogress/gatsby-browser'),
+      plugin: require('/Users/seanblanton/Desktop/blanton/node_modules/gatsby-plugin-nprogress/gatsby-browser'),
       options: {"plugins":[],"color":"#0ebcc7","showSpinner":false},
     }]
 // During bootstrap, we write requires at top of this file which looks
