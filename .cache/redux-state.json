@@ -1,23 +1,13 @@
 {
   "nodes": {
     "SitePage /dev-404-page/": {
-      "layout": "index",
-      "jsonName": "dev-404-page.json",
-      "internalComponentName": "ComponentDev404Page",
       "path": "/dev-404-page/",
-      "component": "/Users/seanblanton/Desktop/blanton/.cache/dev-404-page.js",
-      "componentChunkName": "component---cache-dev-404-page-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin dev-404-page",
-      "pluginCreatorId": "Plugin dev-404-page",
-      "componentPath": "/Users/seanblanton/Desktop/blanton/.cache/dev-404-page.js",
       "id": "SitePage /dev-404-page/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "a9d643883dc43fdab5fe4e7b8d1acde4",
-        "description": "Plugin dev-404-page",
+        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
         "owner": "internal-data-bridge"
       }
     },
@@ -1426,16 +1416,14 @@
         "description": "Sean Blanton is a Product Designer living in Seattle, Washington building design systems and tools at Facebook.",
         "siteUrl": "https://www.sean-blanton.com"
       },
-      "port": "8000",
-      "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2020-03-26T03:52:42.406Z",
+      "buildTime": "2020-03-26T04:01:03.234Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "05d417ebb343db8ebc2100044881aac7",
+        "contentDigest": "596d5e55e76ca999c6a36af58e0dfc25",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -3002,6 +2990,27 @@
         "slug": "/cause-and-effect-a-toolkit-for-applying-systems-thinking-to-design-sprints/"
       }
     },
+    "SitePage /offline-plugin-app-shell-fallback/": {
+      "layout": "index",
+      "jsonName": "offline-plugin-app-shell-fallback.json",
+      "internalComponentName": "ComponentOfflinePluginAppShellFallback",
+      "path": "/offline-plugin-app-shell-fallback/",
+      "component": "/Users/seanblanton/Desktop/blanton/node_modules/gatsby-plugin-offline/app-shell.js",
+      "componentChunkName": "component---node-modules-gatsby-plugin-offline-app-shell-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-offline",
+      "pluginCreatorId": "Plugin gatsby-plugin-offline",
+      "componentPath": "/Users/seanblanton/Desktop/blanton/node_modules/gatsby-plugin-offline/app-shell.js",
+      "id": "SitePage /offline-plugin-app-shell-fallback/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "5bb242632a77e0934554752538a0701e",
+        "description": "Plugin gatsby-plugin-offline",
+        "owner": "internal-data-bridge"
+      }
+    },
     "SitePage /on-the-experience-of-becoming/": {
       "layout": "index",
       "jsonName": "on-the-experience-of-becoming.json",
@@ -3020,7 +3029,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "0b8a859be22ebb0cdc325e14b5cfca10",
+        "contentDigest": "9c17f44cb6e35e54b80e7c25e74b7845",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -3043,7 +3052,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "31e650ac9184f68ee2d0b96d0651bfad",
+        "contentDigest": "3f011fa36b2025095b7337193be29141",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -3066,7 +3075,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "75fe55ed1dea03d8596f326b633f1b38",
+        "contentDigest": "ab9de2293610fb1116a98612431eaff9",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -3089,7 +3098,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "f719e66a3ea8e39916fb335b633c5720",
+        "contentDigest": "83c67013d291aa5b4a2947d04cd84c1d",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -3112,7 +3121,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "0f5165bfc3b0e3fdc1795b1cc3421b85",
+        "contentDigest": "e3b93406c75d0dfc810a38cc7154a528",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -3135,7 +3144,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "cd80528a5b15424d5af516790c574e79",
+        "contentDigest": "18055c18765a08351d0f550dedf946d3",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -3158,7 +3167,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "f656451ee0173ecea397a9339d963a03",
+        "contentDigest": "bb354c5f8cf55a914b61d78f239e194e",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -3181,7 +3190,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "bb93c11ca52511beed450541aa37dd56",
+        "contentDigest": "6f178a987de01bd0f16396ee4bf28654",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -3204,7 +3213,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "b7e0f42baa147c6455d4f4c7a07ca9cc",
+        "contentDigest": "4256692487440938f6a87110754346a1",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -3227,7 +3236,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "e0dddcb46b2ff8354afb49b2a483d30e",
+        "contentDigest": "cfad2a432fa38311177e7119386fe870",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -3250,7 +3259,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "5f11bb884d3483cd08550a387ae32d60",
+        "contentDigest": "57c29628b3d99224ad1c8cd86204f6bf",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -3271,7 +3280,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "d4ea071c4607653b1328e164bbca1a22",
+        "contentDigest": "197ad112b11f1c93d074709ca268e84e",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -3292,7 +3301,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "b0639a70da605a49255c7f272ab21c5a",
+        "contentDigest": "25260575a3022dc98cfac84237dbb889",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -3313,7 +3322,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "799e7f7ccf0934bf52044aed836a0a79",
+        "contentDigest": "6c8024b525166c144e3a6ba7aec789b1",
         "description": "Plugin prod-404",
         "owner": "internal-data-bridge"
       }
