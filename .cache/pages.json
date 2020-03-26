@@ -10,36 +10,8 @@
         "componentChunkName": "component---src-templates-post-js",
         "layout": "layout---index",
         "layoutComponentChunkName": "component---src-layouts-index-js",
-        "jsonName": "fiction-writing-for-designers.json",
-        "path": "/fiction-writing-for-designers/"
-    },
-    {
-        "componentChunkName": "component---src-templates-post-js",
-        "layout": "layout---index",
-        "layoutComponentChunkName": "component---src-layouts-index-js",
-        "jsonName": "cause-and-effect-a-toolkit-for-applying-systems-thinking-to-design-sprints.json",
-        "path": "/cause-and-effect-a-toolkit-for-applying-systems-thinking-to-design-sprints/"
-    },
-    {
-        "componentChunkName": "component---src-templates-post-js",
-        "layout": "layout---index",
-        "layoutComponentChunkName": "component---src-layouts-index-js",
-        "jsonName": "programmatic-color-palettes.json",
-        "path": "/programmatic-color-palettes/"
-    },
-    {
-        "componentChunkName": "component---src-templates-post-js",
-        "layout": "layout---index",
-        "layoutComponentChunkName": "component---src-layouts-index-js",
         "jsonName": "on-the-experience-of-becoming.json",
         "path": "/on-the-experience-of-becoming/"
-    },
-    {
-        "componentChunkName": "component---src-templates-post-js",
-        "layout": "layout---index",
-        "layoutComponentChunkName": "component---src-layouts-index-js",
-        "jsonName": "size-and-mass-in-design-systems.json",
-        "path": "/size-and-mass-in-design-systems/"
     },
     {
         "componentChunkName": "component---src-templates-post-js",
@@ -52,8 +24,22 @@
         "componentChunkName": "component---src-templates-post-js",
         "layout": "layout---index",
         "layoutComponentChunkName": "component---src-layouts-index-js",
-        "jsonName": "the-analysis-and-ontology-of-design-systems.json",
-        "path": "/the-analysis-and-ontology-of-design-systems/"
+        "jsonName": "size-and-mass-in-design-systems.json",
+        "path": "/size-and-mass-in-design-systems/"
+    },
+    {
+        "componentChunkName": "component---src-templates-post-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "fiction-writing-for-designers.json",
+        "path": "/fiction-writing-for-designers/"
+    },
+    {
+        "componentChunkName": "component---src-templates-post-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "making-susy-grids-atomic.json",
+        "path": "/making-susy-grids-atomic/"
     },
     {
         "componentChunkName": "component---src-templates-post-js",
@@ -73,6 +59,13 @@
         "componentChunkName": "component---src-templates-post-js",
         "layout": "layout---index",
         "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "the-analysis-and-ontology-of-design-systems.json",
+        "path": "/the-analysis-and-ontology-of-design-systems/"
+    },
+    {
+        "componentChunkName": "component---src-templates-post-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
         "jsonName": "why-use-system-fonts.json",
         "path": "/why-use-system-fonts/"
     },
@@ -82,6 +75,13 @@
         "layoutComponentChunkName": "component---src-layouts-index-js",
         "jsonName": "the-map-is-not-the-territory.json",
         "path": "/the-map-is-not-the-territory/"
+    },
+    {
+        "componentChunkName": "component---src-templates-post-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "cause-and-effect-a-toolkit-for-applying-systems-thinking-to-design-sprints.json",
+        "path": "/cause-and-effect-a-toolkit-for-applying-systems-thinking-to-design-sprints/"
     },
     {
         "componentChunkName": "component---src-pages-404-js",
