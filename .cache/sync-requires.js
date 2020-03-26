@@ -25,10 +25,9 @@ exports.json = {
   "the-analysis-and-ontology-of-design-systems.json": require("/Users/seanblanton/Desktop/blanton/.cache/json/the-analysis-and-ontology-of-design-systems.json"),
   "why-use-system-fonts.json": require("/Users/seanblanton/Desktop/blanton/.cache/json/why-use-system-fonts.json"),
   "the-map-is-not-the-territory.json": require("/Users/seanblanton/Desktop/blanton/.cache/json/the-map-is-not-the-territory.json"),
-  "moving-watersheds-toolkit-for-applying-systems-thinking-to-design.json": require("/Users/seanblanton/Desktop/blanton/.cache/json/moving-watersheds-toolkit-for-applying-systems-thinking-to-design.json"),
+  "cause-and-effect-a-toolkit-for-applying-systems-thinking-to-design-sprints.json": require("/Users/seanblanton/Desktop/blanton/.cache/json/cause-and-effect-a-toolkit-for-applying-systems-thinking-to-design-sprints.json"),
   "dev-404-page.json": require("/Users/seanblanton/Desktop/blanton/.cache/json/dev-404-page.json"),
   "404.json": require("/Users/seanblanton/Desktop/blanton/.cache/json/404.json"),
   "index.json": require("/Users/seanblanton/Desktop/blanton/.cache/json/index.json"),
-  "404-html.json": require("/Users/seanblanton/Desktop/blanton/.cache/json/404-html.json"),
-  "moving-watersheds-toolkit-for-applying-systems-thinking-to-design-sprints.json": require("/Users/seanblanton/Desktop/blanton/.cache/json/moving-watersheds-toolkit-for-applying-systems-thinking-to-design-sprints.json")
+  "404-html.json": require("/Users/seanblanton/Desktop/blanton/.cache/json/404-html.json")
 }
