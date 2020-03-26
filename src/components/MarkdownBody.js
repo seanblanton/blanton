@@ -97,20 +97,20 @@ export const MarkdownBody = styled.div`
   }
 
   blockquote {
-    border-left: 2px solid ${colors.teal1};
+    border-left: 4px solid ${colors.gray4};
     font-style: italic;
     margin: 3em 0;
     padding: 0 1.5em;
   }
 
   a {
-    border-bottom: 3px solid ${colors.teal0};
+    border-bottom: 3px solid ${colors.purpleLight};
     cursor: pointer;
-    color: ${colors.teal2};
+    color: ${colors.purple};
     padding-bottom: 2px;
     text-decoration: none;
     &:hover {
-      border-bottom: 3px solid ${colors.teal2};
+      border-bottom: 3px solid ${colors.purple};
     }
   }
 
@@ -131,8 +131,8 @@ export const MarkdownBody = styled.div`
   tr,
   tr {
     & code {
-      background-color: ${colors.teal0};
-      color: ${colors.teal2};
+      background-color: ${colors.purpleLight};
+      color: ${colors.purpleDark};
       font-size: ${fontSize.m};
       padding: 0.3em 0.5em !important;
       margin: 0.2em;

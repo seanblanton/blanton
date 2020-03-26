@@ -1418,12 +1418,12 @@
       },
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2020-03-26T02:52:07.370Z",
+      "buildTime": "2020-03-26T03:42:49.096Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "0001978c8b7dda12041d89d558a5fccf",
+        "contentDigest": "3de0e383206e7e722cf8b0557f668089",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1609,7 +1609,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "f7630678442406104bef56cd65390f3c",
+        "contentDigest": "b582d7dcd5af55538d3545dd383ae952",
         "type": "Directory",
         "description": "Directory \"src/posts\"",
         "owner": "gatsby-source-filesystem"
@@ -1620,9 +1620,9 @@
       "extension": "",
       "size": 416,
       "prettySize": "416 B",
-      "modifiedTime": "2020-03-26T02:52:03.601Z",
-      "accessTime": "2020-03-26T02:52:03.894Z",
-      "changeTime": "2020-03-26T02:52:03.601Z",
+      "modifiedTime": "2020-03-26T02:58:08.487Z",
+      "accessTime": "2020-03-26T02:58:08.963Z",
+      "changeTime": "2020-03-26T02:58:08.487Z",
       "birthTime": "2020-03-25T04:57:48.516Z",
       "root": "/",
       "dir": "/Users/seanblanton/Desktop/blanton/src",
@@ -1639,13 +1639,13 @@
       "blksize": 4096,
       "ino": 12890670408,
       "blocks": 0,
-      "atimeMs": 1585191123893.9014,
-      "mtimeMs": 1585191123601.4004,
-      "ctimeMs": 1585191123601.4004,
+      "atimeMs": 1585191488962.7935,
+      "mtimeMs": 1585191488486.7068,
+      "ctimeMs": 1585191488486.7068,
       "birthtimeMs": 1585112268516.316,
-      "atime": "2020-03-26T02:52:03.894Z",
-      "mtime": "2020-03-26T02:52:03.601Z",
-      "ctime": "2020-03-26T02:52:03.601Z",
+      "atime": "2020-03-26T02:58:08.963Z",
+      "mtime": "2020-03-26T02:58:08.487Z",
+      "ctime": "2020-03-26T02:58:08.487Z",
       "birthtime": "2020-03-25T04:57:48.516Z"
     },
     "/Users/seanblanton/Desktop/blanton/src/templates absPath of file": {
@@ -1786,7 +1786,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "23c3d17758e7e2e8c31bdf66eb36f289",
+        "contentDigest": "4ff5537b156a7454464cadf2698e36b9",
         "mediaType": "application/javascript",
         "type": "File",
         "description": "File \"src/config.js\"",
@@ -1796,11 +1796,11 @@
       "absolutePath": "/Users/seanblanton/Desktop/blanton/src/config.js",
       "relativePath": "config.js",
       "extension": "js",
-      "size": 1273,
-      "prettySize": "1.27 kB",
-      "modifiedTime": "2020-03-25T05:08:29.698Z",
-      "accessTime": "2020-03-25T05:08:31.624Z",
-      "changeTime": "2020-03-25T05:08:29.698Z",
+      "size": 1414,
+      "prettySize": "1.41 kB",
+      "modifiedTime": "2020-03-26T03:37:29.780Z",
+      "accessTime": "2020-03-26T03:33:47.121Z",
+      "changeTime": "2020-03-26T03:37:29.780Z",
       "birthTime": "2020-03-25T05:08:29.698Z",
       "root": "/",
       "dir": "/Users/seanblanton/Desktop/blanton/src",
@@ -1817,13 +1817,13 @@
       "blksize": 4096,
       "ino": 12890671710,
       "blocks": 8,
-      "atimeMs": 1585112911624.0405,
-      "mtimeMs": 1585112909697.9487,
-      "ctimeMs": 1585112909697.9487,
+      "atimeMs": 1585193627121.37,
+      "mtimeMs": 1585193849780.3137,
+      "ctimeMs": 1585193849780.3137,
       "birthtimeMs": 1585112909697.7566,
-      "atime": "2020-03-25T05:08:31.624Z",
-      "mtime": "2020-03-25T05:08:29.698Z",
-      "ctime": "2020-03-25T05:08:29.698Z",
+      "atime": "2020-03-26T03:33:47.121Z",
+      "mtime": "2020-03-26T03:37:29.780Z",
+      "ctime": "2020-03-26T03:37:29.780Z",
       "birthtime": "2020-03-25T05:08:29.698Z"
     },
     "/Users/seanblanton/Desktop/blanton/src/components/Text.js absPath of file": {
@@ -1831,7 +1831,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "d3d60e3d0d49bdc5ee55fb996480ec4b",
+        "contentDigest": "0825ac3ffb41ff7bcfb3bbb633c557d2",
         "mediaType": "application/javascript",
         "type": "File",
         "description": "File \"src/components/Text.js\"",
@@ -1841,11 +1841,11 @@
       "absolutePath": "/Users/seanblanton/Desktop/blanton/src/components/Text.js",
       "relativePath": "components/Text.js",
       "extension": "js",
-      "size": 1826,
-      "prettySize": "1.83 kB",
-      "modifiedTime": "2020-03-25T05:08:29.697Z",
-      "accessTime": "2020-03-25T05:08:31.626Z",
-      "changeTime": "2020-03-25T05:08:29.697Z",
+      "size": 1904,
+      "prettySize": "1.9 kB",
+      "modifiedTime": "2020-03-26T03:40:57.181Z",
+      "accessTime": "2020-03-26T03:40:21.895Z",
+      "changeTime": "2020-03-26T03:40:57.181Z",
       "birthTime": "2020-03-25T05:08:29.697Z",
       "root": "/",
       "dir": "/Users/seanblanton/Desktop/blanton/src/components",
@@ -1862,13 +1862,13 @@
       "blksize": 4096,
       "ino": 12890671709,
       "blocks": 8,
-      "atimeMs": 1585112911625.9548,
-      "mtimeMs": 1585112909697.3945,
-      "ctimeMs": 1585112909697.3945,
+      "atimeMs": 1585194021895.0398,
+      "mtimeMs": 1585194057180.5361,
+      "ctimeMs": 1585194057180.5361,
       "birthtimeMs": 1585112909697.1877,
-      "atime": "2020-03-25T05:08:31.626Z",
-      "mtime": "2020-03-25T05:08:29.697Z",
-      "ctime": "2020-03-25T05:08:29.697Z",
+      "atime": "2020-03-26T03:40:21.895Z",
+      "mtime": "2020-03-26T03:40:57.181Z",
+      "ctime": "2020-03-26T03:40:57.181Z",
       "birthtime": "2020-03-25T05:08:29.697Z"
     },
     "/Users/seanblanton/Desktop/blanton/src/pages/404.js absPath of file": {
@@ -1921,7 +1921,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "a41dd9234dfd7c7f328a7c1d354cd865",
+        "contentDigest": "725ec9617e34ed41cb042efa44424b0b",
         "mediaType": "application/javascript",
         "type": "File",
         "description": "File \"src/components/MarkdownBody.js\"",
@@ -1931,11 +1931,11 @@
       "absolutePath": "/Users/seanblanton/Desktop/blanton/src/components/MarkdownBody.js",
       "relativePath": "components/MarkdownBody.js",
       "extension": "js",
-      "size": 2748,
-      "prettySize": "2.75 kB",
-      "modifiedTime": "2020-03-25T05:08:29.697Z",
-      "accessTime": "2020-03-25T05:08:31.627Z",
-      "changeTime": "2020-03-25T05:08:29.697Z",
+      "size": 2767,
+      "prettySize": "2.77 kB",
+      "modifiedTime": "2020-03-26T03:42:22.517Z",
+      "accessTime": "2020-03-26T03:42:05.475Z",
+      "changeTime": "2020-03-26T03:42:22.517Z",
       "birthTime": "2020-03-25T05:08:29.697Z",
       "root": "/",
       "dir": "/Users/seanblanton/Desktop/blanton/src/components",
@@ -1952,13 +1952,13 @@
       "blksize": 4096,
       "ino": 12890671708,
       "blocks": 8,
-      "atimeMs": 1585112911627.1526,
-      "mtimeMs": 1585112909696.8367,
-      "ctimeMs": 1585112909696.8367,
+      "atimeMs": 1585194125474.7146,
+      "mtimeMs": 1585194142517.3228,
+      "ctimeMs": 1585194142517.3228,
       "birthtimeMs": 1585112909696.6526,
-      "atime": "2020-03-25T05:08:31.627Z",
-      "mtime": "2020-03-25T05:08:29.697Z",
-      "ctime": "2020-03-25T05:08:29.697Z",
+      "atime": "2020-03-26T03:42:05.475Z",
+      "mtime": "2020-03-26T03:42:22.517Z",
+      "ctime": "2020-03-26T03:42:22.517Z",
       "birthtime": "2020-03-25T05:08:29.697Z"
     },
     "/Users/seanblanton/Desktop/blanton/src/components/StyledLink.js absPath of file": {
@@ -1966,7 +1966,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "e55fadfefea9a559d5271cec7f7aae72",
+        "contentDigest": "f7262822d9de93308f44c203246f7032",
         "mediaType": "application/javascript",
         "type": "File",
         "description": "File \"src/components/StyledLink.js\"",
@@ -1976,11 +1976,11 @@
       "absolutePath": "/Users/seanblanton/Desktop/blanton/src/components/StyledLink.js",
       "relativePath": "components/StyledLink.js",
       "extension": "js",
-      "size": 465,
-      "prettySize": "465 B",
-      "modifiedTime": "2020-03-25T04:57:48.502Z",
-      "accessTime": "2020-03-25T05:07:41.700Z",
-      "changeTime": "2020-03-25T04:57:48.502Z",
+      "size": 525,
+      "prettySize": "525 B",
+      "modifiedTime": "2020-03-26T03:33:18.771Z",
+      "accessTime": "2020-03-26T03:28:43.470Z",
+      "changeTime": "2020-03-26T03:33:18.771Z",
       "birthTime": "2020-03-25T04:57:48.502Z",
       "root": "/",
       "dir": "/Users/seanblanton/Desktop/blanton/src/components",
@@ -1997,13 +1997,13 @@
       "blksize": 4096,
       "ino": 12890670399,
       "blocks": 8,
-      "atimeMs": 1585112861700.1833,
-      "mtimeMs": 1585112268501.7793,
-      "ctimeMs": 1585112268501.7793,
+      "atimeMs": 1585193323470.1418,
+      "mtimeMs": 1585193598771.3684,
+      "ctimeMs": 1585193598771.3684,
       "birthtimeMs": 1585112268501.6118,
-      "atime": "2020-03-25T05:07:41.700Z",
-      "mtime": "2020-03-25T04:57:48.502Z",
-      "ctime": "2020-03-25T04:57:48.502Z",
+      "atime": "2020-03-26T03:28:43.470Z",
+      "mtime": "2020-03-26T03:33:18.771Z",
+      "ctime": "2020-03-26T03:33:18.771Z",
       "birthtime": "2020-03-25T04:57:48.502Z"
     },
     "/Users/seanblanton/Desktop/blanton/src/posts/on-the-experience-of-becoming.md absPath of file": {
@@ -3006,7 +3006,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "4f0f7571c45c67ebb9d3cef0eec3e488",
+        "contentDigest": "abb990d9073060355b39f8c83e0e6450",
         "description": "Plugin gatsby-plugin-offline",
         "owner": "internal-data-bridge"
       }
@@ -3029,7 +3029,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "c2a2e840724bc4fa56b2e8f0544f582f",
+        "contentDigest": "d636442cd354811b23bd98c21a3b42bc",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -3052,7 +3052,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "54236c735f40347c118f409e60d2068c",
+        "contentDigest": "c89fc8fcd8ab3458cd80715784f64c1c",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -3075,7 +3075,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "40078e59d7a759f003a01f7359e85e48",
+        "contentDigest": "add7cec4750d764c79218bfc2705d99c",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -3098,7 +3098,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "1b9e52f151ce85990a1c739d98c96a33",
+        "contentDigest": "4cd1b9708540f635bc44ee0594b757f8",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -3121,7 +3121,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "5544b6ea4c4d5c597650069c4e9fbef3",
+        "contentDigest": "92e4d6975ce4ea1488de87a2b2c8694a",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -3144,7 +3144,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "e4dd1b87d30a943ecb877f3c9400236d",
+        "contentDigest": "5b217788fe08520092be08106d4b4f24",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -3167,7 +3167,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "a0ca66c6b061573faeb6d9bda5d8a510",
+        "contentDigest": "31d25086fdcbf273556360b758a61a7f",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -3190,7 +3190,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "ac46c56f053a778536561ceef5829c8f",
+        "contentDigest": "6372edbc4a8b5edb31b850c1ecdb6ec9",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -3213,7 +3213,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "43a79adfbac8298cffbc5f5a813aff54",
+        "contentDigest": "14079bd529191ee1147cf9c98011b163",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -3236,7 +3236,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "45244f116d18df21a7d1424b24f999b4",
+        "contentDigest": "7ec7d7ab49e4369bfd7d111c22494e7c",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -3259,7 +3259,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "7f6557a9213fb223d17417ddd285089b",
+        "contentDigest": "eedc2862455b43d4c7048f7e50183e8e",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -3280,7 +3280,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "fbed6d5292142419ac5991d4dedb778a",
+        "contentDigest": "15149a2916bae32173c29ec2343207b8",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -3301,7 +3301,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "99cd5c59ce0b2674cc3189616c114562",
+        "contentDigest": "de92142a475a6d5dab698c858e25c2b0",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -3322,7 +3322,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "7cec94fb3ffef1624338d998972312f5",
+        "contentDigest": "41bdf71c7822f47183d4b579512b31f5",
         "description": "Plugin prod-404",
         "owner": "internal-data-bridge"
       }

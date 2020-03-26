@@ -8,7 +8,7 @@ export const StyledLink = styled(Link)`
 `
 
 export const AccentLink = StyledLink.extend`
-	color: ${colors.teal2}
+	color: ${colors.purpleDark};
 	&:hover {
 		text-decoration: underline;
 	}
@@ -23,7 +23,8 @@ export const SecondaryLink = StyledLink.extend`
 		h5,
 		h6
 		 {
-			color: ${colors.teal2} !important;
+			background: ${colors.purpleLight} !important;
+			color: ${colors.purpleDark} !important;
 		}
 	}
 `
