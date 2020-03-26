@@ -1,23 +1,13 @@
 {
   "nodes": {
     "SitePage /dev-404-page/": {
-      "layout": "index",
-      "jsonName": "dev-404-page.json",
-      "internalComponentName": "ComponentDev404Page",
       "path": "/dev-404-page/",
-      "component": "/Users/seanblanton/Desktop/blanton/.cache/dev-404-page.js",
-      "componentChunkName": "component---cache-dev-404-page-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin dev-404-page",
-      "pluginCreatorId": "Plugin dev-404-page",
-      "componentPath": "/Users/seanblanton/Desktop/blanton/.cache/dev-404-page.js",
       "id": "SitePage /dev-404-page/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "ec7c6fb1243dd0cc394c9ef1f5a2a10e",
-        "description": "Plugin dev-404-page",
+        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
         "owner": "internal-data-bridge"
       }
     },
@@ -1426,16 +1416,14 @@
         "description": "Sean Blanton is a Product Designer living in Seattle, Washington building design systems and tools at Facebook.",
         "siteUrl": "https://www.sean-blanton.com"
       },
-      "port": "8000",
-      "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2020-03-26T02:48:51.678Z",
+      "buildTime": "2020-03-26T02:52:07.370Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "1a0c41c55d5489587e2aa9a168be160f",
+        "contentDigest": "0001978c8b7dda12041d89d558a5fccf",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1621,7 +1609,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "df437a14cf4918e34d04796ca96ef26a",
+        "contentDigest": "f7630678442406104bef56cd65390f3c",
         "type": "Directory",
         "description": "Directory \"src/posts\"",
         "owner": "gatsby-source-filesystem"
@@ -1632,9 +1620,9 @@
       "extension": "",
       "size": 416,
       "prettySize": "416 B",
-      "modifiedTime": "2020-03-26T02:47:34.157Z",
-      "accessTime": "2020-03-26T02:47:36.104Z",
-      "changeTime": "2020-03-26T02:47:34.157Z",
+      "modifiedTime": "2020-03-26T02:52:03.601Z",
+      "accessTime": "2020-03-26T02:52:03.894Z",
+      "changeTime": "2020-03-26T02:52:03.601Z",
       "birthTime": "2020-03-25T04:57:48.516Z",
       "root": "/",
       "dir": "/Users/seanblanton/Desktop/blanton/src",
@@ -1651,13 +1639,13 @@
       "blksize": 4096,
       "ino": 12890670408,
       "blocks": 0,
-      "atimeMs": 1585190856103.6729,
-      "mtimeMs": 1585190854157.4104,
-      "ctimeMs": 1585190854157.4104,
+      "atimeMs": 1585191123893.9014,
+      "mtimeMs": 1585191123601.4004,
+      "ctimeMs": 1585191123601.4004,
       "birthtimeMs": 1585112268516.316,
-      "atime": "2020-03-26T02:47:36.104Z",
-      "mtime": "2020-03-26T02:47:34.157Z",
-      "ctime": "2020-03-26T02:47:34.157Z",
+      "atime": "2020-03-26T02:52:03.894Z",
+      "mtime": "2020-03-26T02:52:03.601Z",
+      "ctime": "2020-03-26T02:52:03.601Z",
       "birthtime": "2020-03-25T04:57:48.516Z"
     },
     "/Users/seanblanton/Desktop/blanton/src/templates absPath of file": {
@@ -2976,322 +2964,6 @@
       "ctime": "2020-03-26T02:50:54.467Z",
       "birthtime": "2019-02-13T01:03:15.000Z"
     },
-    "SitePage /on-the-experience-of-becoming/": {
-      "layout": "index",
-      "jsonName": "on-the-experience-of-becoming.json",
-      "internalComponentName": "ComponentOnTheExperienceOfBecoming",
-      "path": "/on-the-experience-of-becoming/",
-      "component": "/Users/seanblanton/Desktop/blanton/src/templates/post.js",
-      "componentChunkName": "component---src-templates-post-js",
-      "context": {
-        "slug": "/on-the-experience-of-becoming/"
-      },
-      "pluginCreator___NODE": "Plugin default-site-plugin",
-      "pluginCreatorId": "Plugin default-site-plugin",
-      "componentPath": "/Users/seanblanton/Desktop/blanton/src/templates/post.js",
-      "id": "SitePage /on-the-experience-of-becoming/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "5e57fb2be003017e449a76b082a785af",
-        "description": "Your site's \"gatsby-node.js\"",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /making-susy-grids-atomic/": {
-      "layout": "index",
-      "jsonName": "making-susy-grids-atomic.json",
-      "internalComponentName": "ComponentMakingSusyGridsAtomic",
-      "path": "/making-susy-grids-atomic/",
-      "component": "/Users/seanblanton/Desktop/blanton/src/templates/post.js",
-      "componentChunkName": "component---src-templates-post-js",
-      "context": {
-        "slug": "/making-susy-grids-atomic/"
-      },
-      "pluginCreator___NODE": "Plugin default-site-plugin",
-      "pluginCreatorId": "Plugin default-site-plugin",
-      "componentPath": "/Users/seanblanton/Desktop/blanton/src/templates/post.js",
-      "id": "SitePage /making-susy-grids-atomic/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "be0a1b584b7de35c4d173153afa48bd3",
-        "description": "Your site's \"gatsby-node.js\"",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /size-and-mass-in-design-systems/": {
-      "layout": "index",
-      "jsonName": "size-and-mass-in-design-systems.json",
-      "internalComponentName": "ComponentSizeAndMassInDesignSystems",
-      "path": "/size-and-mass-in-design-systems/",
-      "component": "/Users/seanblanton/Desktop/blanton/src/templates/post.js",
-      "componentChunkName": "component---src-templates-post-js",
-      "context": {
-        "slug": "/size-and-mass-in-design-systems/"
-      },
-      "pluginCreator___NODE": "Plugin default-site-plugin",
-      "pluginCreatorId": "Plugin default-site-plugin",
-      "componentPath": "/Users/seanblanton/Desktop/blanton/src/templates/post.js",
-      "id": "SitePage /size-and-mass-in-design-systems/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "4429cec7d6373f1aff0d09c578c774d4",
-        "description": "Your site's \"gatsby-node.js\"",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /fiction-writing-for-designers/": {
-      "layout": "index",
-      "jsonName": "fiction-writing-for-designers.json",
-      "internalComponentName": "ComponentFictionWritingForDesigners",
-      "path": "/fiction-writing-for-designers/",
-      "component": "/Users/seanblanton/Desktop/blanton/src/templates/post.js",
-      "componentChunkName": "component---src-templates-post-js",
-      "context": {
-        "slug": "/fiction-writing-for-designers/"
-      },
-      "pluginCreator___NODE": "Plugin default-site-plugin",
-      "pluginCreatorId": "Plugin default-site-plugin",
-      "componentPath": "/Users/seanblanton/Desktop/blanton/src/templates/post.js",
-      "id": "SitePage /fiction-writing-for-designers/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "7c95c9a9a5fca844cc92929bc0fcf85f",
-        "description": "Your site's \"gatsby-node.js\"",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /programmatic-color-palettes/": {
-      "layout": "index",
-      "jsonName": "programmatic-color-palettes.json",
-      "internalComponentName": "ComponentProgrammaticColorPalettes",
-      "path": "/programmatic-color-palettes/",
-      "component": "/Users/seanblanton/Desktop/blanton/src/templates/post.js",
-      "componentChunkName": "component---src-templates-post-js",
-      "context": {
-        "slug": "/programmatic-color-palettes/"
-      },
-      "pluginCreator___NODE": "Plugin default-site-plugin",
-      "pluginCreatorId": "Plugin default-site-plugin",
-      "componentPath": "/Users/seanblanton/Desktop/blanton/src/templates/post.js",
-      "id": "SitePage /programmatic-color-palettes/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "9ae7a52c36d69721d0acf95a27d09501",
-        "description": "Your site's \"gatsby-node.js\"",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /system-dynamics-in-design-systems/": {
-      "layout": "index",
-      "jsonName": "system-dynamics-in-design-systems.json",
-      "internalComponentName": "ComponentSystemDynamicsInDesignSystems",
-      "path": "/system-dynamics-in-design-systems/",
-      "component": "/Users/seanblanton/Desktop/blanton/src/templates/post.js",
-      "componentChunkName": "component---src-templates-post-js",
-      "context": {
-        "slug": "/system-dynamics-in-design-systems/"
-      },
-      "pluginCreator___NODE": "Plugin default-site-plugin",
-      "pluginCreatorId": "Plugin default-site-plugin",
-      "componentPath": "/Users/seanblanton/Desktop/blanton/src/templates/post.js",
-      "id": "SitePage /system-dynamics-in-design-systems/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "7fd1df14d5ce98eb8f607b4a7a40fd3b",
-        "description": "Your site's \"gatsby-node.js\"",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /which-shade-of-gray-should-i-use-for-disabled-states/": {
-      "layout": "index",
-      "jsonName": "which-shade-of-gray-should-i-use-for-disabled-states.json",
-      "internalComponentName": "ComponentWhichShadeOfGrayShouldIUseForDisabledStates",
-      "path": "/which-shade-of-gray-should-i-use-for-disabled-states/",
-      "component": "/Users/seanblanton/Desktop/blanton/src/templates/post.js",
-      "componentChunkName": "component---src-templates-post-js",
-      "context": {
-        "slug": "/which-shade-of-gray-should-i-use-for-disabled-states/"
-      },
-      "pluginCreator___NODE": "Plugin default-site-plugin",
-      "pluginCreatorId": "Plugin default-site-plugin",
-      "componentPath": "/Users/seanblanton/Desktop/blanton/src/templates/post.js",
-      "id": "SitePage /which-shade-of-gray-should-i-use-for-disabled-states/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "9386ec2a9c61a25d955467174d2a8d56",
-        "description": "Your site's \"gatsby-node.js\"",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /the-analysis-and-ontology-of-design-systems/": {
-      "layout": "index",
-      "jsonName": "the-analysis-and-ontology-of-design-systems.json",
-      "internalComponentName": "ComponentTheAnalysisAndOntologyOfDesignSystems",
-      "path": "/the-analysis-and-ontology-of-design-systems/",
-      "component": "/Users/seanblanton/Desktop/blanton/src/templates/post.js",
-      "componentChunkName": "component---src-templates-post-js",
-      "context": {
-        "slug": "/the-analysis-and-ontology-of-design-systems/"
-      },
-      "pluginCreator___NODE": "Plugin default-site-plugin",
-      "pluginCreatorId": "Plugin default-site-plugin",
-      "componentPath": "/Users/seanblanton/Desktop/blanton/src/templates/post.js",
-      "id": "SitePage /the-analysis-and-ontology-of-design-systems/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "af5a2c76a442aa2125dc1423d0b824c2",
-        "description": "Your site's \"gatsby-node.js\"",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /why-use-system-fonts/": {
-      "layout": "index",
-      "jsonName": "why-use-system-fonts.json",
-      "internalComponentName": "ComponentWhyUseSystemFonts",
-      "path": "/why-use-system-fonts/",
-      "component": "/Users/seanblanton/Desktop/blanton/src/templates/post.js",
-      "componentChunkName": "component---src-templates-post-js",
-      "context": {
-        "slug": "/why-use-system-fonts/"
-      },
-      "pluginCreator___NODE": "Plugin default-site-plugin",
-      "pluginCreatorId": "Plugin default-site-plugin",
-      "componentPath": "/Users/seanblanton/Desktop/blanton/src/templates/post.js",
-      "id": "SitePage /why-use-system-fonts/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "483010ac26e4a87c31684d0ee4ea4d52",
-        "description": "Your site's \"gatsby-node.js\"",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /the-map-is-not-the-territory/": {
-      "layout": "index",
-      "jsonName": "the-map-is-not-the-territory.json",
-      "internalComponentName": "ComponentTheMapIsNotTheTerritory",
-      "path": "/the-map-is-not-the-territory/",
-      "component": "/Users/seanblanton/Desktop/blanton/src/templates/post.js",
-      "componentChunkName": "component---src-templates-post-js",
-      "context": {
-        "slug": "/the-map-is-not-the-territory/"
-      },
-      "pluginCreator___NODE": "Plugin default-site-plugin",
-      "pluginCreatorId": "Plugin default-site-plugin",
-      "componentPath": "/Users/seanblanton/Desktop/blanton/src/templates/post.js",
-      "id": "SitePage /the-map-is-not-the-territory/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "6e932b6049dae10a25849de8a878a9fe",
-        "description": "Your site's \"gatsby-node.js\"",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /cause-and-effect-a-toolkit-for-applying-systems-thinking-to-design-sprints/": {
-      "layout": "index",
-      "jsonName": "cause-and-effect-a-toolkit-for-applying-systems-thinking-to-design-sprints.json",
-      "internalComponentName": "ComponentCauseAndEffectAToolkitForApplyingSystemsThinkingToDesignSprints",
-      "path": "/cause-and-effect-a-toolkit-for-applying-systems-thinking-to-design-sprints/",
-      "component": "/Users/seanblanton/Desktop/blanton/src/templates/post.js",
-      "componentChunkName": "component---src-templates-post-js",
-      "context": {
-        "slug": "/cause-and-effect-a-toolkit-for-applying-systems-thinking-to-design-sprints/"
-      },
-      "pluginCreator___NODE": "Plugin default-site-plugin",
-      "pluginCreatorId": "Plugin default-site-plugin",
-      "componentPath": "/Users/seanblanton/Desktop/blanton/src/templates/post.js",
-      "id": "SitePage /cause-and-effect-a-toolkit-for-applying-systems-thinking-to-design-sprints/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "5fcc80c8c2533a171add09057edb2b91",
-        "description": "Your site's \"gatsby-node.js\"",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /404/": {
-      "layout": "index",
-      "jsonName": "404.json",
-      "internalComponentName": "Component404",
-      "path": "/404/",
-      "component": "/Users/seanblanton/Desktop/blanton/src/pages/404.js",
-      "componentChunkName": "component---src-pages-404-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
-      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
-      "componentPath": "/Users/seanblanton/Desktop/blanton/src/pages/404.js",
-      "id": "SitePage /404/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "4301080a1dc9771af1b63f711a61cbb5",
-        "description": "Plugin gatsby-plugin-page-creator",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /": {
-      "layout": "index",
-      "jsonName": "index.json",
-      "internalComponentName": "ComponentIndex",
-      "path": "/",
-      "component": "/Users/seanblanton/Desktop/blanton/src/pages/index.js",
-      "componentChunkName": "component---src-pages-index-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
-      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
-      "componentPath": "/Users/seanblanton/Desktop/blanton/src/pages/index.js",
-      "id": "SitePage /",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "7a3c77ac99f520d8b627d8f2e45bfdf7",
-        "description": "Plugin gatsby-plugin-page-creator",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /404.html": {
-      "layout": "index",
-      "jsonName": "404-html.json",
-      "internalComponentName": "Component404Html",
-      "path": "/404.html",
-      "component": "/Users/seanblanton/Desktop/blanton/src/pages/404.js",
-      "componentChunkName": "component---src-pages-404-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin prod-404",
-      "pluginCreatorId": "Plugin prod-404",
-      "componentPath": "/Users/seanblanton/Desktop/blanton/src/pages/404.js",
-      "id": "SitePage /404.html",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "4af0f2a2273bd446c5ffd8489626989a",
-        "description": "Plugin prod-404",
-        "owner": "internal-data-bridge"
-      }
-    },
     "/Users/seanblanton/Desktop/blanton/src/posts/cause-and-effect-a-toolkit-for-applying-systems-thinking-to-design-sprints.md absPath of file >>> MarkdownRemark": {
       "id": "/Users/seanblanton/Desktop/blanton/src/posts/cause-and-effect-a-toolkit-for-applying-systems-thinking-to-design-sprints.md absPath of file >>> MarkdownRemark",
       "children": [],
@@ -3316,6 +2988,343 @@
       "fileAbsolutePath": "/Users/seanblanton/Desktop/blanton/src/posts/cause-and-effect-a-toolkit-for-applying-systems-thinking-to-design-sprints.md",
       "fields": {
         "slug": "/cause-and-effect-a-toolkit-for-applying-systems-thinking-to-design-sprints/"
+      }
+    },
+    "SitePage /offline-plugin-app-shell-fallback/": {
+      "layout": "index",
+      "jsonName": "offline-plugin-app-shell-fallback.json",
+      "internalComponentName": "ComponentOfflinePluginAppShellFallback",
+      "path": "/offline-plugin-app-shell-fallback/",
+      "component": "/Users/seanblanton/Desktop/blanton/node_modules/gatsby-plugin-offline/app-shell.js",
+      "componentChunkName": "component---node-modules-gatsby-plugin-offline-app-shell-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-offline",
+      "pluginCreatorId": "Plugin gatsby-plugin-offline",
+      "componentPath": "/Users/seanblanton/Desktop/blanton/node_modules/gatsby-plugin-offline/app-shell.js",
+      "id": "SitePage /offline-plugin-app-shell-fallback/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "4f0f7571c45c67ebb9d3cef0eec3e488",
+        "description": "Plugin gatsby-plugin-offline",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /on-the-experience-of-becoming/": {
+      "layout": "index",
+      "jsonName": "on-the-experience-of-becoming.json",
+      "internalComponentName": "ComponentOnTheExperienceOfBecoming",
+      "path": "/on-the-experience-of-becoming/",
+      "component": "/Users/seanblanton/Desktop/blanton/src/templates/post.js",
+      "componentChunkName": "component---src-templates-post-js",
+      "context": {
+        "slug": "/on-the-experience-of-becoming/"
+      },
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/seanblanton/Desktop/blanton/src/templates/post.js",
+      "id": "SitePage /on-the-experience-of-becoming/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "c2a2e840724bc4fa56b2e8f0544f582f",
+        "description": "Your site's \"gatsby-node.js\"",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /making-susy-grids-atomic/": {
+      "layout": "index",
+      "jsonName": "making-susy-grids-atomic.json",
+      "internalComponentName": "ComponentMakingSusyGridsAtomic",
+      "path": "/making-susy-grids-atomic/",
+      "component": "/Users/seanblanton/Desktop/blanton/src/templates/post.js",
+      "componentChunkName": "component---src-templates-post-js",
+      "context": {
+        "slug": "/making-susy-grids-atomic/"
+      },
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/seanblanton/Desktop/blanton/src/templates/post.js",
+      "id": "SitePage /making-susy-grids-atomic/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "54236c735f40347c118f409e60d2068c",
+        "description": "Your site's \"gatsby-node.js\"",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /size-and-mass-in-design-systems/": {
+      "layout": "index",
+      "jsonName": "size-and-mass-in-design-systems.json",
+      "internalComponentName": "ComponentSizeAndMassInDesignSystems",
+      "path": "/size-and-mass-in-design-systems/",
+      "component": "/Users/seanblanton/Desktop/blanton/src/templates/post.js",
+      "componentChunkName": "component---src-templates-post-js",
+      "context": {
+        "slug": "/size-and-mass-in-design-systems/"
+      },
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/seanblanton/Desktop/blanton/src/templates/post.js",
+      "id": "SitePage /size-and-mass-in-design-systems/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "40078e59d7a759f003a01f7359e85e48",
+        "description": "Your site's \"gatsby-node.js\"",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /fiction-writing-for-designers/": {
+      "layout": "index",
+      "jsonName": "fiction-writing-for-designers.json",
+      "internalComponentName": "ComponentFictionWritingForDesigners",
+      "path": "/fiction-writing-for-designers/",
+      "component": "/Users/seanblanton/Desktop/blanton/src/templates/post.js",
+      "componentChunkName": "component---src-templates-post-js",
+      "context": {
+        "slug": "/fiction-writing-for-designers/"
+      },
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/seanblanton/Desktop/blanton/src/templates/post.js",
+      "id": "SitePage /fiction-writing-for-designers/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "1b9e52f151ce85990a1c739d98c96a33",
+        "description": "Your site's \"gatsby-node.js\"",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /programmatic-color-palettes/": {
+      "layout": "index",
+      "jsonName": "programmatic-color-palettes.json",
+      "internalComponentName": "ComponentProgrammaticColorPalettes",
+      "path": "/programmatic-color-palettes/",
+      "component": "/Users/seanblanton/Desktop/blanton/src/templates/post.js",
+      "componentChunkName": "component---src-templates-post-js",
+      "context": {
+        "slug": "/programmatic-color-palettes/"
+      },
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/seanblanton/Desktop/blanton/src/templates/post.js",
+      "id": "SitePage /programmatic-color-palettes/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "5544b6ea4c4d5c597650069c4e9fbef3",
+        "description": "Your site's \"gatsby-node.js\"",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /system-dynamics-in-design-systems/": {
+      "layout": "index",
+      "jsonName": "system-dynamics-in-design-systems.json",
+      "internalComponentName": "ComponentSystemDynamicsInDesignSystems",
+      "path": "/system-dynamics-in-design-systems/",
+      "component": "/Users/seanblanton/Desktop/blanton/src/templates/post.js",
+      "componentChunkName": "component---src-templates-post-js",
+      "context": {
+        "slug": "/system-dynamics-in-design-systems/"
+      },
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/seanblanton/Desktop/blanton/src/templates/post.js",
+      "id": "SitePage /system-dynamics-in-design-systems/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "e4dd1b87d30a943ecb877f3c9400236d",
+        "description": "Your site's \"gatsby-node.js\"",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /which-shade-of-gray-should-i-use-for-disabled-states/": {
+      "layout": "index",
+      "jsonName": "which-shade-of-gray-should-i-use-for-disabled-states.json",
+      "internalComponentName": "ComponentWhichShadeOfGrayShouldIUseForDisabledStates",
+      "path": "/which-shade-of-gray-should-i-use-for-disabled-states/",
+      "component": "/Users/seanblanton/Desktop/blanton/src/templates/post.js",
+      "componentChunkName": "component---src-templates-post-js",
+      "context": {
+        "slug": "/which-shade-of-gray-should-i-use-for-disabled-states/"
+      },
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/seanblanton/Desktop/blanton/src/templates/post.js",
+      "id": "SitePage /which-shade-of-gray-should-i-use-for-disabled-states/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "a0ca66c6b061573faeb6d9bda5d8a510",
+        "description": "Your site's \"gatsby-node.js\"",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /the-analysis-and-ontology-of-design-systems/": {
+      "layout": "index",
+      "jsonName": "the-analysis-and-ontology-of-design-systems.json",
+      "internalComponentName": "ComponentTheAnalysisAndOntologyOfDesignSystems",
+      "path": "/the-analysis-and-ontology-of-design-systems/",
+      "component": "/Users/seanblanton/Desktop/blanton/src/templates/post.js",
+      "componentChunkName": "component---src-templates-post-js",
+      "context": {
+        "slug": "/the-analysis-and-ontology-of-design-systems/"
+      },
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/seanblanton/Desktop/blanton/src/templates/post.js",
+      "id": "SitePage /the-analysis-and-ontology-of-design-systems/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "ac46c56f053a778536561ceef5829c8f",
+        "description": "Your site's \"gatsby-node.js\"",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /why-use-system-fonts/": {
+      "layout": "index",
+      "jsonName": "why-use-system-fonts.json",
+      "internalComponentName": "ComponentWhyUseSystemFonts",
+      "path": "/why-use-system-fonts/",
+      "component": "/Users/seanblanton/Desktop/blanton/src/templates/post.js",
+      "componentChunkName": "component---src-templates-post-js",
+      "context": {
+        "slug": "/why-use-system-fonts/"
+      },
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/seanblanton/Desktop/blanton/src/templates/post.js",
+      "id": "SitePage /why-use-system-fonts/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "43a79adfbac8298cffbc5f5a813aff54",
+        "description": "Your site's \"gatsby-node.js\"",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /the-map-is-not-the-territory/": {
+      "layout": "index",
+      "jsonName": "the-map-is-not-the-territory.json",
+      "internalComponentName": "ComponentTheMapIsNotTheTerritory",
+      "path": "/the-map-is-not-the-territory/",
+      "component": "/Users/seanblanton/Desktop/blanton/src/templates/post.js",
+      "componentChunkName": "component---src-templates-post-js",
+      "context": {
+        "slug": "/the-map-is-not-the-territory/"
+      },
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/seanblanton/Desktop/blanton/src/templates/post.js",
+      "id": "SitePage /the-map-is-not-the-territory/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "45244f116d18df21a7d1424b24f999b4",
+        "description": "Your site's \"gatsby-node.js\"",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /cause-and-effect-a-toolkit-for-applying-systems-thinking-to-design-sprints/": {
+      "layout": "index",
+      "jsonName": "cause-and-effect-a-toolkit-for-applying-systems-thinking-to-design-sprints.json",
+      "internalComponentName": "ComponentCauseAndEffectAToolkitForApplyingSystemsThinkingToDesignSprints",
+      "path": "/cause-and-effect-a-toolkit-for-applying-systems-thinking-to-design-sprints/",
+      "component": "/Users/seanblanton/Desktop/blanton/src/templates/post.js",
+      "componentChunkName": "component---src-templates-post-js",
+      "context": {
+        "slug": "/cause-and-effect-a-toolkit-for-applying-systems-thinking-to-design-sprints/"
+      },
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/seanblanton/Desktop/blanton/src/templates/post.js",
+      "id": "SitePage /cause-and-effect-a-toolkit-for-applying-systems-thinking-to-design-sprints/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "7f6557a9213fb223d17417ddd285089b",
+        "description": "Your site's \"gatsby-node.js\"",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /404/": {
+      "layout": "index",
+      "jsonName": "404.json",
+      "internalComponentName": "Component404",
+      "path": "/404/",
+      "component": "/Users/seanblanton/Desktop/blanton/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/Users/seanblanton/Desktop/blanton/src/pages/404.js",
+      "id": "SitePage /404/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "fbed6d5292142419ac5991d4dedb778a",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /": {
+      "layout": "index",
+      "jsonName": "index.json",
+      "internalComponentName": "ComponentIndex",
+      "path": "/",
+      "component": "/Users/seanblanton/Desktop/blanton/src/pages/index.js",
+      "componentChunkName": "component---src-pages-index-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/Users/seanblanton/Desktop/blanton/src/pages/index.js",
+      "id": "SitePage /",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "99cd5c59ce0b2674cc3189616c114562",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /404.html": {
+      "layout": "index",
+      "jsonName": "404-html.json",
+      "internalComponentName": "Component404Html",
+      "path": "/404.html",
+      "component": "/Users/seanblanton/Desktop/blanton/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin prod-404",
+      "pluginCreatorId": "Plugin prod-404",
+      "componentPath": "/Users/seanblanton/Desktop/blanton/src/pages/404.js",
+      "id": "SitePage /404.html",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "7cec94fb3ffef1624338d998972312f5",
+        "description": "Plugin prod-404",
+        "owner": "internal-data-bridge"
       }
     }
   },
