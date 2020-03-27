@@ -1,5 +1,12 @@
 [
     {
+        "componentChunkName": "component---node-modules-gatsby-plugin-offline-app-shell-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "offline-plugin-app-shell-fallback.json",
+        "path": "/offline-plugin-app-shell-fallback/"
+    },
+    {
         "componentChunkName": "component---src-templates-post-js",
         "layout": "layout---index",
         "layoutComponentChunkName": "component---src-layouts-index-js",
@@ -75,13 +82,6 @@
         "layoutComponentChunkName": "component---src-layouts-index-js",
         "jsonName": "cause-and-effect-a-toolkit-for-applying-systems-thinking-to-design-sprints.json",
         "path": "/cause-and-effect-a-toolkit-for-applying-systems-thinking-to-design-sprints/"
-    },
-    {
-        "componentChunkName": "component---cache-dev-404-page-js",
-        "layout": "layout---index",
-        "layoutComponentChunkName": "component---src-layouts-index-js",
-        "jsonName": "dev-404-page.json",
-        "path": "/dev-404-page/"
     },
     {
         "componentChunkName": "component---src-pages-404-js",
