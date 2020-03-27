@@ -60,7 +60,7 @@ export const H4 = styled.h4`
 `;
 
 export const H5 = styled.p`
-	color: ${colors.gray3};
+	color: ${colors.gray2};
 	font-size: ${fontSize.l};
 	font-weight: 400;
 	line-height: 1.25;
@@ -69,7 +69,7 @@ export const H5 = styled.p`
 `;
 
 export const H6 = styled.h6`
-	color: ${colors.gray3};
+	color: ${colors.gray2};
 	display: inline-flex;
 	font-size: ${fontSize.s};
 	font-weight: 400;
@@ -83,7 +83,7 @@ export const H6 = styled.h6`
 `;
 
 export const Meta = styled.p`
-	color: ${colors.gray3};
+	color: ${colors.gray2};
 	font-size: ${fontSize.s};
 	font-weight: 400;
 	line-height: 1.25;
