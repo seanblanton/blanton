@@ -116,9 +116,19 @@ export const MarkdownBody = styled.div`
 
   ul {
     margin: 2em 0;
+    font-size: ${fontSize.s};
+    
+    ${breakpoints.medium} {
+      font-size: ${fontSize.m};
+    }
   }
   li {
     padding-bottom: 1em;
+    font-size: ${fontSize.s};
+
+    ${breakpoints.medium} {
+      font-size: ${fontSize.m};
+    }
   }
 
   pre {

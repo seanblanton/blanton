@@ -1418,12 +1418,12 @@
       },
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2020-03-27T01:22:40.051Z",
+      "buildTime": "2020-03-27T01:29:51.469Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "288058c74abb22f159d5056a2c226a05",
+        "contentDigest": "d63c3d2fc8b7ad5b50618bfe99b0f527",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1831,7 +1831,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "725ec9617e34ed41cb042efa44424b0b",
+        "contentDigest": "2705958d6513a2d08c5021747e52154e",
         "mediaType": "application/javascript",
         "type": "File",
         "description": "File \"src/components/MarkdownBody.js\"",
@@ -1841,11 +1841,11 @@
       "absolutePath": "/Users/seanblanton/Desktop/blanton/src/components/MarkdownBody.js",
       "relativePath": "components/MarkdownBody.js",
       "extension": "js",
-      "size": 2767,
-      "prettySize": "2.77 kB",
-      "modifiedTime": "2020-03-26T04:06:43.283Z",
-      "accessTime": "2020-03-26T04:07:37.404Z",
-      "changeTime": "2020-03-26T04:06:43.283Z",
+      "size": 2965,
+      "prettySize": "2.96 kB",
+      "modifiedTime": "2020-03-27T01:27:54.219Z",
+      "accessTime": "2020-03-27T01:27:55.438Z",
+      "changeTime": "2020-03-27T01:27:54.219Z",
       "birthTime": "2020-03-26T04:06:43.282Z",
       "root": "/",
       "dir": "/Users/seanblanton/Desktop/blanton/src/components",
@@ -1862,13 +1862,13 @@
       "blksize": 4096,
       "ino": 12890763567,
       "blocks": 8,
-      "atimeMs": 1585195657404.4958,
-      "mtimeMs": 1585195603282.773,
-      "ctimeMs": 1585195603282.773,
+      "atimeMs": 1585272475437.7993,
+      "mtimeMs": 1585272474219.1313,
+      "ctimeMs": 1585272474219.1313,
       "birthtimeMs": 1585195603282.266,
-      "atime": "2020-03-26T04:07:37.404Z",
-      "mtime": "2020-03-26T04:06:43.283Z",
-      "ctime": "2020-03-26T04:06:43.283Z",
+      "atime": "2020-03-27T01:27:55.438Z",
+      "mtime": "2020-03-27T01:27:54.219Z",
+      "ctime": "2020-03-27T01:27:54.219Z",
       "birthtime": "2020-03-26T04:06:43.282Z"
     },
     "/Users/seanblanton/Desktop/blanton/src/pages/index.js absPath of file": {
@@ -3006,7 +3006,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "7676ddfb9cfa844c7a42c0e4a6c4ad1f",
+        "contentDigest": "31ad064e0613af03d6becaa5437f2124",
         "description": "Plugin gatsby-plugin-offline",
         "owner": "internal-data-bridge"
       }
@@ -3029,7 +3029,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "506c6942f29940da47d29327e21bdfab",
+        "contentDigest": "7af0df810f5be36bf83be299f6ccb979",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -3052,7 +3052,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "337fd53269a08bb202313e5d69beb4ab",
+        "contentDigest": "c56944bb92d81a3588d5e2f1566e6091",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -3075,7 +3075,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "2dfb7171718412265fed962a3d47dffa",
+        "contentDigest": "f0a06d73fc9871d1922de4673d4444f6",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -3098,7 +3098,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "f25c78d1f5f5b948a5e15355ba865fce",
+        "contentDigest": "d7e8f1d7443bda1cf50c71c3e49486f0",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -3121,7 +3121,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "5b130807b54cc9cade21d0f0694bcc9e",
+        "contentDigest": "760f772a846858f43a4cf901b54cc2aa",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -3144,7 +3144,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "f5f58ac04f24625da2eae33143b8d259",
+        "contentDigest": "5e34eb4e33e921748cc120612973a363",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -3167,7 +3167,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "bf52d12ef9bcfb0aed5d849a78090fe5",
+        "contentDigest": "9f211f64ac9b41b4bbeadf101ea5b4cf",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -3190,7 +3190,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "6001bc6ac1d324bcf8a081805d59e0b1",
+        "contentDigest": "c440c097877c745aac6421d788452c4c",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -3213,7 +3213,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "5bb2582fdb8ff238e1427e873ee173ec",
+        "contentDigest": "fd906a867cebf19077bb89e421cdc1d7",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -3236,7 +3236,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "cf070f38f93b1b79d8fd63a5617d9b52",
+        "contentDigest": "7e18f0ee14d62e41ad73ec20f1b92fff",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -3259,7 +3259,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "8d40ea97efdd9e8de8b957c5eb96b800",
+        "contentDigest": "354958a6282896971a7e340e93706d92",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -3280,7 +3280,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "c5a987c119c6b2626ec5113b5d67833a",
+        "contentDigest": "72b9f7e3fc909864161bf4a24d3c90d7",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -3301,7 +3301,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "62564e93e36b47ce2b37f06c5b008154",
+        "contentDigest": "fcb6d440b97586c1175b851a713e14f0",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -3322,7 +3322,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "4d36b1b972af4bbbc493935228c5a739",
+        "contentDigest": "51e55130397d989bd98c6f447ebf3882",
         "description": "Plugin prod-404",
         "owner": "internal-data-bridge"
       }
