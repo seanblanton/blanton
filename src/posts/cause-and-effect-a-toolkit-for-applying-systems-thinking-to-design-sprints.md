@@ -3,7 +3,7 @@ title: "Cause and Effect: A Toolkit for Applying Systems Thinking to Design Spri
 date: 2020-03-25
 ---
 
-There’s this famous story about the wolves of Yellowstone you might have heard. Throughout the early days of Yellowstone Park, wolves were considered a nucant predator, as they were thought to be a threat to local livestock, and as a result, were not legally protected from being hunted. In 1907 political pressure from local ranchers and agricultural interests led to the USFS working with the United States Department of Agriculture Division of Biological Survey to develop methods for controlling wolves and coyotes.
+There’s this famous story about the wolves of Yellowstone you might have heard. Throughout the early days of Yellowstone Park, wolves were considered a nuisance, as they were thought to be a threat to local livestock, and as a result, weren't legally protected from being hunted. In 1907 political pressure from local ranchers and agricultural interests led to the USFS working with the United States Department of Agriculture Division of Biological Survey to develop methods for controlling wolves and coyotes.
 
 Between 1914 and 1926, at least 136 wolves were killed in the park. By 1926, grey wolves were considered to be locally extinct. And after the wolves were gone, the elk population began to rise and overgraze on aspen, cottonwood, and berry producing shrubs. The loss of these plants led to a decline in beaver populations, too, as they depend on these plants to survive in the wintertime. Scientists began to worry about the negative effect as early as the 1930s.
 
