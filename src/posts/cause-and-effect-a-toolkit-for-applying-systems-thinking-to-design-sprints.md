@@ -52,7 +52,7 @@ In design sprints, it’s common to spend most of the time focusing on coming up
 
 As you’re developing the theme for your workshop, instead of asking “How?”, which is about developing *solutions*, shift the conversation toward asking “What?” — more specifically “What accounts for…?” which sets up the workshop to be centered around uncovering **factors** and **relationships**.
 
-**Example Theme:**
+#### Example Theme
 
 “What factors account for the current rates of CO2 emissions in the United States?”
 
@@ -67,6 +67,8 @@ Before you really dive into the workshop, you may start with a series of **light
 ## Step 2: Define the Factors
 
 The first step in mapping a system is to understand all the factors that impact the system as it stands today. You’ll want all the stakeholders and participants present for this exercise. This exercise helps everyone get their thoughts out to the rest of the group early on, and it lets people focus on the areas they already have knowledge of without asking anyone to come up with solutions yet. You’ll use affinity mapping to find commonality among these factors. This type of exercise should feel really familiar to anyone who is used to running post it exercises as a part of design sprints. To run this exercise:
+
+![Factors](factors.svg "Example of factors on a board")
 
 1. Take 10 minutes and have everyone write down all the factors they can think of that impact the system on sticky notes.
 2. Use two colors of sticky notes - one for factors that **help** the system and another color for factors that **hurt** the system.
@@ -98,6 +100,8 @@ With a strong understanding of the causes and effects for each of the themes, we
 
 Start by picking a single factor from the most robust theme you have outlined and listing out what causes that factor. Write each of them on post it notes and stick them on the whiteboard. These causes should be informed by the previous exercise. Continue asking what causes that factor, and what causes that, and so on until you’ve looped back to the original factor. Draw arrows on a whiteboard between each factor and note how the upstream and downstream factors affect each other. Use + and - symbols to denote how these factors are changing. As you create your loops, consider:
 
+![Cause and Effect Loops](loops.svg "Example of a cause and effect loop")
+
 1. For each step in the loop, name each factor with a simple phrase, but try to keep it a noun that doesn’t specify amounts. Going back to our example, if you identified the number of cars on the road and the length of time people were commuting to work, rather than writing “longer commute” just write “commute time” with “+” at both ends of the arrow to denote that as more cars are on the road, the average commute time goes up.
 2. I’ve found that it’s more helpful to think about whether you’re trying to create loops to demonstrate healthy behaviors or unhealthy behaviors. It can be difficult for both loops to coexist in the same system diagram without confusing people. **Decide as a group** before you start creating your loops **if you’d like to focus on what factors contribute to an increasingly healthier system or an increasingly unhealthier one**.
 3. That being said, focusing on only health or unhealthy loops can make it hard to discuss some issues naturally. Try to stick to one pattern, but don’t force it.
@@ -122,6 +126,8 @@ After everyone has finished sharing their loops, the collaborative portion of th
 At this point, it should just be the core group of folks who organized the original work. Now that you have some well established loops, **start grouping and looking for relationships that connect your loops together.** These loops should represent the core narrative for how your system works, but they should also branch off into other, smaller causal loops. This is the starting point for your overall system map.
 
 Depending on what the dominant story is you’d like to tell about this system, and your original anchoring statement, you may need to experiment with a few different arrangements for your map. You might need to add new loops to fill out a narrative about how two existing loops connect.
+
+![Example Map](map.svg "Illustration of a system map")
 
 This is the point at which you’ll start to find a lot of new connection points that might not have been addressed earlier. Some things I’ve found helpful at this stage are:
 
