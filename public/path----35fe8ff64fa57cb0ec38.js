@@ -1,2 +1,0 @@
-webpackJsonp([60335399758886],{116:function(t,n){t.exports={data:{site:{siteMetadata:{title:"Sean Blanton",description:"Sean Blanton is a Product Designer living in Seattle, Washington building design systems and tools at Facebook."}}},layoutContext:{}}}});
-//# sourceMappingURL=path----35fe8ff64fa57cb0ec38.js.map

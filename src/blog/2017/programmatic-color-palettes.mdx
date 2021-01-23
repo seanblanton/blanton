@@ -1,0 +1,149 @@
+---
+title: Programmatic Color Palettes
+date: 2017-01-17
+excerpt: Color palettes don't scale. Let's make them better
+---
+
+Coming up with a consistant set of colors for us in UI design is no easy task. Many times, when style guides are created, a few key hues are picked out and documented. This doesn't take into account he myriad tints and shades that may be needed when used in practical applications.
+
+One approach to this is to use something like SCSS' `rgba()` function to build new a new color to build a new color.
+
+```css
+.alert {
+  background-color: rgba($red, 0.1);
+  border-color: $red;
+}
+```
+
+This gets us pretty far without much effort - but visually, the effects can sometimes be less than desirable. Certain hues behave different under different levels of luminosity. As Henry Munsell in his 1905 book _A Color Notation_ noted, reds, blues, and purples have a much longer chroma axis than some yellows. Likewise, some hues may need to be adjusted as saturation increases to keep them optically consistent.
+
+I found myself wanting the flexibility to pull or push hues around quickly, and I wanted the results to be something that could be quickly translated to code so that the single source of truth could live with the developers, rather than a sketch file designers would have to export and transmit back and forth.
+
+I tried some existing tools created by [Brent Jackson](http://www.jxnblk.com/), namely [Palx](https://palx.jxnblk.com/), which served as a huge inspiration for this project. However, it didn't have the flexibility to adjust hue or saturation. I built Palettes using the same tool as Palx, [Chroma JS](http://gka.github.io/chroma.js/), but retooling it to have increased flexibility. This little library works wonders.
+
+## Palettes
+
+Here's a peek at Palettes:
+
+```javascript
+const stepsToFloat = (options) =>
+  Array.from({ length: options.luminance }, (n, i) => (i + 0.5) / 10)
+    .reverse()
+    .map((s) => modulate(s, [0, 1], [options.start, options.end]));
+```
+
+This is the first piece. It will return the number of tints of a given base color to me, specified later in `config.js`
+
+I then needed to be able to adjust colors with a few parameters.
+
+```javascript
+const shiftColor = (color, s, index, shift) =>
+  chroma(s)
+    .set(
+      "hsl.h",
+      chroma(color).get("hsl.h") - index * (index * 2) * (shift * 0.01)
+    )
+    .hex();
+```
+
+```javascript
+const shiftSat = (color, s, index, sat) =>
+  chroma(s)
+    .saturate(sat * 0.1 * Math.log(index + 1))
+    .hex();
+```
+
+Figuring out the math here was a bit of trial and error. By picking colors manually and plotting them on a curve, I found I was consistanty adjusting saturation on a roughly logarithmic curve. Hue shifts were adjusted on a quadradic curve. This takes a starting color, a step in the scale, an index, and a level of saturation or hue shift. Positive numbers shift hue right on the standard `CIECAM02` model. Negative numbers shift the hue left.
+
+Then I needed to adjust each color based on it's starting point, changing hue and saturation as those parameters existed:
+
+```javascript
+const buildColor = (key, sat, shift) => {
+  const color = hueSet[key];
+
+  const steps = stepsToFloat(lumSet)
+    .map((s) => chroma(color.hue).luminance(s).hex())
+    .map((s, index) => (sat ? shiftSat(color.hue, s, index, sat) : s))
+    .map((s, index) => (shift ? shiftColor(color.hue, s, index, shift) : s));
+
+  // return values as incremented key value pair
+  const values = expandColors(key, steps);
+
+  colors[key] = values;
+};
+```
+
+I can loop over this for each step hue I specify:
+
+```javascript
+const buildPalette = (set) => {
+  Object.keys(set).forEach((key) => {
+    buildColor(key, set[key].sat, set[key].shift);
+  });
+  return colors;
+};
+```
+
+## Configuration
+
+The `config.js` has two objects defined in it:
+
+```javascript
+const lumSet = {
+  luminance: 10,
+  start: 0.05,
+  end: 0.95,
+};
+
+const hueSet = {
+  blue: {
+    hue: "54A2F0",
+    sat: "3",
+    shift: null,
+  },
+  yellow: {
+    hue: "FFCC00",
+    sat: "3",
+    shift: "12",
+  },
+};
+```
+
+`start` and `end` are used to keep values from going to dark or too light. This way, individual values remain distinct.
+
+When I run the script through node with `$ npm run build` it will output a `.json` blob that can be read in to a webapp's config file.
+
+```javascript
+{
+    "blue": {
+        "blue0": "#ecf5fd",
+        "blue1": "#d4ecff",
+        "blue2": "#bce1ff",
+        "blue3": "#a1d5ff",
+        "blue4": "#84c9ff",
+        "blue5": "#62baff",
+        "blue6": "#2fa8ff",
+        "blue7": "#0094ed",
+        "blue8": "#007bc9",
+        "blue9": "#005b98"
+    },
+     "yellow": {
+        "yellow0": "#fff4ca",
+        "yellow1": "#ffe788",
+        "yellow2": "#ffd43a",
+        "yellow3": "#ffc300",
+        "yellow4": "#eeaf00",
+        "yellow5": "#dc9a00",
+        "yellow6": "#c78300",
+        "yellow7": "#af6a00",
+        "yellow8": "#924f00",
+        "yellow9": "#6b3300"
+    },
+}
+```
+
+You can grab the tool for yourself [here](https://github.com/seanblanton/palettes)
+
+## Next Steps
+
+This project is by no means done yet. I'd love to expand more on this, building it into a webapp to visualize colors on the fly.
