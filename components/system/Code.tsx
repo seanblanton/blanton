@@ -1,6 +1,6 @@
 import Highlight, { defaultProps } from "prism-react-renderer";
 import Atoms from "@/system/atoms";
-import paleNight from "prism-react-renderer/themes/paleNight";
+import { default as paleNight } from "prism-react-renderer/themes/paleNight";
 import styled from "@emotion/styled";
 
 const Wrapper = styled.pre`
