@@ -37,6 +37,8 @@ const Layout = ({ children, showTitle }: Props) => (
       <title>
         {siteData.title} — {siteData.role}
       </title>
+      <link rel='icon' href='favicon.svg' type='image/svg+xml' />
+      <link rel='icon' href='/favicon.png' type='image/png' />
     </Head>
     <Header showTitle={showTitle}>
       {showTitle && (
