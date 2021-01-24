@@ -1,6 +1,6 @@
 import Highlight, { defaultProps } from "prism-react-renderer";
 import Atoms from "@/system/atoms";
-import { default as paleNight } from "prism-react-renderer/themes/paleNight";
+import { default as palenight } from "prism-react-renderer/themes/palenight";
 import styled from "@emotion/styled";
 
 const Wrapper = styled.pre`
@@ -26,7 +26,7 @@ export default function Code(props: any) {
   return (
     <Highlight
       {...defaultProps}
-      theme={paleNight}
+      theme={palenight}
       code={children}
       language={language}
     >

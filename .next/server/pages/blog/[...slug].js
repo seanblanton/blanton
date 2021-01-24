@@ -238,13 +238,6 @@ module.exports = _interopRequireWildcard;
 
 /***/ }),
 
-/***/ "2reD":
-/***/ (function(module, exports) {
-
-module.exports = require("prism-react-renderer/themes/paleNight");
-
-/***/ }),
-
 /***/ "3WeD":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1016,6 +1009,13 @@ module.exports = require("next/dist/next-server/lib/router/utils/get-asset-path-
 /***/ (function(module, exports) {
 
 module.exports = require("@emotion/styled");
+
+/***/ }),
+
+/***/ "Wc05":
+/***/ (function(module, exports) {
+
+module.exports = require("prism-react-renderer/themes/palenight");
 
 /***/ }),
 
@@ -3266,9 +3266,9 @@ function Blockquote({
 var external_prism_react_renderer_ = __webpack_require__("6ukF");
 var external_prism_react_renderer_default = /*#__PURE__*/__webpack_require__.n(external_prism_react_renderer_);
 
-// EXTERNAL MODULE: external "prism-react-renderer/themes/paleNight"
-var paleNight_ = __webpack_require__("2reD");
-var paleNight_default = /*#__PURE__*/__webpack_require__.n(paleNight_);
+// EXTERNAL MODULE: external "prism-react-renderer/themes/palenight"
+var palenight_ = __webpack_require__("Wc05");
+var palenight_default = /*#__PURE__*/__webpack_require__.n(palenight_);
 
 // CONCATENATED MODULE: ./components/system/Code.tsx
 
@@ -3312,7 +3312,7 @@ function Code(props) {
   } = props;
   const language = className === null || className === void 0 ? void 0 : className.replace(/language-/, "");
   return Code_jsx(external_prism_react_renderer_default.a, _extends({}, external_prism_react_renderer_["defaultProps"], {
-    theme: paleNight_default.a,
+    theme: palenight_default.a,
     code: children,
     language: language
   }), (_ref) => {
