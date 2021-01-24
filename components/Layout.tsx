@@ -37,11 +37,6 @@ const Layout = ({ children, showTitle }: Props) => (
       <title>
         {siteData.title} — {siteData.role}
       </title>
-      <meta charSet='utf-8' />
-      <meta name='description' content={siteData.description} />
-      <meta name='viewport' content='initial-scale=1.0, width=device-width' />
-      <link rel='icon' href='favicon.svg' type='image/svg+xml' />
-      <link rel='icon' href='/favicon.png' type='image/png' />
     </Head>
     <Header showTitle={showTitle}>
       {showTitle && (
