@@ -1,3 +1,3 @@
-# blanton
+# Sean Blanton's website
 
-Sean Blanton's site
+Woo
