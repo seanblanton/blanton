@@ -1,7 +1,7 @@
 module.exports =
 /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
-/******/ 	var installedModules = require('../ssr-module-cache.js');
+/******/ 	var installedModules = require('../../ssr-module-cache.js');
 /******/
 /******/ 	// The require function
 /******/ 	function __webpack_require__(moduleId) {
@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 2);
+/******/ 	return __webpack_require__(__webpack_require__.s = 1);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -169,91 +169,11 @@ exports.default = _default;
 
 /***/ }),
 
-/***/ 2:
+/***/ 1:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__("23aj");
+module.exports = __webpack_require__("hyI3");
 
-
-/***/ }),
-
-/***/ "23aj":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getStaticProps", function() { return getStaticProps; });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("cDcd");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__("apO0");
-/* harmony import */ var _utils_index_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__("Qi1R");
-/* harmony import */ var _data_site_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__("nKeF");
-/* harmony import */ var _data_externalPosts_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__("wI0e");
-/* harmony import */ var _components__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__("m/eG");
-/* harmony import */ var _system__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__("lQNR");
-/* harmony import */ var _system_atoms__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__("wvLi");
-
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
-
-function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
-
-function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
-
-function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
-
-
-
-
-
-
-
-
-
-
-const IndexPage = ({
-  posts
-}) => __jsx(_components_Layout__WEBPACK_IMPORTED_MODULE_1__[/* default */ "a"], null, __jsx(_system__WEBPACK_IMPORTED_MODULE_6__[/* Grid */ "e"], {
-  columns: _system_atoms__WEBPACK_IMPORTED_MODULE_7__[/* default */ "a"].grid.columns,
-  gap: _system_atoms__WEBPACK_IMPORTED_MODULE_7__[/* default */ "a"].grid.gap
-}, __jsx(_system__WEBPACK_IMPORTED_MODULE_6__[/* GridItem */ "f"], {
-  span: 5
-}, __jsx(_components__WEBPACK_IMPORTED_MODULE_5__[/* Header */ "e"], null, _data_site_js__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"].title, " \u2014\xA0", _data_site_js__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"].role)), __jsx(_system__WEBPACK_IMPORTED_MODULE_6__[/* GridItem */ "f"], {
-  span: _system_atoms__WEBPACK_IMPORTED_MODULE_7__[/* default */ "a"].grid.gridSection
-}, __jsx(_components__WEBPACK_IMPORTED_MODULE_5__[/* PostList */ "g"], {
-  data: posts
-})), __jsx(_system__WEBPACK_IMPORTED_MODULE_6__[/* GridItem */ "f"], {
-  span: _system_atoms__WEBPACK_IMPORTED_MODULE_7__[/* default */ "a"].grid.gridSection
-}, __jsx(_components__WEBPACK_IMPORTED_MODULE_5__[/* About */ "a"], null)), __jsx(_system__WEBPACK_IMPORTED_MODULE_6__[/* GridItem */ "f"], {
-  span: _system_atoms__WEBPACK_IMPORTED_MODULE_7__[/* default */ "a"].grid.gridSection
-}, __jsx(_components__WEBPACK_IMPORTED_MODULE_5__[/* BookList */ "b"], null)), __jsx(_system__WEBPACK_IMPORTED_MODULE_6__[/* GridItem */ "f"], {
-  span: 6
-}, __jsx(_components__WEBPACK_IMPORTED_MODULE_5__[/* Footer */ "c"], null))));
-
-/* harmony default export */ __webpack_exports__["default"] = (IndexPage);
-async function getStaticProps() {
-  const internalPosts = Array.from(_utils_index_js__WEBPACK_IMPORTED_MODULE_2__[/* postsData */ "b"].values());
-  const externalPosts = _data_externalPosts_js__WEBPACK_IMPORTED_MODULE_4__[/* default */ "a"].map(post => {
-    const options = {
-      month: "long",
-      day: "numeric",
-      year: "numeric"
-    };
-    const formattedDate = new Date(post.date).toLocaleDateString("en-IN", options);
-    return {
-      frontMatter: _objectSpread(_objectSpread({}, post), {}, {
-        date: formattedDate
-      })
-    };
-  });
-  const posts = [...internalPosts, ...externalPosts].sort((a, b) => {
-    return Number(new Date(b.frontMatter.date).getTime() - Number(new Date(a.frontMatter.date).getTime()));
-  }).filter(post => !post.frontMatter.private);
-  return {
-    props: {
-      posts
-    }
-  };
-}
 
 /***/ }),
 
@@ -576,6 +496,13 @@ function _objectWithoutPropertiesLoose(source, excluded) {
 }
 
 module.exports = _objectWithoutPropertiesLoose;
+
+/***/ }),
+
+/***/ "AEpv":
+/***/ (function(module, exports) {
+
+module.exports = require("next-mdx-remote/render-to-string");
 
 /***/ }),
 
@@ -3156,6 +3083,111 @@ function parseRelativeUrl(url, base) {
     href: href.slice(globalBase.origin.length)
   };
 }
+
+/***/ }),
+
+/***/ "hyI3":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Post; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getStaticPaths", function() { return getStaticPaths; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getStaticProps", function() { return getStaticProps; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("cDcd");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__("xnum");
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var next_mdx_remote_render_to_string__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__("AEpv");
+/* harmony import */ var next_mdx_remote_render_to_string__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_mdx_remote_render_to_string__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var next_mdx_remote_hydrate__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__("ikRD");
+/* harmony import */ var next_mdx_remote_hydrate__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_mdx_remote_hydrate__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var gray_matter__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__("uo/4");
+/* harmony import */ var gray_matter__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(gray_matter__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _system__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__("lQNR");
+/* harmony import */ var _utils_index_js__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__("Qi1R");
+/* harmony import */ var _components__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__("m/eG");
+/* harmony import */ var _data_site_js__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__("nKeF");
+/* harmony import */ var _system_DesignSystemProvider__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__("G1t4");
+/* harmony import */ var _emotion_styled__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__("UlNW");
+/* harmony import */ var _emotion_styled__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(_emotion_styled__WEBPACK_IMPORTED_MODULE_10__);
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+
+
+
+
+
+
+
+
+const Page = _emotion_styled__WEBPACK_IMPORTED_MODULE_10___default.a.article`
+  max-width: calc(var(--font-size) * 48);
+`;
+const components = _system_DesignSystemProvider__WEBPACK_IMPORTED_MODULE_9__[/* components */ "a"];
+function Post({
+  source,
+  frontMatter
+}) {
+  const content = next_mdx_remote_hydrate__WEBPACK_IMPORTED_MODULE_3___default()(source, {
+    components
+  });
+  return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx(next_head__WEBPACK_IMPORTED_MODULE_1___default.a, null, __jsx("title", null, _data_site_js__WEBPACK_IMPORTED_MODULE_8__[/* default */ "a"].title, " \u2014\xA0", frontMatter.title)), __jsx(_components__WEBPACK_IMPORTED_MODULE_7__[/* Layout */ "f"], {
+    showTitle: true
+  }, __jsx(Page, null, __jsx(_system__WEBPACK_IMPORTED_MODULE_5__[/* Grid */ "e"], {
+    columns: _system__WEBPACK_IMPORTED_MODULE_5__[/* Atoms */ "a"].grid.columns,
+    gap: _system__WEBPACK_IMPORTED_MODULE_5__[/* Atoms */ "a"].grid.gap
+  }, __jsx(_system__WEBPACK_IMPORTED_MODULE_5__[/* GridItem */ "f"], {
+    span: 6
+  }, __jsx(_components__WEBPACK_IMPORTED_MODULE_7__[/* Header */ "e"], null, frontMatter.title)), __jsx(_system__WEBPACK_IMPORTED_MODULE_5__[/* GridItem */ "f"], {
+    span: 6
+  }, content), __jsx(_system__WEBPACK_IMPORTED_MODULE_5__[/* GridItem */ "f"], {
+    span: 6
+  }, __jsx(_components__WEBPACK_IMPORTED_MODULE_7__[/* Footer */ "c"], null))))));
+}
+const getStaticPaths = async () => {
+  const paths = Array.from(_utils_index_js__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"].values()).map(post => {
+    return {
+      params: {
+        slug: post.slug.split("/")
+      }
+    };
+  });
+  return {
+    paths,
+    fallback: false
+  };
+};
+async function getStaticProps({
+  params
+}) {
+  const postKey = params.slug.join("/");
+  const source = _utils_index_js__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"].get(postKey);
+  const {
+    data,
+    content
+  } = gray_matter__WEBPACK_IMPORTED_MODULE_4___default()(source);
+  const mdxSource = await next_mdx_remote_render_to_string__WEBPACK_IMPORTED_MODULE_2___default()(content, {
+    components,
+    scope: data
+  });
+  return {
+    props: {
+      source: mdxSource,
+      frontMatter: source.frontMatter
+    }
+  };
+}
+
+/***/ }),
+
+/***/ "ikRD":
+/***/ (function(module, exports) {
+
+module.exports = require("next-mdx-remote/hydrate");
 
 /***/ }),
 
