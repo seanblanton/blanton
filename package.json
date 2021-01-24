@@ -14,6 +14,7 @@
     "@mdx-js/react": "^1.6.22",
     "critters": "0.0.6",
     "facepaint": "^1.2.1",
+    "fontfaceobserver": "^2.1.0",
     "fs-readdir-recursive": "^1.1.0",
     "gray-matter": "^4.0.2",
     "next": "latest",
