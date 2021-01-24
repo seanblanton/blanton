@@ -1,1 +1,0 @@
-{"ast":null,"code":"import React from \"react\";\nvar __jsx = React.createElement;\nimport { H2, Grid } from \"@/system\";\n\nconst GridSection = ({\n  children,\n  title\n}) => __jsx(Grid, null, __jsx(H2, null, \" \", title), children);\n\nexport default GridSection;","map":null,"metadata":{},"sourceType":"module"}

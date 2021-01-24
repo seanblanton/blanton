@@ -38,6 +38,7 @@ const Layout = ({ children, showTitle }: Props) => (
         {siteData.title} — {siteData.role}
       </title>
       <meta charSet='utf-8' />
+      <meta name='description' content={siteData.description} />
       <meta name='viewport' content='initial-scale=1.0, width=device-width' />
       <link rel='preconnect' href='https://fonts.gstatic.com' />
       <link
@@ -50,7 +51,7 @@ const Layout = ({ children, showTitle }: Props) => (
     <Header showTitle={showTitle}>
       {showTitle && (
         <Link href='/'>
-          <Title> Sean Blanton </Title>
+          <Title>{siteData.title}</Title>
         </Link>
       )}
       <ThemeSettings />
