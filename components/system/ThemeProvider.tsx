@@ -5,43 +5,43 @@ export type ThemeName = "spring" | "summer" | "autumn" | "winter";
 type Mode = "light" | "dark";
 
 interface ThemeProviderType {
-	theme: ThemeName;
-	mode: Mode;
-	toggleTheme: (name: ThemeName) => void;
-	toggleMode: () => void;
+  theme: ThemeName;
+  mode: Mode;
+  toggleTheme: (name: ThemeName) => void;
+  toggleMode: () => void;
 }
 
-const DEFAULT_MODE = "light";
-const DEFAULT_THEME = "spring";
+const DEFAULT_MODE = "dark";
+const DEFAULT_THEME = "winter";
 
 export const ThemeContext = React.createContext({} as ThemeProviderType);
 
 const ThemeProvider = ({ children }: { children: ReactNode }) => {
-	const [mode, setMode] = useLocalStorage("mode", DEFAULT_MODE);
-	const [theme, setTheme] = useLocalStorage("theme", DEFAULT_THEME);
+  const [mode, setMode] = useLocalStorage("mode", DEFAULT_MODE);
+  const [theme, setTheme] = useLocalStorage("theme", DEFAULT_THEME);
 
-	const toggleMode = () => {
-		mode === "light" ? setMode("dark") : setMode("light");
-	};
+  const toggleMode = () => {
+    mode === "light" ? setMode("dark") : setMode("light");
+  };
 
-	function toggleTheme<T extends ThemeName>(name: T) {
-		setTheme(name);
-	}
+  function toggleTheme<T extends ThemeName>(name: T) {
+    setTheme(name);
+  }
 
-	const updateTheme = () => {
-		const currentTheme = `${theme}-${mode}`;
-		document.documentElement.className = currentTheme;
-	};
+  const updateTheme = () => {
+    const currentTheme = `${theme}-${mode}`;
+    document.documentElement.className = currentTheme;
+  };
 
-	useEffect(() => {
-		updateTheme();
-	});
+  useEffect(() => {
+    updateTheme();
+  });
 
-	return (
-		<ThemeContext.Provider value={{ theme, mode, toggleTheme, toggleMode }}>
-			{children}
-		</ThemeContext.Provider>
-	);
+  return (
+    <ThemeContext.Provider value={{ theme, mode, toggleTheme, toggleMode }}>
+      {children}
+    </ThemeContext.Provider>
+  );
 };
 
 export default ThemeProvider;

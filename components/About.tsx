@@ -1,24 +1,26 @@
 import * as React from "react";
 import { GridSection } from "@/components";
-import { P } from "@/system";
+import { Link, P } from "@/system";
 
 const About = () => (
-	<GridSection title="About">
-		<P>
-			Sean Blanton is a Product Designer living in Seattle, Washington building
-			design systems and tools at Facebook.
-			<br />
-			<br />
-			Leading a design team building React-based proprietary design tools for
-			Facebook’s Ads and Business Products helping scale design system and teams
-			and elevate product quality across the company.
-			<br />
-			<br />
-			In a previous life, I was a studio photographer for Nordstrom where I
-			mostly shot still life product and editorial work. I’ve also worked as a
-			photo retoucher and video editor
-		</P>
-	</GridSection>
+  <GridSection title='About'>
+    <P>
+      Hello there. I'm a Product Designer living in Seattle, Washington and
+      working on elevating product quality on{" "}
+      <Link href='http://www.facebook.com/business'>
+        Facebook Ads & Business Products
+      </Link>
+      .
+      <br />
+      <br />
+      Previously, I was leading a design team at Facebook building a React-based
+      proprietary design tool that helped scale our design systems across the
+      company.
+      <br />
+      <br />I spend my time thinking about scaling products, teams, systems, and
+      people to their full potential.
+    </P>
+  </GridSection>
 );
 
 export default About;

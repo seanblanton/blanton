@@ -2,7 +2,8 @@ import Atoms from "@/system/atoms";
 import styled from "@emotion/styled";
 
 const Wrapper = styled.blockquote`
-    background: rgba(255,255,255,0.35);
+    position: relative;
+    overflow: hidden;
     border-radius: ${Atoms.borderRadius.small};
     padding: ${Atoms.spacing.medium};
     line-height: ${Atoms.font.lineHeight.body};
@@ -12,15 +13,25 @@ const Wrapper = styled.blockquote`
     & > :last-child {
       margin-bottom: unset !important;
     }
+    &:before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      background: var(--text-color);
+      opacity: 0.05;
+    }
     }
 `;
 
 export default function Blockquote({
-	children,
-	id,
+  children,
+  id,
 }: {
-	children: React.ReactNode;
-	id?: string;
+  children: React.ReactNode;
+  id?: string;
 }) {
-	return <Wrapper id={id}>{children}</Wrapper>;
+  return <Wrapper id={id}>{children}</Wrapper>;
 }

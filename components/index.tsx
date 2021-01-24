@@ -11,15 +11,15 @@ import PostList from "./PostList";
 import ThemeSettings from "./ThemeSettings";
 
 export {
-	About,
-	BookList,
-	Footer,
-	Header,
-	Layout,
-	List,
-	ListDetail,
-	ListItem,
-	GridSection,
-	PostList,
-	ThemeSettings,
+  About,
+  BookList,
+  Footer,
+  Header,
+  Layout,
+  List,
+  ListDetail,
+  ListItem,
+  GridSection,
+  PostList,
+  ThemeSettings,
 };
